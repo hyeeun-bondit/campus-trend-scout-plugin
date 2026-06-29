@@ -26,7 +26,12 @@ If a target cannot be met, record what was tried and why coverage was insufficie
 ## Tool Rules
 
 - Use **WebSearch** and **WebFetch** for source discovery and research.
-- Use **~~browser** for Reddit and TikTok when the final source needs observed post context.
+- **SNS 검색 (Reddit, X/Twitter, TikTok, YouTube, Threads, Mastodon 등)**: `/insane-search` 스킬을 **우선 사용**한다. WAF/봇 차단을 자동 우회하며 yt-dlp, Jina Reader, curl_cffi TLS impersonation, Playwright 등 다단계 fallback 체인을 제공한다.
+  - `/insane-search`가 사용 가능하면 (스킬 목록에 있으면) SNS URL 접근 시 항상 이것을 먼저 시도한다.
+  - `/insane-search`가 사용 불가능하면 (스킬 미설치) 아래 안내를 사용자에게 출력하고 `~~browser` fallback으로 진행한다:
+    > ⚠️ `/insane-search` 스킬이 설치되어 있지 않습니다. Reddit, X, TikTok 등 SNS 접근이 제한될 수 있습니다.
+    > 설치 방법: `/plugin` → 마켓플레이스에서 `insane-search` 검색 → 설치, 또는 `gptaku-plugins` 마켓플레이스 추가 후 설치.
+- Use **~~browser** for Reddit and TikTok when `/insane-search` is unavailable or when the final source needs observed post context (screenshots, visual layout).
 - Do not count search snippets, blocked pages, deleted posts, login walls, or unobserved pages as evidence.
 - When fallback access is used, record the original public source URL whenever possible and note fallback-derived access honestly.
 

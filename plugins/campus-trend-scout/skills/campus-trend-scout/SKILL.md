@@ -32,7 +32,8 @@ Full daily runs should load all four in order. Partial requests should load only
 
 - **File I/O**: Use Read, Write, and Bash tools to save and read all data under the project `data/` directory. No MCP server is needed.
 - Use **WebSearch** and **WebFetch** for source discovery and research.
-- Use **~~browser** for Reddit and TikTok when direct public post context must be observed.
+- Use **`/insane-search`** for SNS platform access (Reddit, X/Twitter, TikTok, YouTube, Threads 등). 사용 불가 시 사용자에게 설치 안내 후 `~~browser` fallback.
+- Use **~~browser** for Reddit and TikTok when `/insane-search` is unavailable or when direct visual post context must be observed.
 - Use `/instagram-analytics` skill on Mondays (KST) for weekly Instagram performance analysis.
 - Do not count search snippets, blocked pages, deleted posts, login walls, or unobserved pages as evidence.
 
