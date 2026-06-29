@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "Claude in Chrome": {
+      "type": "sse",
+      "url": "http://localhost:33621/sse"
+    }
+  }
+}

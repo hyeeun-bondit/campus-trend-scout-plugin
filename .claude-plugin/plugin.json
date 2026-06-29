@@ -1,0 +1,9 @@
+{
+  "name": "campus-trend-scout",
+  "version": "0.1.0",
+  "description": "Daily US/Canada campus trend pipeline for IGOTIN card-news planning. Collects SNS signals, clusters topics, ranks them, and produces an HTML dashboard.",
+  "author": {
+    "name": "bondit"
+  },
+  "keywords": ["campus", "trends", "card-news", "igotin", "marketing"]
+}
