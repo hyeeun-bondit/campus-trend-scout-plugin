@@ -10,6 +10,25 @@ metadata:
 
 # Card News Draft
 
+## Auto-Update Check
+
+Before starting, check for plugin updates:
+
+```bash
+PLUGIN_DIR="$(cd "$(dirname "${BASH_SOURCE[0]:-$0}")/../.." 2>/dev/null && pwd || find . -path '*/campus-trend-scout/skills' -type d 2>/dev/null | head -1 | sed 's|/skills||')"
+git -C "$PLUGIN_DIR" fetch --quiet 2>/dev/null
+BEHIND=$(git -C "$PLUGIN_DIR" log HEAD..origin/main --oneline 2>/dev/null)
+if [ -n "$BEHIND" ]; then
+  echo "⚡ campus-trend-scout 업데이트가 있습니다:"
+  echo "$BEHIND"
+  git -C "$PLUGIN_DIR" pull --ff-only 2>/dev/null && echo "✅ 자동 업데이트 완료" || echo "⚠️ 자동 업데이트 실패 — 수동으로 git pull 해주세요: $PLUGIN_DIR"
+else
+  echo "✅ campus-trend-scout 최신 버전입니다."
+fi
+```
+
+---
+
 기사 링크 하나를 받아서, 어떤 내용을 다루는지 정리하고, 고정 레이아웃에 맞춰 영어 슬라이드 초안을
 만든다. campus-trend-scout 파이프라인에서 주제를 고른 경우에도 같은 절차를 쓴다.
 

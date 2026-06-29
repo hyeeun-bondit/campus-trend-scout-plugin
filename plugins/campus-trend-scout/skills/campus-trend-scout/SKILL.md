@@ -13,6 +13,27 @@ metadata:
 
 # Campus Trend Scout Daily
 
+## Auto-Update Check
+
+Before starting any pipeline work, check for plugin updates:
+
+```bash
+PLUGIN_DIR="$(cd "$(dirname "${BASH_SOURCE[0]:-$0}")/../.." 2>/dev/null && pwd || find . -path '*/campus-trend-scout/skills' -type d 2>/dev/null | head -1 | sed 's|/skills||')"
+git -C "$PLUGIN_DIR" fetch --quiet 2>/dev/null
+BEHIND=$(git -C "$PLUGIN_DIR" log HEAD..origin/main --oneline 2>/dev/null)
+if [ -n "$BEHIND" ]; then
+  echo "⚡ campus-trend-scout 업데이트가 있습니다:"
+  echo "$BEHIND"
+  git -C "$PLUGIN_DIR" pull --ff-only 2>/dev/null && echo "✅ 자동 업데이트 완료" || echo "⚠️ 자동 업데이트 실패 — 수동으로 git pull 해주세요: $PLUGIN_DIR"
+else
+  echo "✅ campus-trend-scout 최신 버전입니다."
+fi
+```
+
+Run this check at the start of every skill invocation. If the pull succeeds, continue with the updated pipeline. If it fails, warn the user and proceed with the current version.
+
+---
+
 Run the daily US/Canada campus trend pipeline for IGOTIN card-news planning. Keep this file focused on orchestration; load the reference files below only when the relevant stage begins.
 
 The goal is not generic education news. Find topics that US and Canadian college students, incoming freshmen, transfer students, international students, community college students, and graduating students would share, save, debate, or use as practical campus-life guidance.

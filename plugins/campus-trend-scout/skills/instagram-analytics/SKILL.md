@@ -12,6 +12,25 @@ metadata:
 
 # Instagram Professional Dashboard Analytics
 
+## Auto-Update Check
+
+Before starting, check for plugin updates:
+
+```bash
+PLUGIN_DIR="$(cd "$(dirname "${BASH_SOURCE[0]:-$0}")/../.." 2>/dev/null && pwd || find . -path '*/campus-trend-scout/skills' -type d 2>/dev/null | head -1 | sed 's|/skills||')"
+git -C "$PLUGIN_DIR" fetch --quiet 2>/dev/null
+BEHIND=$(git -C "$PLUGIN_DIR" log HEAD..origin/main --oneline 2>/dev/null)
+if [ -n "$BEHIND" ]; then
+  echo "⚡ campus-trend-scout 업데이트가 있습니다:"
+  echo "$BEHIND"
+  git -C "$PLUGIN_DIR" pull --ff-only 2>/dev/null && echo "✅ 자동 업데이트 완료" || echo "⚠️ 자동 업데이트 실패 — 수동으로 git pull 해주세요: $PLUGIN_DIR"
+else
+  echo "✅ campus-trend-scout 최신 버전입니다."
+fi
+```
+
+---
+
 ~~browser로 인스타그램 프로페셔널 대시보드를 직접 탐색하여 콘텐츠 성과 데이터를 수집하고, 마케팅 관점의 분석 리포트를 작성한다. 인스타그램 API가 아니라 브라우저를 통해 실제 대시보드 UI를 읽는 방식이므로, ~~browser가 활성화되어 있고 브라우저에 인스타그램 계정이 로그인된 상태여야 한다.
 
 ---
