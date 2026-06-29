@@ -8,7 +8,7 @@ description: >
   production-worthy topics, create card-news-ready briefs, and save everything
   directly to the data/ directory using file I/O.
 metadata:
-  version: "0.2.0"
+  version: "0.3.0"
 ---
 
 # Campus Trend Scout Daily
@@ -21,19 +21,18 @@ The goal is not generic education news. Find topics that US and Canadian college
 
 Read these files before the matching stage:
 
-- `references/source-collection.md` — before research. Source standards, quotas, Reddit/TikTok/college-ranking collection rules, freshness, and evidence discipline.
+- `references/source-collection.md` — before research. Source standards, quotas, tool rules, and query selection.
 - `references/content-lens.md` — before clustering and topic selection. IGOTIN performance patterns, topic lanes, stale-topic penalties, and diversity rules.
-- `references/topic-selection.md` — before ranking. Exclusions, contentization tests, structural fit, scoring rubric, ranking rules, and risk handling.
-- `references/output-contract.md` — before saving rankings, card-news briefs, selected-topic drafts, or reports. Output fields, report sections, card-news contract, and final checklist.
+- `references/topic-selection.md` + `references/output-contract.md` — before ranking. Loaded together. Exclusions, contentization tests, scoring rubric, output fields, report sections, and final checklist.
 
-Full daily runs should load all four in order. Partial requests should load only the relevant reference.
+Full daily runs should load source-collection first, then content-lens, then topic-selection + output-contract together. Partial requests should load only the relevant reference.
 
 ## Required Tools
 
 - **File I/O**: Use Read, Write, and Bash tools to save and read all data under the project `data/` directory. No MCP server is needed.
 - Use **WebSearch** and **WebFetch** for source discovery and research.
-- Use **`/insane-search`** for SNS platform access (Reddit, X/Twitter, TikTok, YouTube, Threads 등). 사용 불가 시 **Chrome MCP** (`mcp__Claude_in_Chrome__*`)로 fallback. 둘 다 불가 시 사용자에게 설치 안내.
-- Use **Chrome MCP** for Reddit and TikTok when `/insane-search` is unavailable or when direct visual post context must be observed.
+- Use **`/insane-search`** for SNS platform access (Reddit, X/Twitter, TikTok, YouTube, Threads 등). When calling `/insane-search`, only the references relevant to the target platform need to load (e.g., `twitter.md` for X, `jina.md` for Reddit). Skip unrelated references (e.g., `naver.md`, `cache-archive.md`) unless specifically needed.
+- Use **Chrome MCP** as fallback when `/insane-search` is unavailable.
 - Use `/instagram-analytics` skill on Mondays (KST) for weekly Instagram performance analysis.
 - Do not count search snippets, blocked pages, deleted posts, login walls, or unobserved pages as evidence.
 
@@ -43,19 +42,15 @@ All pipeline outputs live under the project root `data/` directory. Resolve the 
 
 ```
 data/
-├── signals/{YYYY-MM-DD}.json      # signal batch
-├── clusters/{YYYY-MM-DD}.json     # topic clusters
-├── rankings/{YYYY-MM-DD}.json     # ranked topics (HTML dashboard)
 ├── reports/{YYYY-MM-DD}.html      # daily report (HTML dashboard, KR+EN)
 ├── instagram-analytics/
 │   └── week-of-{YYYY-MM-DD}.html  # weekly Instagram analytics (Monday only)
 ├── runs/{YYYY-MM-DD}T{HH-MM-SS}.json  # run metadata
-├── query-log.json                      # query rotation tracker
+├── query-log.json                      # query rotation tracker (auto-managed by script)
+├── query-pools/{news,reddit,tiktok}.json  # query pools (do not edit manually)
+├── cardnews/{YYYY-MM-DD}.json          # card-news drafts
 └── archive/
-    ├── topic_history.json          # cumulative topic overlap tracker
-    ├── signals/{date}_{ts}.json    # overwritten signal backups
-    ├── clusters/{date}_{ts}.json
-    └── rankings/{date}_{ts}.json
+    └── topic_history.json          # cumulative topic overlap tracker
 ```
 
 ## Date and Overwrite Rules
@@ -63,43 +58,32 @@ data/
 1. Resolve "today" in the user's local timezone (KST) as `YYYY-MM-DD`.
 2. Before research or any save, check which files already exist for today:
    ```bash
-   ls data/signals/{DATE}.json data/clusters/{DATE}.json data/rankings/{DATE}.json data/reports/{DATE}.html 2>/dev/null
+   ls data/reports/{DATE}.html 2>/dev/null
    ```
-3. If any file exists, name every conflicting category and **stop**. Ask the user whether to overwrite.
-4. On overwrite approval, back up each conflicting file before writing:
+3. If the report file exists, **stop** and ask the user whether to overwrite.
+4. On overwrite approval, back up the conflicting file before writing:
    ```bash
-   mkdir -p data/archive/signals data/archive/clusters data/archive/rankings
-   mv data/signals/{DATE}.json data/archive/signals/{DATE}_$(date +%s%3N).json
+   mkdir -p data/archive/reports
+   mv data/reports/{DATE}.html data/archive/reports/{DATE}_$(date +%s%3N).html
    ```
 
-## File I/O Operations
+## Save Verification
 
-### Save (Write tool)
+After writing any JSON or HTML file, verify with a lightweight Bash check instead of reading the entire file back:
 
-Write JSON files with the Write tool. Every JSON file must be valid, pretty-printed (2-space indent). Final reports and rankings are HTML.
-
-### Read (Read tool)
-
-After every save, read the file back to verify it was written correctly. Spot-check key fields (e.g., signal count, topic count, batch ID).
-
-### List saved dates
-
-To list all dates that have data:
 ```bash
-ls data/signals/ data/clusters/ data/rankings/ data/reports/ 2>/dev/null | grep -oE '[0-9]{4}-[0-9]{2}-[0-9]{2}' | sort -u
+# For JSON files
+python3 -c "import json; d=json.load(open('FILE')); print(f'OK: {len(d)} top-level keys')"
+
+# For HTML files
+python3 -c "
+f=open('FILE').read()
+assert '<!doctype html>' in f.lower() or '<html' in f.lower(), 'Not valid HTML'
+print(f'OK: {len(f)} chars')
+"
 ```
 
-### Check topic overlap
-
-Read `data/archive/topic_history.json` and compare candidate themes against `theme_id` entries. Respect `cooldown_until` dates.
-
-### Check past Instagram analytics
-
-Read all files under `data/instagram-analytics/` to understand which content types and topics have performed well or poorly. Use this to inform topic selection and diversity.
-
-### Update topic history
-
-After rankings are saved, append new theme entries or update existing ones in `data/archive/topic_history.json`. Set `last_updated` to today. Add `cooldown_until` (typically +3 days for themes appearing 2+ times, +5 days for 3+ consecutive days).
+Only use the Read tool to verify a file if the Bash check fails or you need to inspect specific content.
 
 ---
 
@@ -119,138 +103,85 @@ Run the full pipeline in this order.
 
 If not Monday, skip this step but still read the most recent `data/instagram-analytics/` file to inform topic recommendations.
 
-### Step 1: Research Planning
+### Step 1: Research & Signals
 
-Read `references/source-collection.md`, then use **WebSearch** to decompose the run into source axes: education news, campus newspapers, official/government sources, Reddit/student communities, short-form social platforms, reports/datasets, college rankings, Canada/international-student policy, and real-time trend leads.
+Read `references/source-collection.md`, then:
 
-### Step 2: Signals
+1. **Run the query selector script** to get today's queries:
+   ```bash
+   python3 scripts/select-queries.py --date {DATE} [--keyword "trending topic"]
+   ```
+2. Execute the selected queries using WebSearch, `/insane-search`, and WebFetch.
+3. Collect signals meeting the coverage targets in the reference file.
+4. Each signal must include: `id`, `source_name`, `source_type`, `platform`, `title`, `url`, `published_at`, `retrieved_at`, `summary`, `category`, `region`, `relevance`, `reliability`, `usable_for_ranking`, `topic_lane`, and `verified_at` (ISO timestamp of when the URL was successfully accessed).
 
-Write `data/signals/{DATE}.json`, then read it back.
+Signal `source_type` values: `news`, `sns_tiktok`, `sns_x`, `sns_threads`, `sns_instagram`, `reddit`, `report`, `government`, `college_newspaper`, `ranking_site`, `community_forum`.
 
-- Required JSON structure:
-  ```json
-  {
-    "signal_batch_id": "sb_{YYYYMMDD}",
-    "run_date": "{YYYY-MM-DD}",
-    "time_window": "...",
-    "region": ["US", "Canada"],
-    "source_count": 0,
-    "coverage_notes": {
-      "total_signals_target": "...",
-      "sns_community_target": "...",
-      "reddit_target": "...",
-      "topic_lane_target": "..."
-    },
-    "signals": [
-      {
-        "id": "src_001",
-        "source_name": "...",
-        "source_type": "news | sns_tiktok | sns_x | sns_threads | sns_instagram | reddit | report | government | college_newspaper | ranking_site | community_forum",
-        "platform": "...",
-        "title": "...",
-        "url": "...",
-        "published_at": "...",
-        "retrieved_at": "{YYYY-MM-DD}",
-        "summary": "...",
-        "category": "...",
-        "region": "US | Canada | Both",
-        "relevance": "...",
-        "reliability": "...",
-        "usable_for_ranking": true,
-        "topic_lane": "..."
-      }
-    ]
-  }
-  ```
-- Save only original source signals actually opened or directly observed through an allowed public route.
-- Meet the source coverage targets in `references/source-collection.md` or document the shortfall.
-- Never invent URLs, dates, engagement counts, views, likes, comments, percentages, rankings, or observed figures.
+Save only original source signals actually opened or directly observed through an allowed public route. Meet the source coverage targets or document the shortfall. Never invent URLs, dates, engagement counts, views, likes, comments, percentages, rankings, or observed figures.
 
-### Step 3: Clusters
+Signals are held in context for the next step — no intermediate file save required.
 
-Read `references/content-lens.md`, then write `data/clusters/{DATE}.json` and read it back.
+### Step 2: Clusters & Topic Selection
 
-- Required JSON structure:
-  ```json
-  {
-    "cluster_batch_id": "cb_{YYYYMMDD}",
-    "input_signal_batch_id": "sb_{YYYYMMDD}",
-    "cluster_count": 0,
-    "clusters": [
-      {
-        "cluster_id": "cl_01",
-        "topic": "...",
-        "category": "...",
-        "summary": "...",
-        "source_ids": ["src_001"],
-        "representative_source_id": "src_001",
-        "student_reaction_summary": "...",
-        "factual_basis_summary": "...",
-        "target_audience": ["..."],
-        "possible_content_angle": "...",
-        "topic_lane": "...",
-        "igotin_pattern_match": ["..."],
-        "hook_point_candidates": ["..."],
-        "selection_point": "...",
-        "content_direction": "carousel | reels | post | story",
-        "region_relevance": "US | Canada | Both",
-        "school_relevance_tags": [],
-        "confidence": "high | medium | low",
-        "risk_level": "low | medium | high",
-        "eligible_for_ranking": true,
-        "cluster_notes": "..."
-      }
-    ]
-  }
-  ```
+Read `references/content-lens.md` and `references/topic-selection.md`.
+
+**Clustering:**
 - Group signals by topic.
 - Separate student reaction from verified factual basis.
 - Mark topic lane, IGOTIN fit, risk, and ranking eligibility.
-- **Maximize topic diversity** — spread across different topic lanes and categories.
+- Maximize topic diversity — spread across different topic lanes and categories.
 
-### Step 4: Topic Selection
+**Selection (merged):**
+- Apply immediate exclusions, contentization tests, structural fit, and the scoring rubric.
+- Read the most recent Instagram analytics from `data/instagram-analytics/` to understand what content types and topics have driven the best engagement.
+- Check `data/archive/topic_history.json` and compare candidate themes against `theme_id` entries. Respect `cooldown_until` dates.
 
-Read `references/topic-selection.md`.
+Clusters and selection results are held in context — no intermediate file save required.
 
-- Apply immediate exclusions, contentization tests, structural fit, and the scoring rubric before ranking.
-- **Read the most recent Instagram analytics** from `data/instagram-analytics/` to understand what content types and topics have driven the best engagement.
-- This is a judgment stage; no file is saved here.
+### Step 3: Rankings + HTML Report
 
-### Step 5: Rankings + Source Verification + HTML Report
+Read `references/output-contract.md`.
 
 Produce **exactly 10 diverse topics** ranked by production priority.
 
-#### 5a. Source Verification
+#### 3a. Source Verification (deduplicated)
 
-Before finalizing each topic, **verify every source URL** cited:
-1. Attempt to fetch each URL with WebFetch.
-2. If the URL returns 404, is paywalled, or is otherwise inaccessible, mark it and find a replacement source or drop the citation.
-3. Only include verified, accessible URLs in the final output.
+Only verify URLs that were NOT already successfully accessed during Step 1 (check each signal's `verified_at` field). For signals accessed today, skip re-verification. For any new or unverified URLs:
+1. Attempt to fetch with WebFetch.
+2. If inaccessible, find a replacement source or drop the citation.
 
-#### 5b. Topic Recommendation Format
+#### 3b. Topic Recommendation Format
 
 Each of the 10 topics must follow the structure in `references/output-contract.md`.
 
-#### 5c. Ranking Criteria
+#### 3c. Ranking Criteria
 
 - Base recommendations on past Instagram analytics: what content types/topics performed well.
 - Ensure **maximum topic diversity** — no two topics from the same narrow category.
 - Avoid overlap with recent topics (check `topic_history.json`).
 - Prioritize topics with strong contentization potential (clear hook, slide structure, comment trigger).
 
-#### 5d. Save
+#### 3d. Save as HTML Report
 
-Write the final output as **`data/reports/{DATE}.html`** — a single HTML dashboard file containing:
+Write the final output as **`data/reports/{DATE}.html`** — a single self-contained HTML dashboard file containing:
 1. **Korean version** — all 10 topics in full detail
 2. **English version** — all 10 topics in full detail
 
 The HTML must be self-contained (inline CSS), mobile-friendly, and include every field for every topic.
 
-After saving, update `data/archive/topic_history.json`.
+After saving, verify with the Bash check. Then update `data/archive/topic_history.json` — append new theme entries or update existing ones, set `last_updated` to today, add `cooldown_until` (typically +3 days for themes appearing 2+ times, +5 days for 3+ consecutive days).
 
-### Step 6: Run Metadata
+### Step 4: Run Metadata
 
-Write `data/runs/{DATE}T{HH-MM-SS}.json` with run status, steps completed, signal/topic counts, output files, warnings, and errors.
+Write `data/runs/{DATE}T{HH-MM-SS}.json` with:
+- Run status, steps completed
+- Signal count, topic count
+- Output files produced
+- Queries used (from script output)
+- Warnings and errors
+- Coverage shortfalls if any
+
+Verify with the Bash check.
 
 ## Selected Topic Draft
 

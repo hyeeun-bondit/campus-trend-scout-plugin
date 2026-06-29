@@ -1,0 +1,81 @@
+{
+  "platform": "reddit",
+  "pick_per_run": 7,
+  "cooldown_days": 7,
+  "categories": {
+    "core": [
+      "reddit.com/search/?q=college%20freshman%20advice%202026",
+      "reddit.com/search/?q=college%20roommate%20dorm%20move%20in",
+      "reddit.com/search/?q=college%20major%20regret%20internship",
+      "reddit.com/search/?q=college%20tuition%20rent%20meal%20plan",
+      "reddit.com/search/?q=international%20student%20college%20US%20Canada",
+      "reddit.com/r/ApplyingToCollege/search/?q=college%20choice&restrict_sr=1",
+      "reddit.com/r/college/search/?q=campus%20life&restrict_sr=1",
+      "reddit.com/r/college/search/?q=roommate&restrict_sr=1"
+    ],
+    "lifestyle_housing": [
+      "reddit.com/search/?q=college%20students%20housing%20crisis",
+      "reddit.com/search/?q=college%20apartment%20interior%20design%20gen%20z",
+      "reddit.com/search/?q=alternative%20housing%20student%20co-living",
+      "reddit.com/search/?q=housing%20shortage%20college%20towns%20gentrification"
+    ],
+    "money_hustle": [
+      "reddit.com/search/?q=cheapest%20ways%20college%20students%20make%20money",
+      "reddit.com/search/?q=student%20side%20hustle%20trends",
+      "reddit.com/search/?q=college%20students%20cryptocurrency%20investing",
+      "reddit.com/search/?q=gen%20z%20college%20thrifting%20resale%20fashion",
+      "reddit.com/search/?q=college%20meal%20plan%20alternatives",
+      "reddit.com/search/?q=affordability%20crisis%20college%20textbooks",
+      "reddit.com/search/?q=student%20debt%20payment%20impact",
+      "reddit.com/search/?q=coffee%20shop%20economy%20college%20towns"
+    ],
+    "academics_career": [
+      "reddit.com/search/?q=college%20major%20changing%20trends%20AI%20era",
+      "reddit.com/search/?q=skills%20gap%20employers%20want%20college%20grads",
+      "reddit.com/search/?q=internship%20market%20competitive",
+      "reddit.com/search/?q=trade%20school%20vs%20college%20debate",
+      "reddit.com/search/?q=career%20fairs%20AI%20resume%20writing%20tools",
+      "reddit.com/search/?q=college%20students%20gap%20year%20decisions",
+      "reddit.com/r/cscareerquestions/search/?q=college%20grad%20job%20market&restrict_sr=1",
+      "reddit.com/r/premed/search/?q=premed%20burnout&restrict_sr=1"
+    ],
+    "mental_health": [
+      "reddit.com/search/?q=college%20mental%20health%20crisis%20burnout",
+      "reddit.com/search/?q=gen%20z%20stress%20management%20wellness%20trends",
+      "reddit.com/search/?q=therapy%20on%20campus%20accessibility%20barriers",
+      "reddit.com/search/?q=campus%20fitness%20trends%20gym%20culture",
+      "reddit.com/search/?q=sleep%20deprivation%20college%20all-nighters",
+      "reddit.com/search/?q=mindfulness%20meditation%20college%20students"
+    ],
+    "politics_activism": [
+      "reddit.com/search/?q=college%20students%20protest%20activism",
+      "reddit.com/search/?q=diversity%20equity%20inclusion%20college%20campus",
+      "reddit.com/search/?q=college%20free%20speech%20debate%20controversy",
+      "reddit.com/search/?q=climate%20action%20college%20sustainability",
+      "reddit.com/search/?q=student%20organizing%20labor%20rights%20movement"
+    ],
+    "tech_innovation": [
+      "reddit.com/search/?q=ai%20chatgpt%20college%20academic%20integrity",
+      "reddit.com/search/?q=college%20classrooms%20hybrid%20learning",
+      "reddit.com/search/?q=campus%20technology%20infrastructure%20upgrades",
+      "reddit.com/search/?q=virtual%20reality%20education%20college"
+    ],
+    "social_community": [
+      "reddit.com/search/?q=college%20friend%20groups%20gen%20z%20loneliness",
+      "reddit.com/search/?q=greek%20life%20hazing%20reform%20controversy",
+      "reddit.com/search/?q=freshman%20orientation%20welcome%20week%20trends",
+      "reddit.com/search/?q=dating%20app%20usage%20college%20students",
+      "reddit.com/search/?q=club%20sports%20intramural%20participation",
+      "reddit.com/search/?q=campus%20event%20attendance%20post-pandemic",
+      "reddit.com/r/GradSchool/search/?q=grad%20school%20vs%20job&restrict_sr=1",
+      "reddit.com/r/StudentLoans/search/?q=student%20loan%20repayment&restrict_sr=1",
+      "reddit.com/r/FinancialAid/search/?q=financial%20aid%20fafsa&restrict_sr=1"
+    ]
+  },
+  "evergreen": [
+    "reddit.com/search/?q=college%20students%20think%20about%20[hot%20topic]",
+    "reddit.com/search/?q=college%20major%20stereotypes",
+    "reddit.com/search/?q=college%20vs%20high%20school%20differences%20reality",
+    "reddit.com/r/professors/search/?q=students%20today&restrict_sr=1"
+  ]
+}

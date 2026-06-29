@@ -1,0 +1,67 @@
+{
+  "platform": "tiktok",
+  "pick_per_run": 7,
+  "cooldown_days": 7,
+  "categories": {
+    "core": [
+      "tiktok.com/search?q=college+student+2026",
+      "tiktok.com/search?q=campus+life",
+      "tiktok.com/search?q=dorm+room+college",
+      "tiktok.com/search?q=college+major+regret",
+      "tiktok.com/search?q=college+move+in+2026",
+      "tiktok.com/search?q=college+tuition+rent+student"
+    ],
+    "lifestyle_aesthetics": [
+      "tiktok.com/search?q=college+outfit+grwm",
+      "tiktok.com/search?q=college+apartment+interior+aesthetic",
+      "tiktok.com/search?q=college+glow+up+transformation",
+      "tiktok.com/search?q=broke+college+student+hacks",
+      "tiktok.com/search?q=college+cooking+meal+prep+budget"
+    ],
+    "money_hustle": [
+      "tiktok.com/search?q=student+side+hustle+trends",
+      "tiktok.com/search?q=gen+z+thrifting+resale+college",
+      "tiktok.com/search?q=college+student+investing+money",
+      "tiktok.com/search?q=student+discount+hacks+tips"
+    ],
+    "academics_career": [
+      "tiktok.com/search?q=studytok+college+productivity",
+      "tiktok.com/search?q=college+major+stereotypes",
+      "tiktok.com/search?q=ai+chatgpt+college+cheating",
+      "tiktok.com/search?q=internship+starter+pack+college",
+      "tiktok.com/search?q=trade+school+vs+college"
+    ],
+    "mental_health": [
+      "tiktok.com/search?q=college+burnout+mental+health",
+      "tiktok.com/search?q=college+gym+fitness+culture",
+      "tiktok.com/search?q=college+all+nighter+finals+week"
+    ],
+    "social_community": [
+      "tiktok.com/search?q=greek+life+rush+bid+day",
+      "tiktok.com/search?q=college+party+nightlife",
+      "tiktok.com/search?q=college+dating+relationships",
+      "tiktok.com/search?q=professor+story+college+funny",
+      "tiktok.com/search?q=freshman+orientation+welcome+week",
+      "tiktok.com/search?q=college+graduation+senior+year",
+      "tiktok.com/search?q=college+loneliness+making+friends"
+    ],
+    "politics_activism": [
+      "tiktok.com/search?q=college+protest+activism+student",
+      "tiktok.com/search?q=college+sustainability+climate"
+    ]
+  },
+  "seasonal": [
+    { "query": "tiktok.com/search?q=back+to+school+college+move+in", "months": [9] },
+    { "query": "tiktok.com/search?q=halloween+college+party+costume", "months": [10] },
+    { "query": "tiktok.com/search?q=thanksgiving+break+travel+college", "months": [11] },
+    { "query": "tiktok.com/search?q=finals+week+stress+college+culture", "months": [12] },
+    { "query": "tiktok.com/search?q=new+year+resolution+college", "months": [1] },
+    { "query": "tiktok.com/search?q=valentine+day+dating+college", "months": [2] },
+    { "query": "tiktok.com/search?q=spring+break+destinations+college+budget", "months": [3] },
+    { "query": "tiktok.com/search?q=graduation+cap+gown+photo+trends", "months": [4] },
+    { "query": "tiktok.com/search?q=summer+internship+starter+pack", "months": [5] }
+  ],
+  "hashtag_reverse_search": [
+    "#collegelife", "#collegestudent", "#campustiktok", "#dormtok", "#studytok", "#collegecheck"
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "platform": "news",
+  "pick_per_run": 7,
+  "cooldown_days": 7,
+  "categories": {
+    "core_education": [
+      "college university news this week",
+      "US college campus news today",
+      "Canadian university news this week",
+      "higher education policy changes 2026",
+      "college enrollment trends 2026"
+    ],
+    "housing_cost": [
+      "college housing crisis 2026 shortage",
+      "college tuition increase 2026 2027",
+      "student rent prices college town gentrification",
+      "student food insecurity campus food bank",
+      "college meal plan cost controversy",
+      "student homelessness college campus"
+    ],
+    "finance_employment": [
+      "student loan repayment news 2026",
+      "FAFSA changes 2026 financial aid",
+      "college graduate job market 2026",
+      "college students side hustle gig economy",
+      "gen z investing spending habits college",
+      "college student credit card debt",
+      "college internship pay unpaid controversy"
+    ],
+    "academics_ai": [
+      "AI chatgpt college cheating academic integrity policy",
+      "college major demand decline 2026",
+      "skills employers want college graduates 2026",
+      "college curriculum changes AI technology",
+      "trade school vs college degree debate",
+      "college professor shortage adjunct crisis",
+      "online education college hybrid learning trends",
+      "college students study abroad trends 2026"
+    ],
+    "mental_health": [
+      "college student mental health crisis 2026",
+      "campus counseling center wait times shortage",
+      "college student burnout stress statistics",
+      "campus wellness programs new initiatives",
+      "college student sleep deprivation research",
+      "college student substance use trends"
+    ],
+    "politics_safety": [
+      "college campus protest 2026",
+      "college free speech controversy news",
+      "DEI diversity college campus policy changes",
+      "Title IX college campus safety policy",
+      "college campus shooting safety measures",
+      "college sustainability climate action initiatives",
+      "student government election controversy"
+    ],
+    "tech_innovation": [
+      "college campus technology upgrades 2026",
+      "college students social media trends gen z",
+      "campus app student engagement technology",
+      "college esports program growth"
+    ],
+    "rankings_reports": [
+      "best colleges ranking 2026 2027 new",
+      "college ranking controversy methodology debate",
+      "happiest college students campus survey",
+      "best college dorms food campus life ranking",
+      "best colleges international students 2026",
+      "college return on investment ROI salary data"
+    ],
+    "social_culture": [
+      "gen z college loneliness friendship crisis",
+      "greek life fraternity sorority reform hazing",
+      "college dating culture gen z trends",
+      "college sports NIL deals student athletes",
+      "college party culture nightlife trends",
+      "college freshman orientation trends 2026",
+      "transfer student experience community college"
+    ]
+  },
+  "seasonal": [
+    { "query": "back to school college trends", "months": [8, 9] },
+    { "query": "college application essay tips viral", "months": [9, 10] },
+    { "query": "college halloween costume party trends", "months": [10] },
+    { "query": "college thanksgiving break travel tips", "months": [11] },
+    { "query": "finals week college stress tips", "months": [5, 12] },
+    { "query": "winter break plans international students college", "months": [12] },
+    { "query": "new year resolution college students", "months": [1] },
+    { "query": "valentine day college dating trends", "months": [2] },
+    { "query": "spring break college budget destinations", "months": [3] },
+    { "query": "college graduation ceremony trends", "months": [4, 5] },
+    { "query": "summer internship college trends", "months": [5, 6] },
+    { "query": "college freshman class profile incoming", "months": [6, 7] }
+  ],
+  "evergreen_templates": [
+    "college students react to [KEYWORD]",
+    "how [KEYWORD] affects college students",
+    "[KEYWORD] college campus impact",
+    "university response to [KEYWORD]"
+  ]
+}
