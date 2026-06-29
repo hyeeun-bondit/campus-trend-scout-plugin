@@ -1,0 +1,11 @@
+{
+  "name": "campus-trend-scout-plugin",
+  "description": "Marketplace for IGOTIN campus marketing plugins",
+  "plugins": [
+    {
+      "name": "campus-trend-scout",
+      "description": "Daily US/Canada campus trend pipeline for IGOTIN card-news planning. Collects SNS signals, clusters topics, ranks them, and produces an HTML dashboard.",
+      "path": "."
+    }
+  ]
+}
