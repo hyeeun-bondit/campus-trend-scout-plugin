@@ -43,6 +43,27 @@ campus-trend-scout-plugin/plugins/campus-trend-scout
 
 - [Claude in Chrome](https://chromewebstore.google.com/detail/claude-in-chrome/) 확장 프로그램 (Reddit/TikTok/Instagram 접근용)
 
+## Update
+
+플러그인은 자동 업데이트되지 않습니다. 새 버전이 나오면 수동으로 업데이트해야 합니다.
+
+### 마켓플레이스로 설치한 경우
+
+1. `/plugin` 입력
+2. **campus-trend-scout-plugin** 마켓플레이스 선택
+3. **Update** 선택
+
+또는 세션 시작 시 `[플러그인 업데이트 있음]` 알림이 뜨면 안내에 따라 업데이트.
+
+### 수동 클론한 경우
+
+```bash
+cd campus-trend-scout-plugin
+git pull
+```
+
+pull 후 Claude Code를 재시작하면 반영됩니다.
+
 ## Usage
 
 | Trigger | Skill |
