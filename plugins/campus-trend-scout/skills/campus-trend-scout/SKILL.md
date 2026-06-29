@@ -49,6 +49,7 @@ data/
 ├── instagram-analytics/
 │   └── week-of-{YYYY-MM-DD}.html  # weekly Instagram analytics (Monday only)
 ├── runs/{YYYY-MM-DD}T{HH-MM-SS}.json  # run metadata
+├── query-log.json                      # query rotation tracker
 └── archive/
     ├── topic_history.json          # cumulative topic overlap tracker
     ├── signals/{date}_{ts}.json    # overwritten signal backups
