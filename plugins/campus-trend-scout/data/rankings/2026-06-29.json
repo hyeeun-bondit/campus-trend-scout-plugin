@@ -1,0 +1,1081 @@
+{
+  "ranked_topic_batch_id": "rb_20260629",
+  "run_date": "2026-06-29",
+  "ranking_notes": {
+    "overlap_check_source": "data/archive/topic_history.json (last_updated 2026-06-23)",
+    "overlap_findings": [
+      "th_student_loans: cooldown 2026-06-27 지남. RAP플랜/오토페이 할인/FAFSA 사기경고 묶음으로 새 앵글 구성, 이전 등장(2026-06-19, 06-22, 06-23) 명시 후 produce_if_needed로 하향.",
+      "th_major_regret: cooldown 2026-06-26 지남이나 동일 통계(정치학 46%) 재사용이라 단독 순위 전달 대신 인턴십 예방 앵글로 재구성, produce_if_needed로 하향.",
+      "th_ai_academic: cooldown_until은 2026-06-28로 지났으나 3일 연속 다룬 뒤 노트에 '5일 쿨다운 필요'라 명시되어 있어 보수적으로 skip 처리.",
+      "th_dorm_roommate: cooldown 2026-06-23 지남, red flag 체크리스트와 다른 앵글(불안 정서+실제 커뮤니티 글)이라 produce_today 유지.",
+      "th_intl_students: cooldown 2026-06-25 지남, Canada 정책/F-1 룰과 다른 앵글(미국-캐나다 비용 비교, 비자 불안)이라 produce_today/monitor로 유지."
+    ],
+    "ai_diversity_check": "Top 10 내 is_ai_related: true 0개 (AI 관련 토픽 2개 모두 rank 11위 밖) → 추가 non-AI 보강 불필요",
+    "total_ranked": 17
+  },
+  "topics": [
+    {
+      "rank": 1,
+      "topic_id": "tp_01",
+      "cluster_id": "cl_18",
+      "topic": "진짜 존재하는 의외의 대학 강좌들",
+      "category": "unexpected_culture",
+      "is_ai_related": false,
+      "selection_rubric": {
+        "self_relevance": {"score": 4, "rationale": "전체 대학생이 자기 학교 강좌와 비교하게 됨"},
+        "comparison_potential": {"score": 3, "rationale": "학교별 특이 강좌 비교 가능"},
+        "decision_usefulness": {"score": 2, "rationale": "의사결정보다는 흥미 콘텐츠"},
+        "share_trigger": {"score": 5, "rationale": "'이게 진짜야?' 반응으로 즉시 공유"},
+        "comment_trigger": {"score": 4, "rationale": "우리 학교 특이 강좌 댓글 유도 강함"},
+        "format_strength": {"score": 5, "rationale": "Top 리스트 포맷에 최적"},
+        "freshness": {"score": 3, "rationale": "상시 화제이나 시즌 무관하게 통함"},
+        "evidence_availability": {"score": 4, "rationale": "각 대학 강좌 안내 기반 정리 기사 2건"}
+      },
+      "total_score": 75,
+      "confidence": "high",
+      "needs_verification": false,
+      "editor_decision": "produce_today",
+      "score_summary": "rubric 30/40, breakdown 75/100 — 의외성과 공유력이 가장 강한 소재",
+      "ranking_reason": "IGOTIN의 Stanford K-pop course 패턴과 동일한 구조(의외성+실존 증거)로, 첫 제작 후보로 적합",
+      "sources": [
+        {"url": "https://kdcollegeprep.com/20-spooky-weird-college-classes/", "note": "코넬 나무타기, 펜스테이트 아이스크림학 등"},
+        {"url": "https://www.foxnews.com/lifestyle/wild-wacky-college-classes-america", "note": "추가 특이 강좌 목록"}
+      ],
+      "score_breakdown": {"buzz": 20, "velocity": 10, "target_fit": 15, "content_potential": 14, "source_diversity": 6, "evidence_quality": 10, "risk_penalty": 0},
+      "content_angle": "실제 존재하는 의외의 수업들을 Top 리스트로 보여주고, 자기 학교에도 비슷한 게 있는지 댓글로 묻는다",
+      "content_analysis": {
+        "topic_summary": "코넬에선 나무 타는 법을 배우고, 페퍼다인에선 서핑으로 학점을 받는다. 대학 강좌가 우리가 아는 것보다 훨�르 다양하다는 사실은 공유 욕구를 강하게 자극한다.",
+        "hook_points": [
+          "진짜 이런 수업이 대학에 있다고?",
+          "나무 타는 법을 배우는 수업이 진짜 있다",
+          "아이스크림 만드는 법으로 학점 받는 학교"
+        ],
+        "selection_points": [
+          "검증된 실제 강좌 목록이라 사실관계 리스크가 낮다",
+          "학교 비방 없이 순수한 의외성으로 도달과 공유를 동시에 만든다",
+          "시즌과 무관하게 상시 발행 가능한 evergreen 소재다"
+        ],
+        "content_direction": "carousel — 강좌 하나당 한 장씩, 마지막 장에 '너네 학교는?' 질문",
+        "igotin_fit": "Stanford K-pop course 패턴과 동일 구조, 과거 고성과 확인됨",
+        "audience_segment": ["전체 대학생", "예비 신입생", "전공 선택 고민 중인 학생"],
+        "share_reason": "친구한테 '이거 봐, 진짜 이런 수업이 있어'라고 보내고 싶어짐",
+        "comment_prompt": "너네 학교에 이런 특이한 수업 있어?",
+        "save_reason": "나중에 수강신청 참고용으로 저장",
+        "visual_idea": "강좌명 + 학교 로고 느낌의 텍스트 카드, 첫 장은 '실화입니다' 강조",
+        "slide_outline": [
+          "표지: 진짜 이런 수업이 대학에 있다고?",
+          "코넬 — 나무 타는 법 수업",
+          "페퍼다인 — 서핑으로 학점 받기",
+          "펜스테이트 — 아이스크림학",
+          "추가 의외의 강좌 1~2개",
+          "너네 학교 특이한 수업은? (CTA)"
+        ],
+        "headline_candidates": [
+          "이게 진짜 대학 수업이라고?",
+          "나무 타기로 학점 받는 학교가 있다",
+          "세상에 이런 강좌가 다 있다니"
+        ],
+        "cta": "너네 학교 특이한 강좌 댓글로 알려주면 다음 카드뉴스에 소개할게",
+        "risk_note": "학교 비방으로 읽히지 않게 중립적·긍정적 톤 유지"
+      },
+      "production_brief": {
+        "recommended_format": "carousel",
+        "priority_reason": "검증된 사실 + 의외성 + 낮은 리스크로 즉시 제작 가능한 1순위 소재",
+        "opening_hook": "진짜 이런 수업이 대학에 있다고?",
+        "angle_type": "unexpected_culture",
+        "asset_needs": ["강좌별 텍스트 카드", "학교 로고/색상 참고 이미지"],
+        "do_not_make_it_about": ["특정 학교를 깎아내리는 톤", "강좌의 학문적 가치를 비웃는 프레임"]
+      },
+      "expected_reaction": "높은 공유 + 자기 학교 강좌 댓글 인증",
+      "risk_level": "low",
+      "avoid": ["조롱하는 톤"]
+    },
+    {
+      "rank": 2,
+      "topic_id": "tp_02",
+      "cluster_id": "cl_03",
+      "topic": "도시별 학생 생활비 비교 (NYC·베이에어리어·토론토)",
+      "category": "city_life",
+      "is_ai_related": false,
+      "selection_rubric": {
+        "self_relevance": {"score": 5, "rationale": "거주지 결정과 직결"},
+        "comparison_potential": {"score": 4, "rationale": "도시별 비교 구조 명확"},
+        "decision_usefulness": {"score": 4, "rationale": "자취 여부 결정에 실질적 도움"},
+        "share_trigger": {"score": 4, "rationale": "같은 도시 친구에게 공감 유도"},
+        "comment_trigger": {"score": 3, "rationale": "'우리 동네는 더 비싸다' 식 반응"},
+        "format_strength": {"score": 4, "rationale": "비교표/체크리스트형 적합"},
+        "freshness": {"score": 3, "rationale": "여름 이사철과 맞물림"},
+        "evidence_availability": {"score": 4, "rationale": "Fllat 가이드의 구체적 수치 데이터"}
+      },
+      "total_score": 77,
+      "confidence": "high",
+      "needs_verification": false,
+      "editor_decision": "produce_today",
+      "score_summary": "rubric 31/40, breakdown 77/100",
+      "ranking_reason": "구체적 수치 기반 비교표로 저장 가치가 높고, 여름 이사철 시의성과 맞음",
+      "sources": [
+        {"url": "https://fllat.com/blog/new-york-city/cost-of-living-for-students-in-new-york-city-2026-budget-breakdown", "note": "NYC 월 2,500~5,500달러 예산 분석"},
+        {"url": "https://www.tiktok.com/@lillianzhang_/video/7119636746463169838", "note": "버클리/베이에어리어 임대료 현실"},
+        {"url": "https://www.tiktok.com/@cbctoronto/video/7542572481354272006", "note": "토론토 학생 비용 보도"}
+      ],
+      "score_breakdown": {"buzz": 18, "velocity": 9, "target_fit": 18, "content_potential": 13, "source_diversity": 7, "evidence_quality": 12, "risk_penalty": 0},
+      "content_angle": "도시별 월 생활비를 숫자로 비교하고 절약 팁을 더한다",
+      "content_analysis": {
+        "topic_summary": "같은 한 달이라도 뉴욕에서 사는 학생과 토론토에서 사는 학생의 지출은 완전히 다르다. 도시를 기준으로 한 구체적 비교는 거주지 선택에 실질적인 도움을 준다.",
+        "hook_points": [
+          "뉴욕 학생, 한 달에 진짜 얼마 쓸까",
+          "베이에어리어 자취, 월세만 이 정도",
+          "같은 한 달, 도시마다 이렇게 다르다"
+        ],
+        "selection_points": [
+          "구체적 수치 데이터(Fllat NYC 가이드)로 신뢰도 확보",
+          "여름 이사철과 맞물려 시의성 높음",
+          "저장형 비교표 콘텐츠로 전환 용이"
+        ],
+        "content_direction": "carousel — 도시별 비교표",
+        "igotin_fit": "NYC cheap meals 패턴과 직접 연결되는 도시 생활비 lane",
+        "audience_segment": ["대도시 캠퍼스 재학생", "자취 예정 신입생", "편입생"],
+        "share_reason": "같은 도시로 갈 친구에게 정보 공유",
+        "comment_prompt": "너네 도시는 한 달에 얼마 들어?",
+        "save_reason": "이사 전 예산 계획용으로 저장",
+        "visual_idea": "도시 3곳을 나란히 놓은 비교 인포그래픽",
+        "slide_outline": [
+          "표지: 같은 한 달, 도시마다 이렇게 다르다",
+          "뉴욕 — 월 생활비 breakdown",
+          "베이에어리어 — 임대료 현실",
+          "토론토 — 학생 비용 현황",
+          "절약 팁 1~2가지",
+          "너네 도시는 얼마? (CTA)"
+        ],
+        "headline_candidates": [
+          "도시별 학생 생활비, 이렇게 다르다",
+          "뉴욕 자취, 한 달에 이만큼 든다",
+          "같은 학년인데 지출이 두 배 차이"
+        ],
+        "cta": "너네 학교 근처 생활비 댓글로 공유해줘, 다음 비교표에 추가할게",
+        "risk_note": "수치는 출처별 기준 시점이 달라 본문에 출처와 시점을 명확히 표기"
+      },
+      "production_brief": {
+        "recommended_format": "carousel",
+        "priority_reason": "수치 기반 비교+계절적 시의성으로 2순위 제작 적합",
+        "opening_hook": "같은 한 달, 도시마다 이렇게 다르다",
+        "angle_type": "city_life",
+        "asset_needs": ["도시별 비교표", "지도 또는 아이콘"],
+        "do_not_make_it_about": ["특정 도시 폄훼"]
+      },
+      "expected_reaction": "저장 + 같은 도시 학생들의 공감 댓글",
+      "risk_level": "low",
+      "avoid": []
+    },
+    {
+      "rank": 3,
+      "topic_id": "tp_03",
+      "cluster_id": "cl_08",
+      "topic": "룸메이트·기숙사 공유 불안",
+      "category": "freshman_transition",
+      "is_ai_related": false,
+      "selection_rubric": {
+        "self_relevance": {"score": 5, "rationale": "신입생 대부분이 겪는 보편적 불안"},
+        "comparison_potential": {"score": 2, "rationale": "학교별 차이는 크지 않음"},
+        "decision_usefulness": {"score": 3, "rationale": "첫 연락 방법 등 실질적 팁 제공"},
+        "share_trigger": {"score": 5, "rationale": "룸메이트에게 직접 공유 가능"},
+        "comment_trigger": {"score": 3, "rationale": "비슷한 경험 댓글 유도"},
+        "format_strength": {"score": 4, "rationale": "템플릿/체크리스트형 적합"},
+        "freshness": {"score": 2, "rationale": "계절성보다 상시 화제"},
+        "evidence_availability": {"score": 3, "rationale": "College Confidential 실제 게시물 다수"}
+      },
+      "total_score": 68,
+      "confidence": "medium",
+      "needs_verification": true,
+      "editor_decision": "produce_today",
+      "score_summary": "rubric 27/40 (needs_verification), breakdown 68/100",
+      "ranking_reason": "(Previously covered: 2026-06-19 brief, 'red flag 체크리스트' 앵글) — 이번엔 불안 정서+첫 연락 멘트 앵글로 다르게 구성, IGOTIN 룸메이트 매칭 기능과 직결",
+      "sources": [
+        {"url": "https://talk.collegeconfidential.com/t/scared-about-living-with-a-new-roommate-i-have-severe-anxiety/1925103", "note": "신입생 룸메이트 불안 게시물"},
+        {"url": "https://talk.collegeconfidential.com/t/having-serious-anxiety-about-sharing-a-dorm-again-sophomore/2062089", "note": "2학년에도 이어지는 불안 사례"},
+        {"url": "https://www.tiktok.com/@elin.rowe/video/7652375593027259662", "note": "Indiana University 기숙사 투어"}
+      ],
+      "score_breakdown": {"buzz": 16, "velocity": 8, "target_fit": 17, "content_potential": 13, "source_diversity": 5, "evidence_quality": 9, "risk_penalty": 0},
+      "content_angle": "불안을 정상화하고, 첫 연락 멘트 템플릿으로 행동 가능한 해결책 제시",
+      "content_analysis": {
+        "topic_summary": "룸메이트 배정을 받고 잠을 못 잤다는 학생들의 글이 College Confidential에 반복적으로 올라온다. 신입생만이 아니라 2학년에도 이어지는 보편적 불안이다.",
+        "hook_points": [
+          "룸메이트 배정받고 잠 못 잤다는 사람들",
+          "첫 메시지 뭐라고 보내야 할지 모르겠다면",
+          "기숙사 불안, 너만 그런 거 아니다"
+        ],
+        "selection_points": [
+          "실제 학생 커뮤니티 글로 뒷받침된 보편적 정서",
+          "첫 연락 템플릿 등 즉시 실행 가능한 해결책 제공 가능",
+          "IGOTIN 룸메이트/커뮤니티 매칭 기능과 자연스럽게 연결"
+        ],
+        "content_direction": "carousel — 불안 정상화 + 첫 연락 멘트 템플릿",
+        "igotin_fit": "roommate/dorm 불안 lane, 앱의 룸메이트 매칭 기능 자연 노출",
+        "audience_segment": ["신입생", "기숙사 거주 예정 학생", "편입생"],
+        "share_reason": "곧 입학할 동생/친구에게 위로 차원으로 전달",
+        "comment_prompt": "룸메이트한테 첫 메시지 뭐라고 보냈어?",
+        "save_reason": "실제 입주 전 멘트 참고용 저장",
+        "visual_idea": "채팅창 형태의 첫 연락 멘트 예시 카드",
+        "slide_outline": [
+          "표지: 룸메이트 배정받고 잠 못 잤다는 사람들",
+          "왜 이렇게 불안할까 (정상화)",
+          "첫 메시지 템플릿 예시 1",
+          "첫 메시지 템플릿 예시 2",
+          "선배들의 실제 경험담 요약",
+          "IGOTIN으로 미리 대화해보기 (CTA)"
+        ],
+        "headline_candidates": [
+          "룸메이트 불안, 너만 그런 거 아니다",
+          "첫 메시지 뭐라고 보내야 할까",
+          "기숙사 배정 후 다들 이런 생각 한다"
+        ],
+        "cta": "IGOTIN에서 같은 학교 입학생들과 먼저 대화해보기",
+        "risk_note": "'severe anxiety'라는 표현을 임상적 불안장애로 일반화하지 않고 일반적 긴장감으로 다룬다"
+      },
+      "production_brief": {
+        "recommended_format": "carousel",
+        "priority_reason": "공감대가 넓고 앱 기능과 직접 연결되는 핵심 소재",
+        "opening_hook": "룸메이트 배정받고 잠 못 잤다는 사람들",
+        "angle_type": "freshman_transition",
+        "asset_needs": ["채팅 멘트 예시 그래픽", "커뮤니티 댓글 캡처 요약"],
+        "do_not_make_it_about": ["불안장애 등 정신건강 진단으로 단정", "특정 룸메이트 비방"]
+      },
+      "expected_reaction": "위로/공감 댓글, 앱 다운로드 연결 가능성",
+      "risk_level": "low",
+      "avoid": ["불안을 가볍게 농담화하는 톤"]
+    },
+    {
+      "rank": 4,
+      "topic_id": "tp_04",
+      "cluster_id": "cl_17",
+      "topic": "Princeton Review 테마별 랭킹 — 가장 행복한 학생들 1위 TCU",
+      "category": "debate_ranking",
+      "is_ai_related": false,
+      "selection_rubric": {
+        "self_relevance": {"score": 3, "rationale": "자기 학교 위치 확인 욕구"},
+        "comparison_potential": {"score": 4, "rationale": "테마별 랭킹 비교"},
+        "decision_usefulness": {"score": 2, "rationale": "입학 결정엔 보조적"},
+        "share_trigger": {"score": 4, "rationale": "동문/재학생에게 공유"},
+        "comment_trigger": {"score": 5, "rationale": "동의/반박 댓글 유도 강함"},
+        "format_strength": {"score": 4, "rationale": "랭킹 리스트형"},
+        "freshness": {"score": 3, "rationale": "최신 랭킹 발표"},
+        "evidence_availability": {"score": 4, "rationale": "17만명 설문 기반 공식 랭킹"}
+      },
+      "total_score": 70,
+      "confidence": "high",
+      "needs_verification": false,
+      "editor_decision": "produce_today",
+      "score_summary": "rubric 29/40, breakdown 70/100",
+      "ranking_reason": "댓글 유도력이 가장 강한 랭킹형 소재, 단 CTA를 명확히 붙여야 함",
+      "sources": [
+        {"url": "https://www.princetonreview.com/college-rankings/?rankings=happiest-students", "note": "가장 행복한 학생들 랭킹, TCU 1위"}
+      ],
+      "score_breakdown": {"buzz": 19, "velocity": 8, "target_fit": 14, "content_potential": 13, "source_diversity": 5, "evidence_quality": 11, "risk_penalty": 0},
+      "content_angle": "Top 리스트 + '너네 학교는 어디였어' CTA로 댓글 유도",
+      "content_analysis": {
+        "topic_summary": "17만명 학생 설문을 기반으로 한 '가장 행복한 학생들' 랭킹에서 TCU가 1위를 차지했다. 학업 외 기준의 랭킹이라 다른 학교 재학생들의 반응을 끌어내기 좋다.",
+        "hook_points": [
+          "가장 행복한 대학생들이 다니는 학교 1위",
+          "이 랭킹 보고 너희 학교는 어디였어?"
+        ],
+        "selection_points": [
+          "17만명 설문이라는 규모로 신뢰도 확보",
+          "동의/반박형 댓글 구조가 명확",
+          "단순 Top10 종합 랭킹이 아닌 테마형이라 차별성 있음"
+        ],
+        "content_direction": "carousel — 상위 5개 학교 + CTA",
+        "igotin_fit": "sorority ranking류 댓글 논쟁형 패턴",
+        "audience_segment": ["재학생", "예비 신입생"],
+        "share_reason": "자기 학교가 포함되면 바로 공유",
+        "comment_prompt": "너네 학교는 이 랭킹에 있어? 동의해?",
+        "save_reason": "낮음 (즉시 소비형 콘텐츠)",
+        "visual_idea": "트로피/순위 형태의 랭킹 카드",
+        "slide_outline": [
+          "표지: 가장 행복한 대학생 1위는?",
+          "TCU 소개",
+          "2~5위 학교",
+          "선정 기준 설명",
+          "너네 학교는 몇 위? (CTA)"
+        ],
+        "headline_candidates": [
+          "가장 행복한 학생들이 다니는 대학 1위",
+          "이 랭킹, 너네 학교는 몇 위?",
+          "행복도로 줄 세운 대학 순위"
+        ],
+        "cta": "너네 학교 순위 댓글로 알려줘",
+        "risk_note": "단일 출처 랭킹이므로 '공식 순위'가 아닌 'Princeton Review 자체 설문 기준'임을 명시"
+      },
+      "production_brief": {
+        "recommended_format": "carousel",
+        "priority_reason": "댓글 유도력 1위 소재, CTA 보강 필요",
+        "opening_hook": "가장 행복한 대학생 1위는?",
+        "angle_type": "debate_ranking",
+        "asset_needs": ["랭킹 카드", "학교 로고"],
+        "do_not_make_it_about": ["순위 낮은 학교 비하"]
+      },
+      "expected_reaction": "댓글 논쟁 + 공유",
+      "risk_level": "low",
+      "avoid": []
+    },
+    {
+      "rank": 5,
+      "topic_id": "tp_05",
+      "cluster_id": "cl_12",
+      "topic": "미국 vs 캐나다 유학 비용 비교",
+      "category": "international_student",
+      "is_ai_related": false,
+      "selection_rubric": {
+        "self_relevance": {"score": 4, "rationale": "유학지 선택과 직결"},
+        "comparison_potential": {"score": 4, "rationale": "두 국가 구조적 비교"},
+        "decision_usefulness": {"score": 5, "rationale": "유학지 결정에 직접 도움"},
+        "share_trigger": {"score": 3, "rationale": "유학 준비생 그룹에 공유"},
+        "comment_trigger": {"score": 3, "rationale": "어느 쪽이 나은지 의견 교환"},
+        "format_strength": {"score": 4, "rationale": "비교표형"},
+        "freshness": {"score": 3, "rationale": "2026 가이드 기준"},
+        "evidence_availability": {"score": 4, "rationale": "MTFX 비용 가이드 구체적 수치"}
+      },
+      "total_score": 75,
+      "confidence": "high",
+      "needs_verification": false,
+      "editor_decision": "produce_today",
+      "score_summary": "rubric 30/40, breakdown 75/100",
+      "ranking_reason": "(Previously covered: 2026-06-19 'Canada tightens international students', 2026-06-22 'F-1 rule changes' — 정책 앵글이었음) 이번엔 비용 비교 앵글로 차별화",
+      "sources": [
+        {"url": "https://www.mtfxgroup.com/post/cost-of-studying-in-the-us-for-canadian-students-a-complete-guide/", "note": "미국 유학 연 3.5만~8만 달러, 캐나다 대비 비교"},
+        {"url": "https://www.tiktok.com/@canadatipss/video/7655015924306627861", "note": "캐나다 유학 정보 콘텐츠"}
+      ],
+      "score_breakdown": {"buzz": 17, "velocity": 9, "target_fit": 17, "content_potential": 14, "source_diversity": 6, "evidence_quality": 12, "risk_penalty": 0},
+      "content_angle": "미국 vs 캐나다 비용을 숫자로 비교, 유학지 선택에 실질적 정보 제공",
+      "content_analysis": {
+        "topic_summary": "미국 유학은 등록금과 생활비를 합쳐 연 3.5만~8만 달러가 들고, 캐나다는 이보다 20~30% 저렴하다. 유학을 고민하는 학생에게는 실질적 의사결정 정보다.",
+        "hook_points": [
+          "미국 유학, 캐나다보다 얼마나 더 비쌀까",
+          "유학 결정 전 꼭 봐야 할 비용 비교"
+        ],
+        "selection_points": [
+          "구체적 수치 기반 비교로 신뢰도 높음",
+          "유학지 선택이라는 실제 의사결정과 직결",
+          "이전 정책 앵글과 다른 비용 중심 앵글로 차별화"
+        ],
+        "content_direction": "carousel — 비용 비교표",
+        "igotin_fit": "US vs Canada cost 패턴, international_student lane",
+        "audience_segment": ["유학 준비생", "재학 중인 유학생"],
+        "share_reason": "유학 고민 중인 친구에게 직접 전달",
+        "comment_prompt": "너는 미국 vs 캐나다, 어디가 나아?",
+        "save_reason": "유학 결정 전 참고 자료로 저장",
+        "visual_idea": "두 국가 국기/지도와 비용 숫자를 나란히 배치",
+        "slide_outline": [
+          "표지: 미국 유학, 캐나다보다 얼마나 비쌀까",
+          "미국 — 연간 총비용",
+          "캐나다 — 연간 총비용",
+          "차이가 나는 이유",
+          "그래도 미국을 선택하는 이유",
+          "너의 선택은? (CTA)"
+        ],
+        "headline_candidates": [
+          "미국 유학, 이만큼 더 비싸다",
+          "유학지 고르기 전 비용부터 보자",
+          "미국 vs 캐나다, 진짜 차이는?"
+        ],
+        "cta": "너의 유학 준비 상황 댓글로 공유해줘",
+        "risk_note": "환율/연도별 변동이 있으므로 출처 기준 시점을 본문에 명시"
+      },
+      "production_brief": {
+        "recommended_format": "carousel",
+        "priority_reason": "의사결정 연결성이 가장 강한 유학생 소재",
+        "opening_hook": "미국 유학, 캐나다보다 얼마나 더 비쌀까",
+        "angle_type": "international_student",
+        "asset_needs": ["비용 비교표", "국기/지도 아이콘"],
+        "do_not_make_it_about": ["특정 국가 비하"]
+      },
+      "expected_reaction": "공유 + 유학 준비생 댓글",
+      "risk_level": "low",
+      "avoid": []
+    },
+    {
+      "rank": 6,
+      "topic_id": "tp_06",
+      "cluster_id": "cl_14",
+      "topic": "LGBTQ+ 친화 대학 랭킹",
+      "category": "identity_belonging",
+      "is_ai_related": false,
+      "selection_rubric": {
+        "self_relevance": {"score": 3, "rationale": "해당 그룹에는 높음, 전체로는 보통"},
+        "comparison_potential": {"score": 3, "rationale": "학교 간 비교"},
+        "decision_usefulness": {"score": 3, "rationale": "학교 선택 기준 중 하나"},
+        "share_trigger": {"score": 3, "rationale": "해당 커뮤니티 내 공유"},
+        "comment_trigger": {"score": 3, "rationale": "경험 공유 댓글 가능"},
+        "format_strength": {"score": 3, "rationale": "리스트형"},
+        "freshness": {"score": 2, "rationale": "연례 발표"},
+        "evidence_availability": {"score": 3, "rationale": "2개 매체 자체 기준 리스트"}
+      },
+      "total_score": 56,
+      "confidence": "medium",
+      "needs_verification": true,
+      "editor_decision": "produce_if_needed",
+      "score_summary": "rubric 23/40 (needs_verification)",
+      "ranking_reason": "정체성/소속감 기반 소재로 의미 있으나 evidence_availability가 낮아 보강 후 제작 권장",
+      "sources": [
+        {"url": "https://www.bestcolleges.com/resources/best-colleges-for-lgbt-students/", "note": "LGBTQ+ 친화 대학 리소스 기준"},
+        {"url": "https://www.collegevaluesonline.com/lgbtq-college-progress/", "note": "30개 LGBTQIA+ 친화 대학 리스트"}
+      ],
+      "score_breakdown": {"buzz": 14, "velocity": 6, "target_fit": 13, "content_potential": 10, "source_diversity": 5, "evidence_quality": 8, "risk_penalty": 0},
+      "content_angle": "긍정적 기준 중심의 Top 리스트",
+      "content_analysis": {
+        "topic_summary": "LGBTQ+ 학생들에게 학교의 안전·소속감은 학업만큼 중요한 선택 기준이다. 친화적인 대학 리스트는 해당 학생들에게 실질적 참고가 된다.",
+        "hook_points": ["LGBTQ+ 친화 대학, 어디가 1위일까", "이 기준으로 학교를 고르는 학생들이 있다"],
+        "selection_points": ["정체성/소속감 lane의 핵심 사례", "비교 리스트 포맷 적합"],
+        "content_direction": "carousel",
+        "igotin_fit": "identity_belonging lane",
+        "audience_segment": ["LGBTQ+ 학생 및 입학 예정자"],
+        "share_reason": "관련 커뮤니티 내 공유",
+        "comment_prompt": "너네 학교는 어떤 점이 친화적이야?",
+        "save_reason": "학교 선택 참고용",
+        "visual_idea": "학교 리스트 + 선정 기준 아이콘",
+        "slide_outline": ["표지", "선정 기준", "상위 학교 3~5곳", "CTA"],
+        "headline_candidates": ["LGBTQ+ 친화 대학 Top 리스트", "이 기준으로 학교를 고른다면"],
+        "cta": "댓글로 너네 학교 분위기 공유해줘",
+        "risk_note": "특정 학교 비방 없이 긍정적 기준만 다룬다"
+      },
+      "production_brief": {
+        "recommended_format": "carousel",
+        "priority_reason": "evidence 보강 후 제작 권장",
+        "opening_hook": "LGBTQ+ 친화 대학, 어디가 1위일까",
+        "angle_type": "identity_belonging",
+        "asset_needs": ["리스트 카드"],
+        "do_not_make_it_about": ["특정 학교 비방"]
+      },
+      "expected_reaction": "관련 커뮤니티 공유",
+      "risk_level": "low",
+      "avoid": []
+    },
+    {
+      "rank": 7,
+      "topic_id": "tp_07",
+      "cluster_id": "cl_09",
+      "topic": "입주(Move-in) 준비 체크리스트",
+      "category": "freshman_transition",
+      "is_ai_related": false,
+      "selection_rubric": {
+        "self_relevance": {"score": 4, "rationale": "신입생 전체 대상"},
+        "comparison_potential": {"score": 1, "rationale": "비교 구조 약함"},
+        "decision_usefulness": {"score": 3, "rationale": "실용적 체크리스트"},
+        "share_trigger": {"score": 3, "rationale": "같이 입주할 가족/친구에 공유"},
+        "comment_trigger": {"score": 2, "rationale": "댓글 유도는 약함"},
+        "format_strength": {"score": 4, "rationale": "체크리스트형 강함"},
+        "freshness": {"score": 2, "rationale": "가을학기 입주 전 시즌성"},
+        "evidence_availability": {"score": 2, "rationale": "TikTok/포럼 소스만, 통계 부족"}
+      },
+      "total_score": 52,
+      "confidence": "medium",
+      "needs_verification": true,
+      "editor_decision": "produce_if_needed",
+      "score_summary": "rubric 21/40 (evidence_availability<=2, needs_verification)",
+      "ranking_reason": "체크리스트형으로 저장 가치는 있으나 데이터 근거가 약해 가을학기 임박 시점에 제작 권장",
+      "sources": [
+        {"url": "https://www.tiktok.com/@ava.talks.too.much/video/7656465560267394317", "note": "기숙사 필수품 콘텐츠"},
+        {"url": "https://talk.collegeconfidential.com/t/freshman-move-in-day-in-3-weeks-any-advice-or-questions/1729940", "note": "입주 준비 조언 스레드"}
+      ],
+      "score_breakdown": {"buzz": 12, "velocity": 6, "target_fit": 14, "content_potential": 10, "source_diversity": 4, "evidence_quality": 6, "risk_penalty": 0},
+      "content_angle": "입주 체크리스트 + 절대 가져가지 말아야 할 것",
+      "content_analysis": {
+        "topic_summary": "이사 준비물부터 부모님 동행 분위기까지, 입주 전 막막함을 체크리스트로 해소해주는 콘텐츠다.",
+        "hook_points": ["기숙사 입주, 이거 안 챙기면 후회한다", "부모님이랑 입주하는 날, 분위기가 이렇다"],
+        "selection_points": ["저장형 체크리스트로 전환 용이", "신입생 보편적 니즈"],
+        "content_direction": "carousel",
+        "igotin_fit": "freshman 체크리스트 lane",
+        "audience_segment": ["신입생", "기숙사 입주 예정자"],
+        "share_reason": "같이 입주할 가족에게 공유",
+        "comment_prompt": "너는 뭐 챙겼어?",
+        "save_reason": "입주 전 체크용",
+        "visual_idea": "체크박스 형태의 준비물 리스트",
+        "slide_outline": ["표지", "꼭 챙길 것", "가져가지 말 것", "CTA"],
+        "headline_candidates": ["기숙사 입주 체크리스트", "이거 안 챙기면 후회한다"],
+        "cta": "필요한 거 더 있으면 댓글로",
+        "risk_note": "데이터 근거가 약하므로 통계 주장 없이 팁 중심으로 구성"
+      },
+      "production_brief": {
+        "recommended_format": "carousel",
+        "priority_reason": "가을학기 입주 시즌 임박 시 제작",
+        "opening_hook": "기숙사 입주, 이거 안 챙기면 후회한다",
+        "angle_type": "freshman_transition",
+        "asset_needs": ["체크리스트 그래픽"],
+        "do_not_make_it_about": []
+      },
+      "expected_reaction": "저장",
+      "risk_level": "low",
+      "avoid": []
+    },
+    {
+      "rank": 8,
+      "topic_id": "tp_08",
+      "cluster_id": "cl_01",
+      "topic": "7월 1일부터 바뀌는 연방 학자금 상환 제도",
+      "category": "cost_anxiety",
+      "is_ai_related": false,
+      "selection_rubric": {
+        "self_relevance": {"score": 5, "rationale": "학자금 대출자 전체에 직결"},
+        "comparison_potential": {"score": 2, "rationale": "제도 자체는 비교 구조 약함"},
+        "decision_usefulness": {"score": 5, "rationale": "상환 계획 변경에 직접 영향"},
+        "share_trigger": {"score": 3, "rationale": "같은 대출자 그룹에 공유"},
+        "comment_trigger": {"score": 2, "rationale": "정책성이라 논쟁보다 정보성"},
+        "format_strength": {"score": 3, "rationale": "체크리스트형"},
+        "freshness": {"score": 4, "rationale": "7월 1일 임박"},
+        "evidence_availability": {"score": 4, "rationale": "주요 매체 3곳 + FAFSA 공식 정보"}
+      },
+      "total_score": 74,
+      "confidence": "high",
+      "needs_verification": false,
+      "editor_decision": "produce_if_needed",
+      "score_summary": "rubric 28/40, breakdown 74/100이나 반복 노출로 하향",
+      "ranking_reason": "(Previously covered: 2026-06-19 'July 1 overview', 2026-06-22 'Treasury collection', 2026-06-23 'SAVE Plan Ends'/'1% rate cut' — 동일 테마 4번째 등장) 시의성은 여전히 높으나 반복도를 고려해 content_potential을 9점으로 제한하고 produce_if_needed로 하향. 새로운 앵글은 FAFSA 피싱 사기 경고 결합.",
+      "sources": [
+        {"url": "https://x.com/CNBC/status/2060371723841605865", "note": "새 상환 옵션 2가지"},
+        {"url": "https://x.com/USATODAY/status/2061784935254393029", "note": "7월 1일 대규모 변경"},
+        {"url": "https://x.com/Forbes/status/2031535622209548301", "note": "SAVE 종료로 강제 이전"},
+        {"url": "https://thecollegeinvestor.com/82017/this-week-in-college-and-money-news-june-12-2026/", "note": "FAFSA 피싱 사기 경고"}
+      ],
+      "score_breakdown": {"buzz": 20, "velocity": 12, "target_fit": 16, "content_potential": 9, "source_diversity": 6, "evidence_quality": 12, "risk_penalty": 0},
+      "content_angle": "이미 여러 차례 다룬 테마이므로 '체크리스트+사기 주의보' 결합으로 실용성 강화",
+      "content_analysis": {
+        "topic_summary": "7월 1일부터 학자금 상환 제도가 또 한 번 바뀐다. 이미 여러 차례 다룬 주제지만, 마감 임박과 사기 경보를 결합하면 마지막 실용 정보로 가치가 있다.",
+        "hook_points": ["7월 1일, 학자금 대출이 통째로 바뀐다", "오토페이만 켜도 이자 1%p 깎인다"],
+        "selection_points": ["마감 임박", "사기 경보 결합으로 실용성 보강"],
+        "content_direction": "carousel",
+        "igotin_fit": "cost_anxiety lane",
+        "audience_segment": ["학자금 대출자"],
+        "share_reason": "대출자 친구에게 공유",
+        "comment_prompt": "너는 어떤 플랜으로 바꿨어?",
+        "save_reason": "체크리스트로 저장",
+        "visual_idea": "체크리스트 카드",
+        "slide_outline": ["표지", "RAP 플랜", "오토페이 할인", "FAFSA 사기 주의", "CTA"],
+        "headline_candidates": ["7월 1일, 학자금 대출이 바뀐다", "오토페이만 켜도 이자 할인"],
+        "cta": "체크리스트 저장하고 7월 1일 전에 확인하기",
+        "risk_note": "이미 4번째 노출이므로 새 정보 없이 반복하면 피로감 유발 가능, 사기 경보 등 새 요소 필수"
+      },
+      "production_brief": {
+        "recommended_format": "carousel",
+        "priority_reason": "반복 노출 테마이나 마감 임박으로 보조 제작 가능",
+        "opening_hook": "7월 1일, 학자금 대출이 통째로 바뀐다",
+        "angle_type": "cost_anxiety",
+        "asset_needs": ["체크리스트 그래픽"],
+        "do_not_make_it_about": ["이미 다룬 내용 단순 재반복"]
+      },
+      "expected_reaction": "실용 정보 저장",
+      "risk_level": "low",
+      "avoid": ["기존 브리프와 동일한 슬라이드 구성 재사용"]
+    },
+    {
+      "rank": 9,
+      "topic_id": "tp_09",
+      "cluster_id": "cl_16",
+      "topic": "US News 2026 대학 랭킹 발표·방법론 변경",
+      "category": "debate_ranking",
+      "is_ai_related": false,
+      "selection_rubric": {
+        "self_relevance": {"score": 2, "rationale": "재학생에겐 낮음, 입시생에겐 중간"},
+        "comparison_potential": {"score": 3, "rationale": "방법론 변경 전후 비교"},
+        "decision_usefulness": {"score": 2, "rationale": "이미 입학한 학생에겐 낮음"},
+        "share_trigger": {"score": 2, "rationale": "공유 동기 약함"},
+        "comment_trigger": {"score": 3, "rationale": "방법론 논쟁 가능"},
+        "format_strength": {"score": 3, "rationale": "설명형"},
+        "freshness": {"score": 2, "rationale": "발표 시점 지남"},
+        "evidence_availability": {"score": 4, "rationale": "공식 랭킹 페이지"}
+      },
+      "total_score": 48,
+      "confidence": "medium",
+      "needs_verification": true,
+      "editor_decision": "produce_if_needed",
+      "score_summary": "rubric 21/40",
+      "ranking_reason": "단순 Top10 종합 랭킹은 제외 기준에 해당하므로 방법론 변경 각도로 재구성했으나 여전히 진부한 소재로 content_potential 제한",
+      "sources": [
+        {"url": "https://www.usnews.com/best-colleges/rankings/national-universities", "note": "2026 종합 랭킹"}
+      ],
+      "score_breakdown": {"buzz": 12, "velocity": 5, "target_fit": 10, "content_potential": 8, "source_diversity": 3, "evidence_quality": 10, "risk_penalty": 0},
+      "content_angle": "순위 자체보다 방법론 변경이 가져온 변화 설명",
+      "content_analysis": {
+        "topic_summary": "올해 US News 랭킹은 코호트 최소 인원 기준 등 방법론이 바뀌며 순위 변동을 만들었다.",
+        "hook_points": ["우리 학교 순위, 왜 바뀌었을까", "2026 랭킹, 방법론부터 바뀌었다"],
+        "selection_points": ["방법론 변화는 단순 순위보다 설명 가치가 있음"],
+        "content_direction": "post",
+        "igotin_fit": "debate_ranking lane",
+        "audience_segment": ["예비 신입생"],
+        "share_reason": "약함",
+        "comment_prompt": "방법론 바뀐 거 알고 있었어?",
+        "save_reason": "낮음",
+        "visual_idea": "방법론 변경 전후 비교표",
+        "slide_outline": ["표지", "바뀐 기준", "영향받은 학교", "CTA"],
+        "headline_candidates": ["랭킹 방법론, 이렇게 바뀌었다"],
+        "cta": "궁금한 학교 순위 댓글로 물어봐",
+        "risk_note": "단순 Top10 나열로 흐르지 않도록 주의"
+      },
+      "production_brief": {
+        "recommended_format": "post",
+        "priority_reason": "낮은 우선순위, 보조 콘텐츠로 적합",
+        "opening_hook": "우리 학교 순위, 왜 바뀌었을까",
+        "angle_type": "debate_ranking",
+        "asset_needs": ["방법론 비교표"],
+        "do_not_make_it_about": ["단순 Top10 나열"]
+      },
+      "expected_reaction": "낮은 참여",
+      "risk_level": "low",
+      "avoid": []
+    },
+    {
+      "rank": 10,
+      "topic_id": "tp_10",
+      "cluster_id": "cl_06",
+      "topic": "전공 후회를 줄이는 법: 인턴십 데이터로 본 예방책",
+      "category": "career_ai",
+      "is_ai_related": false,
+      "selection_rubric": {
+        "self_relevance": {"score": 4, "rationale": "전공 선택/진로 고민과 직결"},
+        "comparison_potential": {"score": 4, "rationale": "전공별 후회율 비교"},
+        "decision_usefulness": {"score": 4, "rationale": "인턴십이라는 행동 가능한 해결책 제시"},
+        "share_trigger": {"score": 3, "rationale": "같은 전공 친구에 공유"},
+        "comment_trigger": {"score": 4, "rationale": "내 전공은 다르다는 반응 유도"},
+        "format_strength": {"score": 4, "rationale": "랭킹+해결책 결합형"},
+        "freshness": {"score": 2, "rationale": "동일 통계 재사용"},
+        "evidence_availability": {"score": 3, "rationale": "복수 매체 인용이나 동일 설문 기반"}
+      },
+      "total_score": 61,
+      "confidence": "medium",
+      "needs_verification": false,
+      "editor_decision": "produce_if_needed",
+      "score_summary": "rubric 28/40",
+      "ranking_reason": "(Previously covered: 2026-06-23 '46% of Poli Sci Grads Regret Their Major' — 동일 통계) 단순 재반복 대신 인턴십 데이터(Inside Higher Ed)를 결합해 '예방법' 앵글로 재구성, content_potential은 진부함 감점 적용",
+      "sources": [
+        {"url": "https://www.academicjobs.com/higher-education-news/most-regretted-college-majors-2026-poli-sci-tops-list-or-academicjobs-14286", "note": "정치학 46.3% 후회"},
+        {"url": "https://www.cbsnews.com/news/college-major-recent-grads-most-regret-ziprecruiter/", "note": "졸업생 20.5% 전공 후회"},
+        {"url": "https://www.insidehighered.com/news/student-success/life-after-college/2025/02/21/12-college-students-wont-participate-internship", "note": "인턴십 미참여 12%, 취업 성과 연관"}
+      ],
+      "score_breakdown": {"buzz": 15, "velocity": 6, "target_fit": 15, "content_potential": 9, "source_diversity": 6, "evidence_quality": 10, "risk_penalty": 0},
+      "content_angle": "전공 후회율을 단순 전달하지 않고, 인턴십 경험이라는 예방책과 묶어 행동 유도형으로 구성",
+      "content_analysis": {
+        "topic_summary": "정치학 전공자의 46%가 전공을 후회한다지만, 인턴 경험이 있으면 후회와 취업 불안이 줄어든다는 데이터가 있다.",
+        "hook_points": ["전공 후회율 1위, 의외로 이 전공", "전공 후회, 인턴 한 번이면 줄어든다는 거 알아?"],
+        "selection_points": ["단순 랭킹 반복이 아닌 해결책 결합", "행동 가능한 CTA 제시 가능"],
+        "content_direction": "carousel",
+        "igotin_fit": "전공 후회+인턴 outcome 패턴",
+        "audience_segment": ["저학년 재학생", "전공 선택 고민 중인 학생"],
+        "share_reason": "같은 전공 친구에 공유",
+        "comment_prompt": "네 전공 후회율 몇 위인지 알아?",
+        "save_reason": "전공 선택 참고용",
+        "visual_idea": "전공별 후회율 막대그래프",
+        "slide_outline": ["표지", "후회율 Top3 전공", "왜 후회할까", "인턴십이 주는 차이", "CTA"],
+        "headline_candidates": ["전공 후회율 1위, 의외로 이 전공", "인턴 한 번이면 후회가 줄어든다"],
+        "cta": "지금 인턴 찾고 있다면 학교 커뮤니티에서 정보 공유받기",
+        "risk_note": "이전 브리프와 동일 통계 단독 사용 금지, 인턴십 데이터 반드시 결합"
+      },
+      "production_brief": {
+        "recommended_format": "carousel",
+        "priority_reason": "이전 통계 재사용이라 우선순위 하향, 새 앵글 결합 시에만 제작",
+        "opening_hook": "전공 후회율 1위, 의외로 이 전공",
+        "angle_type": "career_ai",
+        "asset_needs": ["후회율 그래프", "인턴십 데이터 그래픽"],
+        "do_not_make_it_about": ["단순 후회율 랭킹 재반복"]
+      },
+      "expected_reaction": "전공 비교 댓글",
+      "risk_level": "low",
+      "avoid": ["6/23 브리프와 동일한 슬라이드 구성"]
+    },
+    {
+      "rank": 11,
+      "topic_id": "tp_11",
+      "cluster_id": "cl_10",
+      "topic": "2026학번 입학 예정자 학교별 정보 교환",
+      "category": "school_specific_utility",
+      "is_ai_related": false,
+      "selection_rubric": {
+        "self_relevance": {"score": 3, "rationale": "해당 학교 입학생에 한정"},
+        "comparison_potential": {"score": 2, "rationale": "학교 한정 정보"},
+        "decision_usefulness": {"score": 2, "rationale": "정보 교환 수준"},
+        "share_trigger": {"score": 3, "rationale": "같은 학교 입학생 그룹 공유"},
+        "comment_trigger": {"score": 2, "rationale": "낮음"},
+        "format_strength": {"score": 3, "rationale": "체크리스트형"},
+        "freshness": {"score": 2, "rationale": "상시"},
+        "evidence_availability": {"score": 2, "rationale": "포럼 글 2건"}
+      },
+      "total_score": 45,
+      "confidence": "low",
+      "needs_verification": true,
+      "editor_decision": "monitor",
+      "score_summary": "rubric 19/40",
+      "ranking_reason": "IGOTIN 학교 그룹 기능과 연결성은 좋으나 evidence가 약해 모니터링 후 다른 학교로 확장 시 재검토",
+      "sources": [
+        {"url": "https://talk.collegeconfidential.com/t/uc-san-diego-freshman-class-of-2026-discussion/3553421", "note": "UCSD 2026학번 스레드"},
+        {"url": "https://talk.collegeconfidential.com/t/uc-irvine-freshman-class-of-2026-discussion/3553322", "note": "UCI 2026학번 스레드"}
+      ],
+      "score_breakdown": {"buzz": 10, "velocity": 5, "target_fit": 12, "content_potential": 8, "source_diversity": 4, "evidence_quality": 6, "risk_penalty": 0},
+      "content_angle": "학교별 Class of 2026 체크리스트",
+      "content_analysis": {
+        "topic_summary": "같은 학교에 입학할 학생들이 포럼에서 미리 정보를 나누는 모습은 IGOTIN의 학교 그룹 기능과 직접 연결된다.",
+        "hook_points": ["이 학교 2026학번이라면 꼭 봐야 할 정보"],
+        "selection_points": ["학교 그룹 기능과 연결성 높음"],
+        "content_direction": "carousel",
+        "igotin_fit": "school_specific_utility lane",
+        "audience_segment": ["UC 계열 2026학번"],
+        "share_reason": "같은 학교 입학생에 공유",
+        "comment_prompt": "같은 학교 친구, 어디서 만나야 할까",
+        "save_reason": "낮음",
+        "visual_idea": "학교 로고+체크리스트",
+        "slide_outline": ["표지", "체크리스트", "CTA"],
+        "headline_candidates": ["2026학번이라면 꼭 봐야 할 정보"],
+        "cta": "IGOTIN에서 같은 학교 친구 찾기",
+        "risk_note": "특정 학교 한정이라 확장성 낮음"
+      },
+      "production_brief": {
+        "recommended_format": "carousel",
+        "priority_reason": "evidence 보강 필요, 모니터링",
+        "opening_hook": "이 학교 2026학번이라면 꼭 봐야 할 정보",
+        "angle_type": "school_specific_utility",
+        "asset_needs": ["체크리스트"],
+        "do_not_make_it_about": []
+      },
+      "expected_reaction": "낮은 도달, 좁은 타겟 내 높은 참여",
+      "risk_level": "low",
+      "avoid": []
+    },
+    {
+      "rank": 12,
+      "topic_id": "tp_12",
+      "cluster_id": "cl_02",
+      "topic": "TikTok로 본 미국·캐나다 학생 생활비 현실",
+      "category": "cost_anxiety",
+      "is_ai_related": false,
+      "selection_rubric": {
+        "self_relevance": {"score": 3, "rationale": "생활비 부담은 보편적"},
+        "comparison_potential": {"score": 1, "rationale": "구체적 비교 데이터 없음"},
+        "decision_usefulness": {"score": 1, "rationale": "구체적 수치 부재"},
+        "share_trigger": {"score": 3, "rationale": "공감형 공유"},
+        "comment_trigger": {"score": 2, "rationale": "낮음"},
+        "format_strength": {"score": 2, "rationale": "단편적"},
+        "freshness": {"score": 2, "rationale": "상시"},
+        "evidence_availability": {"score": 2, "rationale": "TikTok 캡션 수준"}
+      },
+      "total_score": 39,
+      "confidence": "low",
+      "needs_verification": true,
+      "editor_decision": "monitor",
+      "score_summary": "rubric 16/40",
+      "ranking_reason": "tp_02(도시별 비교)에 흡수 가능한 소재라 단독 제작보다는 보강용으로 모니터링",
+      "sources": [
+        {"url": "https://www.tiktok.com/@thetab_/video/7654244591855553814", "note": "임대료/대학생 콘텐츠"},
+        {"url": "https://www.tiktok.com/@cbcns/video/7574412014089538823", "note": "노바스코샤 학생 생활비"}
+      ],
+      "score_breakdown": {"buzz": 9, "velocity": 5, "target_fit": 11, "content_potential": 6, "source_diversity": 3, "evidence_quality": 5, "risk_penalty": 0},
+      "content_angle": "단독 제작보다 도시별 비교 콘텐츠(tp_02)에 보조 자료로 흡수",
+      "content_analysis": {
+        "topic_summary": "SNS에서 반복적으로 나타나는 생활비 불안 정서이나 구체적 수치가 부족하다.",
+        "hook_points": ["캠퍼스 근처 월세, 진짜 이 정도라고?"],
+        "selection_points": ["정서적 공감대는 있으나 데이터 보강 필요"],
+        "content_direction": "reels",
+        "igotin_fit": "cost_anxiety lane",
+        "audience_segment": ["임대 거주 학생"],
+        "share_reason": "공감형 공유",
+        "comment_prompt": "너네 동네는 얼마야?",
+        "save_reason": "낮음",
+        "visual_idea": "SNS 클립 캡처",
+        "slide_outline": ["표지", "현실 클립 요약", "CTA"],
+        "headline_candidates": ["캠퍼스 근처 월세, 진짜 이 정도"],
+        "cta": "tp_02 도시별 비교표로 연결",
+        "risk_note": "구체적 수치 없이 단정적 주장 금지"
+      },
+      "production_brief": {
+        "recommended_format": "reels",
+        "priority_reason": "단독 제작보다 tp_02에 흡수 권장",
+        "opening_hook": "캠퍼스 근처 월세, 진짜 이 정도라고?",
+        "angle_type": "cost_anxiety",
+        "asset_needs": [],
+        "do_not_make_it_about": []
+      },
+      "expected_reaction": "낮음",
+      "risk_level": "low",
+      "avoid": []
+    },
+    {
+      "rank": 13,
+      "topic_id": "tp_13",
+      "cluster_id": "cl_04",
+      "topic": "대학생 대상 AI 도구 무료/대규모 보급",
+      "category": "career_ai",
+      "is_ai_related": true,
+      "selection_rubric": {
+        "self_relevance": {"score": 3, "rationale": "AI 도구 사용 학생에 한정"},
+        "comparison_potential": {"score": 1, "rationale": "비교 구조 약함"},
+        "decision_usefulness": {"score": 3, "rationale": "혜택 신청 행동 유도"},
+        "share_trigger": {"score": 2, "rationale": "약함"},
+        "comment_trigger": {"score": 2, "rationale": "약함"},
+        "format_strength": {"score": 2, "rationale": "단신형"},
+        "freshness": {"score": 3, "rationale": "비교적 최근 발표"},
+        "evidence_availability": {"score": 2, "rationale": "단일 공식 발표"}
+      },
+      "total_score": 41,
+      "confidence": "medium",
+      "needs_verification": true,
+      "editor_decision": "monitor",
+      "score_summary": "rubric 18/40",
+      "ranking_reason": "공식 발표 신뢰도는 높으나 단일 소스, 콘텐츠 각도 약함",
+      "sources": [
+        {"url": "https://x.com/sundarpichai/status/1953124372480180550", "note": "구글 AI 도구 1년 무료 제공"}
+      ],
+      "score_breakdown": {"buzz": 11, "velocity": 6, "target_fit": 10, "content_potential": 7, "source_diversity": 2, "evidence_quality": 5, "risk_penalty": 0},
+      "content_angle": "내가 받을 수 있는 혜택 정리",
+      "content_analysis": {
+        "topic_summary": "구글이 미국 대학생에게 AI 도구를 1년간 무료로 제공한다.",
+        "hook_points": ["구글이 대학생한테 AI 공짜로 풀었다"],
+        "selection_points": ["공식 발표 기반 신�리"],
+        "content_direction": "post",
+        "igotin_fit": "AI 도구 변화 lane",
+        "audience_segment": ["전체 대학생"],
+        "share_reason": "혜택 정보 공유",
+        "comment_prompt": "신청했어?",
+        "save_reason": "신청 방법 저장",
+        "visual_idea": "혜택 요약 카드",
+        "slide_outline": ["표지", "혜택 내용", "신청 방법", "CTA"],
+        "headline_candidates": ["구글이 대학생한테 AI 공짜로 풀었다"],
+        "cta": "신청 링크 댓글로 공유",
+        "risk_note": "혜택 조건이 변경될 수 있어 발행 시점 재확인 필요"
+      },
+      "production_brief": {
+        "recommended_format": "post",
+        "priority_reason": "보조 소재, 단독 제작 우선순위 낮음",
+        "opening_hook": "구글이 대학생한테 AI 공짜로 풀었다",
+        "angle_type": "career_ai",
+        "asset_needs": [],
+        "do_not_make_it_about": []
+      },
+      "expected_reaction": "낮음~보통",
+      "risk_level": "low",
+      "avoid": []
+    },
+    {
+      "rank": 14,
+      "topic_id": "tp_14",
+      "cluster_id": "cl_13",
+      "topic": "유학생 비자 불안과 학교의 지원 체계",
+      "category": "international_student",
+      "is_ai_related": false,
+      "selection_rubric": {
+        "self_relevance": {"score": 2, "rationale": "유학생에 한정"},
+        "comparison_potential": {"score": 2, "rationale": "학교별 지원 체계 비교 가능"},
+        "decision_usefulness": {"score": 3, "rationale": "학교 선택 시 참고"},
+        "share_trigger": {"score": 2, "rationale": "민감도로 공유 주저 가능"},
+        "comment_trigger": {"score": 2, "rationale": "민감 주제라 신중한 반응"},
+        "format_strength": {"score": 2, "rationale": "정보성"},
+        "freshness": {"score": 3, "rationale": "최근 보도"},
+        "evidence_availability": {"score": 3, "rationale": "주요 매체 보도+대학 통계"}
+      },
+      "total_score": 35,
+      "confidence": "medium",
+      "needs_verification": true,
+      "editor_decision": "monitor",
+      "score_summary": "rubric 19/40, risk_penalty -10",
+      "ranking_reason": "유학생 타겟이 선명하나 비자/추방 관련 민감도가 있어 구조적 정보 중심으로 신중하게 모니터링",
+      "sources": [
+        {"url": "https://www.threads.net/@economictimes/post/DIOYmz0O-xX/-growing-concerns-arise-as-international-students-face-silent-deportations-and-v", "note": "유학생 비자 불안 보도"},
+        {"url": "https://www.threads.net/@utulsa/post/DHHSexhCIEq/the-university-of-tulsa-is-home-to-410-international-students-from-80-different-", "note": "Tulsa 유학생 통계"}
+      ],
+      "score_breakdown": {"buzz": 10, "velocity": 6, "target_fit": 12, "content_potential": 6, "source_diversity": 4, "evidence_quality": 7, "risk_penalty": -10},
+      "content_angle": "개별 사건이 아닌 정책/지원체계 차원의 정보 전달",
+      "content_analysis": {
+        "topic_summary": "유학생 비자 관련 불안이 보도되는 가운데, 학교별 유학생 지원 체계를 비교하는 정보형 콘텐츠로 재구성할 수 있다.",
+        "hook_points": ["유학생이라면 알아야 할 학교별 지원 체계"],
+        "selection_points": ["유학생 타겟 선명, 단 민감도 관리 필요"],
+        "content_direction": "post",
+        "igotin_fit": "international_student lane",
+        "audience_segment": ["유학생"],
+        "share_reason": "약함 (민감 주제)",
+        "comment_prompt": "너네 학교 유학생 지원 어때?",
+        "save_reason": "정보성",
+        "visual_idea": "지원 체계 인포그래픽",
+        "slide_outline": ["표지", "현황 설명(중립적)", "학교 지원 체계 예시", "CTA"],
+        "headline_candidates": ["유학생이 알아야 할 학교 지원 체계"],
+        "cta": "궁금한 점 댓글로",
+        "risk_note": "추방/구금 등 표현은 개별 사건이 아닌 정책 차원으로 다루고 meme 톤 절대 금지. produce_today 전 신중한 재검토 필요."
+      },
+      "production_brief": {
+        "recommended_format": "post",
+        "priority_reason": "민감도로 인해 즉시 제작 보류, 신중 검토 후 진행",
+        "opening_hook": "유학생이라면 알아야 할 학교별 지원 체계",
+        "angle_type": "international_student",
+        "asset_needs": ["지원체계 인포그래픽"],
+        "do_not_make_it_about": ["개별 추방/구금 사건을 자극적으로 다루는 것", "meme 톤"]
+      },
+      "expected_reaction": "신중한 공감, 낮은 확산",
+      "risk_level": "medium",
+      "avoid": ["자극적 톤", "개별 사건 중심 서술"]
+    },
+    {
+      "rank": 15,
+      "topic_id": "tp_15",
+      "cluster_id": "cl_11",
+      "topic": "학교별 기숙사/캠퍼스 콘텐츠",
+      "category": "school_specific_utility",
+      "is_ai_related": false,
+      "selection_rubric": {
+        "self_relevance": {"score": 2, "rationale": "해당 학교에 한정"},
+        "comparison_potential": {"score": 1, "rationale": "약함"},
+        "decision_usefulness": {"score": 1, "rationale": "약함"},
+        "share_trigger": {"score": 2, "rationale": "약함"},
+        "comment_trigger": {"score": 1, "rationale": "약함"},
+        "format_strength": {"score": 2, "rationale": "단편적"},
+        "freshness": {"score": 1, "rationale": "상시"},
+        "evidence_availability": {"score": 2, "rationale": "TikTok 2건"}
+      },
+      "total_score": 29,
+      "confidence": "low",
+      "needs_verification": true,
+      "editor_decision": "skip",
+      "score_summary": "rubric 12/40",
+      "ranking_reason": "단독 콘텐츠화 가능성 테스트(6개 중 3개 미만) 통과 어려움, 다른 학교 사례 추가 수집 시 재검토",
+      "sources": [
+        {"url": "https://www.tiktok.com/@storagescholars/video/7636171145955249439", "note": "Wake Forest 기숙사 투어"},
+        {"url": "https://www.tiktok.com/@unioncollege/video/7652048340925926687", "note": "Union College 공식 콘텐츠"}
+      ],
+      "score_breakdown": {"buzz": 6, "velocity": 4, "target_fit": 8, "content_potential": 5, "source_diversity": 2, "evidence_quality": 4, "risk_penalty": 0},
+      "content_angle": "현재로선 보류, 추가 학교 사례 확보 후 비교 콘텐츠로 전환",
+      "content_analysis": {
+        "topic_summary": "특정 학교 한정 콘텐츠로, 현재 수집된 사례만으로는 비교 콘텐츠 구성이 어렵다.",
+        "hook_points": ["이 학교 기숙사, 실제로 이렇다"],
+        "selection_points": ["단독으로는 약함"],
+        "content_direction": "reels",
+        "igotin_fit": "school_specific_utility lane",
+        "audience_segment": ["해당 학교 재학/입학 예정자"],
+        "share_reason": "약함",
+        "comment_prompt": "-",
+        "save_reason": "약함",
+        "visual_idea": "-",
+        "slide_outline": [],
+        "headline_candidates": [],
+        "cta": "-",
+        "risk_note": "단일 소스 의존도 높음"
+      },
+      "production_brief": {
+        "recommended_format": "reels",
+        "priority_reason": "skip — 추가 학교 사례 확보 후 재검토",
+        "opening_hook": "이 학교 기숙사, 실제로 이렇다",
+        "angle_type": "school_specific_utility",
+        "asset_needs": [],
+        "do_not_make_it_about": []
+      },
+      "expected_reaction": "낮음",
+      "risk_level": "low",
+      "avoid": []
+    },
+    {
+      "rank": 16,
+      "topic_id": "tp_16",
+      "cluster_id": "cl_15",
+      "topic": "Class of 2026 졸업/우정 콘텐츠",
+      "category": "identity_belonging",
+      "is_ai_related": false,
+      "selection_rubric": {
+        "self_relevance": {"score": 2, "rationale": "졸업반 한정"},
+        "comparison_potential": {"score": 1, "rationale": "약함"},
+        "decision_usefulness": {"score": 1, "rationale": "약함"},
+        "share_trigger": {"score": 2, "rationale": "감성적 공유"},
+        "comment_trigger": {"score": 1, "rationale": "약함"},
+        "format_strength": {"score": 2, "rationale": "감성형"},
+        "freshness": {"score": 1, "rationale": "졸업 시즌과 어긋남(현재 6월말)"},
+        "evidence_availability": {"score": 1, "rationale": "단일 TikTok"}
+      },
+      "total_score": 23,
+      "confidence": "low",
+      "needs_verification": true,
+      "editor_decision": "monitor",
+      "score_summary": "rubric 11/40",
+      "ranking_reason": "졸업 시즌(5~6월 초)과 더 맞는 소재라 다음 졸업 시즌까지 모니터링 권장",
+      "sources": [
+        {"url": "https://www.tiktok.com/@mianguyen.__/photo/7630678697560902943", "note": "Class of 2026 졸업반 콘텐츠"}
+      ],
+      "score_breakdown": {"buzz": 5, "velocity": 3, "target_fit": 7, "content_potential": 4, "source_diversity": 1, "evidence_quality": 3, "risk_penalty": 0},
+      "content_angle": "다음 졸업 시즌까지 보류",
+      "content_analysis": {
+        "topic_summary": "졸업반 학생들의 감성적 콘텐츠로, 현재는 시즌상 후순위.",
+        "hook_points": ["졸업이 코앞인 너에게"],
+        "selection_points": ["시즌성 소재로 모니터링"],
+        "content_direction": "story",
+        "igotin_fit": "identity_belonging lane",
+        "audience_segment": ["졸업반 학생"],
+        "share_reason": "감성적 공감",
+        "comment_prompt": "-",
+        "save_reason": "낮음",
+        "visual_idea": "-",
+        "slide_outline": [],
+        "headline_candidates": [],
+        "cta": "-",
+        "risk_note": "단일 소스"
+      },
+      "production_brief": {
+        "recommended_format": "story",
+        "priority_reason": "시즌 부적합, 모니터링",
+        "opening_hook": "졸업이 코앞인 너에게",
+        "angle_type": "identity_belonging",
+        "asset_needs": [],
+        "do_not_make_it_about": []
+      },
+      "expected_reaction": "낮음",
+      "risk_level": "low",
+      "avoid": []
+    },
+    {
+      "rank": 17,
+      "topic_id": "tp_17",
+      "cluster_id": "cl_05",
+      "topic": "대학생 AI 사용 실태와 부정행위 논쟁",
+      "category": "career_ai",
+      "is_ai_related": true,
+      "selection_rubric": {
+        "self_relevance": {"score": 3, "rationale": "전공 불문 대학생 전체"},
+        "comparison_potential": {"score": 3, "rationale": "전공별 비교 가능"},
+        "decision_usefulness": {"score": 2, "rationale": "정보성"},
+        "share_trigger": {"score": 2, "rationale": "이미 여러 차례 노출되어 신선도 낮음"},
+        "comment_trigger": {"score": 3, "rationale": "논쟁 유도력은 있음"},
+        "format_strength": {"score": 3, "rationale": "비교형"},
+        "freshness": {"score": 1, "rationale": "3일 연속 + 직전 6/28까지 다룬 테마"},
+        "evidence_availability": {"score": 4, "rationale": "UC 대규모 연구 등 강한 근거"}
+      },
+      "total_score": 51,
+      "confidence": "high",
+      "needs_verification": true,
+      "editor_decision": "skip",
+      "score_summary": "rubric 21/40, 근거는 강하나 과다 노출",
+      "ranking_reason": "(Previously covered: 2026-06-19, 06-22, 06-23 3일 연속 + topic_history 노트에 '5일 쿨다운 필요' 명시) 오늘(6/29)까지 포함하면 과다 노출이라 이번 브리프에서는 제외하고 추후 새로운 데이터 발생 시 재검토",
+      "sources": [
+        {"url": "https://news.berkeley.edu/2026/05/21/the-largest-study-of-ai-use-by-undergrads-is-in-revealing-disparities-in-access-and-in-cheating/", "note": "UC 9만5천명 조사"},
+        {"url": "https://www.bestcolleges.com/research/college-students-ai-tools-survey/", "note": "51% 부정행위 인식, 22% 사용"},
+        {"url": "https://x.com/CollegeFix/status/2056063159178596796", "note": "예일대 91% AI 사용"}
+      ],
+      "score_breakdown": {"buzz": 12, "velocity": 4, "target_fit": 12, "content_potential": 6, "source_diversity": 6, "evidence_quality": 11, "risk_penalty": 0},
+      "content_angle": "현재는 보류, 새로운 데이터/사건 발생 시에만 재가공",
+      "content_analysis": {
+        "topic_summary": "AI 사용 실태와 부정행위 논쟁은 이미 여러 차례 다뤄 신선도가 낮다.",
+        "hook_points": ["졸업반 91%가 AI로 과제 했다는데"],
+        "selection_points": ["근거는 강하나 과다 노출"],
+        "content_direction": "carousel",
+        "igotin_fit": "career_ai lane",
+        "audience_segment": ["전체 대학생"],
+        "share_reason": "낮음 (피로감)",
+        "comment_prompt": "-",
+        "save_reason": "낮음",
+        "visual_idea": "-",
+        "slide_outline": [],
+        "headline_candidates": [],
+        "cta": "-",
+        "risk_note": "과다 노출로 인한 피로감, 새로운 사건/데이터 없이는 skip 유지"
+      },
+      "production_brief": {
+        "recommended_format": "carousel",
+        "priority_reason": "skip — 쿨다운 미충족 판단(노트 기준 5일)",
+        "opening_hook": "-",
+        "angle_type": "career_ai",
+        "asset_needs": [],
+        "do_not_make_it_about": ["동일 통계 5번째 반복"]
+      },
+      "expected_reaction": "낮음 (피로감 우려)",
+      "risk_level": "low",
+      "avoid": ["동일 앵글 반복"]
+    }
+  ]
+}

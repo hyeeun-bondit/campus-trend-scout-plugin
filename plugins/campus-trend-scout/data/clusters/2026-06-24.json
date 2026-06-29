@@ -1,0 +1,307 @@
+{
+  "cluster_batch_id": "cb_2026-06-24",
+  "input_signal_batch_id": "sb_2026-06-24",
+  "cluster_count": 15,
+  "clusters": [
+    {
+      "cluster_id": "c1_loan_overhaul",
+      "topic": "Federal student loan repayment overhaul hits July 1, 2026 (SAVE ends, Grad PLUS killed, new borrowing caps by major)",
+      "category": "financial_aid",
+      "summary": "Starting July 1, the SAVE repayment plan ends, Grad PLUS loans for grad students are eliminated, and new undergraduate borrowing limits kick in that differ by field of study.",
+      "source_ids": [
+        "src_001"
+      ],
+      "representative_source_id": "src_001",
+      "student_reaction_summary": "Background context only.",
+      "factual_basis_summary": "Confirmed by ED.gov/NPR reporting from prior batches.",
+      "target_audience": [
+        "undergraduate_students",
+        "incoming_freshmen",
+        "transfer_students"
+      ],
+      "possible_content_angle": "",
+      "region_relevance": "US",
+      "school_relevance_tags": [
+        "law",
+        "medicine",
+        "nursing",
+        "social_work",
+        "graduate_school"
+      ],
+      "confidence": "high",
+      "risk_level": "low",
+      "eligible_for_ranking": true,
+      "cluster_notes": "In topic_history cooldown as th_student_loans (covered 06-19/06-22/06-23) — not used for today's new ranking, replaced by fresh topics below."
+    },
+    {
+      "cluster_id": "c3_canvas_breach",
+      "topic": "ShinyHunters Canvas hack exposed data from 275M users across 8,800+ schools during finals week",
+      "category": "cybersecurity",
+      "summary": "Background context only; already covered 06-22.",
+      "source_ids": [
+        "src_010"
+      ],
+      "representative_source_id": "src_010",
+      "student_reaction_summary": "Background.",
+      "factual_basis_summary": "Confirmed across CNN/NPR/Inside Higher Ed from prior batches.",
+      "target_audience": [
+        "undergraduate_students",
+        "international_students",
+        "canadian_university_students"
+      ],
+      "possible_content_angle": "",
+      "region_relevance": "both",
+      "school_relevance_tags": [
+        "Duke",
+        "Columbia",
+        "Cornell",
+        "Ithaca College"
+      ],
+      "confidence": "high",
+      "risk_level": "low",
+      "eligible_for_ranking": true,
+      "cluster_notes": "In cooldown until 06-25 per topic_history — not used for today's new ranking."
+    },
+    {
+      "cluster_id": "c6_mental_health_improving",
+      "topic": "Counter-narrative: college student depression, anxiety, and suicidal ideation have fallen for three straight years",
+      "category": "mental_health",
+      "summary": "Background context only; already covered 06-19/06-22.",
+      "source_ids": [
+        "src_022"
+      ],
+      "representative_source_id": "src_022",
+      "student_reaction_summary": "Background.",
+      "factual_basis_summary": "Confirmed by Healthy Minds Study reporting from prior batches.",
+      "target_audience": [
+        "undergraduate_students",
+        "incoming_freshmen",
+        "international_students"
+      ],
+      "possible_content_angle": "",
+      "region_relevance": "US",
+      "school_relevance_tags": [],
+      "confidence": "high",
+      "risk_level": "medium",
+      "eligible_for_ranking": true,
+      "cluster_notes": "In cooldown until 06-26 per topic_history — not used for today's new ranking."
+    },
+    {
+      "cluster_id": "c9_cs_exodus",
+      "topic": "Computer science majors are disappearing as AI job-fear reshapes what students study",
+      "category": "major_choice",
+      "summary": "National Student Clearinghouse data and multiple independent outlets confirm CS/information-science enrollment fell harder than any other major this cycle (down 8.4% in spring 2026, steepest drop in 6 years), with 64% of pessimistic CS majors in a Handshake survey blaming generative AI directly. Students are migrating toward AI/ML, cybersecurity, mechanical/electrical engineering, and nursing instead.",
+      "source_ids": [
+        "src_041",
+        "src_042",
+        "src_043",
+        "src_044",
+        "src_063",
+        "src_064",
+        "src_068",
+        "src_069",
+        "src_070",
+        "src_088",
+        "src_089"
+      ],
+      "representative_source_id": "src_041",
+      "student_reaction_summary": "Beyond the institutional data, real X posts now confirm the felt anxiety directly: students and observers describe CS as having an 'identity crisis' now that ChatGPT can finish assignments instantly, name MIT's new AI major as a concrete destination, and cite a UC-system-specific enrollment drop. A Chronicle of Higher Education social post confirms rising student-level AI anxiety, while AI researcher Andrew Ng's post pushes back with a 'myth vs reality' counter-narrative — together giving the topic a genuine debate angle.",
+      "factual_basis_summary": "Four independent outlets (Washington Post, TechCrunch, Yahoo Finance/Moneywise, Inside Higher Ed) corroborate the same enrollment-drop direction using National Student Clearinghouse data, with consistent magnitude (8-11% range) across sources, now reinforced by real-time social commentary from students, a tech outlet, a major newspaper, and a higher-ed trade publication.",
+      "target_audience": [
+        "undergraduate_students",
+        "incoming_freshmen",
+        "transfer_students"
+      ],
+      "possible_content_angle": "Before/after major-switch comparison: who's leaving CS, where they're going, and whether AI fear is justified — countered with Andrew Ng's pushback for a myth-vs-reality angle.",
+      "region_relevance": "US",
+      "school_relevance_tags": [],
+      "confidence": "high",
+      "risk_level": "low",
+      "eligible_for_ranking": true,
+      "cluster_notes": "Confirmed fresh via check_topic_overlap (overlap_count: 0). is_ai_related: true. SNS pass added 06-24: 9 real X posts found and attached."
+    },
+    {
+      "cluster_id": "c10_test_score_comeback",
+      "topic": "The standardized-testing comeback: more colleges are requiring SAT/ACT scores again for 2026-27 applicants",
+      "category": "admissions_policy",
+      "summary": "After years of test-optional policies, a growing list of selective schools (UC system faculty petition for STEM, University of Miami's reinstated fall 2026 policy) are bringing SAT/ACT requirements back, and Inside Higher Ed reports 52% of Common App applicants already submitted scores even where optional.",
+      "source_ids": [
+        "src_044",
+        "src_046",
+        "src_047",
+        "src_066",
+        "src_067"
+      ],
+      "representative_source_id": "src_046",
+      "student_reaction_summary": "Daily Bruin's coverage of a faculty petition shows this is an active, contested debate among the people setting policy — and real-time X posts now show the petition's signature count climbing live (two independent accounts citing 281 and 280-460+ signatures), proving the debate is actively unfolding, not settled history.",
+      "factual_basis_summary": "Confirmed by an independent student newspaper (Daily Bruin), an official university announcement (Miami), Inside Higher Ed's Clearinghouse-based submission-rate statistic, and two independent X posts citing the live faculty-petition signature count.",
+      "target_audience": [
+        "incoming_freshmen",
+        "transfer_students"
+      ],
+      "possible_content_angle": "School-by-school checklist of who requires tests again for the upcoming cycle, with the live UC faculty-petition signature count as a hook.",
+      "region_relevance": "US",
+      "school_relevance_tags": [
+        "UC system",
+        "University of Miami"
+      ],
+      "confidence": "high",
+      "risk_level": "low",
+      "eligible_for_ranking": true,
+      "cluster_notes": "Confirmed fresh via check_topic_overlap (overlap_count: 0). is_ai_related: false. SNS pass added 06-24: 2 real X posts found and attached."
+    },
+    {
+      "cluster_id": "c11_food_insecurity",
+      "topic": "Campus food insecurity keeps climbing as grocery costs rise, hitting international and multicultural students hardest",
+      "category": "basic_needs",
+      "summary": "Regional reporting shows campus food pantries seeing rising demand (500-800 students/week at one Minnesota campus) as grocery prices climb, and a peer-reviewed study finds food insecurity affects international students (26.8%) and multicultural students (35.6%) at notably higher rates than white students (19.9%). A Canadian outlet's coverage shows the same pattern affecting international students north of the border.",
+      "source_ids": [
+        "src_048",
+        "src_049",
+        "src_072",
+        "src_073",
+        "src_074",
+        "src_075"
+      ],
+      "representative_source_id": "src_048",
+      "student_reaction_summary": "Kept structural and data-led given the sensitivity of hunger as a topic, but real personal X posts (anonymized, not named individuals) corroborate the lived reality behind the statistics — students describing skipped meals and 'broke college student' food routines, including an international-student account of skipping dinner so as not to worry parents.",
+      "factual_basis_summary": "MPR News regional reporting and a peer-reviewed PMC study independently support the same trend and add a demographic breakdown; a Toronto Star social post extends the pattern to Canadian international students, supporting the batch's US/Canada regional scope.",
+      "target_audience": [
+        "undergraduate_students",
+        "international_students",
+        "incoming_freshmen"
+      ],
+      "possible_content_angle": "Demographic comparison card: who is most affected and what campus resources exist.",
+      "region_relevance": "both",
+      "school_relevance_tags": [],
+      "confidence": "medium",
+      "risk_level": "medium",
+      "eligible_for_ranking": true,
+      "cluster_notes": "Confirmed fresh via check_topic_overlap (overlap_count: 0). Sensitive basic-needs topic — structural framing only, no individual anecdotes naming real people, no meme tone. SNS pass added 06-24: 4 real posts found (US + Canada), region_relevance updated from US to both."
+    },
+    {
+      "cluster_id": "c12_phone_free_app",
+      "topic": "A study found paying students to stay off their phones during class improved focus and attendance",
+      "category": "campus_tech",
+      "summary": "A joint RPI / University of Pittsburgh / UT Austin study tested an app that pays students small amounts to stay off their phones during class, finding higher focus, attendance, and academic satisfaction among users.",
+      "source_ids": [
+        "src_051"
+      ],
+      "representative_source_id": "src_051",
+      "student_reaction_summary": "No community-post evidence collected yet. SNS search pass on 06-24 specifically checked for this topic and found no quality matching posts on x.com or threads.net.",
+      "factual_basis_summary": "Single source so far (Inside Higher Ed reporting on a named multi-university study) — evidence_availability is limited until a second independent report or the original study is found.",
+      "target_audience": [
+        "undergraduate_students"
+      ],
+      "possible_content_angle": "Would-you-try-it debate format: pay-to-focus apps, yes or no?",
+      "region_relevance": "US",
+      "school_relevance_tags": [
+        "RPI",
+        "University of Pittsburgh",
+        "UT Austin"
+      ],
+      "confidence": "medium",
+      "risk_level": "low",
+      "eligible_for_ranking": true,
+      "cluster_notes": "Confirmed fresh via check_topic_overlap (overlap_count: 0). Single weak source — flagged needs_verification, capped score. SNS pass attempted 06-24, no usable results found."
+    },
+    {
+      "cluster_id": "c13_greek_life_growth",
+      "topic": "RushTok effect: Greek life membership is surging at some schools even as it shrinks elsewhere",
+      "category": "campus_life",
+      "summary": "Greek-life membership is growing sharply at some campuses (Ohio University up from 954 to 1,823 members in two years, roughly 91%; Rutgers-Camden seeing a rebuild) while national rankings show wide variation school to school in fraternity/sorority participation. The RushTok phenomenon — viral sorority recruitment videos — has been confirmed as a genuine global viral trend by a major national newspaper.",
+      "source_ids": [
+        "src_052",
+        "src_053",
+        "src_054",
+        "src_076",
+        "src_077",
+        "src_078",
+        "src_079",
+        "src_080",
+        "src_081",
+        "src_082"
+      ],
+      "representative_source_id": "src_053",
+      "student_reaction_summary": "Rutgers-Camden's independent student newspaper frames the resurgence as student-demand-driven, and real RushTok-tagged X posts confirm the viral attention directly — the Wall Street Journal's own social post asks why people worldwide can't stop watching rush videos, while LSU's student newspaper account shows school-level recruiting content spreading the same way.",
+      "factual_basis_summary": "An independent student newspaper (Rutgers Gleaner), a national rankings dataset (U.S. News), and a vendor blog's Ohio University figures are now reinforced by the Wall Street Journal's confirmation of RushTok's global viral reach and LSU's student newspaper's own social distribution of recruiting coverage.",
+      "target_audience": [
+        "incoming_freshmen",
+        "undergraduate_students"
+      ],
+      "possible_content_angle": "School comparison: where Greek life is booming vs. shrinking, and why — anchored by the RushTok viral hook.",
+      "region_relevance": "US",
+      "school_relevance_tags": [
+        "Ohio University",
+        "Rutgers-Camden",
+        "Clemson",
+        "LSU"
+      ],
+      "confidence": "high",
+      "risk_level": "low",
+      "eligible_for_ranking": true,
+      "cluster_notes": "Confirmed fresh via check_topic_overlap (overlap_count: 0). SNS pass added 06-24: 7 real posts found and attached, including WSJ and LSU's student paper."
+    },
+    {
+      "cluster_id": "c14_nil_stress",
+      "topic": "NIL deals are paying college athletes millions, but a new study links them to higher stress and rule confusion",
+      "category": "athletics",
+      "summary": "Over 5,500 NIL deals worth $75.85 million were approved between March-April 2026 alone, with top players valued at $2M+, but a University of Michigan/Minnesota survey of 350 Division I athletes found NIL deals significantly raised stress and confusion over rules even as they strengthened athletic identity.",
+      "source_ids": [
+        "src_055",
+        "src_056",
+        "src_057",
+        "src_083",
+        "src_084",
+        "src_085"
+      ],
+      "representative_source_id": "src_057",
+      "student_reaction_summary": "No individual athlete anecdotes used, but a sports-business journalist's and a practicing NIL attorney's X posts now add concrete mechanisms behind the stress finding — explaining how a flagged pay-for-play deal can risk eligibility, and contrasting NIL agency commissions (~20%) against the standard 3-5% pro sports agents charge.",
+      "factual_basis_summary": "An official university source (Ohio.edu) explains the policy backdrop, Yahoo Sports supplies the dollar figures, a regional outlet reports the named two-university stress study, and two industry-insider X posts (a sports-business reporter and a practicing NIL attorney) add corroborating detail on the specific rule-confusion and cost mechanisms.",
+      "target_audience": [
+        "undergraduate_students"
+      ],
+      "possible_content_angle": "Glamour-vs-reality contrast card: eye-popping NIL dollar figures next to the stress-study findings and the 20%-commission contrast.",
+      "region_relevance": "US",
+      "school_relevance_tags": [],
+      "confidence": "high",
+      "risk_level": "low",
+      "eligible_for_ranking": true,
+      "cluster_notes": "Confirmed fresh via check_topic_overlap (overlap_count: 0). SNS pass added 06-24: 3 real posts found and attached, confidence raised from medium to high given added industry-insider corroboration."
+    },
+    {
+      "cluster_id": "c15_transfer_barriers",
+      "topic": "Most community college students who plan to transfer to a 4-year school never actually make it",
+      "category": "transfer",
+      "summary": "National Student Clearinghouse Research Center data cited by Brookings shows only about 31.6% of community college starters transfer to a 4-year school within six years, even though transfer volume overall is rising (nearly 1.2 million students, ~13%, transferred recently). UCLA's new Fall 2026 pilot gives priority consideration to students completing an Associate Degree for Transfer.",
+      "source_ids": [
+        "src_058",
+        "src_059",
+        "src_060",
+        "src_086",
+        "src_087"
+      ],
+      "representative_source_id": "src_059",
+      "student_reaction_summary": "No individual anecdotes used; framed around institutional data and a concrete university policy response (UCLA pilot). Two X posts add color on the Associate Degree for Transfer mechanism and the community-college-to-residency-to-4-year pipeline strategy, though neither qualifies as a strong primary source.",
+      "factual_basis_summary": "Brookings' citation of National Student Clearinghouse Research Center data is the strongest single figure, corroborated by Community College Daily's broader transfer-volume statistics and EdSource's reporting on UCLA's policy response.",
+      "target_audience": [
+        "transfer_students",
+        "incoming_freshmen"
+      ],
+      "possible_content_angle": "Myth vs. reality checklist: what actually helps community college students complete a transfer.",
+      "region_relevance": "US",
+      "school_relevance_tags": [
+        "UCLA"
+      ],
+      "confidence": "high",
+      "risk_level": "low",
+      "eligible_for_ranking": true,
+      "cluster_notes": "Confirmed fresh via check_topic_overlap (overlap_count: 0). SNS pass added 06-24: 2 real posts found (color only, not used for ranking score)."
+    }
+  ],
+  "excluded_items": [
+    {
+      "reason": "single weak listicle source, no hard primary data"
+    }
+  ]
+}

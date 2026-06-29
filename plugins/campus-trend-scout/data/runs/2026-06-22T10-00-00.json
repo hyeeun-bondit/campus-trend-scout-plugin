@@ -1,0 +1,27 @@
+{
+  "run_id": "2026-06-22T10-00-00",
+  "date": "2026-06-22",
+  "status": "completed",
+  "started_at": "2026-06-22T10:00:00Z",
+  "completed_at": "2026-06-22T10:30:00Z",
+  "steps_completed": [
+    "signals",
+    "clusters",
+    "rankings",
+    "report"
+  ],
+  "queries_executed": 12,
+  "signals_collected": 20,
+  "topics_ranked": 11,
+  "output_files": [
+    "data/signals/2026-06-22.json",
+    "data/clusters/2026-06-22.json",
+    "data/rankings/2026-06-22.json",
+    "data/reports/2026-06-22.md"
+  ],
+  "warnings": [
+    "SNS coverage 0% (target 30%)",
+    "No Canada-specific signals"
+  ],
+  "errors": []
+}

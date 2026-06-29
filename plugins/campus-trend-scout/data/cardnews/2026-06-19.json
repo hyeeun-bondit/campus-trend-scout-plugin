@@ -1,0 +1,415 @@
+{
+  "cardnews_batch_id": "cnb_2026-06-19_01",
+  "topics": [
+    {
+      "topic_id": "c2",
+      "rank": 1,
+      "topic": "Class of 2026 entry-level job market reality check",
+      "selected_tone": "relatable + informational",
+      "tone_reason": "Validates shared anxiety while staying grounded in real hiring data, not meme-ified.",
+      "content_angle": "Reality check: what the Class of 2026 job hunt actually looks like, in numbers",
+      "title_options": [
+        "The Class of 2026 Job Market, By the Numbers",
+        "Why Your Job Hunt Feels Impossible Right Now (It's Not Just You)",
+        "100 Applications, 0 Interviews: What's Actually Going On"
+      ],
+      "slide_structure": [
+        {
+          "slide": 1,
+          "purpose": "Hook",
+          "copy": "Sent 100+ applications and heard nothing back? Here's what's actually happening.",
+          "visual_direction": "Bold stat overlay on a stack-of-resumes or laptop visual.",
+          "source_note": ""
+        },
+        {
+          "slide": 2,
+          "purpose": "Key fact",
+          "copy": "Employers project just 5.6% more hiring this year — and 45% call the market only 'fair', the worst rating since 2020-21.",
+          "visual_direction": "Simple bar showing flat hiring growth.",
+          "source_note": "src_004"
+        },
+        {
+          "slide": 3,
+          "purpose": "Key fact",
+          "copy": "Entry-level postings are down 6-7% year over year, and AI is linked to a 25% drop in recent-grad hiring at major tech firms.",
+          "visual_direction": "Downward arrow graphic next to an AI icon.",
+          "source_note": "src_005"
+        },
+        {
+          "slide": 4,
+          "purpose": "Student reaction",
+          "copy": "Grads describe sending 100+ applications without landing a single interview.",
+          "visual_direction": "Quote-card style slide.",
+          "source_note": "src_006"
+        },
+        {
+          "slide": 5,
+          "purpose": "CTA",
+          "copy": "Where are you seeing the most movement — big companies, startups, or somewhere else? Drop it below.",
+          "visual_direction": "Simple text CTA, comment-bubble icon.",
+          "source_note": ""
+        }
+      ],
+      "caption": "The job market isn't imagined — hiring is basically flat for the Class of 2026, and AI is reshaping entry-level roles at the biggest employers. If you're in the middle of this, you're not behind, the market actually shifted under you.",
+      "comment_prompt": "Where are you actually finding traction in your job search right now?",
+      "hashtags": [
+        "#classof2026",
+        "#jobmarket",
+        "#collegegrad",
+        "#jobsearch",
+        "#entrylevel"
+      ],
+      "expected_reaction": "Validation/relief, plus practical comparisons of where applications are landing.",
+      "editor_notes": {
+        "source_ids_used": [
+          "src_004",
+          "src_005",
+          "src_006"
+        ],
+        "claims_to_double_check": [],
+        "risk_notes": [],
+        "do_not_say": [
+          "AI alone caused the slowdown"
+        ]
+      }
+    },
+    {
+      "topic_id": "c1",
+      "rank": 2,
+      "topic": "AI use vs. AI distrust among college students",
+      "selected_tone": "relatable + informational",
+      "tone_reason": "Surveys show near-universal use alongside real anxiety; tone should validate both without moralizing.",
+      "content_angle": "Myth vs Reality: 'AI helps me study' vs '82% of us are scared it's killing our job chances'",
+      "title_options": [
+        "Everyone Uses AI. Nobody Trusts It. Here's the Data.",
+        "95% Use It, 82% Are Scared of It: The AI Paradox on Campus",
+        "What 3 New Surveys Say About Students and AI"
+      ],
+      "slide_structure": [
+        {
+          "slide": 1,
+          "purpose": "Hook",
+          "copy": "95% of students use AI tools. 82% are scared it's killing their job prospects. Both are true.",
+          "visual_direction": "Split-screen graphic: AI tool icon vs. worried-face icon.",
+          "source_note": ""
+        },
+        {
+          "slide": 2,
+          "purpose": "Key fact",
+          "copy": "At Cal State campuses, 95% of students use AI tools and 84% specifically use ChatGPT — but 82% worry about what it means for their job security.",
+          "visual_direction": "Percentage callouts.",
+          "source_note": "src_001"
+        },
+        {
+          "slide": 3,
+          "purpose": "Comparison",
+          "copy": "In San Diego, about 90% use ChatGPT and 80% report multiple AI-related concerns — the pattern holds across regions.",
+          "visual_direction": "Map or regional comparison graphic.",
+          "source_note": "src_002"
+        },
+        {
+          "slide": 4,
+          "purpose": "Key fact",
+          "copy": "UC's largest-ever study found about two-thirds use GenAI for coursework, and over 9% admit to outright cheating with it — with access split by income.",
+          "visual_direction": "Simple data callout.",
+          "source_note": "src_003"
+        },
+        {
+          "slide": 5,
+          "purpose": "CTA",
+          "copy": "Where's the line for you between 'using AI to help' and 'using AI to cheat'?",
+          "visual_direction": "Text CTA slide.",
+          "source_note": ""
+        }
+      ],
+      "caption": "Three separate 2026 surveys all land on the same paradox: students are using AI constantly and don't trust where it's taking them. Worth sitting with before the next assignment.",
+      "comment_prompt": "Where's the line for you between 'AI helped me' and 'AI did it for me'?",
+      "hashtags": [
+        "#ai",
+        "#chatgpt",
+        "#collegelife",
+        "#studytips",
+        "#genz"
+      ],
+      "expected_reaction": "Recognition/relatability plus debate over where help ends and cheating begins.",
+      "editor_notes": {
+        "source_ids_used": [
+          "src_001",
+          "src_002",
+          "src_003"
+        ],
+        "claims_to_double_check": [],
+        "risk_notes": [],
+        "do_not_say": [
+          "All AI use counts as cheating",
+          "One school/discipline is the worst offender"
+        ]
+      }
+    },
+    {
+      "topic_id": "c3",
+      "rank": 3,
+      "topic": "Student loan overhaul takes effect July 1",
+      "selected_tone": "practical + advice-oriented",
+      "tone_reason": "Deadline-driven policy change calls for a clear, checklist-style, non-alarmist tone.",
+      "content_angle": "Checklist: what changes for your student loan on July 1",
+      "title_options": [
+        "What Changes for Your Student Loan on July 1",
+        "Student Loans Are Getting an Overhaul — Here's What to Know",
+        "9.2 Million in Default: What's Changing Before July 1"
+      ],
+      "slide_structure": [
+        {
+          "slide": 1,
+          "purpose": "Hook",
+          "copy": "If you have federal student loans, July 1 changes your options. Here's what's happening.",
+          "visual_direction": "Calendar graphic circling July 1.",
+          "source_note": ""
+        },
+        {
+          "slide": 2,
+          "purpose": "Key fact",
+          "copy": "Student loan defaults just hit a record 9.16 million borrowers — about 1 in 5 of the 43 million federal borrowers are a year or more behind.",
+          "visual_direction": "Large stat callout.",
+          "source_note": "src_007"
+        },
+        {
+          "slide": 3,
+          "purpose": "Key fact",
+          "copy": "Starting July 1, several federal repayment plans are eliminated, Grad PLUS loans end, and Parent PLUS borrowing for undergrads is capped.",
+          "visual_direction": "Checklist-style slide.",
+          "source_note": "src_008"
+        },
+        {
+          "slide": 4,
+          "purpose": "Key fact",
+          "copy": "Borrowers will have a narrower set of repayment plans to choose from after July 1 — worth reviewing your options before then.",
+          "visual_direction": "Simple before/after list.",
+          "source_note": "src_009"
+        },
+        {
+          "slide": 5,
+          "purpose": "CTA",
+          "copy": "Have you looked at your repayment plan options yet? Share what you're finding.",
+          "visual_direction": "Text CTA slide.",
+          "source_note": ""
+        }
+      ],
+      "caption": "July 1 is a real deadline for federal student loan borrowers — several repayment plans go away and Grad PLUS ends. Worth checking your options now rather than after the change hits.",
+      "comment_prompt": "Have you started looking into which repayment plan you'll switch to?",
+      "hashtags": [
+        "#studentloans",
+        "#studentdebt",
+        "#fafsa",
+        "#collegefinance",
+        "#loanrepayment"
+      ],
+      "expected_reaction": "Concern and practical questions about which repayment plan to pick.",
+      "editor_notes": {
+        "source_ids_used": [
+          "src_007",
+          "src_008",
+          "src_009"
+        ],
+        "claims_to_double_check": [],
+        "risk_notes": [],
+        "do_not_say": []
+      }
+    },
+    {
+      "topic_id": "c4",
+      "rank": 4,
+      "topic": "Canada tightens international student intake, eases work rules",
+      "selected_tone": "news + informational",
+      "tone_reason": "Policy-driven topic best served with a clear, factual before/after framing.",
+      "content_angle": "Before/After: what changed for international students in Canada in 2026",
+      "title_options": [
+        "Canada's International Student Rules Just Changed — Here's the Before/After",
+        "Fewer Spots, Easier Work Permits: Canada's 2026 Shift"
+      ],
+      "slide_structure": [
+        {
+          "slide": 1,
+          "purpose": "Hook",
+          "copy": "Canada is letting in fewer international students in 2026 — but making it easier for them to work once they're there.",
+          "visual_direction": "Before/After split graphic.",
+          "source_note": ""
+        },
+        {
+          "slide": 2,
+          "purpose": "Key fact",
+          "copy": "2026 study permit allocation: 408,000 total — 155,000 new permits, 253,000 extensions.",
+          "visual_direction": "Stat callout.",
+          "source_note": "src_012"
+        },
+        {
+          "slide": 3,
+          "purpose": "Key fact",
+          "copy": "International enrolment has fallen back to pandemic-era levels under the tightened caps.",
+          "visual_direction": "Trend-line graphic.",
+          "source_note": "src_011"
+        },
+        {
+          "slide": 4,
+          "purpose": "CTA",
+          "copy": "As of April 2026, the co-op work permit requirement was dropped for many students — a real easing on the work side.",
+          "visual_direction": "Checkmark graphic.",
+          "source_note": "src_010"
+        }
+      ],
+      "caption": "",
+      "comment_prompt": "",
+      "hashtags": [],
+      "expected_reaction": "",
+      "editor_notes": {
+        "source_ids_used": [],
+        "claims_to_double_check": [],
+        "risk_notes": [],
+        "do_not_say": []
+      }
+    },
+    {
+      "topic_id": "c6",
+      "rank": 5,
+      "topic": "Tuition inflation vs. the pay gap between majors",
+      "selected_tone": "practical + advice-oriented",
+      "tone_reason": "Comparison-driven, decision-relevant topic; informational table tone fits best.",
+      "content_angle": "Comparison: what your major is actually projected to cost vs. pay back",
+      "title_options": [
+        "What Your Major Actually Costs vs. Pays Back",
+        "Tuition Keeps Climbing — Does Your Major's Payoff Keep Up?"
+      ],
+      "slide_structure": [
+        {
+          "slide": 1,
+          "purpose": "Hook",
+          "copy": "Tuition keeps rising. The gap between what different majors pay back keeps widening too.",
+          "visual_direction": "Two rising-line graphic.",
+          "source_note": ""
+        },
+        {
+          "slide": 2,
+          "purpose": "Key fact",
+          "copy": "2026-27 tuition is projected to rise about 3.25% overall, 2.3% at 4-year schools.",
+          "visual_direction": "Simple percentage callout.",
+          "source_note": "src_017"
+        },
+        {
+          "slide": 3,
+          "purpose": "Key fact",
+          "copy": "Highest- and lowest-paying majors now show roughly a $1.9M lifetime earnings gap.",
+          "visual_direction": "Bar comparison graphic.",
+          "source_note": "src_018"
+        }
+      ],
+      "caption": "",
+      "comment_prompt": "",
+      "hashtags": [],
+      "expected_reaction": "",
+      "editor_notes": {
+        "source_ids_used": [],
+        "claims_to_double_check": [],
+        "risk_notes": [],
+        "do_not_say": []
+      }
+    },
+    {
+      "topic_id": "c7",
+      "rank": 6,
+      "topic": "Loneliness/burnout data behind 'bed rotting'",
+      "selected_tone": "news + informational",
+      "tone_reason": "Mental-health adjacent topic; needs careful, non-sensationalized, non-meme tone, held at outline stage pending stronger primary sourcing.",
+      "content_angle": "Data check: how common is loneliness/burnout really, and what's the most common coping habit",
+      "title_options": [
+        "What the Data Actually Says About Student Loneliness",
+        "Bed Rotting, Explained With Real Numbers"
+      ],
+      "slide_structure": [
+        {
+          "slide": 1,
+          "purpose": "Hook",
+          "copy": "More than 6 in 10 students under 25 say they feel lonely sometimes or always.",
+          "visual_direction": "Calm, non-sensational stat slide.",
+          "source_note": "src_015"
+        },
+        {
+          "slide": 2,
+          "purpose": "Key fact",
+          "copy": "Among LGBTQ+ students, that number rises past 70%.",
+          "visual_direction": "Simple comparison bar.",
+          "source_note": "src_015"
+        }
+      ],
+      "caption": "",
+      "comment_prompt": "",
+      "hashtags": [],
+      "expected_reaction": "",
+      "editor_notes": {
+        "source_ids_used": [],
+        "claims_to_double_check": [],
+        "risk_notes": [],
+        "do_not_say": []
+      }
+    },
+    {
+      "topic_id": "c5",
+      "rank": 7,
+      "topic": "Side hustles as financial necessity",
+      "selected_tone": "relatable + informational",
+      "tone_reason": "Single-source topic; kept to a light outline rather than full claims until better sourced.",
+      "content_angle": "Reality check: how many of us are actually working a side hustle just to get by",
+      "title_options": [
+        "Side Hustles Aren't a Trend Anymore — They're Survival"
+      ],
+      "slide_structure": [
+        {
+          "slide": 1,
+          "purpose": "Hook",
+          "copy": "For a lot of students, the side hustle isn't extra cash anymore — it's how rent gets paid.",
+          "visual_direction": "Simple text-led slide.",
+          "source_note": "src_014"
+        }
+      ],
+      "caption": "",
+      "comment_prompt": "",
+      "hashtags": [],
+      "expected_reaction": "",
+      "editor_notes": {
+        "source_ids_used": [],
+        "claims_to_double_check": [],
+        "risk_notes": [],
+        "do_not_say": []
+      }
+    },
+    {
+      "topic_id": "c8",
+      "rank": 10,
+      "topic": "Roommate red flags checklist (structural, non-incident)",
+      "selected_tone": "practical + advice-oriented",
+      "tone_reason": "Added for AI-topic diversity at ranking rank 11+; kept minimal and strictly generalized given the single, anecdote-based source.",
+      "content_angle": "Red flag checklist: roommate conflict patterns to talk about before move-in",
+      "title_options": [
+        "Roommate Red Flags to Talk About Before You Move In"
+      ],
+      "slide_structure": [
+        {
+          "slide": 1,
+          "purpose": "Hook",
+          "copy": "Before you move in together, talk about these four things.",
+          "visual_direction": "Simple checklist graphic, no story/incident imagery.",
+          "source_note": "src_013_structural"
+        }
+      ],
+      "caption": "",
+      "comment_prompt": "",
+      "hashtags": [],
+      "expected_reaction": "",
+      "editor_notes": {
+        "source_ids_used": [],
+        "claims_to_double_check": [],
+        "risk_notes": [],
+        "do_not_say": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,1819 @@
+{
+  "ranked_topic_batch_id": "rt_2026-06-22_01",
+  "run_date": "2026-06-22",
+  "topics": [
+    {
+      "rank": 1,
+      "topic_id": "tp_001",
+      "cluster_id": "cl_001",
+      "topic": "The 40-Point Hiring Gap: Why Internships Matter More Than GPA in 2026",
+      "category": "career_jobs",
+      "topic_lifespan_type": "data_report",
+      "freshness_window_days": 180,
+      "is_ai_related": false,
+      "selection_rubric": {
+        "self_relevance": {
+          "score": 5,
+          "rationale": "Every student faces the job/internship question — directly tied to career outcomes"
+        },
+        "comparison_potential": {
+          "score": 5,
+          "rationale": "Major-by-major, school-by-school, with-vs-without internship comparison structure"
+        },
+        "decision_usefulness": {
+          "score": 5,
+          "rationale": "Directly informs decisions about internship prioritization and career strategy"
+        },
+        "share_trigger": {
+          "score": 5,
+          "rationale": "Students will tag classmates debating internships or friends who got/didn't get offers"
+        },
+        "comment_trigger": {
+          "score": 5,
+          "rationale": "'My major is worse' / 'I applied to 200' / 'Unpaid internships are exploitation' — polarizing"
+        },
+        "format_strength": {
+          "score": 5,
+          "rationale": "Perfect for stat-comparison carousel: With vs Without, by major, by sector decline %"
+        },
+        "freshness": {
+          "score": 4,
+          "rationale": "2026 data from EPI and Handshake, published within last 2 months"
+        },
+        "evidence_availability": {
+          "score": 5,
+          "rationale": "4 sources including EPI, CNN Business, Handshake data, NACE surveys"
+        }
+      },
+      "total_score": 88,
+      "confidence": "high",
+      "needs_verification": false,
+      "editor_decision": "produce_today",
+      "score_summary": "Strongest topic: massive data backing, universal relevance, high share/comment triggers",
+      "ranking_reason": "Ranks #1 because it combines the strongest data (EPI, NACE, Handshake, CNN) with universal student relevance and a clear comparison structure.",
+      "sources": [
+        {
+          "id": "src_005",
+          "source_name": "IndexBox",
+          "source_type": "education_news",
+          "platform": "google_news",
+          "title": "Job Market Challenges for 2026 Graduates",
+          "url": "https://www.indexbox.io/blog/recent-graduates-struggle-in-tight-job-market-as-internships-decline/",
+          "published_at": "2026-06-01",
+          "retrieved_at": "2026-06-22T10:00:00Z",
+          "observed_date": "2026-06-22",
+          "summary": "109 avg applications per internship, 81.6% vs 40.7% hiring gap",
+          "category": "career_jobs",
+          "region": "US",
+          "relevance": "Core data source",
+          "reliability": "Data aggregator citing Handshake/NACE",
+          "usable_for_ranking": true,
+          "source_quality": "medium",
+          "source_role": "fact_basis",
+          "primary_or_secondary": "primary",
+          "evidence_strength": 4,
+          "campus_specificity": 4
+        },
+        {
+          "id": "src_006",
+          "source_name": "CNN Business",
+          "source_type": "education_news",
+          "platform": "google_news",
+          "title": "The job market is so tough, young people are struggling just to land internships",
+          "url": "https://www.cnn.com/2026/04/06/business/job-market-internships-squeeze",
+          "published_at": "2026-04-06",
+          "retrieved_at": "2026-06-22T10:00:00Z",
+          "observed_date": "2026-06-22",
+          "summary": "Tech postings -30%, professional services -42%",
+          "category": "career_jobs",
+          "region": "US",
+          "relevance": "Sector-level decline data",
+          "reliability": "CNN Business",
+          "usable_for_ranking": true,
+          "source_quality": "high",
+          "source_role": "fact_basis",
+          "primary_or_secondary": "primary",
+          "evidence_strength": 4,
+          "campus_specificity": 4
+        },
+        {
+          "id": "src_007",
+          "source_name": "EPI",
+          "source_type": "education_news",
+          "platform": "google_news",
+          "title": "Class of 2026: Depressed hires rate",
+          "url": "https://www.epi.org/blog/class-of-2026-a-depressed-hires-rate-is-a-major-cause-of-labor-market-weakness-for-young-college-graduates/",
+          "published_at": "2026-06-01",
+          "retrieved_at": "2026-06-22T10:00:00Z",
+          "observed_date": "2026-06-22",
+          "summary": "9.7% grad unemployment, same as HS diploma holders",
+          "category": "career_jobs",
+          "region": "US",
+          "relevance": "Official economic research",
+          "reliability": "Economic Policy Institute",
+          "usable_for_ranking": true,
+          "source_quality": "high",
+          "source_role": "fact_basis",
+          "primary_or_secondary": "primary",
+          "evidence_strength": 5,
+          "campus_specificity": 4
+        },
+        {
+          "id": "src_008",
+          "source_name": "FastApply Blog",
+          "source_type": "education_news",
+          "platform": "google_news",
+          "title": "Entry-Level Jobs Are Disappearing",
+          "url": "https://blog.fastapply.co/entry-level-jobs-disappearing-2026",
+          "published_at": "2026-05-01",
+          "retrieved_at": "2026-06-22T10:00:00Z",
+          "observed_date": "2026-06-22",
+          "summary": "35% of entry-level require 3+ years, 43% underemployed",
+          "category": "career_jobs",
+          "region": "US",
+          "relevance": "Quantified paradox data",
+          "reliability": "Industry blog citing BLS",
+          "usable_for_ranking": true,
+          "source_quality": "medium",
+          "source_role": "fact_basis",
+          "primary_or_secondary": "primary",
+          "evidence_strength": 4,
+          "campus_specificity": 4
+        }
+      ],
+      "score_breakdown": {
+        "buzz": {
+          "score": 22,
+          "max": 25,
+          "reason": "Internship/job anxiety is the #1 topic among graduating students",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_005",
+            "src_006",
+            "src_007"
+          ]
+        },
+        "velocity": {
+          "score": 12,
+          "max": 15,
+          "reason": "Steady coverage throughout spring 2026, EPI report fresh",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_007"
+          ]
+        },
+        "target_fit": {
+          "score": 19,
+          "max": 20,
+          "reason": "Universal to all graduating students",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_005",
+            "src_008"
+          ]
+        },
+        "content_potential": {
+          "score": 14,
+          "max": 15,
+          "reason": "Stat-heavy comparison format, multiple angles",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "source_diversity": {
+          "score": 9,
+          "max": 10,
+          "reason": "4 sources across government, business news, platform data, survey",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_005",
+            "src_006",
+            "src_007",
+            "src_008"
+          ]
+        },
+        "evidence_quality": {
+          "score": 14,
+          "max": 15,
+          "reason": "EPI official data, Handshake metrics, NACE surveys",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_007",
+            "src_005"
+          ]
+        },
+        "risk_penalty": {
+          "score": 0,
+          "reason": "No risk — public labor market data",
+          "evidence_link_ids": []
+        }
+      },
+      "content_angle": "Data-driven comparison showing 81.6% vs 40.7% hiring rate gap between students with and without internship experience, plus the paradox of entry-level jobs requiring 3+ years",
+      "expected_reaction": "Students will tag friends debating whether to take unpaid internships. Major/school comparison comments expected.",
+      "risk_level": "low",
+      "avoid": [],
+      "claim_source_map": [
+        {
+          "claim": "81.6% vs 40.7% hiring gap",
+          "source_url": "https://www.indexbox.io/blog/recent-graduates-struggle-in-tight-job-market-as-internships-decline/",
+          "support_level": "direct",
+          "quote_or_data_point": "81.6% hired within three months vs 40.7%"
+        },
+        {
+          "claim": "9.7% unemployment equals HS diploma holders",
+          "source_url": "https://www.epi.org/blog/class-of-2026-a-depressed-hires-rate-is-a-major-cause-of-labor-market-weakness-for-young-college-graduates/",
+          "support_level": "direct"
+        },
+        {
+          "claim": "Tech internship postings dropped 30%",
+          "source_url": "https://www.cnn.com/2026/04/06/business/job-market-internships-squeeze",
+          "support_level": "direct"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "topic_id": "tp_002",
+      "cluster_id": "cl_004",
+      "topic": "The AI Cheating Paradox: Students Using AI to Prove They Didn't Use AI",
+      "category": "ai_academics",
+      "topic_lifespan_type": "short_cycle",
+      "freshness_window_days": 28,
+      "is_ai_related": true,
+      "selection_rubric": {
+        "self_relevance": {
+          "score": 5,
+          "rationale": "Every student submits assignments and fears false accusations"
+        },
+        "comparison_potential": {
+          "score": 4,
+          "rationale": "Native vs non-native speaker impact, school policy differences"
+        },
+        "decision_usefulness": {
+          "score": 4,
+          "rationale": "Informs how students approach writing assignments and understand rights"
+        },
+        "share_trigger": {
+          "score": 5,
+          "rationale": "Ironic headline inherently shareable, students tag flagged classmates"
+        },
+        "comment_trigger": {
+          "score": 5,
+          "rationale": "'This happened to me' / 'International students have it worse' — personal"
+        },
+        "format_strength": {
+          "score": 4,
+          "rationale": "Myth vs Reality: 98% claimed vs 39.5% actual accuracy"
+        },
+        "freshness": {
+          "score": 4,
+          "rationale": "NBC May 2026, lawsuit May 2026 — within window"
+        },
+        "evidence_availability": {
+          "score": 4,
+          "rationale": "NBC direct reporting, SF Standard lawsuit, accuracy study data"
+        }
+      },
+      "total_score": 84,
+      "confidence": "high",
+      "needs_verification": false,
+      "editor_decision": "produce_today",
+      "score_summary": "Universal student fear with irony angle, lawsuit drama, and unreliable detector data",
+      "ranking_reason": "Ranks #2: similar engagement to #1 but slightly narrower. Ironic angle is extremely shareable.",
+      "sources": [
+        {
+          "id": "src_011",
+          "source_name": "NBC News",
+          "source_type": "education_news",
+          "platform": "google_news",
+          "title": "To avoid accusations of AI cheating, college students are turning to AI",
+          "url": "https://www.nbcnews.com/tech/internet/college-students-ai-cheating-detectors-humanizers-rcna253878",
+          "published_at": "2026-05-15",
+          "retrieved_at": "2026-06-22T10:00:00Z",
+          "observed_date": "2026-06-22",
+          "summary": "AI humanizer tools, 98% vs 39.5% accuracy gap",
+          "category": "ai_academics",
+          "region": "US",
+          "relevance": "Core source",
+          "reliability": "NBC News",
+          "usable_for_ranking": true,
+          "source_quality": "high",
+          "source_role": "fact_basis",
+          "primary_or_secondary": "primary",
+          "evidence_strength": 4,
+          "campus_specificity": 5
+        },
+        {
+          "id": "src_012",
+          "source_name": "SF Standard",
+          "source_type": "education_news",
+          "platform": "google_news",
+          "title": "AI cheating civil rights suit",
+          "url": "https://sfstandard.com/2026/05/11/ai-detection-cheating-palo-alto/",
+          "published_at": "2026-05-11",
+          "retrieved_at": "2026-06-22T10:00:00Z",
+          "observed_date": "2026-06-22",
+          "summary": "Civil rights lawsuit over false AI cheating accusation",
+          "category": "ai_academics",
+          "region": "US",
+          "relevance": "Legal precedent",
+          "reliability": "SF Standard",
+          "usable_for_ranking": true,
+          "source_quality": "high",
+          "source_role": "fact_basis",
+          "primary_or_secondary": "primary",
+          "evidence_strength": 4,
+          "campus_specificity": 4
+        }
+      ],
+      "score_breakdown": {
+        "buzz": {
+          "score": 20,
+          "max": 25,
+          "reason": "AI cheating is one of most discussed campus topics",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_011"
+          ]
+        },
+        "velocity": {
+          "score": 11,
+          "max": 15,
+          "reason": "Steady incidents and coverage through spring 2026",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "target_fit": {
+          "score": 18,
+          "max": 20,
+          "reason": "Every student who submits written work is affected",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_011",
+            "src_012"
+          ]
+        },
+        "content_potential": {
+          "score": 13,
+          "max": 15,
+          "reason": "Strong irony, data vs claims, lawsuit drama",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "source_diversity": {
+          "score": 8,
+          "max": 10,
+          "reason": "NBC national + SF Standard lawsuit + accuracy study",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_011",
+            "src_012"
+          ]
+        },
+        "evidence_quality": {
+          "score": 12,
+          "max": 15,
+          "reason": "NBC solid, accuracy study quantitative, lawsuit public record",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_011",
+            "src_012"
+          ]
+        },
+        "risk_penalty": {
+          "score": -2,
+          "reason": "Avoid naming accused students. Frame as systemic issue.",
+          "evidence_link_ids": []
+        }
+      },
+      "content_angle": "AI detectors claim 98% accuracy but studies show 39.5%. Non-native speakers disproportionately flagged. Students use AI humanizers defensively. Lawsuits emerging.",
+      "expected_reaction": "International students and ESL speakers will share vigorously.",
+      "risk_level": "medium",
+      "avoid": [],
+      "claim_source_map": [
+        {
+          "claim": "98% claimed vs 39.5% actual accuracy",
+          "source_url": "https://www.nbcnews.com/tech/internet/college-students-ai-cheating-detectors-humanizers-rcna253878",
+          "support_level": "direct"
+        },
+        {
+          "claim": "Civil rights lawsuit filed",
+          "source_url": "https://sfstandard.com/2026/05/11/ai-detection-cheating-palo-alto/",
+          "support_level": "direct"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "topic_id": "tp_003",
+      "cluster_id": "cl_005",
+      "topic": "4-Year Countdown: New F-1 Visa Rules End Open-Ended Study",
+      "category": "international_students",
+      "topic_lifespan_type": "policy_cycle",
+      "freshness_window_days": 60,
+      "is_ai_related": false,
+      "selection_rubric": {
+        "self_relevance": {
+          "score": 5,
+          "rationale": "Directly affects visa status, timeline, and post-grad plans for every international student"
+        },
+        "comparison_potential": {
+          "score": 4,
+          "rationale": "Country-by-country impact varies, program length differences matter"
+        },
+        "decision_usefulness": {
+          "score": 5,
+          "rationale": "Must-know for planning studies — affects enrollment, extensions, OPT"
+        },
+        "share_trigger": {
+          "score": 5,
+          "rationale": "International students will urgently share with friends/family"
+        },
+        "comment_trigger": {
+          "score": 4,
+          "rationale": "'What about 5-year programs?' / 'Should I transfer to Canada?'"
+        },
+        "format_strength": {
+          "score": 4,
+          "rationale": "Before/After of old vs new rules. Checklist format."
+        },
+        "freshness": {
+          "score": 5,
+          "rationale": "DHS rule May 5, effective Sep 2026 — imminent deadline"
+        },
+        "evidence_availability": {
+          "score": 5,
+          "rationale": "ICEF Monitor, Inside Higher Ed, DHS official rule, university guidance"
+        }
+      },
+      "total_score": 82,
+      "confidence": "high",
+      "needs_verification": false,
+      "editor_decision": "produce_today",
+      "score_summary": "High-impact policy with decision urgency for 1M+ international students",
+      "ranking_reason": "Ranks #3: narrower audience but extremely high urgency and share mechanics.",
+      "sources": [
+        {
+          "id": "src_013",
+          "source_name": "ICEF Monitor",
+          "source_type": "education_news",
+          "platform": "google_news",
+          "title": "US to end Duration of Status for F, J, and I visas",
+          "url": "https://monitor.icef.com/2026/05/us-moves-to-end-duration-of-status-for-f-j-and-i-visas-new-rule-could-limit-the-time-international-students-can-study-in-the-us/",
+          "published_at": "2026-05-15",
+          "retrieved_at": "2026-06-22T10:00:00Z",
+          "observed_date": "2026-06-22",
+          "summary": "4-year max, 30-day grace period, effective Sep 2026",
+          "category": "international_students",
+          "region": "US",
+          "relevance": "Core policy source",
+          "reliability": "ICEF Monitor",
+          "usable_for_ranking": true,
+          "source_quality": "high",
+          "source_role": "fact_basis",
+          "primary_or_secondary": "primary",
+          "evidence_strength": 5,
+          "campus_specificity": 5
+        },
+        {
+          "id": "src_014",
+          "source_name": "Inside Higher Ed",
+          "source_type": "education_news",
+          "platform": "education_news",
+          "title": "Intl. Students Still in Limbo",
+          "url": "https://www.insidehighered.com/news/global/international-students-us/2026/06/16/intl-students-still-limbo-even-uscis-pause-over",
+          "published_at": "2026-06-16",
+          "retrieved_at": "2026-06-22T10:00:00Z",
+          "observed_date": "2026-06-22",
+          "summary": "Court blocked pause but uncertainty remains",
+          "category": "international_students",
+          "region": "US",
+          "relevance": "Ongoing uncertainty",
+          "reliability": "Inside Higher Ed",
+          "usable_for_ranking": true,
+          "source_quality": "high",
+          "source_role": "fact_basis",
+          "primary_or_secondary": "primary",
+          "evidence_strength": 4,
+          "campus_specificity": 5
+        }
+      ],
+      "score_breakdown": {
+        "buzz": {
+          "score": 18,
+          "max": 25,
+          "reason": "Major policy but buzz concentrated in intl student communities",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_013"
+          ]
+        },
+        "velocity": {
+          "score": 13,
+          "max": 15,
+          "reason": "Rapid developments May-June, effective Sep 2026",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_013",
+            "src_014"
+          ]
+        },
+        "target_fit": {
+          "score": 17,
+          "max": 20,
+          "reason": "Core audience is international students — narrower but extremely high relevance",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "content_potential": {
+          "score": 13,
+          "max": 15,
+          "reason": "Before/after comparison, action checklist",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "source_diversity": {
+          "score": 8,
+          "max": 10,
+          "reason": "ICEF, IHE, DHS official, university guidance",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_013",
+            "src_014"
+          ]
+        },
+        "evidence_quality": {
+          "score": 13,
+          "max": 15,
+          "reason": "DHS official rule, ICEF analysis, IHE journalism",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_013",
+            "src_014"
+          ]
+        },
+        "risk_penalty": {
+          "score": 0,
+          "reason": "Public policy reporting",
+          "evidence_link_ids": []
+        }
+      },
+      "content_angle": "DHS ending Duration of Status — 4-year max, grace period cut 60→30 days. Effective Sep 2026. OPT processing chaos continues.",
+      "expected_reaction": "International students will share massively within their communities.",
+      "risk_level": "low",
+      "avoid": [],
+      "claim_source_map": [
+        {
+          "claim": "4-year max admission, grace period cut to 30 days",
+          "source_url": "https://monitor.icef.com/2026/05/us-moves-to-end-duration-of-status-for-f-j-and-i-visas-new-rule-could-limit-the-time-international-students-can-study-in-the-us/",
+          "support_level": "direct"
+        },
+        {
+          "claim": "Court blocked USCIS pause but uncertainty remains",
+          "source_url": "https://www.insidehighered.com/news/global/international-students-us/2026/06/16/intl-students-still-limbo-even-uscis-pause-over",
+          "support_level": "direct"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "topic_id": "tp_004",
+      "cluster_id": "cl_007",
+      "topic": "Test-Optional Is Dead: All 8 Ivies Now Require SAT/ACT",
+      "category": "admissions_enrollment",
+      "topic_lifespan_type": "breaking",
+      "freshness_window_days": 14,
+      "is_ai_related": false,
+      "selection_rubric": {
+        "self_relevance": {
+          "score": 4,
+          "rationale": "Directly relevant to prospective students and those who entered test-optional"
+        },
+        "comparison_potential": {
+          "score": 5,
+          "rationale": "Timeline of each Ivy's decision, test-optional vs required outcomes"
+        },
+        "decision_usefulness": {
+          "score": 5,
+          "rationale": "Critical for rising seniors deciding about SAT/ACT prep"
+        },
+        "share_trigger": {
+          "score": 4,
+          "rationale": "Admissions news shared within friend groups and family"
+        },
+        "comment_trigger": {
+          "score": 5,
+          "rationale": "'Am I less qualified?' / 'Rich kids win again' / 'Test prep is classist'"
+        },
+        "format_strength": {
+          "score": 4,
+          "rationale": "Timeline carousel of each Ivy's announcement"
+        },
+        "freshness": {
+          "score": 5,
+          "rationale": "Columbia announced June 13 — 9 days ago"
+        },
+        "evidence_availability": {
+          "score": 5,
+          "rationale": "Official Columbia announcement + Baltimore Sun + Princeton precedent"
+        }
+      },
+      "total_score": 79,
+      "confidence": "high",
+      "needs_verification": false,
+      "editor_decision": "produce_today",
+      "score_summary": "Breaking news with comparison angle and high emotional stakes",
+      "ranking_reason": "Ranks #4: very fresh but narrower audience — mainly prospective students.",
+      "sources": [
+        {
+          "id": "src_009",
+          "source_name": "Columbia Admissions",
+          "source_type": "official_university",
+          "platform": "official_university",
+          "title": "Testing Policy Update",
+          "url": "https://undergrad.admissions.columbia.edu/testing-policy-update",
+          "published_at": "2026-06-13",
+          "retrieved_at": "2026-06-22T10:00:00Z",
+          "observed_date": "2026-06-22",
+          "summary": "SAT/ACT required from fall 2027",
+          "category": "admissions_enrollment",
+          "region": "US",
+          "relevance": "Primary source",
+          "reliability": "Official",
+          "usable_for_ranking": true,
+          "source_quality": "high",
+          "source_role": "fact_basis",
+          "primary_or_secondary": "primary",
+          "evidence_strength": 5,
+          "campus_specificity": 5
+        },
+        {
+          "id": "src_010",
+          "source_name": "Baltimore Sun",
+          "source_type": "education_news",
+          "platform": "google_news",
+          "title": "Columbia to end test-optional",
+          "url": "https://www.baltimoresun.com/2026/06/15/columbia-to-end-test-optional-admissions-the-last-ivy-league-school-to-do-so/",
+          "published_at": "2026-06-15",
+          "retrieved_at": "2026-06-22T10:00:00Z",
+          "observed_date": "2026-06-22",
+          "summary": "Last Ivy to end test-optional",
+          "category": "admissions_enrollment",
+          "region": "US",
+          "relevance": "Corroborating",
+          "reliability": "Regional newspaper",
+          "usable_for_ranking": true,
+          "source_quality": "medium",
+          "source_role": "fact_basis",
+          "primary_or_secondary": "primary",
+          "evidence_strength": 4,
+          "campus_specificity": 5
+        }
+      ],
+      "score_breakdown": {
+        "buzz": {
+          "score": 19,
+          "max": 25,
+          "reason": "Major admissions news",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_009"
+          ]
+        },
+        "velocity": {
+          "score": 13,
+          "max": 15,
+          "reason": "June 13 announcement, widely covered",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_009",
+            "src_010"
+          ]
+        },
+        "target_fit": {
+          "score": 16,
+          "max": 20,
+          "reason": "Primarily prospective students and freshmen",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "content_potential": {
+          "score": 12,
+          "max": 15,
+          "reason": "Timeline format, equity debate angle",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "source_diversity": {
+          "score": 7,
+          "max": 10,
+          "reason": "Official source + media coverage",
+          "confidence": "medium",
+          "evidence_link_ids": [
+            "src_009",
+            "src_010"
+          ]
+        },
+        "evidence_quality": {
+          "score": 13,
+          "max": 15,
+          "reason": "Official university announcement — gold standard",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_009"
+          ]
+        },
+        "risk_penalty": {
+          "score": -1,
+          "reason": "Equity debate could get heated — frame factually",
+          "evidence_link_ids": []
+        }
+      },
+      "content_angle": "Columbia was the last holdout — announced June 13. End of pandemic-era test-optional experiment.",
+      "expected_reaction": "Rising seniors panic about test prep. Current students question legitimacy.",
+      "risk_level": "low",
+      "avoid": [],
+      "claim_source_map": [
+        {
+          "claim": "All 8 Ivies now require SAT/ACT",
+          "source_url": "https://undergrad.admissions.columbia.edu/testing-policy-update",
+          "support_level": "direct"
+        },
+        {
+          "claim": "Columbia was the last Ivy",
+          "source_url": "https://www.baltimoresun.com/2026/06/15/columbia-to-end-test-optional-admissions-the-last-ivy-league-school-to-do-so/",
+          "support_level": "direct"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "topic_id": "tp_005",
+      "cluster_id": "cl_006",
+      "topic": "Your Student Loans Now Have a Tougher Collector: The U.S. Treasury",
+      "category": "money_tuition",
+      "topic_lifespan_type": "policy_cycle",
+      "freshness_window_days": 60,
+      "is_ai_related": false,
+      "selection_rubric": {
+        "self_relevance": {
+          "score": 4,
+          "rationale": "Directly affects defaulted borrowers, worries all borrowers"
+        },
+        "comparison_potential": {
+          "score": 3,
+          "rationale": "Ed Dept vs Treasury collection comparison"
+        },
+        "decision_usefulness": {
+          "score": 4,
+          "rationale": "Informs how to get out of default before transfer"
+        },
+        "share_trigger": {
+          "score": 4,
+          "rationale": "Financial anxiety content shared widely"
+        },
+        "comment_trigger": {
+          "score": 4,
+          "rationale": "'Cancel student debt' / 'System is broken' debates"
+        },
+        "format_strength": {
+          "score": 4,
+          "rationale": "By-the-numbers carousel: $179B, 7.8M, 40% workforce loss"
+        },
+        "freshness": {
+          "score": 4,
+          "rationale": "CRS report June 9 — fresh"
+        },
+        "evidence_availability": {
+          "score": 5,
+          "rationale": "Congressional Research Service + College Investor + IHE"
+        }
+      },
+      "total_score": 76,
+      "confidence": "high",
+      "needs_verification": false,
+      "editor_decision": "produce_if_needed",
+      "score_summary": "Strong data and financial anxiety trigger but narrower audience (defaulted borrowers)",
+      "ranking_reason": "Ranks #5: strong evidence but narrower than top 4.",
+      "sources": [
+        {
+          "id": "src_015",
+          "source_name": "The College Investor",
+          "source_type": "education_news",
+          "platform": "google_news",
+          "title": "7.8 Million Borrowers Face New Debt Collector",
+          "url": "https://thecollegeinvestor.com/82208/7-8-million-student-loan-borrowers-are-about-to-deal-with-a-new-debt-collector-the-u-s-treasury/",
+          "published_at": "2026-06-10",
+          "retrieved_at": "2026-06-22T10:00:00Z",
+          "observed_date": "2026-06-22",
+          "summary": "$179B defaults transferred to Treasury",
+          "category": "money_tuition",
+          "region": "US",
+          "relevance": "Detailed analysis",
+          "reliability": "Established student finance outlet",
+          "usable_for_ranking": true,
+          "source_quality": "medium",
+          "source_role": "fact_basis",
+          "primary_or_secondary": "primary",
+          "evidence_strength": 4,
+          "campus_specificity": 4
+        },
+        {
+          "id": "src_016",
+          "source_name": "CRS / Congress.gov",
+          "source_type": "education_news",
+          "platform": "google_news",
+          "title": "Transition of Defaulted Student Loans to Treasury",
+          "url": "https://www.congress.gov/crs-product/R48962",
+          "published_at": "2026-06-09",
+          "retrieved_at": "2026-06-22T10:00:00Z",
+          "observed_date": "2026-06-22",
+          "summary": "Official CRS report on transfer and capacity concerns",
+          "category": "money_tuition",
+          "region": "US",
+          "relevance": "Authoritative source",
+          "reliability": "Congressional Research Service",
+          "usable_for_ranking": true,
+          "source_quality": "high",
+          "source_role": "fact_basis",
+          "primary_or_secondary": "primary",
+          "evidence_strength": 5,
+          "campus_specificity": 3
+        }
+      ],
+      "score_breakdown": {
+        "buzz": {
+          "score": 17,
+          "max": 25,
+          "reason": "Student debt always resonates but transfer is less known",
+          "confidence": "medium",
+          "evidence_link_ids": []
+        },
+        "velocity": {
+          "score": 10,
+          "max": 15,
+          "reason": "Fresh report but not viral",
+          "confidence": "medium",
+          "evidence_link_ids": []
+        },
+        "target_fit": {
+          "score": 16,
+          "max": 20,
+          "reason": "Mainly defaulted borrowers, broader concern for all",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "content_potential": {
+          "score": 12,
+          "max": 15,
+          "reason": "Strong numbers for stat carousel",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "source_diversity": {
+          "score": 8,
+          "max": 10,
+          "reason": "CRS + College Investor + IHE",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_015",
+            "src_016"
+          ]
+        },
+        "evidence_quality": {
+          "score": 13,
+          "max": 15,
+          "reason": "CRS is gold standard government data",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_016"
+          ]
+        },
+        "risk_penalty": {
+          "score": 0,
+          "reason": "Public policy data",
+          "evidence_link_ids": []
+        }
+      },
+      "content_angle": "7.8M borrowers' $179B in defaulted loans transferred to Treasury. Defaults jumped $60B+ in one quarter.",
+      "expected_reaction": "Graduates with loans share anxiously. 'Am I affected?' questions.",
+      "risk_level": "low",
+      "avoid": [],
+      "claim_source_map": [
+        {
+          "claim": "7.8M borrowers owing $179B transferred to Treasury",
+          "source_url": "https://www.congress.gov/crs-product/R48962",
+          "support_level": "direct"
+        },
+        {
+          "claim": "Defaults jumped from $117.3B to $179B in one quarter",
+          "source_url": "https://thecollegeinvestor.com/82208/7-8-million-student-loan-borrowers-are-about-to-deal-with-a-new-debt-collector-the-u-s-treasury/",
+          "support_level": "direct"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "topic_id": "tp_006",
+      "cluster_id": "cl_002",
+      "topic": "Your Finals Got Cancelled Because Hackers Broke Canvas",
+      "category": "campus_policy",
+      "topic_lifespan_type": "short_cycle",
+      "freshness_window_days": 28,
+      "is_ai_related": false,
+      "selection_rubric": {
+        "self_relevance": {
+          "score": 5,
+          "rationale": "Nearly every US college student uses Canvas — their data was compromised"
+        },
+        "comparison_potential": {
+          "score": 4,
+          "rationale": "School-by-school response comparison"
+        },
+        "decision_usefulness": {
+          "score": 3,
+          "rationale": "Limited since breach is resolved; cybersecurity awareness value"
+        },
+        "share_trigger": {
+          "score": 4,
+          "rationale": "'Remember when this happened?' retrospective sharing"
+        },
+        "comment_trigger": {
+          "score": 4,
+          "rationale": "'My school cancelled all finals' comparison stories"
+        },
+        "format_strength": {
+          "score": 4,
+          "rationale": "Timeline of events format"
+        },
+        "freshness": {
+          "score": 3,
+          "rationale": "May 7 event, resolved May 11 — 6 weeks old"
+        },
+        "evidence_availability": {
+          "score": 5,
+          "rationale": "CNN, NPR, Wikipedia, university statements"
+        }
+      },
+      "total_score": 73,
+      "confidence": "high",
+      "needs_verification": false,
+      "editor_decision": "produce_if_needed",
+      "score_summary": "Dramatic event with universal Canvas usage but resolved and aging",
+      "ranking_reason": "Ranks #6: universal relatability but 6 weeks old and resolved.",
+      "sources": [
+        {
+          "id": "src_001",
+          "source_name": "CNN",
+          "source_type": "education_news",
+          "platform": "google_news",
+          "title": "Canvas hack",
+          "url": "https://www.cnn.com/2026/05/07/us/canvas-hack-strands-college-students-finals-week",
+          "published_at": "2026-05-07",
+          "retrieved_at": "2026-06-22T10:00:00Z",
+          "observed_date": "2026-06-22",
+          "summary": "ShinyHunters breached Canvas, 30M+ users",
+          "category": "campus_policy",
+          "region": "US",
+          "relevance": "Core source",
+          "reliability": "CNN",
+          "usable_for_ranking": true,
+          "source_quality": "high",
+          "source_role": "fact_basis",
+          "primary_or_secondary": "primary",
+          "evidence_strength": 5,
+          "campus_specificity": 5
+        },
+        {
+          "id": "src_002",
+          "source_name": "NPR",
+          "source_type": "education_news",
+          "platform": "google_news",
+          "title": "Canvas data breach rattles colleges",
+          "url": "https://www.npr.org/2026/05/08/nx-s1-5815956/canvas-data-breach-school-finals",
+          "published_at": "2026-05-08",
+          "retrieved_at": "2026-06-22T10:00:00Z",
+          "observed_date": "2026-06-22",
+          "summary": "NPR coverage, resolution May 11",
+          "category": "campus_policy",
+          "region": "US",
+          "relevance": "Corroborating",
+          "reliability": "NPR",
+          "usable_for_ranking": true,
+          "source_quality": "high",
+          "source_role": "fact_basis",
+          "primary_or_secondary": "primary",
+          "evidence_strength": 5,
+          "campus_specificity": 5
+        }
+      ],
+      "score_breakdown": {
+        "buzz": {
+          "score": 18,
+          "max": 25,
+          "reason": "Was massive during finals, now settled",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_001",
+            "src_002"
+          ]
+        },
+        "velocity": {
+          "score": 8,
+          "max": 15,
+          "reason": "Peak was May, now aftermath phase",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "target_fit": {
+          "score": 17,
+          "max": 20,
+          "reason": "Universal Canvas usage",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "content_potential": {
+          "score": 12,
+          "max": 15,
+          "reason": "Timeline, school comparison, awareness",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "source_diversity": {
+          "score": 8,
+          "max": 10,
+          "reason": "CNN, NPR, Wikipedia, universities",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_001",
+            "src_002"
+          ]
+        },
+        "evidence_quality": {
+          "score": 12,
+          "max": 15,
+          "reason": "Major outlets with Instructure confirmation",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_001"
+          ]
+        },
+        "risk_penalty": {
+          "score": -2,
+          "reason": "Avoid re-traumatizing students with disrupted finals",
+          "evidence_link_ids": []
+        }
+      },
+      "content_angle": "ShinyHunters breached Canvas during finals, 30M+ users, exams cancelled. Resolved May 11.",
+      "expected_reaction": "Students share their finals disruption stories.",
+      "risk_level": "low",
+      "avoid": [],
+      "claim_source_map": [
+        {
+          "claim": "ShinyHunters breached Canvas affecting 30M+ users at 8,000+ institutions",
+          "source_url": "https://www.cnn.com/2026/05/07/us/canvas-hack-strands-college-students-finals-week",
+          "support_level": "direct"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "topic_id": "tp_007",
+      "cluster_id": "cl_003",
+      "topic": "$57B Endowment, Still Cutting: Harvard's Budget Paradox",
+      "category": "campus_policy",
+      "topic_lifespan_type": "short_cycle",
+      "freshness_window_days": 28,
+      "is_ai_related": false,
+      "selection_rubric": {
+        "self_relevance": {
+          "score": 3,
+          "rationale": "Directly affects Harvard community; for others it's a higher ed signal"
+        },
+        "comparison_potential": {
+          "score": 4,
+          "rationale": "Harvard vs other schools, endowment-per-student, public vs private"
+        },
+        "decision_usefulness": {
+          "score": 3,
+          "rationale": "Signals financial stress at elite schools for prospective students"
+        },
+        "share_trigger": {
+          "score": 4,
+          "rationale": "$57B-but-still-cutting paradox is inherently shareable"
+        },
+        "comment_trigger": {
+          "score": 4,
+          "rationale": "'Endowments are hoarded wealth' / 'What about my state school?'"
+        },
+        "format_strength": {
+          "score": 4,
+          "rationale": "By-the-numbers: $57B, $365M deficit, 25% layoffs, 50% grad cuts"
+        },
+        "freshness": {
+          "score": 4,
+          "rationale": "Boston Globe June 4, Crimson ongoing through June"
+        },
+        "evidence_availability": {
+          "score": 5,
+          "rationale": "Harvard Crimson, Boston Globe, HUCTW, Harvard Magazine"
+        }
+      },
+      "total_score": 71,
+      "confidence": "high",
+      "needs_verification": false,
+      "editor_decision": "produce_if_needed",
+      "score_summary": "Compelling paradox but Harvard-specific",
+      "ranking_reason": "Ranks #7: great paradox but limited to Harvard-focused audience.",
+      "sources": [
+        {
+          "id": "src_003",
+          "source_name": "Harvard Crimson",
+          "source_type": "campus_news",
+          "platform": "college_newspaper",
+          "title": "FAS Could Lay Off 25%",
+          "url": "https://www.thecrimson.com/article/2026/5/20/administrative-restructuring/",
+          "published_at": "2026-05-20",
+          "retrieved_at": "2026-06-22T10:00:00Z",
+          "observed_date": "2026-06-22",
+          "summary": "25% staff layoffs, $365M deficit, McKinsey plan",
+          "category": "campus_policy",
+          "region": "US",
+          "relevance": "Primary source",
+          "reliability": "Harvard Crimson",
+          "usable_for_ranking": true,
+          "source_quality": "high",
+          "source_role": "fact_basis",
+          "primary_or_secondary": "primary",
+          "evidence_strength": 5,
+          "campus_specificity": 5
+        },
+        {
+          "id": "src_004",
+          "source_name": "Boston Globe",
+          "source_type": "education_news",
+          "platform": "google_news",
+          "title": "$57B endowment, still cutting",
+          "url": "https://www.bostonglobe.com/2026/06/04/metro/harvard-layoffs-summer-restructuring/",
+          "published_at": "2026-06-04",
+          "retrieved_at": "2026-06-22T10:00:00Z",
+          "observed_date": "2026-06-22",
+          "summary": "$57B endowment paradox",
+          "category": "campus_policy",
+          "region": "US",
+          "relevance": "Paradox angle",
+          "reliability": "Major regional paper",
+          "usable_for_ranking": true,
+          "source_quality": "high",
+          "source_role": "fact_basis",
+          "primary_or_secondary": "primary",
+          "evidence_strength": 4,
+          "campus_specificity": 4
+        }
+      ],
+      "score_breakdown": {
+        "buzz": {
+          "score": 16,
+          "max": 25,
+          "reason": "Harvard news gets attention but insider story",
+          "confidence": "medium",
+          "evidence_link_ids": []
+        },
+        "velocity": {
+          "score": 10,
+          "max": 15,
+          "reason": "Ongoing but not viral",
+          "confidence": "medium",
+          "evidence_link_ids": []
+        },
+        "target_fit": {
+          "score": 14,
+          "max": 20,
+          "reason": "Harvard-specific but canary-in-coal-mine value",
+          "confidence": "medium",
+          "evidence_link_ids": []
+        },
+        "content_potential": {
+          "score": 12,
+          "max": 15,
+          "reason": "Strong paradox numbers, comparison potential",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "source_diversity": {
+          "score": 8,
+          "max": 10,
+          "reason": "Crimson, Boston Globe, Harvard Magazine, union",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_003",
+            "src_004"
+          ]
+        },
+        "evidence_quality": {
+          "score": 13,
+          "max": 15,
+          "reason": "Primary campus newspaper + major regional paper",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_003",
+            "src_004"
+          ]
+        },
+        "risk_penalty": {
+          "score": -2,
+          "reason": "Avoid dismissing concerns or mocking laid-off staff",
+          "evidence_link_ids": []
+        }
+      },
+      "content_angle": "Harvard cutting 25% of FAS staff despite $57B endowment. $365M deficit. Grad admissions halved.",
+      "expected_reaction": "'If Harvard can't afford it...' reactions. Wealth inequality debate.",
+      "risk_level": "low",
+      "avoid": [],
+      "claim_source_map": [
+        {
+          "claim": "Harvard FAS laying off up to 25% of staff",
+          "source_url": "https://www.thecrimson.com/article/2026/5/20/administrative-restructuring/",
+          "support_level": "direct"
+        },
+        {
+          "claim": "$57B endowment alongside $365M deficit",
+          "source_url": "https://www.bostonglobe.com/2026/06/04/metro/harvard-layoffs-summer-restructuring/",
+          "support_level": "direct"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "topic_id": "tp_008",
+      "cluster_id": "cl_008",
+      "topic": "2 Out of 3 College Students Feel Lonely — But Nobody Talks About It",
+      "category": "health_wellbeing",
+      "topic_lifespan_type": "data_report",
+      "freshness_window_days": 180,
+      "is_ai_related": false,
+      "selection_rubric": {
+        "self_relevance": {
+          "score": 5,
+          "rationale": "2 in 3 students experience loneliness — nearly universal"
+        },
+        "comparison_potential": {
+          "score": 3,
+          "rationale": "LGBQ+ vs non-LGBQ+, could expand to commuter vs on-campus"
+        },
+        "decision_usefulness": {
+          "score": 3,
+          "rationale": "Awareness-raising rather than decision-making"
+        },
+        "share_trigger": {
+          "score": 4,
+          "rationale": "'I thought it was just me' relief sharing"
+        },
+        "comment_trigger": {
+          "score": 4,
+          "rationale": "'Same' / 'It gets better' / 'My school has no community'"
+        },
+        "format_strength": {
+          "score": 3,
+          "rationale": "Stat carousel but less visual variety"
+        },
+        "freshness": {
+          "score": 3,
+          "rationale": "Published March 2026 — within data_report window"
+        },
+        "evidence_availability": {
+          "score": 4,
+          "rationale": "Inside Higher Ed citing peer-reviewed research with specific stats"
+        }
+      },
+      "total_score": 68,
+      "confidence": "high",
+      "needs_verification": true,
+      "editor_decision": "monitor",
+      "score_summary": "Powerful data but sensitive mental health topic, single source",
+      "ranking_reason": "Ranks #8: deeply relatable but single source and requires careful handling.",
+      "sources": [
+        {
+          "id": "src_018",
+          "source_name": "Inside Higher Ed",
+          "source_type": "education_news",
+          "platform": "education_news",
+          "title": "5 Takeaways From Research on Student Loneliness",
+          "url": "https://www.insidehighered.com/news/student-success/health-wellness/2026/03/04/5-takeaways-recent-research-student-loneliness",
+          "published_at": "2026-03-04",
+          "retrieved_at": "2026-06-22T10:00:00Z",
+          "observed_date": "2026-06-22",
+          "summary": "64.7% lonely, 4x distress, 40% considered withdrawal",
+          "category": "health_wellbeing",
+          "region": "US",
+          "relevance": "Core data source",
+          "reliability": "IHE citing peer-reviewed research",
+          "usable_for_ranking": true,
+          "source_quality": "high",
+          "source_role": "fact_basis",
+          "primary_or_secondary": "primary",
+          "evidence_strength": 5,
+          "campus_specificity": 5
+        }
+      ],
+      "score_breakdown": {
+        "buzz": {
+          "score": 14,
+          "max": 25,
+          "reason": "Background topic, not trending",
+          "confidence": "medium",
+          "evidence_link_ids": []
+        },
+        "velocity": {
+          "score": 7,
+          "max": 15,
+          "reason": "Steady, not accelerating",
+          "confidence": "medium",
+          "evidence_link_ids": []
+        },
+        "target_fit": {
+          "score": 18,
+          "max": 20,
+          "reason": "Universal experience, especially freshmen/intl students",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_018"
+          ]
+        },
+        "content_potential": {
+          "score": 11,
+          "max": 15,
+          "reason": "Strong stats but needs personal angle",
+          "confidence": "medium",
+          "evidence_link_ids": []
+        },
+        "source_diversity": {
+          "score": 5,
+          "max": 10,
+          "reason": "Single source cluster",
+          "confidence": "low",
+          "evidence_link_ids": [
+            "src_018"
+          ]
+        },
+        "evidence_quality": {
+          "score": 12,
+          "max": 15,
+          "reason": "IHE citing peer-reviewed research",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_018"
+          ]
+        },
+        "risk_penalty": {
+          "score": -3,
+          "reason": "Mental health — sensitive tone required, include resources, no meme",
+          "evidence_link_ids": []
+        }
+      },
+      "content_angle": "64.7% lonely, 4x distress risk, 40% considered withdrawing, LGBQ+ at 70.3%.",
+      "expected_reaction": "'I thought it was just me' reactions.",
+      "risk_level": "medium",
+      "avoid": [],
+      "claim_source_map": [
+        {
+          "claim": "64.7% of college students report feeling lonely",
+          "source_url": "https://www.insidehighered.com/news/student-success/health-wellness/2026/03/04/5-takeaways-recent-research-student-loneliness",
+          "support_level": "direct"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "topic_id": "tp_009",
+      "cluster_id": "cl_009",
+      "topic": "Skip the MBB Grind: Student-Run Consulting Firms Work With Fortune 500",
+      "category": "career_jobs",
+      "topic_lifespan_type": "short_cycle",
+      "freshness_window_days": 28,
+      "is_ai_related": false,
+      "selection_rubric": {
+        "self_relevance": {
+          "score": 4,
+          "rationale": "Relevant to business/consulting students, less to STEM/arts"
+        },
+        "comparison_potential": {
+          "score": 3,
+          "rationale": "School-by-school comparison of student orgs"
+        },
+        "decision_usefulness": {
+          "score": 4,
+          "rationale": "Directly actionable: join or start similar organizations"
+        },
+        "share_trigger": {
+          "score": 3,
+          "rationale": "Consulting-interested students share, narrower audience"
+        },
+        "comment_trigger": {
+          "score": 3,
+          "rationale": "'My school has one' / 'Resume padding' debates"
+        },
+        "format_strength": {
+          "score": 3,
+          "rationale": "List format of schools but limited visual punch"
+        },
+        "freshness": {
+          "score": 4,
+          "rationale": "U.S. News June 18 — very fresh"
+        },
+        "evidence_availability": {
+          "score": 3,
+          "rationale": "Single U.S. News source — needs more examples"
+        }
+      },
+      "total_score": 65,
+      "confidence": "medium",
+      "needs_verification": true,
+      "editor_decision": "monitor",
+      "score_summary": "Actionable but single source and niche",
+      "ranking_reason": "Ranks #9: fresh and actionable but single source, narrow appeal.",
+      "sources": [
+        {
+          "id": "src_017",
+          "source_name": "U.S. News",
+          "source_type": "education_news",
+          "platform": "google_news",
+          "title": "Student-Run Consulting Firms",
+          "url": "https://www.usnews.com/education/u-s-news-higher-ground/articles/2026-06-18/consulting-on-campus-university-illinois",
+          "published_at": "2026-06-18",
+          "retrieved_at": "2026-06-22T10:00:00Z",
+          "observed_date": "2026-06-22",
+          "summary": "IBC: 250 students, 22 projects, Fortune 500",
+          "category": "career_jobs",
+          "region": "US",
+          "relevance": "Core source",
+          "reliability": "U.S. News",
+          "usable_for_ranking": true,
+          "source_quality": "high",
+          "source_role": "fact_basis",
+          "primary_or_secondary": "primary",
+          "evidence_strength": 4,
+          "campus_specificity": 5
+        }
+      ],
+      "score_breakdown": {
+        "buzz": {
+          "score": 10,
+          "max": 25,
+          "reason": "Niche topic",
+          "confidence": "low",
+          "evidence_link_ids": []
+        },
+        "velocity": {
+          "score": 8,
+          "max": 15,
+          "reason": "Fresh but not viral",
+          "confidence": "low",
+          "evidence_link_ids": []
+        },
+        "target_fit": {
+          "score": 15,
+          "max": 20,
+          "reason": "Strong for biz students, weak for general",
+          "confidence": "medium",
+          "evidence_link_ids": []
+        },
+        "content_potential": {
+          "score": 11,
+          "max": 15,
+          "reason": "Actionable, aspirational",
+          "confidence": "medium",
+          "evidence_link_ids": []
+        },
+        "source_diversity": {
+          "score": 4,
+          "max": 10,
+          "reason": "Single source",
+          "confidence": "low",
+          "evidence_link_ids": [
+            "src_017"
+          ]
+        },
+        "evidence_quality": {
+          "score": 10,
+          "max": 15,
+          "reason": "U.S. News reliable but single",
+          "confidence": "medium",
+          "evidence_link_ids": [
+            "src_017"
+          ]
+        },
+        "risk_penalty": {
+          "score": 0,
+          "reason": "No risk",
+          "evidence_link_ids": []
+        }
+      },
+      "content_angle": "IBC at UIUC: 250 students, 22 projects, 19 companies. Alternative consulting path.",
+      "expected_reaction": "'Does my school have one?' / 'How do I start one?'",
+      "risk_level": "low",
+      "avoid": [],
+      "claim_source_map": [
+        {
+          "claim": "250 students, 22 projects for 19 companies in Spring 2026",
+          "source_url": "https://www.usnews.com/education/u-s-news-higher-ground/articles/2026-06-18/consulting-on-campus-university-illinois",
+          "support_level": "direct"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "topic_id": "tp_010",
+      "cluster_id": "cl_003",
+      "topic": "Dorm Costs Doubled in 30 Years — And Quality Got Worse",
+      "category": "housing_campus_life",
+      "topic_lifespan_type": "data_report",
+      "freshness_window_days": 180,
+      "is_ai_related": false,
+      "selection_rubric": {
+        "self_relevance": {
+          "score": 5,
+          "rationale": "Every on-campus student pays for housing"
+        },
+        "comparison_potential": {
+          "score": 5,
+          "rationale": "School-by-school cost comparison, dorm vs apartment vs commuting"
+        },
+        "decision_usefulness": {
+          "score": 4,
+          "rationale": "Informs housing decisions"
+        },
+        "share_trigger": {
+          "score": 4,
+          "rationale": "'Look how much my dorm costs' comparison sharing"
+        },
+        "comment_trigger": {
+          "score": 4,
+          "rationale": "'My school charges $12K for a triple' stories"
+        },
+        "format_strength": {
+          "score": 4,
+          "rationale": "Cost comparison carousel, 30-year trend"
+        },
+        "freshness": {
+          "score": 3,
+          "rationale": "June 2026 article, AY2025-26 data — current but not breaking"
+        },
+        "evidence_availability": {
+          "score": 4,
+          "rationale": "The Nation, Education Data Initiative, university rates"
+        }
+      },
+      "total_score": 64,
+      "confidence": "high",
+      "needs_verification": false,
+      "editor_decision": "monitor",
+      "score_summary": "Universal with striking data but evergreen without urgency",
+      "ranking_reason": "Ranks #10: universally relatable but no breaking news urgency.",
+      "sources": [
+        {
+          "id": "src_020",
+          "source_name": "The Nation",
+          "source_type": "education_news",
+          "platform": "google_news",
+          "title": "College Dorms Are Terrible — More Expensive Than Ever",
+          "url": "https://www.thenation.com/article/society/college-dorm-costs-quality-housing-crisis/",
+          "published_at": "2026-06-01",
+          "retrieved_at": "2026-06-22T10:00:00Z",
+          "observed_date": "2026-06-22",
+          "summary": "$8,196 avg dorm, doubled in 30 years, Holiday Inn overflow",
+          "category": "housing_campus_life",
+          "region": "US",
+          "relevance": "Core data source",
+          "reliability": "The Nation",
+          "usable_for_ranking": true,
+          "source_quality": "high",
+          "source_role": "fact_basis",
+          "primary_or_secondary": "primary",
+          "evidence_strength": 4,
+          "campus_specificity": 5
+        }
+      ],
+      "score_breakdown": {
+        "buzz": {
+          "score": 13,
+          "max": 25,
+          "reason": "Perennial topic, always engages",
+          "confidence": "medium",
+          "evidence_link_ids": []
+        },
+        "velocity": {
+          "score": 6,
+          "max": 15,
+          "reason": "Steady background, not spiking",
+          "confidence": "medium",
+          "evidence_link_ids": []
+        },
+        "target_fit": {
+          "score": 17,
+          "max": 20,
+          "reason": "Universal for on-campus students",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "content_potential": {
+          "score": 12,
+          "max": 15,
+          "reason": "Strong comparison, Holiday Inn anecdote",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "source_diversity": {
+          "score": 6,
+          "max": 10,
+          "reason": "The Nation + Education Data",
+          "confidence": "medium",
+          "evidence_link_ids": [
+            "src_020"
+          ]
+        },
+        "evidence_quality": {
+          "score": 11,
+          "max": 15,
+          "reason": "The Nation investigative + official tuition data",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_020"
+          ]
+        },
+        "risk_penalty": {
+          "score": -1,
+          "reason": "Avoid making students feel trapped",
+          "evidence_link_ids": []
+        }
+      },
+      "content_angle": "Average dorm $8,196/year, room+board $15,068. Doubled in 30 years at public universities. UT Knoxville rented Holiday Inn.",
+      "expected_reaction": "'My dorm costs more' / 'The Holiday Inn is insane' school comparisons.",
+      "risk_level": "low",
+      "avoid": [],
+      "claim_source_map": [
+        {
+          "claim": "Average dorm $8,196 in AY2025-26",
+          "source_url": "https://www.thenation.com/article/society/college-dorm-costs-quality-housing-crisis/",
+          "support_level": "direct"
+        },
+        {
+          "claim": "UT Knoxville rented Holiday Inn",
+          "source_url": "https://www.thenation.com/article/society/college-dorm-costs-quality-housing-crisis/",
+          "support_level": "direct"
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "topic_id": "tp_011",
+      "cluster_id": "cl_001",
+      "topic": "Drexel's $112.6M Gift: What a Record Engineering Donation Actually Funds",
+      "category": "campus_policy",
+      "topic_lifespan_type": "breaking",
+      "freshness_window_days": 14,
+      "is_ai_related": false,
+      "selection_rubric": {
+        "self_relevance": {
+          "score": 3,
+          "rationale": "Drexel-specific but signals what big donations mean for engineering students broadly"
+        },
+        "comparison_potential": {
+          "score": 4,
+          "rationale": "Comparison to other record donations, what $112M buys vs tuition costs"
+        },
+        "decision_usefulness": {
+          "score": 3,
+          "rationale": "Limited direct decision impact for non-Drexel students"
+        },
+        "share_trigger": {
+          "score": 3,
+          "rationale": "Engineering students share aspirationally, 'look at this lab'"
+        },
+        "comment_trigger": {
+          "score": 4,
+          "rationale": "'Why can't my school get this?' / 'Alumni donations vs tuition' debate"
+        },
+        "format_strength": {
+          "score": 4,
+          "rationale": "By-the-numbers: $76M scholarships, $36M labs, what each $ buys"
+        },
+        "freshness": {
+          "score": 5,
+          "rationale": "Announced June 11 — 11 days ago, very fresh"
+        },
+        "evidence_availability": {
+          "score": 5,
+          "rationale": "Official Drexel announcement, PhillyVoice, Philadelphia Inquirer, IHE, The Triangle"
+        }
+      },
+      "total_score": 62,
+      "confidence": "high",
+      "needs_verification": false,
+      "editor_decision": "monitor",
+      "score_summary": "AI diversity rule addition (non-AI #11 to offset AI #2). Fresh news with comparison potential but school-specific.",
+      "ranking_reason": "Added as rank 11 per AI diversity rule: 1 AI topic in top 10 requires 1 non-AI addition at 11+. Fresh Drexel donation story with comparison angle.",
+      "sources": [
+        {
+          "id": "src_019",
+          "source_name": "Drexel University",
+          "source_type": "official_university",
+          "platform": "official_university",
+          "title": "Largest Gift in Drexel's History",
+          "url": "https://drexel.edu/news/archive/2026/June/Howley-Foundation-gift-CoEC",
+          "published_at": "2026-06-11",
+          "retrieved_at": "2026-06-22T10:00:00Z",
+          "observed_date": "2026-06-22",
+          "summary": "$112.6M — $76M scholarships, $36M+ new labs",
+          "category": "campus_policy",
+          "region": "US",
+          "relevance": "Record donation with student impact",
+          "reliability": "Official university release",
+          "usable_for_ranking": true,
+          "source_quality": "high",
+          "source_role": "fact_basis",
+          "primary_or_secondary": "primary",
+          "evidence_strength": 5,
+          "campus_specificity": 5
+        }
+      ],
+      "score_breakdown": {
+        "buzz": {
+          "score": 12,
+          "max": 25,
+          "reason": "Regional news, not nationally trending",
+          "confidence": "medium",
+          "evidence_link_ids": []
+        },
+        "velocity": {
+          "score": 10,
+          "max": 15,
+          "reason": "Fresh announcement June 11",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "target_fit": {
+          "score": 13,
+          "max": 20,
+          "reason": "Engineering students broadly, Drexel specifically",
+          "confidence": "medium",
+          "evidence_link_ids": []
+        },
+        "content_potential": {
+          "score": 11,
+          "max": 15,
+          "reason": "What-does-this-buy breakdown, comparison format",
+          "confidence": "medium",
+          "evidence_link_ids": []
+        },
+        "source_diversity": {
+          "score": 7,
+          "max": 10,
+          "reason": "Official Drexel + PhillyVoice + Inquirer + Triangle + IHE",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_019"
+          ]
+        },
+        "evidence_quality": {
+          "score": 12,
+          "max": 15,
+          "reason": "Official university press release — primary authoritative source",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_019"
+          ]
+        },
+        "risk_penalty": {
+          "score": -1,
+          "reason": "Avoid framing as wealthy donor saviorism",
+          "evidence_link_ids": []
+        }
+      },
+      "content_angle": "$76M for scholarships, $36M+ for robotics/aerospace labs. Comparison: how many students could this cover? What does a record donation actually do?",
+      "expected_reaction": "'Why can't my school get this?' / 'Rich alumni fixing what tuition should' — debate.",
+      "risk_level": "low",
+      "avoid": [],
+      "claim_source_map": [
+        {
+          "claim": "$112.6M donation, $76M for scholarships",
+          "source_url": "https://drexel.edu/news/archive/2026/June/Howley-Foundation-gift-CoEC",
+          "support_level": "direct"
+        }
+      ]
+    }
+  ],
+  "ranking_notes": {
+    "excluded_topics": [
+      "Drexel donation — too school-specific"
+    ],
+    "topics_needing_more_sources": [
+      "Student-run consulting firms (single source)",
+      "College loneliness (single source, older date)"
+    ],
+    "strongest_content_opportunities": [
+      "Internship crisis with 40-point hiring gap data",
+      "AI cheating paradox with lawsuit angle",
+      "Ivy League test-optional era ending"
+    ]
+  }
+}

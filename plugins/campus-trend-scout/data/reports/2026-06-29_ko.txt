@@ -1,0 +1,81 @@
+# 미국 & 캐나다 캠퍼스 트렌드 데일리 브리프
+날짜: 2026-06-29 | 지역: 미국, 캐나다 | 시그널 44개 | 클러스터 18개 | 랭킹 토픽 17개
+
+## 오늘의 한 줄 결론
+오늘은 "진짜 존재하는 의외의 대학 강좌" 카드뉴스를 가장 먼저 만든다. 겹치는 소재가 없고 리스크도 없으면서, "이게 진짜야?"라는 반응을 스스로 만들어내는 유일한 소재다.
+
+## 오늘 바로 만들 콘텐츠 Top 3
+
+### 1. 진짜 존재하는 의외의 대학 강좌
+제작 우선순위: 매우 높음
+콘텐츠 각도: 반전형 + 친구 태그형
+타깃: 전체 대학생, 특히 전공을 아직 정하지 못한 신입생
+후킹 문장: "이게 진짜 대학 수업이라고?"
+핵심 근거: 코넬은 나무 타는 법을 가르치고, 페퍼다인은 서핑으로 학점을 주고, 펜스테이트엔 아이스크림학 강좌가 실제로 개설되어 있다.
+카드뉴스 제목 후보: "이거 진짜 수업이라고?" / "등록금이 나무 타기에 쓰이는 학교가 있다" / "몰랐던 수업 5개"
+슬라이드 구성: 표지(이게 진짜야?) → 코넬 나무타기 → 페퍼다인 서핑 → 펜스테이트 아이스크림학 → 의외의 강좌 하나 더 → CTA(너네 학교는?)
+댓글 유도 질문: "너네 학교에 이런 특이한 수업 있어?"
+예상 댓글 반응: 자기 학교 특이 강좌를 자랑하듯 댓글로 인증하는 쪽과, 진짜냐고 의심하며 증거를 요구하는 쪽 둘 다 댓글을 부른다.
+주의할 점: 특정 학교를 비웃는 톤으로 가지 않고, 신기함과 호감을 유지한다.
+
+### 2. 룸메이트·기숙사 공유 불안, 첫 메시지 멘트까지
+제작 우선순위: 높음
+콘텐츠 각도: 위로형 + 체크리스트형
+타깃: 곧 새로운 룸메이트와 살게 될 신입생, 2학년
+후킹 문장: "룸메이트 배정받고 잠 못 잤다는 사람들"
+핵심 근거: College Confidential에는 신입생뿐 아니라 2학년도 같은 불안을 토로하는 글이 반복적으로 올라오고, 일반적인 조언보다 "첫 메시지를 뭐라고 보내야 하느냐"는 구체적인 질문이 많다.
+카드뉴스 제목 후보: "룸메이트 불안, 너만 그런 거 아니다" / "처음 보는 사람한테 뭐라고 말 걸어야 할까" / "메시지 두 개로 끝내는 룸메이트 불안"
+슬라이드 구성: 표지 → 왜 다들 이렇게 불안할까 → 첫 메시지 템플릿 1 → 첫 메시지 템플릿 2 → 선배들이 효과 봤다는 방법 → CTA(IGOTIN에서 룸메이트 먼저 만나보기)
+댓글 유도 질문: "룸메이트한테 첫 메시지 뭐라고 보냈어?"
+예상 댓글 반응: 공감 댓글이 많이 달리고, 일부는 자기가 보냈던 첫 메시지를 효과가 있었다며 직접 공유한다.
+주의할 점: 불안을 정상적인 감정으로 다루되, 정신건강 진단처럼 단정하지 않는다.
+
+### 3. 도시별 학생 생활비 비교 (뉴욕·베이에어리어·토론토)
+제작 우선순위: 높음
+콘텐츠 각도: 비교형 + 정보 저장형
+타깃: 이번 가을 거주지를 고민하는 학생, 편입생, 자취 예정 신입생
+후킹 문장: "같은 한 달, 도시마다 이렇게 다르다"
+핵심 근거: 2026년 생활비 가이드에 따르면 뉴욕 학생의 월 예산은 약 2,500~5,500달러이고, 베이에어리어와 토론토 콘텐츠도 비슷한 임대료 부담을 각각 다른 수치로 보여준다.
+카드뉴스 제목 후보: "뉴욕 자취, 한 달에 이만큼 든다" / "베이에어리어 월세 보면 놀랄걸" / "도시 고르면 예산도 정해진다"
+슬라이드 구성: 표지 → 뉴욕 월 생활비 → 베이에어리어 임대료 현실 → 토론토 비용 현황 → 절약 팁 하나 → CTA(너네 도시는 얼마야?)
+댓글 유도 질문: "너네 도시는 한 달에 얼마 들어?"
+예상 댓글 반응: 저장 비율이 높고, 댓글이 자연스럽게 도시별 비용 비교 게시판처럼 채워진다.
+주의할 점: 출처 데이터의 기준 시점이 다를 수 있으니 캡션에 기준 시점을 명시한다.
+
+## 대기 콘텐츠 (다음 후보, 제목만)
+- Princeton Review "가장 행복한 학생들" 랭킹, TCU 1위 — 댓글 논쟁 유도력 강함
+- 미국 vs 캐나다 유학 비용 비교 — 의사결정 연결성 강함, 이전 비자 정책 앵글과 차별화됨
+- LGBTQ+ 친화 대학 랭킹
+- 입주(Move-in) 준비 체크리스트
+- 7월 1일 연방 학자금 상환 제도 변경 (이번 달 4번째 등장이라 RAP 플랜+FAFSA 사기 경보 같은 새 앵글 필요)
+- US News 2026 랭킹 방법론 변경
+- 전공 후회 통계 + 인턴십 예방 앵글 (2026-06-23에 다룬 통계 재사용, 인턴십 데이터 결합 필수)
+
+## 제외 또는 모니터링
+- 대학생 AI 사용/부정행위 논쟁 — 이미 2026-06-19, 06-22, 06-23 다뤘고, 토픽 히스토리 노트에 5일 쿨다운이 필요하다고 명시되어 있어 근거는 강해도 오늘은 보류한다.
+- 유학생 비자 불안과 학교 지원 체계 — 리스크 중간, 개인 사건이 아닌 정책·구조 차원으로만 다루고 meme 톤 금지, 제작 대신 모니터링.
+- 대학생 대상 AI 도구 무료 보급 — 단일 출처로 근거가 약해 추가 보강 후 검토.
+- 2026학번 학교별 스레드, 기숙사·캠퍼스 투어 클립, 졸업 콘텐츠 — 근거가 얇거나 시즌이 맞지 않아 보류.
+- "Top 10 종합 대학 랭킹"류 일반 랭킹 — 원칙상 제외, 테마형/방법론형 랭킹만 남겼다.
+
+## 출처 노트 & 리스크 노트
+Reddit은 WebSearch와 Chrome MCP 모두 접속이 차단되어 오늘은 접근 가능한 게시물이 없었다. 기존 지침에 따라 College Confidential을 커뮤니티 시그널의 대체 출처로 사용했고, 이는 의도된 대체이며 누락이 아니다. TikTok은 Chrome MCP로, X/Threads는 WebSearch 도메인 제한으로 수집했다. 아래 URL은 모두 실제로 확인한 것이며 지어낸 것은 없다.
+
+토픽별 출처: 의외의 강좌 — https://kdcollegeprep.com/20-spooky-weird-college-classes/ , https://www.foxnews.com/lifestyle/wild-wacky-college-classes-america
+룸메이트 불안 — https://talk.collegeconfidential.com/t/scared-about-living-with-a-new-roommate-i-have-severe-anxiety/1925103 , https://talk.collegeconfidential.com/t/having-serious-anxiety-about-sharing-a-dorm-again-sophomore/2062089 , https://www.tiktok.com/@elin.rowe/video/7652375593027259662
+도시별 생활비 — https://fllat.com/blog/new-york-city/cost-of-living-for-students-in-new-york-city-2026-budget-breakdown , https://www.tiktok.com/@lillianzhang_/video/7119636746463169838 , https://www.tiktok.com/@cbctoronto/video/7542572481354272006
+행복한 학생 랭킹 — https://www.princetonreview.com/college-rankings/?rankings=happiest-students
+미국 vs 캐나다 비용 — https://www.mtfxgroup.com/post/cost-of-studying-in-the-us-for-canadian-students-a-complete-guide/ , https://www.tiktok.com/@canadatipss/video/7655015924306627861
+LGBTQ+ 친화 대학 — https://www.bestcolleges.com/resources/best-colleges-for-lgbt-students/ , https://www.collegevaluesonline.com/lgbtq-college-progress/
+입주 체크리스트 — https://www.tiktok.com/@ava.talks.too.much/video/7656465560267394317 , https://talk.collegeconfidential.com/t/freshman-move-in-day-in-3-weeks-any-advice-or-questions/1729940
+7월 1일 학자금 제도 변경 — https://x.com/CNBC/status/2060371723841605865 , https://x.com/USATODAY/status/2061784935254393029 , https://x.com/Forbes/status/2031535622209548301 , https://thecollegeinvestor.com/82017/this-week-in-college-and-money-news-june-12-2026/
+US News 방법론 — https://www.usnews.com/best-colleges/rankings/national-universities
+전공 후회+인턴십 — https://www.academicjobs.com/higher-education-news/most-regretted-college-majors-2026-poli-sci-tops-list-or-academicjobs-14286 , https://www.cbsnews.com/news/college-major-recent-grads-most-regret-ziprecruiter/ , https://www.insidehighered.com/news/student-success/life-after-college/2025/02/21/12-college-students-wont-participate-internship
+학교별 스레드 — https://talk.collegeconfidential.com/t/uc-san-diego-freshman-class-of-2026-discussion/3553421 , https://talk.collegeconfidential.com/t/uc-irvine-freshman-class-of-2026-discussion/3553322
+AI 도구 무료 보급 — https://x.com/sundarpichai/status/1953124372480180550
+비자 불안 — https://www.threads.net/@economictimes/post/DIOYmz0O-xX/-growing-concerns-arise-as-international-students-face-silent-deportations-and-v , https://www.threads.net/@utulsa/post/DHHSexhCIEq/the-university-of-tulsa-is-home-to-410-international-students-from-80-different-
+기숙사·캠퍼스 클립 — https://www.tiktok.com/@storagescholars/video/7636171145955249439 , https://www.tiktok.com/@unioncollege/video/7652048340925926687
+졸업 콘텐츠 — https://www.tiktok.com/@mianguyen.__/photo/7630678697560902943
+AI 사용/부정행위 논쟁(보류) — https://news.berkeley.edu/2026/05/21/the-largest-study-of-ai-use-by-undergrads-is-in-revealing-disparities-in-access-and-in-cheating/ , https://www.bestcolleges.com/research/college-students-ai-tools-survey/ , https://x.com/CollegeFix/status/2056063159178596796
+
+리스크 노트: 비자 불안 토픽은 민감도 때문에 제작 대신 모니터링으로 유지한다. 학자금 제도 변경 토픽은 이번 달 4번째 등장이라, 제작할 경우 이전 브리프와 시각적으로 명확히 다른 구성을 써야 피로감을 피할 수 있다.

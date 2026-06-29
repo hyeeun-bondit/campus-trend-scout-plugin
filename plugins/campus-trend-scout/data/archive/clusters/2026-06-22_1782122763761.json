@@ -1,0 +1,208 @@
+{
+  "cluster_batch_id": "cb_20260622",
+  "input_signal_batch_id": "sb_20260622",
+  "cluster_count": 8,
+  "clusters": [
+    {
+      "cluster_id": "cl_001",
+      "topic": "Student Loan Overhaul: New RAP Plan Takes Effect July 1",
+      "category": "student_finance",
+      "summary": "Massive federal student loan changes in 9 days: new RAP plan replaces SAVE, Grad PLUS eliminated, new borrowing limits. RAP not inflation-indexed — hidden trap for borrowers.",
+      "source_ids": [
+        "src_006",
+        "src_007"
+      ],
+      "representative_source_id": "src_006",
+      "student_reaction_summary": "Borrowers confused about which plan to choose. Concern about RAP not being inflation-indexed.",
+      "factual_basis_summary": "Confirmed DoE final rules: RAP payments 1-10% of income, $10 minimum, not inflation-indexed. SAVE plan ended. Grad PLUS eliminated July 1, 2026.",
+      "target_audience": [
+        "undergraduate_students",
+        "us_college_students"
+      ],
+      "possible_content_angle": "Before/After comparison of old vs new loan plans with specific payment examples",
+      "region_relevance": "US",
+      "school_relevance_tags": [],
+      "confidence": "high",
+      "risk_level": "low",
+      "eligible_for_ranking": true,
+      "cluster_notes": ""
+    },
+    {
+      "cluster_id": "cl_002",
+      "topic": "College Students Can't Read Anymore — NAEP Scores Hit Historic Low",
+      "category": "academic_skills",
+      "summary": "12th grade NAEP reading scores at lowest since 1992. University instructors report students unable to complete 20-page articles. Smartphone reading linked to lower comprehension.",
+      "source_ids": [
+        "src_001",
+        "src_002",
+        "src_003"
+      ],
+      "representative_source_id": "src_001",
+      "student_reaction_summary": "Students self-aware about shorter attention spans. Debate about whether phones or social media are to blame.",
+      "factual_basis_summary": "NAEP 2024 data: 12th grade reading at historic low. Nearly 1/3 below 'basic' level. Multiple instructor reports confirm classroom impact.",
+      "target_audience": [
+        "undergraduate_students",
+        "incoming_freshmen"
+      ],
+      "possible_content_angle": "Quiz/self-test format: Can YOU get through 20 pages? Why your reading brain is shrinking.",
+      "region_relevance": "US",
+      "school_relevance_tags": [],
+      "confidence": "high",
+      "risk_level": "low",
+      "eligible_for_ranking": true,
+      "cluster_notes": ""
+    },
+    {
+      "cluster_id": "cl_003",
+      "topic": "Canvas Data Breach: 275M Users Hacked During Finals Week",
+      "category": "cybersecurity",
+      "summary": "ShinyHunters stole 3.65TB from 275M Canvas users at 8,809 institutions. Ransomware during finals week. Rumored $10M ransom paid. Student data including messages compromised.",
+      "source_ids": [
+        "src_004",
+        "src_005"
+      ],
+      "representative_source_id": "src_004",
+      "student_reaction_summary": "Students frustrated about disrupted finals. Concerns about personal data and private messages being exposed.",
+      "factual_basis_summary": "Confirmed: breach occurred April 25, detected April 29, second hack May 7. Names, emails, student IDs, messages compromised. Agreement reached May 11.",
+      "target_audience": [
+        "undergraduate_students",
+        "us_college_students",
+        "canadian_university_students"
+      ],
+      "possible_content_angle": "What data of YOURS was leaked? Checklist for students post-Canvas breach.",
+      "region_relevance": "both",
+      "school_relevance_tags": [],
+      "confidence": "high",
+      "risk_level": "medium",
+      "eligible_for_ranking": true,
+      "cluster_notes": ""
+    },
+    {
+      "cluster_id": "cl_004",
+      "topic": "Harvard's $365M Deficit: Even the Richest University Is Cutting Deep",
+      "category": "institutional_crisis",
+      "summary": "Harvard FAS faces $365M deficit despite $57B endowment. Up to 25% staff layoffs. 3,600+ signed petition against cuts. Endowment tax hike driving crisis.",
+      "source_ids": [
+        "src_008",
+        "src_009"
+      ],
+      "representative_source_id": "src_008",
+      "student_reaction_summary": "Students report strained labs and course support after SEAS layoffs. HUCTW petition gathered 3,600+ signatures.",
+      "factual_basis_summary": "Harvard Crimson confirmed: $365M FAS deficit, $113M university operating deficit FY2025. Multiple rounds of layoffs totaling 100+ staff already.",
+      "target_audience": [
+        "undergraduate_students",
+        "us_college_students"
+      ],
+      "possible_content_angle": "If Harvard can't make it work with $57B, what's happening at YOUR school?",
+      "region_relevance": "US",
+      "school_relevance_tags": [],
+      "confidence": "high",
+      "risk_level": "low",
+      "eligible_for_ranking": true,
+      "cluster_notes": ""
+    },
+    {
+      "cluster_id": "cl_005",
+      "topic": "$98K/Year for College: GWU Approaches Six Figures",
+      "category": "tuition_costs",
+      "summary": "GWU total cost approaching $98K/year. Dorm costs surpassing tuition at public universities. Room and board rising faster than tuition nationwide.",
+      "source_ids": [
+        "src_010",
+        "src_014"
+      ],
+      "representative_source_id": "src_010",
+      "student_reaction_summary": "Sticker shock. Students questioning if the degree is worth it at these prices.",
+      "factual_basis_summary": "GWU 2026-27 tuition $72K + room/board/fees = ~$95K+. At public universities, room and board ($12,770) now exceeds tuition ($11,260).",
+      "target_audience": [
+        "undergraduate_students",
+        "incoming_freshmen",
+        "us_college_students"
+      ],
+      "possible_content_angle": "Schools approaching $100K/year — ranked list with what you actually get for the money",
+      "region_relevance": "US",
+      "school_relevance_tags": [],
+      "confidence": "high",
+      "risk_level": "low",
+      "eligible_for_ranking": true,
+      "cluster_notes": ""
+    },
+    {
+      "cluster_id": "cl_006",
+      "topic": "8 Colleges Closing, 6 Merging: The 2026 Small College Death Wave",
+      "category": "institutional_crisis",
+      "summary": "8 nonprofit colleges shutting down in 2026. Hampshire College, Anna Maria College among closures. 6 mergers including NJCU+Kean. Small liberal arts colleges in Northeast/Midwest at highest risk.",
+      "source_ids": [
+        "src_011"
+      ],
+      "representative_source_id": "src_011",
+      "student_reaction_summary": "Students at small colleges anxious about their own school's future. Transfer students directly displaced.",
+      "factual_basis_summary": "Confirmed 8 closures and 6 mergers. Hampshire College (60 years), Anna Maria (80 years) confirmed shutdowns.",
+      "target_audience": [
+        "undergraduate_students",
+        "transfer_students",
+        "us_college_students"
+      ],
+      "possible_content_angle": "Is YOUR school on the risk list? Red flags that a college might close.",
+      "region_relevance": "US",
+      "school_relevance_tags": [],
+      "confidence": "high",
+      "risk_level": "low",
+      "eligible_for_ranking": true,
+      "cluster_notes": ""
+    },
+    {
+      "cluster_id": "cl_007",
+      "topic": "$3.4M Lifetime Earnings Gap Between Best and Worst College Majors",
+      "category": "career_earnings",
+      "summary": "Chemical engineering $135K vs foreign language $40K early career. $3.4M lifetime gap. Theology, performing arts, education all under $45K.",
+      "source_ids": [
+        "src_012"
+      ],
+      "representative_source_id": "src_012",
+      "student_reaction_summary": "Debate between 'follow your passion' vs 'follow the money'. STEM students feel validated; humanities students feel attacked.",
+      "factual_basis_summary": "CNBC reporting federal earnings data. Specific salary figures by major at 5-year and mid-career marks.",
+      "target_audience": [
+        "undergraduate_students",
+        "incoming_freshmen",
+        "us_college_students"
+      ],
+      "possible_content_angle": "The $3.4 Million Question: What your major ACTUALLY pays, ranked",
+      "region_relevance": "US",
+      "school_relevance_tags": [],
+      "confidence": "high",
+      "risk_level": "low",
+      "eligible_for_ranking": true,
+      "cluster_notes": ""
+    },
+    {
+      "cluster_id": "cl_008",
+      "topic": "AI Cheating Arms Race: Students Pay $50/Month for 'Humanizer' Tools",
+      "category": "ai_academic_integrity",
+      "summary": "92% of students use AI. Students now using AI humanizer tools to beat AI detectors. 150 humanizer tools identified by Turnitin. Ironic cycle: AI to write, AI to detect, AI to hide.",
+      "source_ids": [
+        "src_013"
+      ],
+      "representative_source_id": "src_013",
+      "student_reaction_summary": "Students feel caught between using AI as a tool and being accused of cheating. Many feel AI policies are unclear.",
+      "factual_basis_summary": "NBC News: 92% use AI for studying, 18% submit unedited work. Turnitin identified 150 humanizer tools charging up to $50.",
+      "target_audience": [
+        "undergraduate_students",
+        "us_college_students",
+        "canadian_university_students"
+      ],
+      "possible_content_angle": "The AI cheating paradox: students now paying for AI to make their AI work look human",
+      "region_relevance": "both",
+      "school_relevance_tags": [],
+      "confidence": "high",
+      "risk_level": "low",
+      "eligible_for_ranking": true,
+      "cluster_notes": ""
+    }
+  ],
+  "excluded_items": [
+    {
+      "source_id": "src_015",
+      "reason": "Internship data merged into career/earnings cluster context but not strong enough as standalone cluster for June timing (most internships already started)"
+    }
+  ]
+}

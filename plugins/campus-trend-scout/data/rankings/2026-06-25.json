@@ -1,0 +1,1366 @@
+{
+  "ranked_topic_batch_id": "rb_20260625_v3",
+  "run_date": "2026-06-25",
+  "topics": [
+    {
+      "rank": 1,
+      "topic_id": "c14_genz_literacy_crisis",
+      "cluster_id": "c14_genz_literacy_crisis",
+      "topic": "Gen Z students are arriving at college unable to read a full sentence, professors warn",
+      "category": "academic_readiness",
+      "is_ai_related": false,
+      "selection_rubric": {
+        "self_relevance": {
+          "score": 4,
+          "rationale": "Touches every major that assigns reading, and ties directly into how students study and use AI to shortcut texts."
+        },
+        "comparison_potential": {
+          "score": 4,
+          "rationale": "Splits by major (humanities vs STEM), by generation (Gen Z vs Millennial reading habits), and by how professors at different schools are adapting."
+        },
+        "decision_usefulness": {
+          "score": 3,
+          "rationale": "More of an awareness/self-check than an active decision, though it can prompt students to rethink study habits."
+        },
+        "share_trigger": {
+          "score": 4,
+          "rationale": "Sharp, identity-poking stat that students send to friends either to mock or defend themselves."
+        },
+        "comment_trigger": {
+          "score": 5,
+          "rationale": "Highly polarizing - 'this is so true' vs 'this is insulting and overblown' debate is almost guaranteed."
+        },
+        "format_strength": {
+          "score": 4,
+          "rationale": "Shock-stat hook card plus myth-vs-reality framing about AI summaries replacing reading."
+        },
+        "freshness": {
+          "score": 5,
+          "rationale": "Originated from a January 2026 Fortune piece that is still actively being syndicated and discussed across outlets."
+        },
+        "evidence_availability": {
+          "score": 5,
+          "rationale": "Multiple independent outlets (Fortune, Essence, Futurism) plus a cited YouGov reading-habits statistic."
+        }
+      },
+      "total_score": 87,
+      "confidence": "high",
+      "needs_verification": false,
+      "editor_decision": "produce_today",
+      "score_summary": "Today's most novel and highest-scoring topic: a genuinely surprising, widely-corroborated claim with strong share/comment potential and no overlap with recently covered themes.",
+      "ranking_reason": "Ranks #1: highest combined buzz and freshness of the day, a shock-value stat that beats #2 (housing) on comment-trigger and novelty, while still resting on solid multi-outlet evidence.",
+      "sources": [
+        {
+          "id": "src_050",
+          "source_name": "Fortune",
+          "source_type": "education_news",
+          "platform": "other",
+          "title": "Gen Zers are arriving to college unable to even read a sentence — professors warn it could lead to a generation of anxious and lonely graduates",
+          "url": "https://fortune.com/article/gen-z-college-students-struggling-to-read-books-professors-forced-to-rethink-standards-warn-of-anxiety-lack-of-workplace-prepardness/",
+          "published_at": "2026-01-09",
+          "retrieved_at": "2026-06-25",
+          "summary": "Professors report students unable to read full sentences; reading habits down ~40% over a decade; students lean on AI summaries instead of doing assigned reading.",
+          "category": "academic_readiness",
+          "region": "US",
+          "relevance": "Primary, named-source reporting with direct professor quotes and YouGov reading-habit data.",
+          "reliability": "Major national business/news outlet.",
+          "usable_for_ranking": true
+        },
+        {
+          "id": "src_051",
+          "source_name": "Essence",
+          "source_type": "education_news",
+          "platform": "other",
+          "title": "College Professors Warn Of A Literacy Crisis As More Gen Z Students Struggle With Reading",
+          "url": "https://www.essence.com/education/gen-z-reading-literacy-crisis-college/",
+          "published_at": "2026 (exact day not shown)",
+          "retrieved_at": "2026-06-25",
+          "summary": "Independent coverage corroborating the literacy-crisis framing and professor adaptations (reading aloud in class).",
+          "category": "academic_readiness",
+          "region": "US",
+          "relevance": "Independent outlet corroborating the same professor-reported pattern.",
+          "reliability": "National lifestyle/news outlet.",
+          "usable_for_ranking": true
+        },
+        {
+          "id": "src_052",
+          "source_name": "Futurism",
+          "source_type": "education_news",
+          "platform": "other",
+          "title": "Gen Z Arriving at College Unable to Read",
+          "url": "https://futurism.com/future-society/gen-z-literacy-reading",
+          "published_at": "2026 (exact day not shown)",
+          "retrieved_at": "2026-06-25",
+          "summary": "Further independent syndication/analysis of the same literacy-crisis reporting.",
+          "category": "academic_readiness",
+          "region": "US",
+          "relevance": "Third independent outlet covering the same claim, adding to source diversity.",
+          "reliability": "Tech/culture news outlet.",
+          "usable_for_ranking": true
+        }
+      ],
+      "score_breakdown": {
+        "buzz": {
+          "score": 22,
+          "max": 25,
+          "reason": "Picked up and actively discussed across multiple national outlets (Fortune, Essence, Futurism, Yahoo, Fox News) within months.",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_050",
+            "src_051",
+            "src_052"
+          ]
+        },
+        "velocity": {
+          "score": 13,
+          "max": 15,
+          "reason": "Originated January 2026 and still being actively re-shared/discussed as of late June.",
+          "confidence": "medium",
+          "evidence_link_ids": [
+            "src_050"
+          ]
+        },
+        "target_fit": {
+          "score": 18,
+          "max": 20,
+          "reason": "Relevant to nearly every current and incoming student across majors.",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_050"
+          ]
+        },
+        "content_potential": {
+          "score": 14,
+          "max": 15,
+          "reason": "Strong shock-stat hook plus myth-vs-reality angle about AI-summary shortcuts.",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_050"
+          ]
+        },
+        "source_diversity": {
+          "score": 8,
+          "max": 10,
+          "reason": "Three independent outlets, though largely tracing back to the same original Fortune reporting and YouGov stat.",
+          "confidence": "medium",
+          "evidence_link_ids": [
+            "src_050",
+            "src_051",
+            "src_052"
+          ]
+        },
+        "evidence_quality": {
+          "score": 12,
+          "max": 15,
+          "reason": "Named professor quotes and a cited YouGov statistic, but anecdotal/qualitative rather than a dedicated academic study.",
+          "confidence": "medium",
+          "evidence_link_ids": [
+            "src_050"
+          ]
+        },
+        "risk_penalty": {
+          "score": 0,
+          "reason": "No identifiable individual students named; professors quoted are discussing patterns, not singling out students.",
+          "evidence_link_ids": []
+        }
+      },
+      "content_angle": "Shock-stat hook: 'Professors say Gen Z can't read a full sentence' — paired with the AI-summary-shortcut angle and a myth-vs-reality format (what's actually happening vs the exaggerated headline).",
+      "expected_reaction": "Strong, polarized comments — some students relating/admitting it, others pushing back that it's an unfair generalization; high share potential to call out friends.",
+      "risk_level": "low",
+      "avoid": [
+        "Don't present this as confirmed fact about 'all' Gen Z — frame as a professor-reported pattern backed by a real but limited dataset (YouGov reading stat), not a definitive study of literacy levels.",
+        "Avoid mocking tone; treat it as a structural/systemic discussion (testing culture, phone habits, AI shortcuts) rather than insulting the audience."
+      ]
+    },
+    {
+      "rank": 2,
+      "topic_id": "c10_housing_crisis",
+      "cluster_id": "c10_housing_crisis",
+      "topic": "Off-campus housing has overtaken tuition as the bigger cost for many college students",
+      "category": "cost_of_living_housing",
+      "is_ai_related": false,
+      "selection_rubric": {
+        "self_relevance": {
+          "score": 5,
+          "rationale": "Housing cost touches every student regardless of major, school, or year."
+        },
+        "comparison_potential": {
+          "score": 5,
+          "rationale": "Splits cleanly into dorm vs off-campus vs by-region dollar comparisons."
+        },
+        "decision_usefulness": {
+          "score": 5,
+          "rationale": "Directly informs where-to-live decisions for incoming and returning students."
+        },
+        "share_trigger": {
+          "score": 4,
+          "rationale": "Natural to send to roommates/parents currently negotiating a lease."
+        },
+        "comment_trigger": {
+          "score": 4,
+          "rationale": "Invites 'my rent is worse than that' comparison comments."
+        },
+        "format_strength": {
+          "score": 5,
+          "rationale": "Clean before/after dollar-comparison card format."
+        },
+        "freshness": {
+          "score": 4,
+          "rationale": "Persistent, currently-reported national cost shift, not a one-off old story."
+        },
+        "evidence_availability": {
+          "score": 5,
+          "rationale": "Two independent national education-news outlets with specific dollar figures."
+        }
+      },
+      "total_score": 84,
+      "confidence": "high",
+      "needs_verification": false,
+      "editor_decision": "produce_today",
+      "score_summary": "Highest-evidence-quality topic today: broad self-relevance, strong comparison format, and solid independent dollar-figure evidence.",
+      "ranking_reason": "Ranks #2, just behind the literacy-crisis topic on novelty/comment-trigger, but ties or beats it on self-relevance, decision-usefulness, and evidence quality.",
+      "sources": [
+        {
+          "id": "src_034",
+          "source_name": "PBS News",
+          "source_type": "education_news",
+          "platform": "google_news",
+          "title": "Why many college students are forced to spend more on housing than tuition",
+          "url": "https://www.pbs.org/newshour/show/why-many-college-students-are-forced-to-spend-more-on-housing-than-tuition",
+          "published_at": "2026 (exact day not shown)",
+          "retrieved_at": "2026-06-25",
+          "summary": "Students at public four-year institutions pay an average of $12,770 in room and board vs $11,260 in tuition and fees.",
+          "category": "cost_of_living_housing",
+          "region": "US",
+          "relevance": "National-broadcast confirmation housing now outpaces tuition.",
+          "reliability": "Major public-broadcast news program.",
+          "usable_for_ranking": true
+        },
+        {
+          "id": "src_035",
+          "source_name": "The Hechinger Report",
+          "source_type": "education_news",
+          "platform": "other",
+          "title": "The fastest-growing college cost? It's not tuition",
+          "url": "https://hechingerreport.org/the-fastest-growing-college-expense-may-not-be-what-people-think/",
+          "published_at": "2026 (exact day not shown)",
+          "retrieved_at": "2026-06-25",
+          "summary": "Off-campus housing at 4-year public schools averages ~$10,781/year (~$1,080/month).",
+          "category": "cost_of_living_housing",
+          "region": "US",
+          "relevance": "Specific dollar figure for off-campus housing.",
+          "reliability": "Respected nonprofit education-news outlet.",
+          "usable_for_ranking": true
+        },
+        {
+          "id": "src_036",
+          "source_name": "Places4Students (via X)",
+          "source_type": "sns_twitter",
+          "platform": "x",
+          "title": "North America's off-campus housing platform serving over 245 campuses and 3.5 million students",
+          "url": "https://x.com/Places4Students/status/1956007254412394535",
+          "published_at": "unknown (not shown in search result)",
+          "retrieved_at": "2026-06-25",
+          "summary": "References the ongoing student housing shortage across North American campuses.",
+          "category": "cost_of_living_housing",
+          "region": "both",
+          "relevance": "Platform-native confirmation of housing-shortage chatter.",
+          "reliability": "Industry account; treat as color.",
+          "usable_for_ranking": false
+        },
+        {
+          "id": "src_037",
+          "source_name": "Jay Martin (via X)",
+          "source_type": "sns_twitter",
+          "platform": "x",
+          "title": "Commentary on a $3,100 rent figure cited as a 'human rights violation'",
+          "url": "https://x.com/jaymart222/status/2063774684060033379",
+          "published_at": "unknown (not shown in search result)",
+          "retrieved_at": "2026-06-25",
+          "summary": "Breaks down per-roommate rent split and attributes cost to supply shortage.",
+          "category": "cost_of_living_housing",
+          "region": "US",
+          "relevance": "Shows real-time public debate over student rent figures.",
+          "reliability": "Individual commentator; treat as color.",
+          "usable_for_ranking": false
+        }
+      ],
+      "score_breakdown": {
+        "buzz": {
+          "score": 20,
+          "max": 25,
+          "reason": "National coverage from PBS plus a specialist education outlet, reinforced by social debate.",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_034",
+            "src_035"
+          ]
+        },
+        "velocity": {
+          "score": 10,
+          "max": 15,
+          "reason": "Steady, ongoing national cost-shift story rather than a single viral spike.",
+          "confidence": "medium",
+          "evidence_link_ids": [
+            "src_034"
+          ]
+        },
+        "target_fit": {
+          "score": 19,
+          "max": 20,
+          "reason": "Affects essentially every US college student making a housing decision.",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_035"
+          ]
+        },
+        "content_potential": {
+          "score": 14,
+          "max": 15,
+          "reason": "Strong before/after dollar-comparison card potential.",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_034",
+            "src_035"
+          ]
+        },
+        "source_diversity": {
+          "score": 8,
+          "max": 10,
+          "reason": "Two independent education-news outlets plus two social posts for color.",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_034",
+            "src_035",
+            "src_036",
+            "src_037"
+          ]
+        },
+        "evidence_quality": {
+          "score": 13,
+          "max": 15,
+          "reason": "Specific, named dollar figures from two independent national outlets.",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_034",
+            "src_035"
+          ]
+        },
+        "risk_penalty": {
+          "score": 0,
+          "reason": "No identifiable individuals, no sensitive content.",
+          "evidence_link_ids": []
+        }
+      },
+      "content_angle": "'Housing now costs more than your tuition' — real dollar comparison card by living situation (dorm vs off-campus vs by region).",
+      "expected_reaction": "Students comparing their own rent/dorm cost against the national averages and tagging roommates.",
+      "risk_level": "low",
+      "avoid": [
+        "Don't frame as financial advice; present as a cost-comparison fact card, not budgeting guidance."
+      ]
+    },
+    {
+      "rank": 3,
+      "topic_id": "c15_weird_college_superlatives",
+      "cluster_id": "c15_weird_college_superlatives",
+      "topic": "Your school might be #1 in the country for something hilarious: Princeton Review's 2026 'weird' college superlatives",
+      "category": "school_comparison",
+      "is_ai_related": false,
+      "selection_rubric": {
+        "self_relevance": {
+          "score": 4,
+          "rationale": "Every student already has an opinion about their own school's party/food/vibe reputation, so this maps directly onto identity."
+        },
+        "comparison_potential": {
+          "score": 5,
+          "rationale": "The entire format is school-vs-school by category — exactly the comparison structure the audience shares and argues over."
+        },
+        "decision_usefulness": {
+          "score": 4,
+          "rationale": "Helps prospective students weigh fit (social scene, food, substance climate) beyond academic rankings alone."
+        },
+        "share_trigger": {
+          "score": 5,
+          "rationale": "Built-in 'tag your school' mechanic — students send it to current/future classmates the moment their school appears."
+        },
+        "comment_trigger": {
+          "score": 5,
+          "rationale": "Guaranteed 'mine should be #1' and 'this is so accurate/wrong' comment threads for every category."
+        },
+        "format_strength": {
+          "score": 5,
+          "rationale": "Swipe-card Top 3-by-category format is one of the strongest, most replicable formats in the playbook."
+        },
+        "freshness": {
+          "score": 4,
+          "rationale": "Drawn from the current (34th) edition of Princeton Review's 2026 guide, based on survey data from the last three academic years."
+        },
+        "evidence_availability": {
+          "score": 5,
+          "rationale": "Backed by an official survey of 170,000+ students at 391 schools, cross-checked against Niche's independently compiled 2026 category rankings."
+        }
+      },
+      "total_score": 83,
+      "confidence": "high",
+      "needs_verification": false,
+      "editor_decision": "produce_today",
+      "score_summary": "A genuinely novel angle on 'college rankings' that sidesteps the generic 'Top 10 Best Universities' trap by using specific, surprising, official categories built for comparison and sharing.",
+      "ranking_reason": "Ranks #3, just ahead of the commuter-majority topic: comparable self-relevance but a stronger built-in share/comment mechanic ('tag your school') and a cleaner, more replicable format, offset slightly by being based on a guide released last fall rather than this week's news.",
+      "sources": [
+        {
+          "id": "src_053",
+          "source_name": "The Princeton Review",
+          "source_type": "education_news",
+          "platform": "other",
+          "title": "Best Colleges 2026 | College Ranking List",
+          "url": "https://www.princetonreview.com/college-rankings/best-colleges",
+          "published_at": "2025-08",
+          "retrieved_at": "2026-06-25",
+          "summary": "Official 2026 guide ranking the top 25 schools in 50 student-survey-based categories, from Best Career Services to Lots of Hard Liquor and Reefer Madness.",
+          "category": "school_comparison",
+          "region": "US",
+          "relevance": "Primary official source for all category rankings and methodology.",
+          "reliability": "Long-running, named higher-ed rankings publisher; methodology based on surveys of 170,000+ students at 391 schools.",
+          "usable_for_ranking": true
+        },
+        {
+          "id": "src_054",
+          "source_name": "Poets&Quants for Undergrads",
+          "source_type": "education_news",
+          "platform": "other",
+          "title": "Princeton Review's 2026 Best Colleges: Top Schools For Professors, Career Services — And Even 'Hard Liquor'",
+          "url": "https://poetsandquantsforundergrads.com/news/princeton-reviews-2026-best-colleges-top-schools-for-professors-career-services-and-even-hard-liquor/",
+          "published_at": "2025-08-15",
+          "retrieved_at": "2026-06-25",
+          "summary": "Compiles top-3 schools across both parent-facing and student-facing categories, with named schools and specific data points (e.g. Tulane #1 for Lots of Hard Liquor, University of Vermont for Lots of Beer/Reefer Madness, U.S. Merchant Marine Academy for Campus Food Not So Tasty).",
+          "category": "school_comparison",
+          "region": "US",
+          "relevance": "Independent secondary write-up with full category tables, useful for picking the most surprising/shareable categories.",
+          "reliability": "Established higher-ed trade publication.",
+          "usable_for_ranking": true
+        },
+        {
+          "id": "src_055",
+          "source_name": "Niche",
+          "source_type": "education_news",
+          "platform": "other",
+          "title": "2026 College Rankings",
+          "url": "https://www.niche.com/colleges/rankings/",
+          "published_at": "2026",
+          "retrieved_at": "2026-06-25",
+          "summary": "Independently compiled 2026 category rankings (Top Party Schools, Best College Food, Best College Campuses, etc.) corroborating that category-based, survey-driven college rankings are an active, ongoing content genre, not just a Princeton Review one-off.",
+          "category": "school_comparison",
+          "region": "US",
+          "relevance": "Cross-source corroboration that this ranking format/genre is current and active across multiple ranking providers.",
+          "reliability": "Large, established college-review platform.",
+          "usable_for_ranking": true
+        }
+      ],
+      "score_breakdown": {
+        "buzz": {
+          "score": 19,
+          "max": 25,
+          "reason": "The 'weird' categories (hard liquor, reefer madness, food rankings) reliably resurface in social/media coverage each cycle; Niche's parallel rankings show sustained interest in the format.",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_053",
+            "src_054",
+            "src_055"
+          ]
+        },
+        "velocity": {
+          "score": 10,
+          "max": 15,
+          "reason": "Guide was released last fall, so it's not breaking news, but the categories remain evergreen and shareable year-round.",
+          "confidence": "medium",
+          "evidence_link_ids": [
+            "src_053"
+          ]
+        },
+        "target_fit": {
+          "score": 19,
+          "max": 20,
+          "reason": "Directly about choosing/validating a school — core to the audience's identity and decision-making.",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_053"
+          ]
+        },
+        "content_potential": {
+          "score": 14,
+          "max": 15,
+          "reason": "Extremely strong, easily repeatable swipe-card format across dozens of categories.",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_053",
+            "src_054"
+          ]
+        },
+        "source_diversity": {
+          "score": 8,
+          "max": 10,
+          "reason": "Two independent publishers (Princeton Review, Poets&Quants) plus a third independent ranking provider (Niche) corroborating the genre.",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_053",
+            "src_054",
+            "src_055"
+          ]
+        },
+        "evidence_quality": {
+          "score": 13,
+          "max": 15,
+          "reason": "Based on an official, large-scale, named-methodology student survey (170,000+ respondents, 391 schools).",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_053"
+          ]
+        },
+        "risk_penalty": {
+          "score": 0,
+          "reason": "School-level survey data, not about identifiable individuals; no sensitive content.",
+          "evidence_link_ids": []
+        }
+      },
+      "content_angle": "Swipe-card series through the funniest/most surprising 2026 category rankings (Lots of Hard Liquor — Tulane, Reefer Madness — Vermont, Campus Food Not So Tasty — Lawrence Tech, Most Beautiful Campus — University of the South) with a 'tag your school' CTA on each slide.",
+      "expected_reaction": "Students tagging their own school the moment it appears in any category, plus pushback comments from schools that feel a category is unfair or outdated.",
+      "risk_level": "low",
+      "avoid": [
+        "Don't present any single category as an overall judgment of school quality — frame each as one specific, survey-based data point.",
+        "Avoid a mocking/roast tone toward any named school; keep it playful and comparison-driven, not insulting."
+      ]
+    },
+    {
+      "rank": 4,
+      "topic_id": "c13_commuter_majority",
+      "cluster_id": "c13_commuter_majority",
+      "topic": "Most college students are commuters now, not the stereotypical dorm-living undergrad",
+      "category": "commuter_students",
+      "is_ai_related": false,
+      "selection_rubric": {
+        "self_relevance": {
+          "score": 5,
+          "rationale": "The majority of US college students are commuters, making this directly relevant to most of the audience."
+        },
+        "comparison_potential": {
+          "score": 4,
+          "rationale": "Varies sharply by school type (UC vs CSU vs community college)."
+        },
+        "decision_usefulness": {
+          "score": 3,
+          "rationale": "Less of an active decision than an identity-validating reality check."
+        },
+        "share_trigger": {
+          "score": 4,
+          "rationale": "Commuter students sharing to validate an often-overlooked experience."
+        },
+        "comment_trigger": {
+          "score": 5,
+          "rationale": "Strong 'wait, that's actually me' / 'no way, not at my school' debate potential."
+        },
+        "format_strength": {
+          "score": 4,
+          "rationale": "Stat-led reality-check card format works well."
+        },
+        "freshness": {
+          "score": 3,
+          "rationale": "Underlying stats are evergreen rather than tied to a single new event."
+        },
+        "evidence_availability": {
+          "score": 4,
+          "rationale": "Two education-news sources, though exact percentage varies slightly (85% vs 86%) across them."
+        }
+      },
+      "total_score": 74,
+      "confidence": "medium",
+      "needs_verification": false,
+      "editor_decision": "produce_today",
+      "score_summary": "Strong, broadly relevant reality-check topic with a high comment-trigger but a less urgent decision angle than the top topics.",
+      "ranking_reason": "Ranks #4 on the strength of near-universal self-relevance and comment-bait potential, behind the three higher-novelty/evidence topics above.",
+      "sources": [
+        {
+          "id": "src_044",
+          "source_name": "U.S. News & World Report",
+          "source_type": "education_news",
+          "platform": "other",
+          "title": "10 Universities Where Most Freshmen Commute",
+          "url": "https://www.usnews.com/education/best-colleges/the-short-list-college/articles/universities-where-most-freshmen-commute",
+          "published_at": "2026 (exact day not shown)",
+          "retrieved_at": "2026-06-25",
+          "summary": "Ranks universities by share of freshmen who commute rather than live on campus.",
+          "category": "commuter_students",
+          "region": "US",
+          "relevance": "Named, school-by-school comparison data.",
+          "reliability": "Established higher-ed rankings outlet.",
+          "usable_for_ranking": true
+        },
+        {
+          "id": "src_045",
+          "source_name": "NPR",
+          "source_type": "education_news",
+          "platform": "google_news",
+          "title": "More students are going to college. Affordability and workforce training are factors",
+          "url": "https://www.npr.org/2026/01/15/nx-s1-5676186/college-enrollment-increases-in-2025",
+          "published_at": "2026-01-15",
+          "retrieved_at": "2026-06-25",
+          "summary": "Community college enrollment rose ~3% in fall 2025, with affordability driving commuter enrollment.",
+          "category": "commuter_students",
+          "region": "US",
+          "relevance": "Ties rising commuter/community-college enrollment to affordability.",
+          "reliability": "National public radio reporting.",
+          "usable_for_ranking": true
+        },
+        {
+          "id": "src_046",
+          "source_name": "TikTok (@juiceditup)",
+          "source_type": "sns_tiktok",
+          "platform": "tiktok",
+          "title": "You save money but pay with your mental health #college #university #commuterlife",
+          "url": "https://www.tiktok.com/@juiceditup/video/7597535666578230559",
+          "published_at": "unknown (not shown in search result)",
+          "retrieved_at": "2026-06-25",
+          "summary": "Viral creator video on the financial-vs-wellbeing tradeoff of commuter life.",
+          "category": "commuter_students",
+          "region": "US",
+          "relevance": "Direct student-voice framing of the tradeoff.",
+          "reliability": "Single creator post; color/student-reaction evidence.",
+          "usable_for_ranking": false
+        }
+      ],
+      "score_breakdown": {
+        "buzz": {
+          "score": 16,
+          "max": 25,
+          "reason": "Steady education-press coverage plus an actively circulating TikTok framing of the tradeoff.",
+          "confidence": "medium",
+          "evidence_link_ids": [
+            "src_044",
+            "src_046"
+          ]
+        },
+        "velocity": {
+          "score": 9,
+          "max": 15,
+          "reason": "Evergreen stat, no sharp recent spike.",
+          "confidence": "medium",
+          "evidence_link_ids": [
+            "src_045"
+          ]
+        },
+        "target_fit": {
+          "score": 18,
+          "max": 20,
+          "reason": "Directly describes the actual majority-experience of US college students.",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_044"
+          ]
+        },
+        "content_potential": {
+          "score": 13,
+          "max": 15,
+          "reason": "Strong reality-check / myth-busting card potential.",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_044",
+            "src_046"
+          ]
+        },
+        "source_diversity": {
+          "score": 7,
+          "max": 10,
+          "reason": "Two education-news outlets plus one creator video.",
+          "confidence": "medium",
+          "evidence_link_ids": [
+            "src_044",
+            "src_045",
+            "src_046"
+          ]
+        },
+        "evidence_quality": {
+          "score": 11,
+          "max": 15,
+          "reason": "Solid but slightly inconsistent percentage figures across sources (85% vs 86%).",
+          "confidence": "medium",
+          "evidence_link_ids": [
+            "src_044",
+            "src_045"
+          ]
+        },
+        "risk_penalty": {
+          "score": 0,
+          "reason": "No identifiable individuals, no sensitive content.",
+          "evidence_link_ids": []
+        }
+      },
+      "content_angle": "'You're not the exception' — commuter-majority reality-check card paired with the financial-vs-wellbeing tradeoff.",
+      "expected_reaction": "Commuter students validating their own experience; dorm-living students surprised by the actual majority share.",
+      "risk_level": "low",
+      "avoid": [
+        "Avoid stating one single precise percentage as definitive since sources differ slightly (85% vs 86%) — present as 'the large majority.'"
+      ]
+    },
+    {
+      "rank": 5,
+      "topic_id": "c05_roommate_conflict_culture",
+      "cluster_id": "c05_roommate_conflict_culture",
+      "topic": "Roommate conflict goes mainstream: campus papers and Netflix's 'Roommates' both spotlight dorm tension",
+      "category": "campus_life_dorms",
+      "is_ai_related": false,
+      "selection_rubric": {
+        "self_relevance": {
+          "score": 5,
+          "rationale": "Roommate friction is a near-universal dorm-living experience."
+        },
+        "comparison_potential": {
+          "score": 3,
+          "rationale": "Some school-to-school variation in RA support, but mostly a shared experience."
+        },
+        "decision_usefulness": {
+          "score": 2,
+          "rationale": "More validating/cathartic than decision-driving."
+        },
+        "share_trigger": {
+          "score": 5,
+          "rationale": "Extremely tag-your-roommate shareable."
+        },
+        "comment_trigger": {
+          "score": 5,
+          "rationale": "Invites 'this happened to me' and 'my roommate did worse' comments."
+        },
+        "format_strength": {
+          "score": 4,
+          "rationale": "Myth-vs-reality format with the Netflix release as a timely hook."
+        },
+        "freshness": {
+          "score": 4,
+          "rationale": "Netflix film tie-in gives it a current pop-culture hook even though the underlying theme is familiar."
+        },
+        "evidence_availability": {
+          "score": 4,
+          "rationale": "Two independent campus-newspaper pieces corroborate the same structural pattern."
+        }
+      },
+      "total_score": 70,
+      "confidence": "medium",
+      "needs_verification": false,
+      "editor_decision": "produce_today",
+      "score_summary": "High share/comment potential; this theme previously appeared once before, but is past its cooldown window and has a fresh pop-culture hook.",
+      "ranking_reason": "Ranks #5 on strong share/comment metrics; placed behind the higher-novelty/self-relevance topics above, and because the theme repeats one last covered 2026-06-19.",
+      "sources": [
+        {
+          "id": "src_016",
+          "source_name": "The Spectrum (University at Buffalo student newspaper)",
+          "source_type": "campus_news",
+          "platform": "college_newspaper",
+          "title": "Living together, falling apart: the reality of roommate conflict",
+          "url": "https://www.ubspectrum.com/article/2026/05/living-together-falling-apart-the-reality-of-roommate-conflict",
+          "published_at": "2026-05",
+          "retrieved_at": "2026-06-25",
+          "summary": "RA notes roommate conflict peaks early in the year before boundaries are set.",
+          "category": "campus_life_dorms",
+          "region": "US",
+          "relevance": "First-person student newspaper account.",
+          "reliability": "Primary campus newspaper reporting.",
+          "usable_for_ranking": true
+        },
+        {
+          "id": "src_017",
+          "source_name": "Indiana Daily Student",
+          "source_type": "campus_news",
+          "platform": "college_newspaper",
+          "title": "COLUMN: Netflix's 'Roommates' exacerbates the experience of roommate collision",
+          "url": "https://www.idsnews.com/article/2026/04/netflixs-roommates-exacerbates-experience-of-roommate-collision",
+          "published_at": "2026-04",
+          "retrieved_at": "2026-06-25",
+          "summary": "Connects the April 2026 Netflix film 'Roommates' to real dorm tension and roommate-matching anxiety.",
+          "category": "campus_life_dorms",
+          "region": "US",
+          "relevance": "Pop-culture tie-in plus real student anxiety.",
+          "reliability": "Primary campus newspaper opinion column.",
+          "usable_for_ranking": true
+        }
+      ],
+      "score_breakdown": {
+        "buzz": {
+          "score": 15,
+          "max": 25,
+          "reason": "Two campus-paper pieces plus a current Netflix release driving conversation, but not a major news event.",
+          "confidence": "medium",
+          "evidence_link_ids": [
+            "src_016",
+            "src_017"
+          ]
+        },
+        "velocity": {
+          "score": 8,
+          "max": 15,
+          "reason": "Slow-building seasonal/perennial topic, refreshed by the Netflix hook.",
+          "confidence": "medium",
+          "evidence_link_ids": [
+            "src_017"
+          ]
+        },
+        "target_fit": {
+          "score": 17,
+          "max": 20,
+          "reason": "Extremely relevant to incoming freshmen and dorm-living undergrads.",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_016"
+          ]
+        },
+        "content_potential": {
+          "score": 13,
+          "max": 15,
+          "reason": "Strong myth-vs-reality and share-bait format potential.",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_016",
+            "src_017"
+          ]
+        },
+        "source_diversity": {
+          "score": 6,
+          "max": 10,
+          "reason": "Two independent campus newspapers, but no national outlet or social data.",
+          "confidence": "medium",
+          "evidence_link_ids": [
+            "src_016",
+            "src_017"
+          ]
+        },
+        "evidence_quality": {
+          "score": 11,
+          "max": 15,
+          "reason": "Corroborating but campus-newspaper-level evidence, not large-scale survey data.",
+          "confidence": "medium",
+          "evidence_link_ids": [
+            "src_016",
+            "src_017"
+          ]
+        },
+        "risk_penalty": {
+          "score": 0,
+          "reason": "Framed structurally; no identifiable individual's personal conflict is named.",
+          "evidence_link_ids": []
+        }
+      },
+      "content_angle": "Myth vs. reality on roommate conflict, tied to the Netflix release as a timely hook.",
+      "expected_reaction": "Students tagging roommates, sharing their own conflict stories in comments.",
+      "risk_level": "low",
+      "avoid": [
+        "Do not reference any individual student's specific private conflict; keep all examples structural/anonymized.",
+        "Note for the report: this theme previously appeared in the 2026-06-19 brief ('Common roommate red flags students report')."
+      ]
+    },
+    {
+      "rank": 6,
+      "topic_id": "c11_transfer_credit_loss",
+      "cluster_id": "c11_transfer_credit_loss",
+      "topic": "Transfer students routinely lose academic credits, costing time, money, and sometimes their degree path",
+      "category": "transfer_student_experience",
+      "is_ai_related": false,
+      "selection_rubric": {
+        "self_relevance": {
+          "score": 4,
+          "rationale": "Highly relevant for transfer students specifically, less so for the general undergrad audience."
+        },
+        "comparison_potential": {
+          "score": 4,
+          "rationale": "Credit-loss rate varies sharply by transfer type (community college vs for-profit vs public)."
+        },
+        "decision_usefulness": {
+          "score": 5,
+          "rationale": "Directly informs what to verify before transferring."
+        },
+        "share_trigger": {
+          "score": 4,
+          "rationale": "Worth sending to anyone actively planning a transfer."
+        },
+        "comment_trigger": {
+          "score": 3,
+          "rationale": "Some 'this happened to me too' potential, less debate-driving than other topics."
+        },
+        "format_strength": {
+          "score": 4,
+          "rationale": "Checklist format fits well ('what to verify before you transfer')."
+        },
+        "freshness": {
+          "score": 3,
+          "rationale": "Underlying survey data is not brand-new, though the Texas case example is from March 2026."
+        },
+        "evidence_availability": {
+          "score": 4,
+          "rationale": "National survey plus a concrete state-level case study."
+        }
+      },
+      "total_score": 67,
+      "confidence": "high",
+      "needs_verification": false,
+      "editor_decision": "produce_today",
+      "score_summary": "Solid, decision-useful topic for a specific but sizeable audience segment (transfer students).",
+      "ranking_reason": "Ranks #6: strong decision-usefulness and evidence, but narrower target audience than the topics above.",
+      "sources": [
+        {
+          "id": "src_038",
+          "source_name": "UPCEA",
+          "source_type": "education_news",
+          "platform": "other",
+          "title": "Survey: 3 in 10 Students Lose Significant Academic Credits Transferring Between Colleges",
+          "url": "https://upcea.edu/survey-3-in-10-students-lose-significant-academic-credits-transferring-between-colleges/",
+          "published_at": "2025 (exact day not shown)",
+          "retrieved_at": "2026-06-25",
+          "summary": "Roughly 3 in 10 transfer students lose significant academic credits in the transfer process.",
+          "category": "transfer_student_experience",
+          "region": "US",
+          "relevance": "Named survey data quantifying a common pain point.",
+          "reliability": "Higher-ed professional association survey.",
+          "usable_for_ranking": true
+        },
+        {
+          "id": "src_039",
+          "source_name": "Dallas Weekly",
+          "source_type": "education_news",
+          "platform": "google_news",
+          "title": "Thousands of Texas Students Lose College Credits, Costing Time and Money",
+          "url": "https://dallasweekly.com/2026/03/thousands-of-texas-students-lose-college-credits-costing-time-and-money/",
+          "published_at": "2026-03",
+          "retrieved_at": "2026-06-25",
+          "summary": "Over 19,000 Texas community college students didn't get credit for at least one course transferring in 2023-24; 16% gave up on higher ed.",
+          "category": "transfer_student_experience",
+          "region": "US",
+          "relevance": "Concrete state-level numbers and a serious downstream consequence.",
+          "reliability": "Regional outlet citing state education data.",
+          "usable_for_ranking": true
+        },
+        {
+          "id": "src_040",
+          "source_name": "Inside Higher Ed",
+          "source_type": "education_news",
+          "platform": "other",
+          "title": "Transfer and Learning Mobility in 2026 and Beyond",
+          "url": "https://www.insidehighered.com/opinion/columns/beyond-transfer/2026/01/08/transfer-and-learning-mobility-2026-and-beyond",
+          "published_at": "2026-01-08",
+          "retrieved_at": "2026-06-25",
+          "summary": "Opinion column on persistent structural barriers to credit transfer entering 2026.",
+          "category": "transfer_student_experience",
+          "region": "US",
+          "relevance": "Frames the problem as ongoing and structural.",
+          "reliability": "Trade publication opinion column.",
+          "usable_for_ranking": true
+        }
+      ],
+      "score_breakdown": {
+        "buzz": {
+          "score": 14,
+          "max": 25,
+          "reason": "Covered by a regional outlet and a professional association survey, not viral but consistently reported.",
+          "confidence": "medium",
+          "evidence_link_ids": [
+            "src_038",
+            "src_039"
+          ]
+        },
+        "velocity": {
+          "score": 7,
+          "max": 15,
+          "reason": "Steady structural issue, not a fast-moving news spike.",
+          "confidence": "medium",
+          "evidence_link_ids": [
+            "src_040"
+          ]
+        },
+        "target_fit": {
+          "score": 15,
+          "max": 20,
+          "reason": "High relevance for the transfer-student segment specifically.",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_038"
+          ]
+        },
+        "content_potential": {
+          "score": 12,
+          "max": 15,
+          "reason": "Strong checklist-format potential.",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_038",
+            "src_039"
+          ]
+        },
+        "source_diversity": {
+          "score": 7,
+          "max": 10,
+          "reason": "Three independent education-news sources covering different angles (survey, state case, opinion).",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_038",
+            "src_039",
+            "src_040"
+          ]
+        },
+        "evidence_quality": {
+          "score": 12,
+          "max": 15,
+          "reason": "Named survey plus concrete state-level figures.",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_038",
+            "src_039"
+          ]
+        },
+        "risk_penalty": {
+          "score": 0,
+          "reason": "No identifiable individuals, structural framing.",
+          "evidence_link_ids": []
+        }
+      },
+      "content_angle": "'What to check before you transfer' checklist built around the credit-loss statistics.",
+      "expected_reaction": "Transfer students sharing the post with friends mid-transfer process; some recounting their own credit-loss experience.",
+      "risk_level": "low",
+      "avoid": [
+        "Don't generalize the Texas-specific 19,000 figure as a national number — keep it labeled as a Texas case study."
+      ]
+    },
+    {
+      "rank": 7,
+      "topic_id": "c07_internship_squeeze",
+      "cluster_id": "c07_internship_squeeze",
+      "topic": "Internship market gets more competitive while unpaid internships pay off far less",
+      "category": "internships_jobs",
+      "is_ai_related": false,
+      "selection_rubric": {
+        "self_relevance": {
+          "score": 4,
+          "rationale": "Relevant to most undergrads weighing internship options."
+        },
+        "comparison_potential": {
+          "score": 3,
+          "rationale": "Paid vs unpaid comparison, less variation by school/major in the data available."
+        },
+        "decision_usefulness": {
+          "score": 5,
+          "rationale": "Directly informs whether to pursue paid vs unpaid internships."
+        },
+        "share_trigger": {
+          "score": 3,
+          "rationale": "Useful to share with peers job-hunting, moderate urgency."
+        },
+        "comment_trigger": {
+          "score": 3,
+          "rationale": "Some 'I got ghosted too' potential but not highly debate-driving."
+        },
+        "format_strength": {
+          "score": 4,
+          "rationale": "Paid-vs-unpaid outcome comparison card works well."
+        },
+        "freshness": {
+          "score": 2,
+          "rationale": "Primary supply/demand stat is from Feb 2025 — over a year old, the most current available but not new."
+        },
+        "evidence_availability": {
+          "score": 3,
+          "rationale": "One named research-forum-based source plus one secondary aggregator."
+        }
+      },
+      "total_score": 63,
+      "confidence": "medium",
+      "needs_verification": true,
+      "editor_decision": "produce_if_needed",
+      "score_summary": "Decision-useful but relies on a stat that is now over a year old; flagged for verification before treating as breaking.",
+      "ranking_reason": "Ranks #7: solid decision-usefulness offset by dated underlying data and below-28 rubric total, so flagged needs_verification.",
+      "sources": [
+        {
+          "id": "src_022",
+          "source_name": "Inside Higher Ed",
+          "source_type": "education_news",
+          "platform": "other",
+          "title": "12% of college students won't participate in an internship",
+          "url": "https://www.insidehighered.com/news/student-success/life-after-college/2025/02/21/12-college-students-wont-participate-internship",
+          "published_at": "2025-02-21",
+          "retrieved_at": "2026-06-25",
+          "summary": "8.2 million students wanted to intern but 4.6 million couldn't get a spot; paid interns get offers at 66.4% vs 43.7% for unpaid.",
+          "category": "internships_jobs",
+          "region": "US",
+          "relevance": "Direct demand/supply gap and outcome gap.",
+          "reliability": "Trade publication citing named research forum.",
+          "usable_for_ranking": true
+        },
+        {
+          "id": "src_023",
+          "source_name": "Standout-CV",
+          "source_type": "education_news",
+          "platform": "other",
+          "title": "Internship Statistics U.S. 2026",
+          "url": "https://standout-cv.com/usa/stats-usa/internship-statistics",
+          "published_at": "2026 (exact day not shown)",
+          "retrieved_at": "2026-06-25",
+          "summary": "~60.8% of US internships paid vs 39.2% unpaid; Handshake postings fell 15% from 2023 to 2025.",
+          "category": "internships_jobs",
+          "region": "US",
+          "relevance": "Supply/demand divergence framing.",
+          "reliability": "Career-data aggregator; secondary source.",
+          "usable_for_ranking": false
+        }
+      ],
+      "score_breakdown": {
+        "buzz": {
+          "score": 14,
+          "max": 25,
+          "reason": "Covered by a trade publication citing a named research forum, moderate reach.",
+          "confidence": "medium",
+          "evidence_link_ids": [
+            "src_022"
+          ]
+        },
+        "velocity": {
+          "score": 6,
+          "max": 15,
+          "reason": "Underlying stat is over a year old; low current velocity.",
+          "confidence": "low",
+          "evidence_link_ids": [
+            "src_022"
+          ]
+        },
+        "target_fit": {
+          "score": 16,
+          "max": 20,
+          "reason": "Relevant to most undergrads considering internships.",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_022"
+          ]
+        },
+        "content_potential": {
+          "score": 12,
+          "max": 15,
+          "reason": "Good paid-vs-unpaid comparison card potential.",
+          "confidence": "medium",
+          "evidence_link_ids": [
+            "src_022"
+          ]
+        },
+        "source_diversity": {
+          "score": 6,
+          "max": 10,
+          "reason": "One primary trade-publication source and one weaker secondary aggregator.",
+          "confidence": "medium",
+          "evidence_link_ids": [
+            "src_022",
+            "src_023"
+          ]
+        },
+        "evidence_quality": {
+          "score": 9,
+          "max": 15,
+          "reason": "Solid named data but dated (Feb 2025), no fresher figure available.",
+          "confidence": "medium",
+          "evidence_link_ids": [
+            "src_022"
+          ]
+        },
+        "risk_penalty": {
+          "score": 0,
+          "reason": "No identifiable individuals, no sensitive content.",
+          "evidence_link_ids": []
+        }
+      },
+      "content_angle": "Paid-vs-unpaid outcome comparison card with the supply/demand squeeze as the hook.",
+      "expected_reaction": "Students job-hunting comparing their own application-to-offer experience against the cited gap.",
+      "risk_level": "low",
+      "avoid": [
+        "Label the core supply/demand stat as 2025 data, not a brand-new 2026 finding."
+      ]
+    },
+    {
+      "rank": 8,
+      "topic_id": "c12_greek_life_rush_surge",
+      "cluster_id": "c12_greek_life_rush_surge",
+      "topic": "Greek life rush registration hits record highs even as younger students stay skeptical of frat/sorority culture",
+      "category": "greek_life",
+      "is_ai_related": false,
+      "selection_rubric": {
+        "self_relevance": {
+          "score": 3,
+          "rationale": "Only directly relevant to students considering Greek life."
+        },
+        "comparison_potential": {
+          "score": 3,
+          "rationale": "Data is largely single-school (UVA); limited cross-school comparison available today."
+        },
+        "decision_usefulness": {
+          "score": 3,
+          "rationale": "Somewhat useful for students weighing whether to rush."
+        },
+        "share_trigger": {
+          "score": 4,
+          "rationale": "Highly shareable within the Greek-life/RushTok community specifically."
+        },
+        "comment_trigger": {
+          "score": 4,
+          "rationale": "Invites 'my school's rush is nothing like that' comparisons."
+        },
+        "format_strength": {
+          "score": 4,
+          "rationale": "'Rush by the numbers' card format works well."
+        },
+        "freshness": {
+          "score": 3,
+          "rationale": "Underlying registration data is from February 2026, not brand-new."
+        },
+        "evidence_availability": {
+          "score": 3,
+          "rationale": "Single-school primary source supplemented only by aggregated TikTok volume, not a second named data point."
+        }
+      },
+      "total_score": 58,
+      "confidence": "medium",
+      "needs_verification": true,
+      "editor_decision": "monitor",
+      "score_summary": "Engaging niche topic, but generalizing from a single school's registration numbers and aging data limits today's confidence.",
+      "ranking_reason": "Ranks #8 — lowest of today's ranked set due to single-school evidence base and a narrower target audience than the other topics.",
+      "sources": [
+        {
+          "id": "src_041",
+          "source_name": "The Cavalier Daily (University of Virginia student newspaper)",
+          "source_type": "campus_news",
+          "platform": "college_newspaper",
+          "title": "Fraternity and sorority recruitment sees influx in registration",
+          "url": "https://www.cavalierdaily.com/article/2026/02/fraternity-and-sorority-recruitment-sees-influx-in-registration",
+          "published_at": "2026-02",
+          "retrieved_at": "2026-06-25",
+          "summary": "1,100 women and 825 men registered for spring 2026 rush at UVA — IFC's largest sign-up since extending its deadline; ISC's largest-ever sorority membership (3,082).",
+          "category": "greek_life",
+          "region": "US",
+          "relevance": "Concrete, named-school registration numbers.",
+          "reliability": "Primary campus newspaper reporting.",
+          "usable_for_ranking": true
+        },
+        {
+          "id": "src_042",
+          "source_name": "TikTok (discover)",
+          "source_type": "sns_tiktok",
+          "platform": "tiktok_reference",
+          "title": "RushTok — TikTok discover page",
+          "url": "https://www.tiktok.com/discover/rushtok?lang=en",
+          "published_at": "unknown (aggregated discover page)",
+          "retrieved_at": "2026-06-25",
+          "summary": "Active 'RushTok' discover topic aggregating recruitment content from sororities across many campuses.",
+          "category": "greek_life",
+          "region": "US",
+          "relevance": "Confirms sustained platform-native volume.",
+          "reliability": "Aggregated discover page; trend-volume color only.",
+          "usable_for_ranking": false
+        },
+        {
+          "id": "src_043",
+          "source_name": "TikTok (@thesororitysister)",
+          "source_type": "sns_tiktok",
+          "platform": "tiktok",
+          "title": "i show you my introduction video I submitted in the pre rush prep club! #sororityrecruitment #rushvideo #rushtok",
+          "url": "https://www.tiktok.com/@thesororitysister/video/7515826325190413614",
+          "published_at": "unknown (not shown in search result)",
+          "retrieved_at": "2026-06-25",
+          "summary": "Creator-native rush-prep advice video circulating under the #rushtok tag.",
+          "category": "greek_life",
+          "region": "US",
+          "relevance": "Direct creator evidence of active student engagement.",
+          "reliability": "Single creator post; color/trend confirmation.",
+          "usable_for_ranking": false
+        }
+      ],
+      "score_breakdown": {
+        "buzz": {
+          "score": 13,
+          "max": 25,
+          "reason": "Single-school news plus active RushTok hashtag volume, but no national data point.",
+          "confidence": "low",
+          "evidence_link_ids": [
+            "src_041",
+            "src_042"
+          ]
+        },
+        "velocity": {
+          "score": 8,
+          "max": 15,
+          "reason": "Spring rush season content is ongoing but the core data point is from February.",
+          "confidence": "medium",
+          "evidence_link_ids": [
+            "src_041"
+          ]
+        },
+        "target_fit": {
+          "score": 13,
+          "max": 20,
+          "reason": "Niche relevance — mainly students considering or already in Greek life.",
+          "confidence": "medium",
+          "evidence_link_ids": [
+            "src_041"
+          ]
+        },
+        "content_potential": {
+          "score": 11,
+          "max": 15,
+          "reason": "Good numbers-card potential, but limited by single-school framing.",
+          "confidence": "medium",
+          "evidence_link_ids": [
+            "src_041"
+          ]
+        },
+        "source_diversity": {
+          "score": 5,
+          "max": 10,
+          "reason": "One primary campus-news source plus aggregated/single-creator TikTok content only.",
+          "confidence": "low",
+          "evidence_link_ids": [
+            "src_041",
+            "src_042",
+            "src_043"
+          ]
+        },
+        "evidence_quality": {
+          "score": 8,
+          "max": 15,
+          "reason": "Single-school numbers generalized cautiously; no second named institution for comparison.",
+          "confidence": "low",
+          "evidence_link_ids": [
+            "src_041"
+          ]
+        },
+        "risk_penalty": {
+          "score": 0,
+          "reason": "No identifiable individuals named, no sensitive content.",
+          "evidence_link_ids": []
+        }
+      },
+      "content_angle": "'Rush by the numbers' card pairing the UVA registration surge with what RushTok shows about the process.",
+      "expected_reaction": "Greek-life-affiliated students sharing and comparing against their own school's numbers.",
+      "risk_level": "low",
+      "avoid": [
+        "Clearly label the registration figures as UVA-specific, not a national trend, until a second school's data is found."
+      ]
+    }
+  ],
+  "ranking_notes": {
+    "excluded_topics": [
+      "c01_student_loan_overhaul (in cooldown until 2026-06-27, covered 4x in past week)",
+      "c02_free_tuition_wave (in cooldown until 2026-06-26)",
+      "c03_major_regret_job_market (in cooldown until 2026-06-26, covered 5x in past week)",
+      "c04_international_visa_crackdown (in cooldown until 2026-06-25)",
+      "c06_ai_cheating_arms_race (in cooldown until 2026-06-28, covered 3x in past week)",
+      "c08_creator_side_hustle (in cooldown until 2026-06-26)",
+      "c09_loneliness_social_media (in cooldown until 2026-06-26)"
+    ],
+    "topics_needing_more_sources": [
+      "c12_greek_life_rush_surge (single-school only)",
+      "c07_internship_squeeze (stat dated Feb 2025)"
+    ],
+    "strongest_content_opportunities": [
+      "c14_genz_literacy_crisis",
+      "c10_housing_crisis",
+      "c15_weird_college_superlatives"
+    ]
+  }
+}

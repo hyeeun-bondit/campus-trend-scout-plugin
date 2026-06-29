@@ -1,0 +1,361 @@
+{
+  "cluster_batch_id": "cb_20260625",
+  "input_signal_batch_id": "sb_20260625",
+  "cluster_count": 13,
+  "clusters": [
+    {
+      "cluster_id": "c01_student_loan_overhaul",
+      "topic": "Federal student loan repayment overhaul takes effect July 1, 2026 (RAP plan)",
+      "category": "student_loans_policy",
+      "summary": "Starting July 1, 2026, new federal borrowers will have only two repayment plan options, replacing the old menu of IDR plans with RAP and the Tiered Standard plan; 7.5 million SAVE-plan borrowers get just 90 days to switch once SAVE shuts down, and new borrowing caps kick in for grad/professional/Parent PLUS loans.",
+      "source_ids": [
+        "src_001",
+        "src_002",
+        "src_003",
+        "src_004",
+        "src_005",
+        "src_028",
+        "src_031"
+      ],
+      "representative_source_id": "src_001",
+      "student_reaction_summary": "TikTok/X content shows real-time borrower confusion and a wave of explainer/calculator content from finance creators reacting to the rollout.",
+      "factual_basis_summary": "Confirmed by the official ed.gov press release plus NPR and Newsweek reporting.",
+      "target_audience": [
+        "undergraduate_students",
+        "incoming_freshmen",
+        "international_students"
+      ],
+      "possible_content_angle": "What changes on July 1 if you have federal loans — before/after breakdown plus an 'are you affected' checklist.",
+      "region_relevance": "both",
+      "school_relevance_tags": [
+        "all_us_borrowers",
+        "grad_students",
+        "professional_school"
+      ],
+      "confidence": "high",
+      "risk_level": "low",
+      "eligible_for_ranking": true,
+      "cluster_notes": "Canada source (src_031) is a different, provincial RAP program — side note only."
+    },
+    {
+      "cluster_id": "c02_free_tuition_wave",
+      "topic": "Wave of elite/private universities announcing income-based free tuition for fall 2026",
+      "category": "tuition_financial_aid",
+      "summary": "Emory, Yale, University of North Texas, and Bridgewater State all announced free or near-free tuition for students under specific family-income thresholds ($100k–$200k), starting fall 2026; meanwhile Gen Z increasingly searches TikTok first for scholarship/financial-aid advice.",
+      "source_ids": [
+        "src_006",
+        "src_007",
+        "src_029"
+      ],
+      "representative_source_id": "src_006",
+      "student_reaction_summary": "CNBC reports Gen Z defaulting to TikTok for scholarship search behavior, with experts flagging misinformation risk.",
+      "factual_basis_summary": "Each school's own announcement plus an aggregator confirm specific income cutoffs.",
+      "target_audience": [
+        "incoming_freshmen",
+        "transfer_students"
+      ],
+      "possible_content_angle": "Income-bracket comparison card: 'is your dream school free for your family income?'",
+      "region_relevance": "US",
+      "school_relevance_tags": [
+        "Emory",
+        "Yale",
+        "University of North Texas",
+        "Bridgewater State"
+      ],
+      "confidence": "high",
+      "risk_level": "low",
+      "eligible_for_ranking": true,
+      "cluster_notes": ""
+    },
+    {
+      "cluster_id": "c03_major_regret_job_market",
+      "topic": "Major regret survey meets a cooling 2026 job market for new grads",
+      "category": "majors_career_outcomes",
+      "summary": "A ZipRecruiter survey found 20.5% regret their major, led by political science (46.3%) and communications (39.2%); EPI data shows only 19% of grads now say it's a good time to find a quality job, down from 70%+ in 2022, while nursing grads land the highest pay (~$70k) with near-full pre-graduation employment.",
+      "source_ids": [
+        "src_008",
+        "src_009",
+        "src_010"
+      ],
+      "representative_source_id": "src_008",
+      "student_reaction_summary": "",
+      "factual_basis_summary": "ZipRecruiter survey data plus EPI's labor-market analysis give hard, named percentages.",
+      "target_audience": [
+        "undergraduate_students",
+        "transfer_students"
+      ],
+      "possible_content_angle": "Ranked 'most regretted majors' card paired with the 2022-vs-2026 hiring-sentiment stat.",
+      "region_relevance": "US",
+      "school_relevance_tags": [],
+      "confidence": "high",
+      "risk_level": "low",
+      "eligible_for_ranking": true,
+      "cluster_notes": ""
+    },
+    {
+      "cluster_id": "c04_international_visa_crackdown",
+      "topic": "International student visa crackdown: enrollment drops and new social-media vetting",
+      "category": "international_students_visa",
+      "summary": "New US student visa issuance fell 35.6% last summer (India down 60%+), spring 2026 foreign enrollment fell 20% nationally, a new USCIS rule will cap most F-1 programs at 4 years from September 2026, and all visa applicants must list 5 years of social-media handles and set accounts public for vetting.",
+      "source_ids": [
+        "src_011",
+        "src_012",
+        "src_013",
+        "src_014",
+        "src_015",
+        "src_033"
+      ],
+      "representative_source_id": "src_011",
+      "student_reaction_summary": "Educators advising international students to scrub social media and avoid posting political views.",
+      "factual_basis_summary": "Confirmed by Inside Higher Ed/TIME enrollment data, ICEF Monitor's policy reporting, and direct US Embassy posts.",
+      "target_audience": [
+        "international_students",
+        "incoming_freshmen"
+      ],
+      "possible_content_angle": "'5 things that changed for international students in 2026' checklist.",
+      "region_relevance": "US",
+      "school_relevance_tags": [],
+      "confidence": "high",
+      "risk_level": "low",
+      "eligible_for_ranking": true,
+      "cluster_notes": ""
+    },
+    {
+      "cluster_id": "c05_roommate_conflict_culture",
+      "topic": "Roommate conflict goes mainstream: campus papers and Netflix's 'Roommates' both spotlight dorm tension",
+      "category": "campus_life_dorms",
+      "summary": "A University at Buffalo student-newspaper piece details how roommate conflict peaks early in the year before boundaries are set, while an Indiana Daily Student column ties the April 2026 Netflix film 'Roommates' to real student anxiety about roommate matching.",
+      "source_ids": [
+        "src_016",
+        "src_017"
+      ],
+      "representative_source_id": "src_016",
+      "student_reaction_summary": "Direct student quotes describe avoiding their own dorm room due to unresolved tension.",
+      "factual_basis_summary": "Two independent campus-newspaper pieces describing the same structural pattern corroborate each other.",
+      "target_audience": [
+        "incoming_freshmen",
+        "undergraduate_students"
+      ],
+      "possible_content_angle": "Myth vs. reality / before-after format on roommate conflict, tied to the Netflix release.",
+      "region_relevance": "US",
+      "school_relevance_tags": [
+        "University at Buffalo",
+        "Indiana University"
+      ],
+      "confidence": "medium",
+      "risk_level": "low",
+      "eligible_for_ranking": true,
+      "cluster_notes": "Framed structurally rather than around any identifiable student's personal conflict. Previously appeared in brief dated 2026-06-19 ('Common roommate red flags students report')."
+    },
+    {
+      "cluster_id": "c06_ai_cheating_arms_race",
+      "topic": "AI cheating arms race pushes colleges back to blue books and in-person proctoring",
+      "category": "ai_academic_integrity",
+      "summary": "Large-scale Cornell and Berkeley studies found about one-third of students use AI on assignments and roughly 9% admit to AI-assisted cheating, with access to premium AI tools unevenly distributed by income; in response, Princeton dropped a 133-year ban on exam proctoring, Oberlin changed its honor code, and some professors reintroduced blue-book exams for the first time since 1999.",
+      "source_ids": [
+        "src_018",
+        "src_019",
+        "src_020",
+        "src_021"
+      ],
+      "representative_source_id": "src_018",
+      "student_reaction_summary": "Some students have pursued legal action over false AI-cheating accusations driven by unreliable detectors.",
+      "factual_basis_summary": "Two named, large-scale university research studies plus named institutional policy changes.",
+      "target_audience": [
+        "undergraduate_students"
+      ],
+      "possible_content_angle": "'Your exams might look different this fall' — institutional policy shift card.",
+      "region_relevance": "US",
+      "school_relevance_tags": [
+        "Cornell",
+        "UC Berkeley",
+        "Princeton",
+        "Oberlin",
+        "Emory"
+      ],
+      "confidence": "high",
+      "risk_level": "low",
+      "eligible_for_ranking": true,
+      "cluster_notes": "is_ai_related candidate."
+    },
+    {
+      "cluster_id": "c07_internship_squeeze",
+      "topic": "Internship market gets more competitive while unpaid internships pay off far less",
+      "category": "internships_jobs",
+      "summary": "Roughly 8.2 million students wanted to intern but 4.6 million couldn't get a spot; paid interns get job offers at 66.4% vs just 43.7% for unpaid interns; Handshake postings fell 15% from 2023 to 2025 even as applications kept climbing.",
+      "source_ids": [
+        "src_022",
+        "src_023"
+      ],
+      "representative_source_id": "src_022",
+      "student_reaction_summary": "",
+      "factual_basis_summary": "Business-Higher Education Forum data plus a career-data aggregator give consistent supply/demand and outcome gaps.",
+      "target_audience": [
+        "undergraduate_students",
+        "transfer_students"
+      ],
+      "possible_content_angle": "Paid-vs-unpaid outcome comparison card with the supply/demand squeeze as the hook.",
+      "region_relevance": "US",
+      "school_relevance_tags": [],
+      "confidence": "medium",
+      "risk_level": "low",
+      "eligible_for_ranking": true,
+      "cluster_notes": "Primary stat (src_022) is from Feb 2025 — still most current available."
+    },
+    {
+      "cluster_id": "c08_creator_side_hustle",
+      "topic": "Content creation becomes a mainstream college side hustle, not a niche one",
+      "category": "side_hustles_creator_economy",
+      "summary": "A profiled college student turned TikTok/Instagram content into a six-figure side career, reflecting a broader shift toward content creation and creator-economy work as a major college side hustle category.",
+      "source_ids": [
+        "src_024",
+        "src_025",
+        "src_030"
+      ],
+      "representative_source_id": "src_024",
+      "student_reaction_summary": "Active #collegehustle TikTok volume and creator-posted how-to content show students producing and sharing this advice themselves.",
+      "factual_basis_summary": "Named, specific profile plus active TikTok tag-page volume confirm the trend is both reported and platform-native.",
+      "target_audience": [
+        "undergraduate_students"
+      ],
+      "possible_content_angle": "'Side hustle reality check' — what students actually earn and how many hours it takes.",
+      "region_relevance": "US",
+      "school_relevance_tags": [
+        "Syracuse University"
+      ],
+      "confidence": "medium",
+      "risk_level": "low",
+      "eligible_for_ranking": true,
+      "cluster_notes": "Previously appeared in brief dated 2026-06-22."
+    },
+    {
+      "cluster_id": "c09_loneliness_social_media",
+      "topic": "Majority of college students report feeling lonely, with heavy social media use as a key correlate",
+      "category": "mental_health_loneliness",
+      "summary": "A 44,000-student Trellis Strategies survey found 57% of college students feel lonely; a separate University of Cincinnati study of ~65,000 students found that using social media 16+ hours/week was linked to significantly higher odds of loneliness.",
+      "source_ids": [
+        "src_026",
+        "src_027"
+      ],
+      "representative_source_id": "src_026",
+      "student_reaction_summary": "",
+      "factual_basis_summary": "Two large, named academic/research surveys give a clean structural statistic, not an anecdote about any individual.",
+      "target_audience": [
+        "undergraduate_students",
+        "international_students"
+      ],
+      "possible_content_angle": "Self-check format tied to the loneliness correlation data — structural, not diagnosis.",
+      "region_relevance": "US",
+      "school_relevance_tags": [],
+      "confidence": "high",
+      "risk_level": "medium",
+      "eligible_for_ranking": true,
+      "cluster_notes": "Mental-health adjacent — keep framing structural/statistical, no meme tone, no individual case studies. Previously appeared in brief dated 2026-06-23."
+    },
+    {
+      "cluster_id": "c10_housing_crisis",
+      "topic": "Off-campus housing has overtaken tuition as the bigger cost for many college students",
+      "category": "cost_of_living_housing",
+      "summary": "National data shows students at public four-year schools now average $12,770/year in room and board vs $11,260 in tuition, and off-campus housing alone runs roughly $10,781/year (~$1,080/month); social posts show ongoing public debate over specific rent figures and a persistent campus housing shortage.",
+      "source_ids": [
+        "src_034",
+        "src_035",
+        "src_036",
+        "src_037"
+      ],
+      "representative_source_id": "src_035",
+      "student_reaction_summary": "Industry and commentary accounts on X actively debate specific rent figures and attribute high costs to a supply shortage.",
+      "factual_basis_summary": "PBS News and The Hechinger Report independently confirm housing costs have overtaken tuition nationally, with specific dollar figures.",
+      "target_audience": [
+        "incoming_freshmen",
+        "undergraduate_students",
+        "transfer_students"
+      ],
+      "possible_content_angle": "'Housing now costs more than your tuition' — real dollar comparison card by living situation.",
+      "region_relevance": "US",
+      "school_relevance_tags": [],
+      "confidence": "high",
+      "risk_level": "low",
+      "eligible_for_ranking": true,
+      "cluster_notes": ""
+    },
+    {
+      "cluster_id": "c11_transfer_credit_loss",
+      "topic": "Transfer students routinely lose academic credits, costing time, money, and sometimes their degree path",
+      "category": "transfer_student_experience",
+      "summary": "A national survey found roughly 3 in 10 transfer students lose significant academic credits in the process; in Texas alone, more than 19,000 community college students lost course credit transferring to a university in one year, and 16% of affected students reported giving up on higher education altogether.",
+      "source_ids": [
+        "src_038",
+        "src_039",
+        "src_040"
+      ],
+      "representative_source_id": "src_039",
+      "student_reaction_summary": "",
+      "factual_basis_summary": "UPCEA national survey data corroborated by a state-level Texas case study and an Inside Higher Ed policy column on the same structural issue.",
+      "target_audience": [
+        "transfer_students"
+      ],
+      "possible_content_angle": "'What to check before you transfer' checklist built around the credit-loss statistics.",
+      "region_relevance": "US",
+      "school_relevance_tags": [],
+      "confidence": "high",
+      "risk_level": "low",
+      "eligible_for_ranking": true,
+      "cluster_notes": ""
+    },
+    {
+      "cluster_id": "c12_greek_life_rush_surge",
+      "topic": "Greek life rush registration hits record highs even as younger students stay skeptical of frat/sorority culture",
+      "category": "greek_life",
+      "summary": "At the University of Virginia, 1,100 women and 825 men registered for spring 2026 rush — the IFC's largest sign-up since extending its deadline, and the ISC's largest-ever sorority membership (3,082) — while 'RushTok' content keeps recruitment, outfits, and rush videos circulating widely on TikTok.",
+      "source_ids": [
+        "src_041",
+        "src_042",
+        "src_043"
+      ],
+      "representative_source_id": "src_041",
+      "student_reaction_summary": "Active RushTok content (outfit inspo, intro-video tips, rush vlogs) shows students treating recruitment itself as shareable content.",
+      "factual_basis_summary": "Cavalier Daily reporting gives specific, named registration and membership numbers for one large public university.",
+      "target_audience": [
+        "incoming_freshmen",
+        "undergraduate_students"
+      ],
+      "possible_content_angle": "'Rush by the numbers' card pairing the registration surge with what RushTok actually shows about the process.",
+      "region_relevance": "US",
+      "school_relevance_tags": [
+        "University of Virginia"
+      ],
+      "confidence": "medium",
+      "risk_level": "low",
+      "eligible_for_ranking": true,
+      "cluster_notes": "Single-school data point (UVA) generalized cautiously; supplemented by platform-wide RushTok volume."
+    },
+    {
+      "cluster_id": "c13_commuter_majority",
+      "topic": "Most college students are commuters now, not the stereotypical dorm-living undergrad",
+      "category": "commuter_students",
+      "summary": "Multiple sources put the share of US college students who commute (rather than live in campus housing) at roughly 85-86%, and NPR reporting ties rising community-college enrollment directly to affordability — many of these students commute by necessity; TikTok creator content highlights the financial-vs-social/mental-health tradeoff of commuting.",
+      "source_ids": [
+        "src_044",
+        "src_045",
+        "src_046"
+      ],
+      "representative_source_id": "src_044",
+      "student_reaction_summary": "Viral commuter-life TikTok content frames the tradeoff as 'you save money but pay with your mental health.'",
+      "factual_basis_summary": "US News ranking data and NPR enrollment reporting both support a structurally commuter-dominated student population, though exact percentages vary slightly by source.",
+      "target_audience": [
+        "incoming_freshmen",
+        "undergraduate_students",
+        "transfer_students"
+      ],
+      "possible_content_angle": "'You're not the exception' — commuter-majority reality check card, paired with the financial-tradeoff angle.",
+      "region_relevance": "US",
+      "school_relevance_tags": [],
+      "confidence": "medium",
+      "risk_level": "low",
+      "eligible_for_ranking": true,
+      "cluster_notes": ""
+    }
+  ],
+  "excluded_items": []
+}

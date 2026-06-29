@@ -1,0 +1,152 @@
+{
+  "description": "Consolidated history of all ranked topics across dates. Use to check for overlap before ranking new topics.",
+  "last_updated": "2026-06-23",
+  "topic_themes": [
+    {
+      "theme_id": "th_jobs_hiring",
+      "theme": "Entry-level job market / hiring trends",
+      "appearances": [
+        {"date": "2026-06-19", "rank": 1, "topic": "Class of 2026 entry-level job market: hiring barely up, AI cutting into the bottom rung", "angle": "flat hiring + AI impact"},
+        {"date": "2026-06-22", "rank": 1, "topic": "The 40-Point Hiring Gap: Why Internships Matter More Than GPA in 2026", "angle": "internship vs GPA comparison"},
+        {"date": "2026-06-23", "rank": 2, "topic": "The $24K Lie: College Grads Expect $80K But Actually Make $56K", "angle": "salary expectations gap"},
+        {"date": "2026-06-23", "rank": 5, "topic": "70% of Internship Applicants Get Ghosted", "angle": "ghosting + psychological damage"},
+        {"date": "2026-06-23", "rank": 12, "topic": "Hiring Is Flat But Salaries Are Up", "angle": "paradox framing"}
+      ],
+      "cooldown_until": "2026-06-26",
+      "notes": "Covered from multiple angles across 3 days. Need at least 3-day cooldown unless major breaking news."
+    },
+    {
+      "theme_id": "th_ai_academic",
+      "theme": "AI in academics / cheating / detection",
+      "appearances": [
+        {"date": "2026-06-19", "rank": 2, "topic": "Students use AI everywhere but don't trust it", "angle": "usage + distrust paradox"},
+        {"date": "2026-06-22", "rank": 2, "topic": "The AI Cheating Paradox: Students Using AI to Prove They Didn't Use AI", "angle": "humanizer tools"},
+        {"date": "2026-06-23", "rank": 9, "topic": "AI Detectors Are Flagging Innocent Students — Lawsuits", "angle": "false positives + lawsuits"}
+      ],
+      "cooldown_until": "2026-06-28",
+      "notes": "3 consecutive days. Needs 5-day cooldown minimum."
+    },
+    {
+      "theme_id": "th_student_loans",
+      "theme": "Student loans / debt / repayment",
+      "appearances": [
+        {"date": "2026-06-19", "rank": 3, "topic": "Student loan system overhaul July 1, plus record default numbers", "angle": "July 1 overview + defaults"},
+        {"date": "2026-06-22", "rank": 5, "topic": "Your Student Loans Now Have a Tougher Collector: The U.S. Treasury", "angle": "Treasury collection"},
+        {"date": "2026-06-23", "rank": 1, "topic": "SAVE Plan Ends in 8 Days", "angle": "SAVE elimination countdown"},
+        {"date": "2026-06-23", "rank": 6, "topic": "Free 1% Interest Rate Cut — Auto-Pay", "angle": "actionable tip"}
+      ],
+      "cooldown_until": "2026-06-27",
+      "notes": "3 consecutive days, 2 slots on 6/23. Urgent July 1 deadline justifies repeat but needs cooldown after."
+    },
+    {
+      "theme_id": "th_tuition_cost",
+      "theme": "Tuition / cost of attendance",
+      "appearances": [
+        {"date": "2026-06-19", "rank": 5, "topic": "Rising tuition meets a widening pay gap between majors", "angle": "tuition + major pay gap"},
+        {"date": "2026-06-22", "rank": 10, "topic": "Dorm Costs Doubled in 30 Years — And Quality Got Worse", "angle": "housing cost trend"},
+        {"date": "2026-06-23", "rank": 4, "topic": "$95,258 for One Year of College", "angle": "sticker shock + $90K threshold"}
+      ],
+      "cooldown_until": "2026-06-26",
+      "notes": "3 consecutive days with different sub-angles."
+    },
+    {
+      "theme_id": "th_mental_health",
+      "theme": "Mental health / loneliness / burnout",
+      "appearances": [
+        {"date": "2026-06-19", "rank": 6, "topic": "Loneliness and burnout statistics behind viral 'bed rotting' coping habits", "angle": "stats + bed rotting"},
+        {"date": "2026-06-22", "rank": 8, "topic": "2 Out of 3 College Students Feel Lonely", "angle": "loneliness data"}
+      ],
+      "cooldown_until": "2026-06-26",
+      "notes": "2 appearances. Excluded from 6/23 correctly."
+    },
+    {
+      "theme_id": "th_side_hustles",
+      "theme": "Side hustles / student income",
+      "appearances": [
+        {"date": "2026-06-19", "rank": 7, "topic": "Side hustles have shifted from a trend to a financial necessity", "angle": "necessity framing"},
+        {"date": "2026-06-23", "rank": 10, "topic": "65% of Students Now Run Side Hustles", "angle": "AI-powered hustles"}
+      ],
+      "cooldown_until": "2026-06-26",
+      "notes": "Repeated after 4 days. Different angle (AI hustles) but same core theme."
+    },
+    {
+      "theme_id": "th_intl_students",
+      "theme": "International students / visa / immigration",
+      "appearances": [
+        {"date": "2026-06-19", "rank": 4, "topic": "Canada tightens the door on international students", "angle": "Canada policy changes"},
+        {"date": "2026-06-22", "rank": 3, "topic": "4-Year Countdown: New F-1 Visa Rules End Open-Ended Study", "angle": "US F-1 rule changes"}
+      ],
+      "cooldown_until": "2026-06-25",
+      "notes": "US and Canada angles both covered."
+    },
+    {
+      "theme_id": "th_admissions",
+      "theme": "Admissions / test policy",
+      "appearances": [
+        {"date": "2026-06-22", "rank": 4, "topic": "Test-Optional Is Dead: All 8 Ivies Now Require SAT/ACT", "angle": "test-required return"}
+      ],
+      "cooldown_until": "2026-06-25"
+    },
+    {
+      "theme_id": "th_campus_tech",
+      "theme": "Campus tech / cybersecurity",
+      "appearances": [
+        {"date": "2026-06-22", "rank": 6, "topic": "Your Finals Got Cancelled Because Hackers Broke Canvas", "angle": "LMS hack"}
+      ],
+      "cooldown_until": "2026-06-25"
+    },
+    {
+      "theme_id": "th_university_finances",
+      "theme": "University finances / endowments / budget",
+      "appearances": [
+        {"date": "2026-06-22", "rank": 7, "topic": "$57B Endowment, Still Cutting: Harvard's Budget Paradox", "angle": "Harvard deficit"},
+        {"date": "2026-06-22", "rank": 11, "topic": "Drexel's $112.6M Gift: Record Engineering Donation", "angle": "mega donation"}
+      ],
+      "cooldown_until": "2026-06-25"
+    },
+    {
+      "theme_id": "th_dorm_roommate",
+      "theme": "Dorm life / roommate culture",
+      "appearances": [
+        {"date": "2026-06-19", "rank": 11, "topic": "Common roommate red flags students report", "angle": "red flag checklist"}
+      ],
+      "cooldown_until": "2026-06-23"
+    },
+    {
+      "theme_id": "th_consulting_career",
+      "theme": "Student-run consulting / alternative career paths",
+      "appearances": [
+        {"date": "2026-06-22", "rank": 9, "topic": "Skip the MBB Grind: Student-Run Consulting Firms", "angle": "alternative career path"}
+      ],
+      "cooldown_until": "2026-06-25"
+    },
+    {
+      "theme_id": "th_major_regret",
+      "theme": "Major selection / regret",
+      "appearances": [
+        {"date": "2026-06-23", "rank": 3, "topic": "46% of Poli Sci Grads Regret Their Major", "angle": "regret ranking by major"}
+      ],
+      "cooldown_until": "2026-06-26",
+      "notes": "First appearance. Fresh."
+    },
+    {
+      "theme_id": "th_degree_value",
+      "theme": "Is college worth it / degree value / skills-based hiring",
+      "appearances": [
+        {"date": "2026-06-23", "rank": 7, "topic": "70% of Employers Dropped Degree Requirements", "angle": "skills-based hiring trend"},
+        {"date": "2026-06-23", "rank": 8, "topic": "Enrollment Cliff Starts Fall 2026", "angle": "demographic decline"}
+      ],
+      "cooldown_until": "2026-06-26",
+      "notes": "First appearance as a standalone theme."
+    },
+    {
+      "theme_id": "th_scholarship_finaid",
+      "theme": "Scholarships / financial aid / FAFSA",
+      "appearances": [
+        {"date": "2026-06-23", "rank": 11, "topic": "Gen Z Is Searching for Scholarships on TikTok", "angle": "TikTok behavior"}
+      ],
+      "cooldown_until": "2026-06-26",
+      "notes": "First appearance."
+    }
+  ]
+}

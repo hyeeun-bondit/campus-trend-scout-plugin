@@ -1,0 +1,509 @@
+{
+  "cardnews_batch_id": "cn_2026-06-22_claude",
+  "topics": [
+    {
+      "topic_id": "t04",
+      "rank": 1,
+      "topic": "The entry-level job and internship crunch of 2026",
+      "selected_tone": "news + informational",
+      "tone_reason": "High-stakes, anxiety-adjacent topic for nearly every student; needs a grounded, factual tone rather than meme humor so it reads as credible and useful, not mocking.",
+      "content_angle": "Frame as 'what's actually hiring vs. what's frozen' rather than pure doom, using the engineering/construction/small-business hiring counterpoint.",
+      "title_options": [
+        "Why Your Internship Search Feels Impossible Right Now",
+        "The 2026 Job Market, Explained in 4 Numbers",
+        "Hiring Freeze or Hiring Boom? It Depends Where You Look"
+      ],
+      "slide_structure": [
+        {
+          "slide": 1,
+          "purpose": "Hook",
+          "copy": "Applied to 100 internships and heard nothing back? You're not imagining it.",
+          "visual_direction": "Bold stat-card style, dark background, large white text.",
+          "source_note": ""
+        },
+        {
+          "slide": 2,
+          "purpose": "Key fact",
+          "copy": "Internship postings on Handshake dropped more than 15% between 2023 and 2025.",
+          "visual_direction": "Downward trend arrow graphic.",
+          "source_note": "src_007 CNN Business"
+        },
+        {
+          "slide": 3,
+          "purpose": "Key fact",
+          "copy": "Applications per internship posting nearly doubled in 2025 — meaning way more competition for fewer spots.",
+          "visual_direction": "Icon of stacked resumes.",
+          "source_note": "src_007 CNN Business"
+        },
+        {
+          "slide": 4,
+          "purpose": "Context",
+          "copy": "Entry-level hiring is down 6% year-over-year, and 21% of companies say they've frozen entry-level hiring partly because of AI.",
+          "visual_direction": "Split bar chart.",
+          "source_note": "src_008 College Recruiter"
+        },
+        {
+          "slide": 5,
+          "purpose": "Counterpoint",
+          "copy": "But it's not all bad: NACE still expects employers to hire 3.9% more interns this cycle than last year.",
+          "visual_direction": "Upward trend arrow in accent color.",
+          "source_note": "src_008 College Recruiter"
+        },
+        {
+          "slide": 6,
+          "purpose": "CTA",
+          "copy": "Drop a comment: how many applications have you sent out this cycle?",
+          "visual_direction": "Simple text card with comment icon.",
+          "source_note": ""
+        }
+      ],
+      "caption": "The internship market in one word: brutal. Here's what the data actually says about who's hiring and who's frozen right now. Sources linked in our profile. #collegelife #internship #jobsearch #genz #careeradvice",
+      "comment_prompt": "How many internship applications have you sent out this cycle? Drop your number below.",
+      "hashtags": [
+        "#internship2026",
+        "#jobmarket",
+        "#collegelife",
+        "#genz",
+        "#careeradvice"
+      ],
+      "expected_reaction": "Students tagging friends going through the same job search; comments sharing application-count horror stories.",
+      "editor_notes": {
+        "source_ids_used": [
+          "src_007",
+          "src_008"
+        ],
+        "claims_to_double_check": [],
+        "risk_notes": [
+          "Keep tone factual, avoid doom framing that could increase anxiety without the counterpoint slide."
+        ],
+        "do_not_say": [
+          "Don't bother applying",
+          "Internships are dead"
+        ]
+      }
+    },
+    {
+      "topic_id": "t01",
+      "rank": 2,
+      "topic": "Federal student loan overhaul takes effect July 1, 2026",
+      "selected_tone": "news + informational",
+      "tone_reason": "A policy/deadline story; needs clarity and urgency without alarmism since it affects real financial decisions.",
+      "content_angle": "Lead with the July 1 deadline and a 3-item 'check this before you register' checklist.",
+      "title_options": [
+        "Your Student Loans Are About to Change. Here's What to Know Before July 1",
+        "3 Things to Check Before Federal Loan Rules Change This Summer",
+        "The SAVE Plan Is Ending. What That Means for You"
+      ],
+      "slide_structure": [
+        {
+          "slide": 1,
+          "purpose": "Hook",
+          "copy": "If you're borrowing for school this fall, a hard deadline just hit your timeline: July 1, 2026.",
+          "visual_direction": "Calendar/deadline graphic.",
+          "source_note": ""
+        },
+        {
+          "slide": 2,
+          "purpose": "Key fact",
+          "copy": "New federal borrowing caps start, Grad PLUS loans are ending, and Parent PLUS loans are getting limited.",
+          "visual_direction": "Checklist icon graphic.",
+          "source_note": "src_001 NPR"
+        },
+        {
+          "slide": 3,
+          "purpose": "Key fact",
+          "copy": "Repayment plans are being consolidated into a smaller set of options going forward.",
+          "visual_direction": "Simplified flowchart icon.",
+          "source_note": "src_001 NPR"
+        },
+        {
+          "slide": 4,
+          "purpose": "Key fact",
+          "copy": "Loan limits will be prorated by enrollment status, which could leave a gap below your actual cost of attendance.",
+          "visual_direction": "Gap/warning icon.",
+          "source_note": "src_002 U.S. News & World Report"
+        },
+        {
+          "slide": 5,
+          "purpose": "CTA",
+          "copy": "Check your loan type, your school's financial aid office, and your repayment plan before you register for fall classes.",
+          "visual_direction": "Three-step checklist card.",
+          "source_note": ""
+        }
+      ],
+      "caption": "Borrowing for school this fall? Federal loan rules are changing July 1 — here's the quick breakdown before you register. Always confirm details with your school's financial aid office. #studentloans #financialaid #collegelife #2026",
+      "comment_prompt": "Are you switching repayment plans before the deadline, or still figuring it out?",
+      "hashtags": [
+        "#studentloans",
+        "#financialaid",
+        "#collegelife",
+        "#july1deadline"
+      ],
+      "expected_reaction": "Borrowers tagging roommates/friends; questions about how the caps apply to their specific loan type.",
+      "editor_notes": {
+        "source_ids_used": [
+          "src_001",
+          "src_002"
+        ],
+        "claims_to_double_check": [
+          "Exact dollar caps by loan type/year, which vary and should be confirmed directly with studentaid.gov before publishing exact figures"
+        ],
+        "risk_notes": [
+          "Add a disclaimer-style note encouraging students to confirm details with their financial aid office; avoid giving specific individualized financial advice."
+        ],
+        "do_not_say": [
+          "This is financial advice"
+        ]
+      }
+    },
+    {
+      "topic_id": "t09",
+      "rank": 3,
+      "topic": "Some college majors have zero or negative financial ROI",
+      "selected_tone": "relatable + informational",
+      "tone_reason": "Highly shareable but editorially sensitive; needs a 'know the tradeoff' framing rather than a takedown of specific majors.",
+      "content_angle": "Frame as 'know the tradeoff, not a takedown' — pair the ROI data with the counterpoint that mid-career economics pay can overtake some engineering subfields.",
+      "title_options": [
+        "Does Your Major Actually Pay Off? The Data Might Surprise You",
+        "The College ROI Debate: What the Numbers Actually Say",
+        "Starting Salary Isn't the Whole Story for Your Major"
+      ],
+      "slide_structure": [
+        {
+          "slide": 1,
+          "purpose": "Hook",
+          "copy": "Is your degree actually worth what you're paying for it? Depends on the major.",
+          "visual_direction": "Question-mark stat card.",
+          "source_note": ""
+        },
+        {
+          "slide": 2,
+          "purpose": "Key fact",
+          "copy": "The median bachelor's degree shows about $160,000 in lifetime financial ROI.",
+          "visual_direction": "Large dollar figure.",
+          "source_note": "src_017 FREOPP"
+        },
+        {
+          "slide": 3,
+          "purpose": "Key fact",
+          "copy": "But some majors — including art, music, religion, and psychology — show zero or negative net financial value by this analysis.",
+          "visual_direction": "Side-by-side comparison bars.",
+          "source_note": "src_017 FREOPP"
+        },
+        {
+          "slide": 4,
+          "purpose": "Context",
+          "copy": "The NY Fed estimates roughly a 12.5% return on a degree overall, though the college-vs-high-school earnings gap has been stagnating.",
+          "visual_direction": "Line graph icon.",
+          "source_note": "src_018 Boston Globe"
+        },
+        {
+          "slide": 5,
+          "purpose": "Counterpoint",
+          "copy": "Plot twist: some 'lower-paying' majors like economics catch up — starting near $60K but reaching ~$130K mid-career.",
+          "visual_direction": "Crossing-lines graph.",
+          "source_note": "src_018 Boston Globe / src_010 Extern (background data)"
+        },
+        {
+          "slide": 6,
+          "purpose": "CTA",
+          "copy": "This isn't about which major is 'better' — it's about knowing the tradeoff you're making. What's your major, and does this track with your experience?",
+          "visual_direction": "Simple text card.",
+          "source_note": ""
+        }
+      ],
+      "caption": "The college ROI debate, with actual numbers attached. Not a ranking of which major is 'better' — just the tradeoffs worth knowing. #collegemajor #roi #studentdebt #careeradvice",
+      "comment_prompt": "What's your major, and does this data match what you're seeing in your job search?",
+      "hashtags": [
+        "#collegemajor",
+        "#roi",
+        "#studentdebt",
+        "#careeradvice"
+      ],
+      "expected_reaction": "Defensive comments from students in lower-ROI majors; comparison comments between majors.",
+      "editor_notes": {
+        "source_ids_used": [
+          "src_017",
+          "src_018"
+        ],
+        "claims_to_double_check": [
+          "FREOPP's ROI methodology is not independently audited here; present as one analysis, not definitive fact"
+        ],
+        "risk_notes": [
+          "Must avoid mocking or shaming specific majors or the students who study them; keep framing analytical, not judgmental."
+        ],
+        "do_not_say": [
+          "X major is a waste of money",
+          "Don't study Y"
+        ]
+      }
+    },
+    {
+      "topic_id": "t07",
+      "rank": 4,
+      "topic": "Gen Z's shift to 'poly-employment' and side hustles",
+      "selected_tone": "relatable + informational",
+      "tone_reason": "Validating, lifestyle-trend story rather than urgent news.",
+      "content_angle": "Position as 'this is the new normal, not a red flag' to validate students already working multiple jobs.",
+      "title_options": [
+        "Why So Many of Your Classmates Have 3 Jobs Right Now",
+        "Poly-Employment: The Gen Z Work Trend Nobody Planned For",
+        "One Job Isn't the Default Anymore — Here's the Data"
+      ],
+      "slide_structure": [
+        {
+          "slide": 1,
+          "purpose": "Hook",
+          "copy": "If it feels like everyone you know has more than one job, that's because they do.",
+          "visual_direction": "",
+          "source_note": ""
+        },
+        {
+          "slide": 2,
+          "purpose": "Key fact",
+          "copy": "57% of Gen Z workers have a side hustle, compared to just 21% of Boomers.",
+          "visual_direction": "",
+          "source_note": "src_014 Axios"
+        },
+        {
+          "slide": 3,
+          "purpose": "Key fact",
+          "copy": "Gen Z makes up 55% of all 'poly-employed' workers juggling multiple part-time roles.",
+          "visual_direction": "",
+          "source_note": "src_013 Fortune"
+        }
+      ],
+      "caption": "",
+      "comment_prompt": "",
+      "hashtags": [],
+      "expected_reaction": "",
+      "editor_notes": {
+        "source_ids_used": [],
+        "claims_to_double_check": [],
+        "risk_notes": [],
+        "do_not_say": []
+      }
+    },
+    {
+      "topic_id": "t05",
+      "rank": 5,
+      "topic": "Highest-paying college majors in 2026",
+      "selected_tone": "practical + advice-oriented",
+      "tone_reason": "Classic ranking format; informational rather than provocative.",
+      "content_angle": "Pair the starting-salary ranking with the economics 'long game' twist to avoid being a flat, predictable Top 10.",
+      "title_options": [
+        "The Highest-Paying College Majors in 2026",
+        "Which Major Pays the Most Right Out of College?",
+        "Starting Salary by Major: 2026 Breakdown"
+      ],
+      "slide_structure": [
+        {
+          "slide": 1,
+          "purpose": "Hook",
+          "copy": "Curious which majors actually pay the most starting out? Here's the 2026 breakdown.",
+          "visual_direction": "",
+          "source_note": ""
+        },
+        {
+          "slide": 2,
+          "purpose": "Key fact",
+          "copy": "Petroleum Engineering leads at roughly $83K starting; Computer Engineering follows near $80K.",
+          "visual_direction": "",
+          "source_note": "src_009 Research.com"
+        },
+        {
+          "slide": 3,
+          "purpose": "Counterpoint",
+          "copy": "But Economics grads starting around $60K can reach ~$130K mid-career — sometimes overtaking engineering subfields long-term.",
+          "visual_direction": "",
+          "source_note": "src_010 Extern"
+        }
+      ],
+      "caption": "",
+      "comment_prompt": "",
+      "hashtags": [],
+      "expected_reaction": "",
+      "editor_notes": {
+        "source_ids_used": [],
+        "claims_to_double_check": [],
+        "risk_notes": [],
+        "do_not_say": []
+      }
+    },
+    {
+      "topic_id": "t02",
+      "rank": 6,
+      "topic": "Students boo AI at commencement but still use it to cheat",
+      "selected_tone": "relatable + informational",
+      "tone_reason": "Polarizing topic; needs a 'where do you draw the line' framing, never instructional about cheating.",
+      "content_angle": "Frame around the contradiction/cognitive dissonance, not as a how-to; ask 'where do you draw the line?' rather than mocking either side.",
+      "title_options": [
+        "Students Are Booing AI at Graduation. They're Still Using It Daily",
+        "The AI Contradiction No One on Campus Wants to Admit",
+        "57% of Students Use AI Weekly. So Why the Backlash?"
+      ],
+      "slide_structure": [
+        {
+          "slide": 1,
+          "purpose": "Hook",
+          "copy": "Students booed AI at commencement this year. Most of them used it to write a paper last week.",
+          "visual_direction": "",
+          "source_note": ""
+        },
+        {
+          "slide": 2,
+          "purpose": "Key fact",
+          "copy": "57% of college students use AI weekly for coursework; daily users self-report cheating at 26%, vs. 7% for monthly users.",
+          "visual_direction": "",
+          "source_note": "src_003 Cornell Chronicle"
+        }
+      ],
+      "caption": "",
+      "comment_prompt": "",
+      "hashtags": [],
+      "expected_reaction": "",
+      "editor_notes": {
+        "source_ids_used": [],
+        "claims_to_double_check": [],
+        "risk_notes": [],
+        "do_not_say": []
+      }
+    },
+    {
+      "topic_id": "t03",
+      "rank": 7,
+      "topic": "US and Canada both tighten the door on international students",
+      "selected_tone": "news + informational",
+      "tone_reason": "Politically sensitive policy topic; stay factual and neutral.",
+      "content_angle": "Side-by-side 'what changed in the US vs. Canada' comparison, staying neutral on the underlying policy debate.",
+      "title_options": [
+        "US and Canada Are Both Cutting Back on International Students",
+        "What's Changing for International Students in 2026",
+        "Studying Abroad in North America Just Got Harder"
+      ],
+      "slide_structure": [
+        {
+          "slide": 1,
+          "purpose": "Hook",
+          "copy": "Whether you're applying to the US or Canada, the door just got a little narrower.",
+          "visual_direction": "",
+          "source_note": ""
+        },
+        {
+          "slide": 2,
+          "purpose": "Key fact",
+          "copy": "Canada capped 2026 study permit spaces at 309,670.",
+          "visual_direction": "",
+          "source_note": "src_005 Canada.ca (IRCC)"
+        },
+        {
+          "slide": 3,
+          "purpose": "Key fact",
+          "copy": "New US student visa issuance dropped 35.6% last summer amid tighter screening.",
+          "visual_direction": "",
+          "source_note": "src_006 Inside Higher Ed"
+        }
+      ],
+      "caption": "",
+      "comment_prompt": "",
+      "hashtags": [],
+      "expected_reaction": "",
+      "editor_notes": {
+        "source_ids_used": [],
+        "claims_to_double_check": [],
+        "risk_notes": [],
+        "do_not_say": []
+      }
+    },
+    {
+      "topic_id": "t08",
+      "rank": 8,
+      "topic": "College student mental health is actually improving (but loneliness persists)",
+      "selected_tone": "relatable + informational",
+      "tone_reason": "Sensitive mental-health topic; must avoid dismissing students still struggling.",
+      "content_angle": "Lead with the surprising 'actually getting better' framing but immediately acknowledge loneliness and substance use are still real.",
+      "title_options": [
+        "Mental Health on Campus Is Actually Improving, Data Shows"
+      ],
+      "slide_structure": [
+        {
+          "slide": 1,
+          "purpose": "Key fact",
+          "copy": "National data shows depression and anxiety rates among college students have declined for a third straight year — though loneliness still affects over half of students.",
+          "visual_direction": "",
+          "source_note": "src_015 University of Michigan SPH"
+        }
+      ],
+      "caption": "",
+      "comment_prompt": "",
+      "hashtags": [],
+      "expected_reaction": "",
+      "editor_notes": {
+        "source_ids_used": [],
+        "claims_to_double_check": [],
+        "risk_notes": [],
+        "do_not_say": []
+      }
+    },
+    {
+      "topic_id": "t06",
+      "rank": 9,
+      "topic": "Record freshman classes are causing a campus housing crunch",
+      "selected_tone": "relatable + informational",
+      "tone_reason": "Narrow, single-campus-sourced topic, low stakes.",
+      "content_angle": "Use named examples (Pitt, ACU) as illustrations of a 'is this happening at your school too?' prompt rather than claiming a definitive national crisis.",
+      "title_options": [
+        "Record Freshman Classes Are Straining Dorm Space"
+      ],
+      "slide_structure": [
+        {
+          "slide": 1,
+          "purpose": "Key fact",
+          "copy": "Pitt is building a new dorm after record applications strained freshman housing; Abilene Christian converted buildings to all-triple rooms.",
+          "visual_direction": "",
+          "source_note": "src_011 Pittsburgh Post-Gazette / src_012 The Optimist"
+        }
+      ],
+      "caption": "",
+      "comment_prompt": "",
+      "hashtags": [],
+      "expected_reaction": "",
+      "editor_notes": {
+        "source_ids_used": [],
+        "claims_to_double_check": [],
+        "risk_notes": [],
+        "do_not_say": []
+      }
+    },
+    {
+      "topic_id": "t10",
+      "rank": 10,
+      "topic": "TikTok still dominates how college-age students spend their day",
+      "selected_tone": "relatable + informational",
+      "tone_reason": "Low-confidence data with a population mismatch; keep minimal and caveat clearly if produced at all.",
+      "content_angle": "If produced, stick to the verified Pew data and clearly note it covers teens, not making any unverified claims specifically about college students.",
+      "title_options": [
+        "How Much Time Do Teens Spend on TikTok? (Data, Not College-Specific)"
+      ],
+      "slide_structure": [
+        {
+          "slide": 1,
+          "purpose": "Key fact",
+          "copy": "Teens 13-17 spend about 1h35m a day on TikTok, per Pew. Note: this is teen data, not college-student-specific.",
+          "visual_direction": "",
+          "source_note": "src_019 Pew Research Center"
+        }
+      ],
+      "caption": "",
+      "comment_prompt": "",
+      "hashtags": [],
+      "expected_reaction": "",
+      "editor_notes": {
+        "source_ids_used": [],
+        "claims_to_double_check": [],
+        "risk_notes": [],
+        "do_not_say": []
+      }
+    }
+  ]
+}

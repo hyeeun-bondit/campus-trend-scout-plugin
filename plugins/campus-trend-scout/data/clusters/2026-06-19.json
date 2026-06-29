@@ -1,0 +1,184 @@
+{
+  "cluster_batch_id": "cb_2026-06-19_01",
+  "input_signal_batch_id": "sb_2026-06-19_01",
+  "cluster_count": 7,
+  "clusters": [
+    {
+      "cluster_id": "c1",
+      "topic": "Students use AI everywhere but don't trust it, and worry it's killing their job prospects",
+      "category": "AI & academics",
+      "summary": "Multiple large surveys (CSU system, UC system, San Diego regional) show AI use among students is now near-universal, but trust is low and fear about AI replacing entry-level jobs is high.",
+      "source_ids": [
+        "src_001",
+        "src_002",
+        "src_003"
+      ],
+      "representative_source_id": "src_001",
+      "student_reaction_summary": "Students openly admit heavy AI reliance while simultaneously distrusting AI output and fearing it devalues their future job prospects.",
+      "factual_basis_summary": "CSU survey (94,000 respondents): 95% use AI, 84% ChatGPT, 82% job-security worry. San Diego survey: about 90% use ChatGPT, 80% express multiple concerns. UC-affiliated study: about two-thirds use GenAI, 9%+ admit cheating, access disparities by income.",
+      "target_audience": [
+        "undergraduate_students",
+        "us_college_students"
+      ],
+      "possible_content_angle": "Myth vs Reality: 'AI helps me study' vs '82% of us are scared it kills our job chances'",
+      "region_relevance": "US",
+      "school_relevance_tags": [],
+      "confidence": "high",
+      "risk_level": "low",
+      "eligible_for_ranking": true,
+      "cluster_notes": ""
+    },
+    {
+      "cluster_id": "c2",
+      "topic": "Class of 2026 entry-level job market: hiring barely up, AI cutting into the bottom rung",
+      "category": "jobs & career",
+      "summary": "NACE/CNBC/Entrepreneur reporting shows hiring growth for the Class of 2026 is marginal at best, entry-level postings are down year over year, and AI is cited as a factor shrinking junior roles at major tech employers.",
+      "source_ids": [
+        "src_004",
+        "src_005",
+        "src_006"
+      ],
+      "representative_source_id": "src_004",
+      "student_reaction_summary": "Soon-to-graduate students describe applying to 100+ jobs without a single interview.",
+      "factual_basis_summary": "NACE: only 5.6% hiring growth projected, 45% of employers rate market 'fair' (worst since 2020-21). CNBC: entry-level postings down 6-7% YoY, AI linked to 25% drop in recent-grad hiring at Meta/Microsoft/Google. Entrepreneur: anecdotes of 100+ applications with zero interviews.",
+      "target_audience": [
+        "undergraduate_students",
+        "us_college_students"
+      ],
+      "possible_content_angle": "Reality check: what the Class of 2026 job hunt actually looks like, in numbers",
+      "region_relevance": "US",
+      "school_relevance_tags": [],
+      "confidence": "high",
+      "risk_level": "low",
+      "eligible_for_ranking": true,
+      "cluster_notes": ""
+    },
+    {
+      "cluster_id": "c3",
+      "topic": "Student loan system overhaul July 1, plus record default numbers",
+      "category": "student debt",
+      "summary": "Federal loan repayment plans are being eliminated/restructured starting July 1, 2026 (SAVE plan gone, Grad PLUS ended, Parent PLUS capped), arriving at the same time defaults hit a record 9.16 million.",
+      "source_ids": [
+        "src_007",
+        "src_008",
+        "src_009"
+      ],
+      "representative_source_id": "src_008",
+      "student_reaction_summary": "Borrowers facing fewer repayment options just as collections resume after the pandemic pause.",
+      "factual_basis_summary": "Bloomberg: 9.16M in default (record), 20% of 43M federal borrowers 1+ year behind. CBS/NPR: July 1 policy overhaul eliminates several repayment plans and ends Grad PLUS loans.",
+      "target_audience": [
+        "undergraduate_students",
+        "us_college_students"
+      ],
+      "possible_content_angle": "Checklist: what changes for your student loan on July 1",
+      "region_relevance": "US",
+      "school_relevance_tags": [],
+      "confidence": "high",
+      "risk_level": "low",
+      "eligible_for_ranking": true,
+      "cluster_notes": ""
+    },
+    {
+      "cluster_id": "c4",
+      "topic": "Canada tightens the door on international students while easing work rules for those already in",
+      "category": "international students",
+      "summary": "Canada's 2026 study permit cap keeps new international intake well below pre-cap levels even as StatCan shows enrolment back to pandemic lows, while a separate April 2026 rule change removes the co-op work permit requirement for students already enrolled.",
+      "source_ids": [
+        "src_010",
+        "src_011",
+        "src_012"
+      ],
+      "representative_source_id": "src_012",
+      "student_reaction_summary": "International applicants face a much narrower door in, while current students get one practical paperwork barrier removed.",
+      "factual_basis_summary": "IRCC: 408,000 permits in 2026 (155,000 new, 253,000 extensions); grad/PhD exempt from provincial attestation as of Jan 1, 2026. Global News/StatCan: enrolment down to pandemic levels. CIC News: co-op work permit no longer required as of April 1, 2026.",
+      "target_audience": [
+        "international_students",
+        "canadian_university_students"
+      ],
+      "possible_content_angle": "Before/After: what changed for international students in Canada in 2026",
+      "region_relevance": "Canada",
+      "school_relevance_tags": [],
+      "confidence": "high",
+      "risk_level": "low",
+      "eligible_for_ranking": true,
+      "cluster_notes": ""
+    },
+    {
+      "cluster_id": "c5",
+      "topic": "Side hustles have shifted from a trend to a financial necessity for many students",
+      "category": "student finances",
+      "summary": "Community-college student journalism frames side hustles as something most students now need to cover costs, set against national gig-economy participation data for Gen Z.",
+      "source_ids": [
+        "src_014"
+      ],
+      "representative_source_id": "src_014",
+      "student_reaction_summary": "Students describe juggling part-time work alongside coursework as the norm, not the exception.",
+      "factual_basis_summary": "Single campus-news source describing the shift; framed as first-person/op-ed style reporting rather than a large-scale survey.",
+      "target_audience": [
+        "undergraduate_students",
+        "us_college_students"
+      ],
+      "possible_content_angle": "Reality check: how many of us are actually working a side hustle just to get by",
+      "region_relevance": "US",
+      "school_relevance_tags": [],
+      "confidence": "medium",
+      "risk_level": "low",
+      "eligible_for_ranking": true,
+      "cluster_notes": ""
+    },
+    {
+      "cluster_id": "c6",
+      "topic": "Rising tuition meets a widening pay gap between majors",
+      "category": "student finances",
+      "summary": "Tuition keeps climbing (about 2.3% at four-year schools for 2026-27) while the lifetime earnings gap between the highest- and lowest-paying majors is roughly $1.9 million, sharpening the stakes of major choice.",
+      "source_ids": [
+        "src_017",
+        "src_018"
+      ],
+      "representative_source_id": "src_018",
+      "student_reaction_summary": "",
+      "factual_basis_summary": "EducationData.org: 2026-27 tuition projected up ~3.25% overall, ~2.3% at 4-year schools. Research.com: chemical/computer/aerospace engineering top median salaries; ~$1.9M lifetime gap between highest and lowest paying majors.",
+      "target_audience": [
+        "undergraduate_students",
+        "us_college_students"
+      ],
+      "possible_content_angle": "Comparison: what your major is actually projected to cost vs. pay back",
+      "region_relevance": "US",
+      "school_relevance_tags": [],
+      "confidence": "medium",
+      "risk_level": "low",
+      "eligible_for_ranking": true,
+      "cluster_notes": ""
+    },
+    {
+      "cluster_id": "c7",
+      "topic": "Loneliness and burnout statistics behind viral 'bed rotting' coping habits",
+      "category": "mental health",
+      "summary": "Research from Inside Higher Ed and a Gallup-sourced burnout piece quantify how widespread loneliness and burnout are among college-age students, tied to a viral low-effort coping behavior ('bed rotting').",
+      "source_ids": [
+        "src_015",
+        "src_016"
+      ],
+      "representative_source_id": "src_015",
+      "student_reaction_summary": "Students describe 'bed rotting' (extended unstructured time in bed) as a common, normalized stress response.",
+      "factual_basis_summary": "Inside Higher Ed: 60%+ of under-25 students feel lonely sometimes/always, 70%+ among LGBTQ+ students. The Source/Gallup-sourced: Gen Z sleeps least of any generation at the same age; 55% try social-media-driven stress habits, 24% specifically 'bed rot'.",
+      "target_audience": [
+        "undergraduate_students",
+        "us_college_students"
+      ],
+      "possible_content_angle": "Data check: how common is loneliness/burnout really, and what's the most common (unhealthy) coping habit",
+      "region_relevance": "US",
+      "school_relevance_tags": [],
+      "confidence": "medium",
+      "risk_level": "medium",
+      "eligible_for_ranking": true,
+      "cluster_notes": ""
+    }
+  ],
+  "excluded_items": [
+    {
+      "source_id": "src_013",
+      "reason": "Roommate horror-story roundup includes an anecdote involving an alleged allergic-reaction hospitalization tied to an identifiable-enough situation; pre-filter risk on individual incident framing. Not formed into its own cluster this cycle to avoid sensationalizing a specific case; could be revisited later as a purely structural 'roommate red flag checklist' piece with no incident-specific details."
+    }
+  ]
+}

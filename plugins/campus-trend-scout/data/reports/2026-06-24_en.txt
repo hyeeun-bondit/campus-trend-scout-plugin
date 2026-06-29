@@ -1,0 +1,117 @@
+# Daily US & Canada Campus Trend Brief
+**Date:** 2026-06-24
+
+## Today's Overall Theme
+
+Today's strongest story is about students reacting to AI by changing their major — computer science enrollment is dropping fast as students worry AI will take CS jobs before they graduate. A mandatory SNS search pass was run today (real posts pulled from x.com and threads.net) on top of the usual Reddit/campus-newspaper/education-news/official-source mix, which reinforced several stories with direct social-media corroboration and pushed the day's SNS share of all sources to 52% (27 of 52), well above the 30% minimum. Around the CS-exodus anchor story, several other fresh threads emerged: a quiet reversal of the test-optional admissions era (now with a live, climbing UC faculty-petition signature count), the gap between flashy NIL payouts and the stress they create for athletes (now reinforced by two industry insiders), a campus-culture resurgence in Greek life (now confirmed as genuinely viral by the Wall Street Journal), a structural problem in the community-college-to-four-year transfer pipeline, rising food insecurity (now extended to Canada via a Toronto Star post), and an early-stage study on paying students to put their phones away in class (SNS search confirmed no public discussion exists yet). Several previously-covered themes (student loan repayment overhaul, the Canvas data breach, and the mental-health improvement counter-narrative) are still in their cooldown window from earlier this week and were intentionally left out of today's new ranking.
+
+## Recommended Production Priority
+
+1. **Computer science majors are disappearing as AI job-fear reshapes what students study** — produce_today
+2. **The standardized-testing comeback: SAT/ACT requirements return for 2026-27** — produce_today
+3. **NIL deals are paying college athletes millions, but a new study links them to higher stress** — produce_today
+4. **RushTok effect: Greek life membership surging at some schools** — produce_today
+5. **Most community college students who plan to transfer never actually make it** — produce_today
+6. **Campus food insecurity keeps climbing** — produce_if_needed (handle with structural, non-sensational framing)
+7. **The 16 highest-paying college majors 5 years after graduation** — produce_if_needed (companion piece to #1)
+8. **Paying students to stay off their phones in class** — monitor (single source, needs verification)
+
+## Top Topics
+
+1. **Computer science majors are disappearing as AI job-fear reshapes what students study** (score 91/100, produce_today)
+   National Student Clearinghouse data shows CS/information-science enrollment fell 8.4% in spring 2026 — the steepest drop of any major in six years — with 64% of pessimistic CS majors in a Handshake survey blaming generative AI directly. Students are migrating to AI/ML, cybersecurity, engineering, and nursing instead. Today's SNS pass added real X commentary, including a notable counter-narrative.
+   - Source: The Washington Post — https://www.washingtonpost.com/technology/2026/04/13/computer-science-major-ai/
+   - Source: TechCrunch — https://techcrunch.com/2026/02/15/the-great-computer-science-exodus-and-where-students-are-going-instead/
+   - Source: Yahoo Finance / Moneywise — https://finance.yahoo.com/sectors/technology/articles/computer-science-once-golden-ticket-140500823.html
+   - Source: Inside Higher Ed — https://www.insidehighered.com/news/admissions/2026/06/04/3-takeaways-spring-enrollment-data
+   - Source: The Chronicle of Higher Education (X) — https://x.com/chronicle/status/2061532234159378507
+   - Source: Andrew Ng (X) — https://x.com/AndrewYNg/status/1900219116822102116
+
+2. **The standardized-testing comeback: more colleges are requiring SAT/ACT scores again for 2026-27** (score 83/100, produce_today)
+   UC faculty are petitioning to reinstate SAT/ACT requirements for STEM applicants, the University of Miami has already reinstated its testing policy for fall 2026, and 52% of Common App applicants submitted scores even where they were optional. A real-time X post shows the UC faculty petition's signature count climbing live.
+   - Source: Daily Bruin (UCLA) — https://dailybruin.com/2026/05/27/hundreds-of-uc-faculty-call-to-reinstate-sat-act-requirements-for-stem-applicants
+   - Source: University of Miami News — https://news.miami.edu/stories/2025/01/standardized-test-score-policy-reinstated-for-fall-2026-undergraduate-admissions-cycle.html
+   - Source: Inside Higher Ed — https://www.insidehighered.com/news/admissions/2026/06/04/3-takeaways-spring-enrollment-data
+   - Source: David Meyer (X) — https://x.com/dajmeyer/status/2059339567128617219
+
+3. **NIL deals are paying college athletes millions, but a new study links them to higher stress and rule confusion** (score 79/100, produce_today)
+   Over 5,500 NIL deals worth $75.85 million were approved between March-April 2026 alone, with top players valued at $2M+ — but a University of Michigan/Minnesota survey of 350 Division I athletes found NIL deals significantly raised stress and rule confusion. Two industry insiders on X added concrete detail on the underlying rule-confusion and cost mechanisms.
+   - Source: Ohio University News — https://www.ohio.edu/news/2026/04/nil-creates-opportunity-student-athletes-confusion-tough-decisions-schools-ncaa
+   - Source: Yahoo Sports — https://sports.yahoo.com/articles/college-sports-commission-nears-approval-165930533.html
+   - Source: National Today (Minneapolis Today) — https://nationaltoday.com/us/mn/minneapolis/news/2026/03/28/study-finds-nil-deals-spike-stress-among-college-athletes/
+   - Source: Amanda Christovich (X) — https://x.com/achristovichh/status/1923107519833997550
+   - Source: Darren Heitner (X) — https://x.com/heitner/status/1878264314433327453
+
+4. **RushTok effect: Greek life membership is surging at some schools even as it shrinks elsewhere** (score 77/100, produce_today)
+   Greek-life membership has grown sharply at some campuses — Ohio University grew from 954 to 1,823 members in two years, roughly 91% — while national rankings show wide variation school to school. The Wall Street Journal's own social post confirms RushTok is a genuine global viral phenomenon, not just a vendor-blog talking point.
+   - Source: Fresh Prints — https://www.freshprints.com/blogs/fastest-growing-greek-life-schools
+   - Source: The Gleaner (Rutgers-Camden) — https://gleaner.rutgers.edu/2026/04/17/greek-life-sees-resurgence-at-rutgers-camden-as-organizations-rebuild-and-expand/
+   - Source: U.S. News & World Report — https://www.usnews.com/best-colleges/rankings/most-frats
+   - Source: The Wall Street Journal (X) — https://x.com/WSJ/status/1960468113499029882
+   - Source: The Reveille / LSU (X) — https://x.com/lsureveille/status/1960379209693683757
+
+5. **Most community college students who plan to transfer to a 4-year school never actually make it** (score 74/100, produce_today)
+   Brookings, citing National Student Clearinghouse Research Center data, finds only about 31.6% of community college starters transfer to a 4-year school within six years — even as transfer volume overall rises. UCLA's new fall 2026 pilot gives priority transfer consideration to students who complete an Associate Degree for Transfer. Today's SNS search for this topic only found color-level posts that didn't qualify as ranking-usable sources, so the score is unchanged.
+   - Source: Community College Daily — https://www.ccdaily.com/2026/04/the-college-transfer-generation/
+   - Source: Brookings Institution — https://www.brookings.edu/articles/community-college-students-dont-always-benefit-from-transferring-to-a-4-year-college/
+   - Source: EdSource — https://edsource.org/2026/community-college-ucla-transfer-pilot/756908
+
+## Top 3 Card News Drafts
+
+**1. Computer science majors are disappearing as AI job-fear reshapes what students study**
+- Title options: "CS Was the 'Safe' Major. Not Anymore." / "64% of CS Majors Now Fear AI Took Their Future Job" / "Where CS Majors Are Going Instead (It's Not What You Think)"
+- Slide flow: hook stat (8.4% enrollment drop, steepest in 6 years) → 64% Handshake AI-blame stat → where students are migrating (AI/ML, cybersecurity, engineering, nursing) → closing slide featuring Andrew Ng's "worst career advice" counter-narrative for balance.
+- Comment prompt: "Are you rethinking your major because of AI? Tell us what you switched to (or why you're staying)."
+- Source: The Washington Post — https://www.washingtonpost.com/technology/2026/04/13/computer-science-major-ai/
+
+**2. The standardized-testing comeback: more colleges are requiring SAT/ACT scores again for 2026-27**
+- Title options: "Test-Optional Is Quietly Disappearing" / "These Schools Just Brought Back the SAT" / "52% of Applicants Are Already Submitting Scores Anyway"
+- Slide flow: hook (UC faculty petition, live signature count) → school checklist (Miami, UC STEM programs) → the 52%-submission stat → what this means for next year's applicants.
+- Comment prompt: "Does your target school require test scores again? Drop the name below."
+- Source: Daily Bruin (UCLA) — https://dailybruin.com/2026/05/27/hundreds-of-uc-faculty-call-to-reinstate-sat-act-requirements-for-stem-applicants
+
+**3. NIL deals are paying college athletes millions, but a new study links them to higher stress**
+- Title options: "$75.85 Million in NIL Deals... and a Stress Epidemic" / "The Dark Side of Getting Paid to Play" / "NIL Money vs. NIL Stress: What a New Study Found"
+- Slide flow: hook (5,500+ deals, $75.85M, top players $2M+) → contrast card (Michigan/Minnesota stress-survey findings) → the 20%-vs-3-5% agency commission contrast → closing reflection on whether the money is worth it.
+- Comment prompt: "Would you trade the stress for the money? Where do you land?"
+- Source: Yahoo Sports — https://sports.yahoo.com/articles/college-sports-commission-nears-approval-165930533.html
+
+## Topics to Monitor
+
+6. **Campus food insecurity keeps climbing as grocery costs rise, hitting international and multicultural students hardest** (score 67/100, produce_if_needed, risk: medium)
+   Campus food pantries are seeing rising demand (500-800 students/week at one Minnesota campus), and a peer-reviewed study finds food insecurity hits international (26.8%) and multicultural (35.6%) students harder than white students (19.9%). A Toronto Star social post extends the same pattern to international students in Canada. Handle with structural framing only — no individual anecdotes, no meme tone.
+   - Source: MPR News — https://www.mprnews.org/story/2026/04/17/campus-food-insecurity-continues-to-rise
+   - Source: PMC / NIH (peer-reviewed study) — https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11767435/
+   - Source: Toronto Star (X) — https://x.com/TorontoStar/status/1725862620345889139
+
+7. **The 16 highest-paying college majors 5 years after graduation** (score 58/100, produce_if_needed)
+   Engineering, CS, and economics majors still lead 5-years-out salary rankings. Single-source so far; works well as a companion piece to the CS-exodus story.
+   - Source: CNBC — https://www.cnbc.com/2026/02/21/highest-paying-college-majors.html
+
+8. **A study found paying students to stay off their phones during class improved focus and attendance** (score 25/100, monitor, needs_verification: true)
+   A joint RPI / University of Pittsburgh / UT Austin study found that an app paying students to stay off their phones during class improved focus, attendance, and academic satisfaction. Only one outlet has reported this so far, and today's mandatory SNS search confirmed no public discussion of it exists yet either — still needs a second independent source or the original study before being treated as confirmed.
+   - Source: Inside Higher Ed — https://www.insidehighered.com/news/student-success/health-wellness/2025/12/18/how-excessive-phone-use-can-hinder-student-success
+
+## Topics to Avoid
+
+- **AI-powered side hustles for students** — excluded. Backed by only one aggregator-style listicle with estimated, unverified earnings figures ($400-$1,200/month); no hard primary data.
+- Any individual-athlete NIL deal amounts not independently confirmed by a named source.
+- Any framing of community college as a "bad choice" rather than a structural transfer-pipeline issue.
+- Any individual student anecdotes or named cases for the food-insecurity topic — keep this structural and resource-focused given the sensitivity of hunger as a subject, even though real personal posts were found during the SNS search.
+- Three previously-covered themes remain in cooldown and were intentionally excluded from today's new ranking: the federal student loan repayment overhaul (last covered 2026-06-23, cooldown through late June), the Canvas data breach (last covered 2026-06-22, cooldown until 2026-06-25), and the mental-health-improving counter-narrative (last covered 2026-06-22, cooldown until 2026-06-26).
+
+## Source Notes
+
+- Today's signal collection included a mandatory SNS search pass (x.com and threads.net via web search; TikTok and Reddit are excluded from this method per tool constraints) on top of the usual Reddit/campus-newspaper/education-news/official-source mix. This brought the day's SNS share to 27 of 52 total sources (52%), comfortably above the 30% minimum requirement.
+- Topic 1 (CS exodus) has the strongest evidence base of the day: four independent news outlets (Washington Post, TechCrunch, Yahoo Finance/Moneywise, Inside Higher Ed) corroborate using the same National Student Clearinghouse data, now reinforced by real X posts including a higher-ed trade outlet and a notable AI researcher's counter-narrative.
+- Topic 4 (Greek life growth) still relies partly on a vendor blog (Fresh Prints) for its sharpest statistic (Ohio University's 91% growth), but the broader RushTok viral-reach claim is now independently confirmed by the Wall Street Journal's own social post.
+- Topic 8 (phone-free class app) is currently single-sourced (Inside Higher Ed only) and is flagged needs_verification — today's SNS search specifically checked for corroborating posts and found none, confirming rather than closing the gap.
+- Topic 3 (NIL stress) cites a named University of Michigan/Minnesota survey; the study itself is still only reported by one regional outlet, but two independent industry insiders (a sports-business journalist and a practicing NIL attorney) now corroborate the underlying rule-confusion and cost mechanisms via X.
+- Topic 6 (food insecurity) gained a Canadian source (Toronto Star) during the SNS pass, extending its region_relevance from US-only to both US and Canada.
+
+## Risk Notes
+
+- Topic 6 (food insecurity) is marked risk_level: medium due to the sensitivity of hunger/basic-needs content. It is set to produce_if_needed rather than produce_today, and must avoid individual stories, sensationalized framing, or meme tone — this holds even though real personal posts surfaced during the SNS search.
+- Topic 1 (CS exodus) is the day's only AI-related topic among the top 10 (is_ai_related: true). Per the AI-topic diversity rule, topic 7 (highest-paying majors) was added at rank 11 as a non-AI topic to balance it; today's SNS pass did not introduce any new AI-related topics, so this balance remains intact.
+- No topic today involves an identifiable individual, unverified rumor, or sensationalized personal conflict; all topics are framed around structural data and named institutional studies/sources rather than individual cases, even where real personal social-media posts were found and used only as color, not as scored evidence.
+- Going forward, the SNS search step (query generation, x.com/threads.net web search, and coverage check against the 30% minimum) is now a mandatory part of every daily Signals stage, not an optional add-on.

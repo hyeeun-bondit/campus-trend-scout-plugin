@@ -1,0 +1,290 @@
+{
+  "cluster_batch_id": "cb_2026-06-23_02",
+  "input_signal_batch_id": "sb_2026-06-23_02",
+  "cluster_count": 10,
+  "clusters": [
+    {
+      "cluster_id": "cl_101",
+      "topic": "Most Regretted College Majors 2026: Poli Sci at 46%, Nursing at 0%",
+      "category": "major_choice",
+      "summary": "ZipRecruiter survey of 3,000 graduates shows poli sci tops regret at 46.3%, comms at 39.2%, physical sciences at 33.3%. 1 in 5 grads regret. Nursing least regretted ($70K starting). Health admin grads face 43.8% salary shortfall.",
+      "source_ids": [
+        "src_008",
+        "src_009"
+      ],
+      "representative_source_id": "src_008",
+      "student_reaction_summary": "Major choice is a universal anxiety. Ranked lists always drive comments.",
+      "factual_basis_summary": "CBS News and AcademicJobs reporting on ZipRecruiter survey of 3,000 Class of 2025/2026 graduates.",
+      "target_audience": [
+        "undergraduate_students",
+        "incoming_freshmen",
+        "us_college_students"
+      ],
+      "possible_content_angle": "Most vs least regretted majors ranked with salary reality gap",
+      "region_relevance": "US",
+      "school_relevance_tags": [],
+      "confidence": "high",
+      "risk_level": "low",
+      "eligible_for_ranking": true,
+      "cluster_notes": ""
+    },
+    {
+      "cluster_id": "cl_102",
+      "topic": "Workforce Pell Grants Launch July 1: Free Money for 8-Week Certificates",
+      "category": "financial_aid",
+      "summary": "Starting July 1, Pell Grants can fund short-term programs (8-15 weeks, 150-599 hours) in IT, healthcare, trades, early childhood ed. Must have 70% completion and 70% job placement rates. Previously required 600+ hours over 15+ weeks.",
+      "source_ids": [
+        "src_023",
+        "src_024",
+        "src_025"
+      ],
+      "representative_source_id": "src_023",
+      "student_reaction_summary": "Game-changer for students considering alternatives to 4-year degrees. High decision-usefulness.",
+      "factual_basis_summary": "Official ED press release and final rule published May 19, 2026. Confirmed by EdSource and industry outlets.",
+      "target_audience": [
+        "undergraduate_students",
+        "incoming_freshmen",
+        "transfer_students",
+        "us_college_students"
+      ],
+      "possible_content_angle": "Pell Grants now cover 8-week certificates: which programs qualify and how to apply",
+      "region_relevance": "US",
+      "school_relevance_tags": [],
+      "confidence": "high",
+      "risk_level": "low",
+      "eligible_for_ranking": true,
+      "cluster_notes": ""
+    },
+    {
+      "cluster_id": "cl_103",
+      "topic": "College Meal Plans: 47% Price Jump in 10 Years, and 98% of Schools Force You to Buy One",
+      "category": "campus_costs",
+      "summary": "Meal plan prices jumped 47% in 10 years vs 26% general food inflation. 98% of schools require freshmen to buy. Average lowest tier is $5,656. Wellesley charges $7,442/year — 3x home cooking cost. 40-50% more than USDA estimates.",
+      "source_ids": [
+        "src_026",
+        "src_027",
+        "src_028"
+      ],
+      "representative_source_id": "src_026",
+      "student_reaction_summary": "Universal frustration — every freshman deals with this. Texas Tech student newspaper editorial shows active student pushback.",
+      "factual_basis_summary": "Hechinger Report investigative journalism with USDA comparison data. Money.com with specific cost figures. Student newspaper editorial adds campus voice.",
+      "target_audience": [
+        "undergraduate_students",
+        "incoming_freshmen",
+        "us_college_students"
+      ],
+      "possible_content_angle": "The hidden fee you can't avoid: what your meal plan ACTUALLY costs vs cooking yourself",
+      "region_relevance": "US",
+      "school_relevance_tags": [],
+      "confidence": "high",
+      "risk_level": "low",
+      "eligible_for_ranking": true,
+      "cluster_notes": ""
+    },
+    {
+      "cluster_id": "cl_104",
+      "topic": "80% of CC Students Want a Bachelor's — Only 16% Actually Get One",
+      "category": "transfer_students",
+      "summary": "CCRC/Columbia research: only 16% of CC students earn bachelor's within 6 years (up from 14% in 2016). 80% intend to transfer. Low-income at 11%, Black students at 9%. Credit loss, unclear articulation agreements, financial disruption are barriers.",
+      "source_ids": [
+        "src_029",
+        "src_030"
+      ],
+      "representative_source_id": "src_029",
+      "student_reaction_summary": "Devastating gap between intention and outcome. High relevance for CC students and those considering the CC-to-university pathway.",
+      "factual_basis_summary": "CCRC at Columbia University tracking study. Higher Ed Dive reporting on peer-reviewed data.",
+      "target_audience": [
+        "undergraduate_students",
+        "transfer_students",
+        "incoming_freshmen",
+        "us_college_students"
+      ],
+      "possible_content_angle": "The 80% vs 16% gap: why most CC students never finish the transfer, and how to beat the odds",
+      "region_relevance": "US",
+      "school_relevance_tags": [],
+      "confidence": "high",
+      "risk_level": "low",
+      "eligible_for_ranking": true,
+      "cluster_notes": ""
+    },
+    {
+      "cluster_id": "cl_105",
+      "topic": "Skills-Based Hiring: 70% of Employers Dropped Degree Requirements",
+      "category": "career_trends",
+      "summary": "70%+ of employers now use skills-based hiring. Only 28% of tech job descriptions require a degree. Google, IBM, Tesla dropped requirements. Federal government overhauled hiring April 2026. But degree holders still earn $30K+ more annually.",
+      "source_ids": [
+        "src_010",
+        "src_011"
+      ],
+      "representative_source_id": "src_010",
+      "student_reaction_summary": "Fuels 'is college worth it' debate. Non-STEM students anxious about ROI.",
+      "factual_basis_summary": "Multiple employer surveys. FedSmith on federal hiring overhaul. Enrollment data from NSCRC.",
+      "target_audience": [
+        "undergraduate_students",
+        "us_college_students"
+      ],
+      "possible_content_angle": "Skills checklist by industry: what employers actually want if not your degree",
+      "region_relevance": "US",
+      "school_relevance_tags": [],
+      "confidence": "medium",
+      "risk_level": "low",
+      "eligible_for_ranking": true,
+      "cluster_notes": ""
+    },
+    {
+      "cluster_id": "cl_106",
+      "topic": "Enrollment Cliff Starts Fall 2026: What Happens to Your Campus",
+      "category": "enrollment_trends",
+      "summary": "15.5M undergrads in Spring 2026 — historic peak. High school grads drop from 3.9M (2025) to 3.4M by 2041. Certificates surged 10.2% while master's fell 1.3%. Small privates most at risk.",
+      "source_ids": [
+        "src_010",
+        "src_011"
+      ],
+      "representative_source_id": "src_010",
+      "student_reaction_summary": "Abstract but implications are real: program cuts, tuition hikes, campus closures.",
+      "factual_basis_summary": "NSCRC data, WICHE projections — peer-reviewed demographic data.",
+      "target_audience": [
+        "undergraduate_students",
+        "incoming_freshmen",
+        "us_college_students",
+        "canadian_university_students"
+      ],
+      "possible_content_angle": "Which types of schools are most at risk and what it means for current students",
+      "region_relevance": "US",
+      "school_relevance_tags": [],
+      "confidence": "high",
+      "risk_level": "low",
+      "eligible_for_ranking": true,
+      "cluster_notes": ""
+    },
+    {
+      "cluster_id": "cl_107",
+      "topic": "Greek Life: Booming at SEC Schools, Dying at Small Colleges",
+      "category": "campus_culture",
+      "summary": "NPC reports 13% increase in sorority recruitment. But Knox College saw 50% drop in 3 years. Gen Z drinks less, values authenticity, and is more diverse. Enrollment cliff threatens Greek housing at smaller schools in Northeast/Midwest.",
+      "source_ids": [
+        "src_031",
+        "src_032",
+        "src_033"
+      ],
+      "representative_source_id": "src_031",
+      "student_reaction_summary": "Polarizing topic — students either love or hate Greek life. Regional split adds comparison angle.",
+      "factual_basis_summary": "Yahoo/The Conversation reporting. AFA industry data. Knox Student newspaper with specific institutional data.",
+      "target_audience": [
+        "undergraduate_students",
+        "incoming_freshmen",
+        "us_college_students"
+      ],
+      "possible_content_angle": "Is Greek life dying? Depends on your school — SEC vs small college split",
+      "region_relevance": "US",
+      "school_relevance_tags": [],
+      "confidence": "high",
+      "risk_level": "low",
+      "eligible_for_ranking": true,
+      "cluster_notes": ""
+    },
+    {
+      "cluster_id": "cl_108",
+      "topic": "Gen Z Searching for Scholarships on TikTok Instead of FAFSA",
+      "category": "student_finance",
+      "summary": "CNBC and Inside Higher Ed report Gen Z students turning to TikTok for scholarship advice instead of official channels. Behavioral shift in how students find financial aid.",
+      "source_ids": [
+        "src_021",
+        "src_022"
+      ],
+      "representative_source_id": "src_021",
+      "student_reaction_summary": "Interesting behavior trend but less actionable than other topics.",
+      "factual_basis_summary": "CNBC April 2026, Inside Higher Ed April 2026 — both strong outlets.",
+      "target_audience": [
+        "undergraduate_students",
+        "incoming_freshmen",
+        "us_college_students"
+      ],
+      "possible_content_angle": "TikTok vs FAFSA: where Gen Z looks for money and what they're missing",
+      "region_relevance": "US",
+      "school_relevance_tags": [],
+      "confidence": "medium",
+      "risk_level": "low",
+      "eligible_for_ranking": true,
+      "cluster_notes": ""
+    },
+    {
+      "cluster_id": "cl_109",
+      "topic": "37.6% of College Students Are Behind on Credit Card Payments",
+      "category": "student_finance",
+      "summary": "Average student credit card debt $3,280. 37.6% behind on payments. 44.7% pay only minimum. 57% claim 'emergencies only' but still accumulate debt. 70.1% use for online shopping.",
+      "source_ids": [
+        "src_034",
+        "src_035"
+      ],
+      "representative_source_id": "src_034",
+      "student_reaction_summary": "'Emergency only' paradox will resonate — students recognize themselves in this data.",
+      "factual_basis_summary": "WalletHub and CardRates data aggregation from credit bureau and survey data.",
+      "target_audience": [
+        "undergraduate_students",
+        "us_college_students"
+      ],
+      "possible_content_angle": "The 'emergency only' lie: 57% say that but average debt is $3,280 — credit card reality check",
+      "region_relevance": "US",
+      "school_relevance_tags": [],
+      "confidence": "high",
+      "risk_level": "low",
+      "eligible_for_ranking": true,
+      "cluster_notes": ""
+    },
+    {
+      "cluster_id": "cl_110",
+      "topic": "66.6% of Students Skip Buying Textbooks Because of Cost",
+      "category": "campus_costs",
+      "summary": "Average $1,298/year for textbooks. 66.6% decided not to buy because of cost. OER initiatives saving millions at some schools. Legislative push at state level for affordability.",
+      "source_ids": [
+        "src_036",
+        "src_037"
+      ],
+      "representative_source_id": "src_036",
+      "student_reaction_summary": "Universal experience — every student has skipped buying a textbook. Practical tips angle.",
+      "factual_basis_summary": "Research.com citing College Board data. MSU Denver RED on legislative angle.",
+      "target_audience": [
+        "undergraduate_students",
+        "us_college_students"
+      ],
+      "possible_content_angle": "2 out of 3 students skip buying textbooks: how to get everything you need for free (legally)",
+      "region_relevance": "US",
+      "school_relevance_tags": [],
+      "confidence": "high",
+      "risk_level": "low",
+      "eligible_for_ranking": true,
+      "cluster_notes": ""
+    }
+  ],
+  "excluded_items": [
+    {
+      "source_id": "theme_student_loans",
+      "reason": "Student loan topics covered 6/19 (#3) and 6/22 (#5) — 3-day cooldown"
+    },
+    {
+      "source_id": "theme_ai_academic",
+      "reason": "AI academic integrity covered 6/19 (#2) and 6/22 (#2) — 5-day cooldown"
+    },
+    {
+      "source_id": "theme_salary_gap",
+      "reason": "Entry-level job market / salary covered 6/19 (#1) — overlap"
+    },
+    {
+      "source_id": "theme_tuition",
+      "reason": "Tuition/cost covered 6/19 (#5) — overlap"
+    },
+    {
+      "source_id": "theme_internship",
+      "reason": "Internship/hiring covered 6/22 (#1) — overlap"
+    },
+    {
+      "source_id": "theme_side_hustles",
+      "reason": "Side hustles covered 6/19 (#7) — overlap"
+    },
+    {
+      "source_id": "theme_mental_health",
+      "reason": "Loneliness/burnout covered 6/19 (#6) and 6/22 (#8) — overlap"
+    }
+  ]
+}

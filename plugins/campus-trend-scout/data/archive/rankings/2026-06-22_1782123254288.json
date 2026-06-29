@@ -1,0 +1,1496 @@
+{
+  "ranked_topic_batch_id": "rt_20260622",
+  "run_date": "2026-06-22",
+  "topics": [
+    {
+      "rank": 1,
+      "topic_id": "t_001",
+      "cluster_id": "cl_001",
+      "topic": "Student Loan Overhaul in 9 Days: What the New RAP Plan Means for You",
+      "category": "student_finance",
+      "is_ai_related": false,
+      "selection_rubric": {
+        "self_relevance": {
+          "score": 5,
+          "rationale": "Every student with federal loans is directly affected by July 1 changes"
+        },
+        "comparison_potential": {
+          "score": 4,
+          "rationale": "Old plan vs new plan, RAP vs Tiered Standard, undergrad vs grad borrowers"
+        },
+        "decision_usefulness": {
+          "score": 5,
+          "rationale": "Students must choose a repayment plan — actionable deadline in 9 days"
+        },
+        "share_trigger": {
+          "score": 5,
+          "rationale": "Everyone with loans will send this to classmates — urgent time-sensitive info"
+        },
+        "comment_trigger": {
+          "score": 4,
+          "rationale": "Debate over whether RAP is better or worse than SAVE; inflation trap concern"
+        },
+        "format_strength": {
+          "score": 5,
+          "rationale": "Before/After, checklist, comparison table all work perfectly"
+        },
+        "freshness": {
+          "score": 5,
+          "rationale": "July 1 deadline is 9 days away — peak urgency"
+        },
+        "evidence_availability": {
+          "score": 5,
+          "rationale": "DoE final rules, CBS, NPR, CNBC all covering with specific numbers"
+        }
+      },
+      "total_score": 88,
+      "confidence": "high",
+      "needs_verification": false,
+      "editor_decision": "produce_today",
+      "score_summary": "Highest urgency topic — confirmed policy change in 9 days with direct financial impact on every student borrower",
+      "ranking_reason": "Ranks #1 due to extreme time sensitivity (July 1 deadline), universal student relevance, and actionable decision-making value. No other topic has this combination of urgency and breadth.",
+      "sources": [
+        {
+          "id": "src_006",
+          "source_name": "CBS News",
+          "source_type": "education_news",
+          "platform": "google_news",
+          "title": "A major student loan overhaul takes effect July 1",
+          "url": "https://www.cbsnews.com/news/student-loan-changes-july-2026/",
+          "published_at": "2026-06",
+          "retrieved_at": "2026-06-22T09:00:00Z",
+          "summary": "Comprehensive overview of July 1 loan changes",
+          "category": "student_finance",
+          "region": "US",
+          "relevance": "Primary source for all key changes",
+          "reliability": "CBS News — high",
+          "usable_for_ranking": true
+        },
+        {
+          "id": "src_007",
+          "source_name": "NPR",
+          "source_type": "education_news",
+          "platform": "google_news",
+          "title": "Guide: Student loan options change July 1",
+          "url": "https://www.npr.org/2026/06/10/nx-s1-5835633/student-loans-guide-education-changes-repayment-plan",
+          "published_at": "2026-06-10",
+          "retrieved_at": "2026-06-22T09:00:00Z",
+          "summary": "Details RAP inflation trap and plan comparison",
+          "category": "student_finance",
+          "region": "US",
+          "relevance": "Reveals hidden RAP weakness",
+          "reliability": "NPR — high",
+          "usable_for_ranking": true
+        }
+      ],
+      "score_breakdown": {
+        "buzz": {
+          "score": 20,
+          "max": 25,
+          "reason": "Major news cycle across CBS, NPR, CNBC, NerdWallet — heavy media coverage as deadline approaches",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_006",
+            "src_007"
+          ]
+        },
+        "velocity": {
+          "score": 13,
+          "max": 15,
+          "reason": "Coverage accelerating as July 1 approaches; new articles daily",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_006",
+            "src_007"
+          ]
+        },
+        "target_fit": {
+          "score": 18,
+          "max": 20,
+          "reason": "Directly affects every student with federal loans — core target",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_006"
+          ]
+        },
+        "content_potential": {
+          "score": 14,
+          "max": 15,
+          "reason": "Perfect for comparison tables, checklists, before/after format",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "source_diversity": {
+          "score": 8,
+          "max": 10,
+          "reason": "CBS, NPR, CNBC, NerdWallet, DoE — multiple high-quality sources",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_006",
+            "src_007"
+          ]
+        },
+        "evidence_quality": {
+          "score": 15,
+          "max": 15,
+          "reason": "Based on finalized DoE rules — highest possible evidence quality",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_006",
+            "src_007"
+          ]
+        },
+        "risk_penalty": {
+          "score": 0,
+          "reason": "No risk — factual policy information",
+          "evidence_link_ids": []
+        }
+      },
+      "content_angle": "Before/After breakdown: what changes July 1, which plan to pick, and the hidden inflation trap in RAP",
+      "expected_reaction": "",
+      "risk_level": "low",
+      "avoid": []
+    },
+    {
+      "rank": 2,
+      "topic_id": "t_002",
+      "cluster_id": "cl_007",
+      "topic": "The $3.4 Million Question: Best vs Worst Paying College Majors",
+      "category": "career_earnings",
+      "is_ai_related": false,
+      "selection_rubric": {
+        "self_relevance": {
+          "score": 5,
+          "rationale": "Every student has chosen or is choosing a major"
+        },
+        "comparison_potential": {
+          "score": 5,
+          "rationale": "Direct major-vs-major, school-by-school salary comparison"
+        },
+        "decision_usefulness": {
+          "score": 5,
+          "rationale": "Directly informs major selection and career planning"
+        },
+        "share_trigger": {
+          "score": 5,
+          "rationale": "Students will tag friends in specific majors — 'look at your major's salary'"
+        },
+        "comment_trigger": {
+          "score": 5,
+          "rationale": "'Follow your passion' vs 'follow the money' debate guaranteed"
+        },
+        "format_strength": {
+          "score": 5,
+          "rationale": "Perfect ranked list format with salary data"
+        },
+        "freshness": {
+          "score": 4,
+          "rationale": "2026 CNBC data with updated federal earnings figures"
+        },
+        "evidence_availability": {
+          "score": 5,
+          "rationale": "Federal earnings data, CNBC analysis with specific numbers"
+        }
+      },
+      "total_score": 85,
+      "confidence": "high",
+      "needs_verification": false,
+      "editor_decision": "produce_today",
+      "score_summary": "Maximum engagement potential — touches every student's major choice with shocking $3.4M gap",
+      "ranking_reason": "Ranks #2 because while slightly less urgent than #1 (no deadline), it has the highest share/comment trigger potential of all topics. Universal relevance + comparison structure = viral format.",
+      "sources": [
+        {
+          "id": "src_012",
+          "source_name": "CNBC",
+          "source_type": "education_news",
+          "platform": "google_news",
+          "title": "The 14 worst-paying college majors, 5 years after graduation",
+          "url": "https://www.cnbc.com/2026/03/05/the-14-worst-paying-college-majors-5-years-after-graduation.html",
+          "published_at": "2026-03-05",
+          "retrieved_at": "2026-06-22T09:00:00Z",
+          "summary": "$3.4M lifetime gap. Chemical engineering $135K vs foreign language $40K.",
+          "category": "career_earnings",
+          "region": "US",
+          "relevance": "Primary data source",
+          "reliability": "CNBC citing federal data — high",
+          "usable_for_ranking": true
+        }
+      ],
+      "score_breakdown": {
+        "buzz": {
+          "score": 18,
+          "max": 25,
+          "reason": "Major salary ranking stories always generate high engagement; CNBC article widely shared",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_012"
+          ]
+        },
+        "velocity": {
+          "score": 10,
+          "max": 15,
+          "reason": "Evergreen topic with fresh 2026 data update",
+          "confidence": "medium",
+          "evidence_link_ids": []
+        },
+        "target_fit": {
+          "score": 20,
+          "max": 20,
+          "reason": "Every college student cares about what their major pays",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_012"
+          ]
+        },
+        "content_potential": {
+          "score": 15,
+          "max": 15,
+          "reason": "Perfect for ranked list, comparison carousel, school/major breakdown",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "source_diversity": {
+          "score": 5,
+          "max": 10,
+          "reason": "Primarily one CNBC article, though it cites federal data",
+          "confidence": "medium",
+          "evidence_link_ids": [
+            "src_012"
+          ]
+        },
+        "evidence_quality": {
+          "score": 14,
+          "max": 15,
+          "reason": "Federal earnings data — very strong evidence base",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_012"
+          ]
+        },
+        "risk_penalty": {
+          "score": -2,
+          "reason": "Minor risk of seeming to devalue certain majors; frame as information, not judgment",
+          "evidence_link_ids": []
+        }
+      },
+      "content_angle": "Ranked salary list: what your major actually pays at 5 years and mid-career, with the $3.4M lifetime gap as hook",
+      "expected_reaction": "",
+      "risk_level": "low",
+      "avoid": []
+    },
+    {
+      "rank": 3,
+      "topic_id": "t_003",
+      "cluster_id": "cl_002",
+      "topic": "College Students Can't Read Anymore: NAEP Scores Hit 30-Year Low",
+      "category": "academic_skills",
+      "is_ai_related": false,
+      "selection_rubric": {
+        "self_relevance": {
+          "score": 5,
+          "rationale": "Every student reads (or doesn't) — directly about their academic experience"
+        },
+        "comparison_potential": {
+          "score": 3,
+          "rationale": "Generational comparison (today vs 10 years ago), but limited school-by-school"
+        },
+        "decision_usefulness": {
+          "score": 3,
+          "rationale": "Awareness-raising more than decision-driving, though study habits angle exists"
+        },
+        "share_trigger": {
+          "score": 5,
+          "rationale": "'This is so me' relatability — students will share as self-deprecating humor"
+        },
+        "comment_trigger": {
+          "score": 5,
+          "rationale": "'I can't even finish this caption' jokes; genuine debate about phones vs schools"
+        },
+        "format_strength": {
+          "score": 4,
+          "rationale": "Quiz format, myth vs reality, before/after works well"
+        },
+        "freshness": {
+          "score": 5,
+          "rationale": "Futurism article from June 14, 2026; very fresh"
+        },
+        "evidence_availability": {
+          "score": 5,
+          "rationale": "NAEP federal data, multiple instructor reports, Tufts Daily campus coverage"
+        }
+      },
+      "total_score": 82,
+      "confidence": "high",
+      "needs_verification": false,
+      "editor_decision": "produce_today",
+      "score_summary": "Highly relatable + backed by federal data. Self-deprecating engagement style drives shares and comments.",
+      "ranking_reason": "Ranks #3 because it combines strong relatability ('this is so me') with hard NAEP data. Slightly below #2 because it's less decision-useful but has higher comment potential through self-deprecation.",
+      "sources": [
+        {
+          "id": "src_001",
+          "source_name": "Futurism",
+          "source_type": "education_news",
+          "platform": "education_news",
+          "title": "College Students Are Rapidly Losing the Ability to Read",
+          "url": "https://futurism.com/future-society/college-students-losing-ability-read",
+          "published_at": "2026-06-14",
+          "retrieved_at": "2026-06-22T09:00:00Z",
+          "summary": "Instructor reports, NAEP data, 12th grade reading at historic low",
+          "category": "academic_skills",
+          "region": "US",
+          "relevance": "Primary reporting",
+          "reliability": "Futurism citing NAEP data — high",
+          "usable_for_ranking": true
+        },
+        {
+          "id": "src_003",
+          "source_name": "The Tufts Daily",
+          "source_type": "campus_news",
+          "platform": "college_newspaper",
+          "title": "The decline in reading comprehension",
+          "url": "https://www.tuftsdaily.com/article/2026/04/the-decline-in-reading-comprehension",
+          "published_at": "2026-04",
+          "retrieved_at": "2026-06-22T09:00:00Z",
+          "summary": "Student perspective on reading decline",
+          "category": "academic_skills",
+          "region": "US",
+          "relevance": "Campus-level student voice",
+          "reliability": "Student newspaper",
+          "usable_for_ranking": true
+        }
+      ],
+      "score_breakdown": {
+        "buzz": {
+          "score": 19,
+          "max": 25,
+          "reason": "Viral on Slashdot, Futurism, Chronicle of Higher Ed; high comment volume",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_001",
+            "src_002"
+          ]
+        },
+        "velocity": {
+          "score": 12,
+          "max": 15,
+          "reason": "Fresh June 14 article still generating discussion",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_001"
+          ]
+        },
+        "target_fit": {
+          "score": 18,
+          "max": 20,
+          "reason": "Every student can relate to shorter attention spans",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "content_potential": {
+          "score": 13,
+          "max": 15,
+          "reason": "Quiz, self-test, myth vs reality all work",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "source_diversity": {
+          "score": 7,
+          "max": 10,
+          "reason": "Futurism, Slashdot, Tufts Daily, Chronicle — multiple platforms",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_001",
+            "src_002",
+            "src_003"
+          ]
+        },
+        "evidence_quality": {
+          "score": 13,
+          "max": 15,
+          "reason": "NAEP federal assessment data is gold-standard",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_001"
+          ]
+        },
+        "risk_penalty": {
+          "score": 0,
+          "reason": "No risk — educational topic with federal data",
+          "evidence_link_ids": []
+        }
+      },
+      "content_angle": "The 20-page test: why your brain can't focus anymore, backed by NAEP's worst reading scores in 30 years",
+      "expected_reaction": "",
+      "risk_level": "low",
+      "avoid": []
+    },
+    {
+      "rank": 4,
+      "topic_id": "t_004",
+      "cluster_id": "cl_005",
+      "topic": "$98K/Year for College: The Schools Approaching Six Figures",
+      "category": "tuition_costs",
+      "is_ai_related": false,
+      "selection_rubric": {
+        "self_relevance": {
+          "score": 5,
+          "rationale": "Every student pays tuition — cost is top concern"
+        },
+        "comparison_potential": {
+          "score": 5,
+          "rationale": "School-by-school comparison, public vs private, tuition vs room+board"
+        },
+        "decision_usefulness": {
+          "score": 4,
+          "rationale": "Helps with school selection and understanding true cost"
+        },
+        "share_trigger": {
+          "score": 5,
+          "rationale": "Shock value of $98K number — instant share"
+        },
+        "comment_trigger": {
+          "score": 5,
+          "rationale": "'My school charges X' — everyone will compare"
+        },
+        "format_strength": {
+          "score": 5,
+          "rationale": "Ranked list of most expensive schools, cost breakdown chart"
+        },
+        "freshness": {
+          "score": 4,
+          "rationale": "WashPost April 2026 article, 2026-27 rates just announced"
+        },
+        "evidence_availability": {
+          "score": 5,
+          "rationale": "WashPost, official GWU rates, College Board data"
+        }
+      },
+      "total_score": 80,
+      "confidence": "high",
+      "needs_verification": false,
+      "editor_decision": "produce_today",
+      "score_summary": "$98K shock value + room/board > tuition reversal = double hook. Strong comparison format.",
+      "ranking_reason": "Ranks #4 due to extreme shock value ($98K) and dual hook (GWU price + room/board exceeding tuition nationally). Below #3 because the reading topic is more relatable/shareable despite this having stronger comparison potential.",
+      "sources": [
+        {
+          "id": "src_010",
+          "source_name": "Washington Post",
+          "source_type": "education_news",
+          "platform": "google_news",
+          "title": "Some GWU students to pay over $98,000 for 2026-27 year",
+          "url": "https://www.washingtonpost.com/education/2026/04/02/george-washington-university-tuition-increase/",
+          "published_at": "2026-04-02",
+          "retrieved_at": "2026-06-22T09:00:00Z",
+          "summary": "GWU approaching $98K total cost",
+          "category": "tuition_costs",
+          "region": "US",
+          "relevance": "Anchor data point — $98K",
+          "reliability": "Washington Post — high",
+          "usable_for_ranking": true
+        },
+        {
+          "id": "src_014",
+          "source_name": "The Nation",
+          "source_type": "education_news",
+          "platform": "education_news",
+          "title": "College Dorms Are Terrible — and More Expensive Than Ever",
+          "url": "https://www.thenation.com/article/society/college-dorm-costs-quality-housing-crisis/",
+          "published_at": "2026",
+          "retrieved_at": "2026-06-22T09:00:00Z",
+          "summary": "Room and board now exceeds tuition at public universities",
+          "category": "housing_costs",
+          "region": "US",
+          "relevance": "Supporting data on housing cost reversal",
+          "reliability": "The Nation with Education Data Initiative stats",
+          "usable_for_ranking": true
+        }
+      ],
+      "score_breakdown": {
+        "buzz": {
+          "score": 17,
+          "max": 25,
+          "reason": "WashPost article got significant attention; tuition stories always trend",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_010"
+          ]
+        },
+        "velocity": {
+          "score": 9,
+          "max": 15,
+          "reason": "Spring announcement, still relevant as fall enrollment approaches",
+          "confidence": "medium",
+          "evidence_link_ids": []
+        },
+        "target_fit": {
+          "score": 19,
+          "max": 20,
+          "reason": "Cost is #1 concern for students and families",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "content_potential": {
+          "score": 14,
+          "max": 15,
+          "reason": "Ranked list, cost breakdown, comparison chart — multiple formats",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "source_diversity": {
+          "score": 7,
+          "max": 10,
+          "reason": "WashPost, The Nation, Education Data Initiative, College Board",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_010",
+            "src_014"
+          ]
+        },
+        "evidence_quality": {
+          "score": 14,
+          "max": 15,
+          "reason": "Official university rates and federal data",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_010",
+            "src_014"
+          ]
+        },
+        "risk_penalty": {
+          "score": 0,
+          "reason": "No risk — factual cost data",
+          "evidence_link_ids": []
+        }
+      },
+      "content_angle": "Which schools are approaching $100K/year? Plus the hidden flip: dorm costs now exceed tuition at public universities",
+      "expected_reaction": "",
+      "risk_level": "low",
+      "avoid": []
+    },
+    {
+      "rank": 5,
+      "topic_id": "t_005",
+      "cluster_id": "cl_003",
+      "topic": "Canvas Breach: Your Data Was in the Largest Educational Hack in History",
+      "category": "cybersecurity",
+      "is_ai_related": false,
+      "selection_rubric": {
+        "self_relevance": {
+          "score": 5,
+          "rationale": "275M users — nearly every North American college student uses Canvas"
+        },
+        "comparison_potential": {
+          "score": 3,
+          "rationale": "School-by-school response comparison possible but limited"
+        },
+        "decision_usefulness": {
+          "score": 4,
+          "rationale": "Actionable: check if your data was exposed, change passwords, monitor accounts"
+        },
+        "share_trigger": {
+          "score": 4,
+          "rationale": "Students will share to warn friends, especially those unaware"
+        },
+        "comment_trigger": {
+          "score": 4,
+          "rationale": "Frustration about school response, data privacy debates"
+        },
+        "format_strength": {
+          "score": 4,
+          "rationale": "Timeline, checklist, 'what to do now' format works"
+        },
+        "freshness": {
+          "score": 4,
+          "rationale": "May breach still relevant; aftermath ongoing"
+        },
+        "evidence_availability": {
+          "score": 5,
+          "rationale": "CNN, Wikipedia, Daily Pennsylvanian, multiple campus newspapers"
+        }
+      },
+      "total_score": 77,
+      "confidence": "high",
+      "needs_verification": false,
+      "editor_decision": "produce_today",
+      "score_summary": "Massive scale (275M users) + ongoing aftermath + actionable steps = strong produce candidate",
+      "ranking_reason": "Ranks #5 because while the breach is 6 weeks old, the aftermath and data exposure concerns are ongoing. Below cost/salary topics because those have stronger comparison/comment triggers.",
+      "sources": [
+        {
+          "id": "src_004",
+          "source_name": "CNN",
+          "source_type": "education_news",
+          "platform": "google_news",
+          "title": "Canvas hack: What we know about apparent cyberattack",
+          "url": "https://www.cnn.com/2026/05/07/us/canvas-hack-strands-college-students-finals-week",
+          "published_at": "2026-05-07",
+          "retrieved_at": "2026-06-22T09:00:00Z",
+          "summary": "275M users, 8,809 institutions, ShinyHunters, rumored $10M ransom",
+          "category": "cybersecurity",
+          "region": "both",
+          "relevance": "Primary reporting",
+          "reliability": "CNN — high",
+          "usable_for_ranking": true
+        },
+        {
+          "id": "src_005",
+          "source_name": "The Daily Pennsylvanian",
+          "source_type": "campus_news",
+          "platform": "college_newspaper",
+          "title": "Cybercrime group crashes Penn's Canvas system",
+          "url": "https://www.thedp.com/article/2026/05/penn-canvas-shinythunters-data-breach-hack-second",
+          "published_at": "2026-05",
+          "retrieved_at": "2026-06-22T09:00:00Z",
+          "summary": "Campus-level impact story",
+          "category": "cybersecurity",
+          "region": "US",
+          "relevance": "Student perspective",
+          "reliability": "Campus newspaper",
+          "usable_for_ranking": true
+        }
+      ],
+      "score_breakdown": {
+        "buzz": {
+          "score": 18,
+          "max": 25,
+          "reason": "Massive coverage across CNN, Time, Al Jazeera, campus papers",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_004",
+            "src_005"
+          ]
+        },
+        "velocity": {
+          "score": 8,
+          "max": 15,
+          "reason": "Initial spike in May; still relevant but declining",
+          "confidence": "medium",
+          "evidence_link_ids": []
+        },
+        "target_fit": {
+          "score": 18,
+          "max": 20,
+          "reason": "Nearly every student uses Canvas",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "content_potential": {
+          "score": 12,
+          "max": 15,
+          "reason": "Timeline + checklist format; less comparison potential",
+          "confidence": "medium",
+          "evidence_link_ids": []
+        },
+        "source_diversity": {
+          "score": 8,
+          "max": 10,
+          "reason": "CNN, Time, Al Jazeera, Daily Pennsylvanian, Wikipedia",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_004",
+            "src_005"
+          ]
+        },
+        "evidence_quality": {
+          "score": 13,
+          "max": 15,
+          "reason": "Well-documented breach with official statements",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_004"
+          ]
+        },
+        "risk_penalty": {
+          "score": 0,
+          "reason": "Factual reporting on confirmed breach",
+          "evidence_link_ids": []
+        }
+      },
+      "content_angle": "Were YOU one of 275 million? What data was leaked and what to do now — a student checklist",
+      "expected_reaction": "",
+      "risk_level": "medium",
+      "avoid": []
+    },
+    {
+      "rank": 6,
+      "topic_id": "t_006",
+      "cluster_id": "cl_006",
+      "topic": "8 Colleges Closing in 2026: Is Your School Next?",
+      "category": "institutional_crisis",
+      "is_ai_related": false,
+      "selection_rubric": {
+        "self_relevance": {
+          "score": 4,
+          "rationale": "Students at small colleges directly worried; others curious"
+        },
+        "comparison_potential": {
+          "score": 4,
+          "rationale": "Which type of school is at risk? Region, size, endowment comparison"
+        },
+        "decision_usefulness": {
+          "score": 4,
+          "rationale": "Red flags to watch for; relevant to transfer and prospective students"
+        },
+        "share_trigger": {
+          "score": 4,
+          "rationale": "Students will share with friends at small/struggling schools"
+        },
+        "comment_trigger": {
+          "score": 4,
+          "rationale": "'Is my school safe?' and school pride debates"
+        },
+        "format_strength": {
+          "score": 5,
+          "rationale": "Red flag checklist, risk factor list, school comparison"
+        },
+        "freshness": {
+          "score": 4,
+          "rationale": "Running 2026 tracker, updated as new closures announced"
+        },
+        "evidence_availability": {
+          "score": 5,
+          "rationale": "The College Investor tracker, Boston Globe, Higher Ed Dive — confirmed closures"
+        }
+      },
+      "total_score": 75,
+      "confidence": "high",
+      "needs_verification": false,
+      "editor_decision": "produce_if_needed",
+      "score_summary": "Strong format potential with checklist/red flags. Slightly niche (mainly affects small college students) but 'is YOUR school next' angle broadens appeal.",
+      "ranking_reason": "Ranks #6 because the 'is your school next?' angle creates universal curiosity even though actual closures affect a smaller subset. Below #5 because Canvas breach touched more students directly.",
+      "sources": [
+        {
+          "id": "src_011",
+          "source_name": "The College Investor",
+          "source_type": "education_news",
+          "platform": "education_news",
+          "title": "Which Colleges Are Closing in 2026? A Running Tracker",
+          "url": "https://thecollegeinvestor.com/79342/8-colleges-closing-in-2026-full-list-of-closures/",
+          "published_at": "2026-06",
+          "retrieved_at": "2026-06-22T09:00:00Z",
+          "summary": "8 closures, 6 mergers, small liberal arts at highest risk",
+          "category": "institutional_crisis",
+          "region": "US",
+          "relevance": "Comprehensive tracker",
+          "reliability": "Running tracker with confirmed data",
+          "usable_for_ranking": true
+        }
+      ],
+      "score_breakdown": {
+        "buzz": {
+          "score": 15,
+          "max": 25,
+          "reason": "Steady coverage; each new closure generates a news cycle",
+          "confidence": "medium",
+          "evidence_link_ids": [
+            "src_011"
+          ]
+        },
+        "velocity": {
+          "score": 9,
+          "max": 15,
+          "reason": "Ongoing story with periodic updates",
+          "confidence": "medium",
+          "evidence_link_ids": []
+        },
+        "target_fit": {
+          "score": 16,
+          "max": 20,
+          "reason": "Directly relevant to small-college students; broadly interesting to all",
+          "confidence": "medium",
+          "evidence_link_ids": []
+        },
+        "content_potential": {
+          "score": 13,
+          "max": 15,
+          "reason": "Red flag list, comparison, checklist formats all work",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "source_diversity": {
+          "score": 5,
+          "max": 10,
+          "reason": "Primarily College Investor tracker; Boston Globe for context",
+          "confidence": "medium",
+          "evidence_link_ids": [
+            "src_011"
+          ]
+        },
+        "evidence_quality": {
+          "score": 12,
+          "max": 15,
+          "reason": "Confirmed closures and mergers",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_011"
+          ]
+        },
+        "risk_penalty": {
+          "score": 0,
+          "reason": "Factual reporting",
+          "evidence_link_ids": []
+        }
+      },
+      "content_angle": "Red flags your college might be closing: what 8 shutdowns and 6 mergers in 2026 tell us",
+      "expected_reaction": "",
+      "risk_level": "low",
+      "avoid": []
+    },
+    {
+      "rank": 7,
+      "topic_id": "t_007",
+      "cluster_id": "cl_004",
+      "topic": "Harvard Has $57 Billion but Can't Stop Laying Off Staff",
+      "category": "institutional_crisis",
+      "is_ai_related": false,
+      "selection_rubric": {
+        "self_relevance": {
+          "score": 4,
+          "rationale": "Harvard is aspirational/well-known; if they struggle, what about my school?"
+        },
+        "comparison_potential": {
+          "score": 4,
+          "rationale": "Harvard vs other schools; endowment vs deficit paradox"
+        },
+        "decision_usefulness": {
+          "score": 3,
+          "rationale": "Less directly actionable for most students"
+        },
+        "share_trigger": {
+          "score": 4,
+          "rationale": "Shocking paradox: richest university cutting staff"
+        },
+        "comment_trigger": {
+          "score": 4,
+          "rationale": "'Where does all the money go?' debate"
+        },
+        "format_strength": {
+          "score": 4,
+          "rationale": "By-the-numbers breakdown, timeline of cuts"
+        },
+        "freshness": {
+          "score": 5,
+          "rationale": "Harvard Crimson June 16 article — very fresh"
+        },
+        "evidence_availability": {
+          "score": 5,
+          "rationale": "Harvard Crimson, Boston Globe, multiple layoff rounds documented"
+        }
+      },
+      "total_score": 74,
+      "confidence": "high",
+      "needs_verification": false,
+      "editor_decision": "produce_if_needed",
+      "score_summary": "Strong paradox hook ($57B endowment + layoffs). Fresh coverage. Less directly actionable than higher-ranked topics.",
+      "ranking_reason": "Ranks #7 because the paradox is compelling but it's primarily one school's story. The 'what about YOUR school?' angle bridges to broader relevance but doesn't match the universal impact of topics above.",
+      "sources": [
+        {
+          "id": "src_008",
+          "source_name": "The Harvard Crimson",
+          "source_type": "campus_news",
+          "platform": "college_newspaper",
+          "title": "FAS Could Lay Off 25 Percent of Staff",
+          "url": "https://www.thecrimson.com/article/2026/5/20/administrative-restructuring/",
+          "published_at": "2026-05-20",
+          "retrieved_at": "2026-06-22T09:00:00Z",
+          "summary": "$365M deficit, 25% staff cuts possible",
+          "category": "institutional_crisis",
+          "region": "US",
+          "relevance": "Primary campus source",
+          "reliability": "Harvard Crimson — high",
+          "usable_for_ranking": true
+        },
+        {
+          "id": "src_009",
+          "source_name": "Boston Globe",
+          "source_type": "education_news",
+          "platform": "google_news",
+          "title": "Harvard has a $57 billion endowment. It's still eyeing staff cuts",
+          "url": "https://www.bostonglobe.com/2026/06/04/metro/harvard-layoffs-summer-restructuring/",
+          "published_at": "2026-06-04",
+          "retrieved_at": "2026-06-22T09:00:00Z",
+          "summary": "Paradox framing: $57B endowment yet cutting",
+          "category": "institutional_crisis",
+          "region": "US",
+          "relevance": "Broader context",
+          "reliability": "Boston Globe — high",
+          "usable_for_ranking": true
+        }
+      ],
+      "score_breakdown": {
+        "buzz": {
+          "score": 17,
+          "max": 25,
+          "reason": "Harvard brand ensures attention; Crimson articles widely shared",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_008",
+            "src_009"
+          ]
+        },
+        "velocity": {
+          "score": 10,
+          "max": 15,
+          "reason": "Ongoing through summer 2026; new rounds announced regularly",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "target_fit": {
+          "score": 15,
+          "max": 20,
+          "reason": "Harvard-specific but proxy for broader higher ed financial stress",
+          "confidence": "medium",
+          "evidence_link_ids": []
+        },
+        "content_potential": {
+          "score": 12,
+          "max": 15,
+          "reason": "Numbers breakdown, timeline work well",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "source_diversity": {
+          "score": 7,
+          "max": 10,
+          "reason": "Harvard Crimson + Boston Globe + Harvard Magazine",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_008",
+            "src_009"
+          ]
+        },
+        "evidence_quality": {
+          "score": 13,
+          "max": 15,
+          "reason": "Primary campus reporting with specific figures",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_008",
+            "src_009"
+          ]
+        },
+        "risk_penalty": {
+          "score": 0,
+          "reason": "Factual institutional reporting",
+          "evidence_link_ids": []
+        }
+      },
+      "content_angle": "The $57B paradox: Harvard's endowment vs its layoffs, by the numbers",
+      "expected_reaction": "",
+      "risk_level": "low",
+      "avoid": []
+    },
+    {
+      "rank": 8,
+      "topic_id": "t_008",
+      "cluster_id": "cl_008",
+      "topic": "The AI Cheating Paradox: Students Pay $50/Month for 'Humanizer' Tools",
+      "category": "ai_academic_integrity",
+      "is_ai_related": true,
+      "selection_rubric": {
+        "self_relevance": {
+          "score": 5,
+          "rationale": "92% of students use AI — nearly everyone navigates this gray zone"
+        },
+        "comparison_potential": {
+          "score": 3,
+          "rationale": "School-by-school policy comparison possible but not the main hook"
+        },
+        "decision_usefulness": {
+          "score": 4,
+          "rationale": "Helps students understand the landscape and risks of AI tool usage"
+        },
+        "share_trigger": {
+          "score": 4,
+          "rationale": "Ironic twist is inherently shareable; students relate to the dilemma"
+        },
+        "comment_trigger": {
+          "score": 5,
+          "rationale": "Strong opinions on both sides: 'using AI is learning' vs 'it's cheating'"
+        },
+        "format_strength": {
+          "score": 4,
+          "rationale": "Myth vs reality, spectrum/scale of AI use, irony-driven narrative"
+        },
+        "freshness": {
+          "score": 4,
+          "rationale": "NBC News June 2026; Cornell study May 2026"
+        },
+        "evidence_availability": {
+          "score": 4,
+          "rationale": "NBC News, Turnitin data (150 tools), Cornell study, PlagiarismCheck stats"
+        }
+      },
+      "total_score": 73,
+      "confidence": "high",
+      "needs_verification": false,
+      "editor_decision": "produce_if_needed",
+      "score_summary": "Strong irony hook (using AI to hide AI) + universal student experience. AI-related flag triggered.",
+      "ranking_reason": "Ranks #8 because while 92% student AI usage gives massive relevance, the topic has been extensively covered. The 'humanizer' angle adds freshness but AI fatigue is real.",
+      "sources": [
+        {
+          "id": "src_013",
+          "source_name": "NBC News",
+          "source_type": "education_news",
+          "platform": "google_news",
+          "title": "To avoid accusations of AI cheating, college students are turning to AI",
+          "url": "https://www.nbcnews.com/tech/internet/college-students-ai-cheating-detectors-humanizers-rcna253878",
+          "published_at": "2026-06",
+          "retrieved_at": "2026-06-22T09:00:00Z",
+          "summary": "92% use AI, 150 humanizer tools, $50/month subscriptions",
+          "category": "ai_academic_integrity",
+          "region": "both",
+          "relevance": "Primary source with key statistics",
+          "reliability": "NBC News with Turnitin data — high",
+          "usable_for_ranking": true
+        }
+      ],
+      "score_breakdown": {
+        "buzz": {
+          "score": 16,
+          "max": 25,
+          "reason": "NBC, Cornell, PlagiarismCheck all covering; steady AI discourse",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_013"
+          ]
+        },
+        "velocity": {
+          "score": 9,
+          "max": 15,
+          "reason": "Ongoing but not spiking — steady interest",
+          "confidence": "medium",
+          "evidence_link_ids": []
+        },
+        "target_fit": {
+          "score": 18,
+          "max": 20,
+          "reason": "92% of students use AI — near-universal relevance",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_013"
+          ]
+        },
+        "content_potential": {
+          "score": 12,
+          "max": 15,
+          "reason": "Irony-driven narrative, spectrum visual, myth vs reality",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "source_diversity": {
+          "score": 5,
+          "max": 10,
+          "reason": "Primarily NBC + Turnitin data; would benefit from student voice sources",
+          "confidence": "medium",
+          "evidence_link_ids": [
+            "src_013"
+          ]
+        },
+        "evidence_quality": {
+          "score": 11,
+          "max": 15,
+          "reason": "Turnitin data solid; 92% figure from one survey",
+          "confidence": "medium",
+          "evidence_link_ids": [
+            "src_013"
+          ]
+        },
+        "risk_penalty": {
+          "score": 0,
+          "reason": "No risk — reporting on trends, not shaming individuals",
+          "evidence_link_ids": []
+        }
+      },
+      "content_angle": "The ironic AI cycle: students use AI to write, schools use AI to detect, students use AI to humanize",
+      "expected_reaction": "",
+      "risk_level": "low",
+      "avoid": []
+    },
+    {
+      "rank": 9,
+      "topic_id": "t_009",
+      "cluster_id": "cl_005",
+      "topic": "Dorm Costs Now Exceed Tuition at Public Universities",
+      "category": "housing_costs",
+      "is_ai_related": false,
+      "selection_rubric": {
+        "self_relevance": {
+          "score": 5,
+          "rationale": "Every on-campus student pays housing"
+        },
+        "comparison_potential": {
+          "score": 4,
+          "rationale": "Dorm vs off-campus, school-by-school rates, public vs private"
+        },
+        "decision_usefulness": {
+          "score": 4,
+          "rationale": "Directly informs housing decision: dorm vs apartment vs commuting"
+        },
+        "share_trigger": {
+          "score": 4,
+          "rationale": "Surprising reversal — most don't know housing > tuition"
+        },
+        "comment_trigger": {
+          "score": 4,
+          "rationale": "'My dorm costs X' comparisons; dorm quality complaints"
+        },
+        "format_strength": {
+          "score": 4,
+          "rationale": "Before/after, cost comparison, myth vs reality"
+        },
+        "freshness": {
+          "score": 3,
+          "rationale": "The Nation article 2026; UCF 21% increase recent"
+        },
+        "evidence_availability": {
+          "score": 4,
+          "rationale": "Education Data Initiative, The Nation, UCF Board decision"
+        }
+      },
+      "total_score": 70,
+      "confidence": "high",
+      "needs_verification": false,
+      "editor_decision": "monitor",
+      "score_summary": "Surprising data point (housing > tuition) but overlaps significantly with topic #4. Better as supporting angle than standalone.",
+      "ranking_reason": "Ranks #9 because the housing > tuition reversal is genuinely surprising but this overlaps with the $98K/year topic (#4). Works better as a data point within a broader cost discussion than as a standalone piece.",
+      "sources": [
+        {
+          "id": "src_014",
+          "source_name": "The Nation",
+          "source_type": "education_news",
+          "platform": "education_news",
+          "title": "College Dorms Are Terrible — and More Expensive Than Ever",
+          "url": "https://www.thenation.com/article/society/college-dorm-costs-quality-housing-crisis/",
+          "published_at": "2026",
+          "retrieved_at": "2026-06-22T09:00:00Z",
+          "summary": "Room and board $12,770 > tuition $11,260 at public universities; 100%+ increase in 30 years",
+          "category": "housing_costs",
+          "region": "US",
+          "relevance": "Key data point: housing > tuition reversal",
+          "reliability": "The Nation with federal data",
+          "usable_for_ranking": true
+        }
+      ],
+      "score_breakdown": {
+        "buzz": {
+          "score": 13,
+          "max": 25,
+          "reason": "Housing cost stories get moderate attention",
+          "confidence": "medium",
+          "evidence_link_ids": [
+            "src_014"
+          ]
+        },
+        "velocity": {
+          "score": 7,
+          "max": 15,
+          "reason": "Steady topic, not spiking",
+          "confidence": "medium",
+          "evidence_link_ids": []
+        },
+        "target_fit": {
+          "score": 17,
+          "max": 20,
+          "reason": "Every on-campus student affected",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "content_potential": {
+          "score": 12,
+          "max": 15,
+          "reason": "Comparison and cost breakdown formats work",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "source_diversity": {
+          "score": 4,
+          "max": 10,
+          "reason": "Primarily The Nation + Education Data Initiative",
+          "confidence": "medium",
+          "evidence_link_ids": [
+            "src_014"
+          ]
+        },
+        "evidence_quality": {
+          "score": 12,
+          "max": 15,
+          "reason": "Federal data on room and board costs",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_014"
+          ]
+        },
+        "risk_penalty": {
+          "score": 0,
+          "reason": "No risk",
+          "evidence_link_ids": []
+        }
+      },
+      "content_angle": "The hidden flip: at public universities, your dorm now costs more than your classes",
+      "expected_reaction": "",
+      "risk_level": "low",
+      "avoid": []
+    },
+    {
+      "rank": 10,
+      "topic_id": "t_010",
+      "cluster_id": "cl_001",
+      "topic": "FAANG Interns Make $33K in 12 Weeks While Others Make $12K",
+      "category": "internships_career",
+      "is_ai_related": false,
+      "selection_rubric": {
+        "self_relevance": {
+          "score": 5,
+          "rationale": "Summer internships are THE defining experience for college students"
+        },
+        "comparison_potential": {
+          "score": 5,
+          "rationale": "Tech vs finance vs other industries; NVIDIA $62/hr vs average intern"
+        },
+        "decision_usefulness": {
+          "score": 4,
+          "rationale": "Informs career planning and industry targeting"
+        },
+        "share_trigger": {
+          "score": 4,
+          "rationale": "Pay gap shock value drives sharing; 'look what NVIDIA pays'"
+        },
+        "comment_trigger": {
+          "score": 4,
+          "rationale": "'I got X at my internship' comparisons"
+        },
+        "format_strength": {
+          "score": 5,
+          "rationale": "Ranked list by pay, industry comparison chart"
+        },
+        "freshness": {
+          "score": 4,
+          "rationale": "Summer 2026 internship season happening now"
+        },
+        "evidence_availability": {
+          "score": 4,
+          "rationale": "Extern, Indeed, ZipRecruiter with real listings and pay data"
+        }
+      },
+      "total_score": 72,
+      "confidence": "medium",
+      "needs_verification": false,
+      "editor_decision": "produce_if_needed",
+      "score_summary": "Strong comparison hook (pay gap between industries) during active internship season. Good ranked list format.",
+      "ranking_reason": "Ranks #10 because while the pay comparison is compelling, 90% of internships are already filled making it slightly less actionable than a month ago. Still relevant for students planning ahead.",
+      "sources": [
+        {
+          "id": "src_015",
+          "source_name": "Extern",
+          "source_type": "education_news",
+          "platform": "education_news",
+          "title": "Summer 2026 Internships Still Open: What's Left in June",
+          "url": "https://www.extern.com/post/summer-2026-internships-still-open-guide",
+          "published_at": "2026-06",
+          "retrieved_at": "2026-06-22T09:00:00Z",
+          "summary": "FAANG+ $50-70/hr, NVIDIA $62/hr, 70% get return offers, 90% filled",
+          "category": "internships_career",
+          "region": "US",
+          "relevance": "Real pay data from current listings",
+          "reliability": "Extern aggregating real postings — medium-high",
+          "usable_for_ranking": true
+        }
+      ],
+      "score_breakdown": {
+        "buzz": {
+          "score": 14,
+          "max": 25,
+          "reason": "Internship pay comparison always gets attention during summer",
+          "confidence": "medium",
+          "evidence_link_ids": [
+            "src_015"
+          ]
+        },
+        "velocity": {
+          "score": 8,
+          "max": 15,
+          "reason": "Seasonal topic, currently active",
+          "confidence": "medium",
+          "evidence_link_ids": []
+        },
+        "target_fit": {
+          "score": 18,
+          "max": 20,
+          "reason": "Internships are central to college career development",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "content_potential": {
+          "score": 13,
+          "max": 15,
+          "reason": "Ranked list by pay works perfectly",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "source_diversity": {
+          "score": 4,
+          "max": 10,
+          "reason": "Primarily Extern; Indeed and ZipRecruiter support",
+          "confidence": "medium",
+          "evidence_link_ids": [
+            "src_015"
+          ]
+        },
+        "evidence_quality": {
+          "score": 11,
+          "max": 15,
+          "reason": "Real job postings but pay ranges can vary",
+          "confidence": "medium",
+          "evidence_link_ids": [
+            "src_015"
+          ]
+        },
+        "risk_penalty": {
+          "score": 0,
+          "reason": "No risk",
+          "evidence_link_ids": []
+        }
+      },
+      "content_angle": "The internship pay gap: what top companies actually pay interns this summer, ranked",
+      "expected_reaction": "",
+      "risk_level": "low",
+      "avoid": []
+    },
+    {
+      "rank": 11,
+      "topic_id": "t_011",
+      "cluster_id": "cl_005",
+      "topic": "UVA, UCF, Utah: Schools Announcing 2026-27 Tuition Hikes Right Now",
+      "category": "tuition_costs",
+      "is_ai_related": false,
+      "selection_rubric": {
+        "self_relevance": {
+          "score": 5,
+          "rationale": "Tuition directly affects every enrolled student"
+        },
+        "comparison_potential": {
+          "score": 5,
+          "rationale": "School-by-school rate comparison; state-by-state differences"
+        },
+        "decision_usefulness": {
+          "score": 4,
+          "rationale": "Helps transfer/prospective students compare costs"
+        },
+        "share_trigger": {
+          "score": 4,
+          "rationale": "Students will share their school's specific increase"
+        },
+        "comment_trigger": {
+          "score": 4,
+          "rationale": "'My school went up X%' comparisons"
+        },
+        "format_strength": {
+          "score": 4,
+          "rationale": "Comparison chart, ranked by increase %"
+        },
+        "freshness": {
+          "score": 4,
+          "rationale": "2026-27 rates being announced spring/summer 2026"
+        },
+        "evidence_availability": {
+          "score": 5,
+          "rationale": "Cavalier Daily (UVA), Salt Lake Tribune (Utah), official university announcements"
+        }
+      },
+      "total_score": 69,
+      "confidence": "medium",
+      "needs_verification": true,
+      "editor_decision": "monitor",
+      "score_summary": "AI diversity rule addition (1 AI topic in top 10 = 1 non-AI at rank 11). Complements #4 with school-specific data.",
+      "ranking_reason": "Added at rank 11 per AI diversity rule: 1 AI topic (t_008) in top 10 requires 1 additional non-AI topic at rank 11+. This extends the tuition theme with school-specific 2026-27 hike data.",
+      "sources": [
+        {
+          "id": "src_010",
+          "source_name": "Washington Post",
+          "source_type": "education_news",
+          "platform": "google_news",
+          "title": "Some GWU students to pay over $98,000 for 2026-27 year",
+          "url": "https://www.washingtonpost.com/education/2026/04/02/george-washington-university-tuition-increase/",
+          "published_at": "2026-04-02",
+          "retrieved_at": "2026-06-22T09:00:00Z",
+          "summary": "GWU $72K tuition, 3% increase",
+          "category": "tuition_costs",
+          "region": "US",
+          "relevance": "Key data point",
+          "reliability": "Washington Post — high",
+          "usable_for_ranking": true
+        }
+      ],
+      "score_breakdown": {
+        "buzz": {
+          "score": 12,
+          "max": 25,
+          "reason": "Individual school announcements get moderate local attention",
+          "confidence": "medium",
+          "evidence_link_ids": []
+        },
+        "velocity": {
+          "score": 8,
+          "max": 15,
+          "reason": "Seasonal: spring/summer announcement period",
+          "confidence": "medium",
+          "evidence_link_ids": []
+        },
+        "target_fit": {
+          "score": 17,
+          "max": 20,
+          "reason": "Every student paying tuition cares",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "content_potential": {
+          "score": 12,
+          "max": 15,
+          "reason": "Comparison chart format works",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "source_diversity": {
+          "score": 4,
+          "max": 10,
+          "reason": "WashPost primary; needs more school-specific sources",
+          "confidence": "medium",
+          "evidence_link_ids": [
+            "src_010"
+          ]
+        },
+        "evidence_quality": {
+          "score": 11,
+          "max": 15,
+          "reason": "Official university rates — reliable",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "risk_penalty": {
+          "score": 0,
+          "reason": "No risk",
+          "evidence_link_ids": []
+        }
+      },
+      "content_angle": "Which schools are hiking tuition the most for 2026-27? A state-by-state breakdown",
+      "expected_reaction": "",
+      "risk_level": "low",
+      "avoid": []
+    }
+  ],
+  "ranking_notes": {
+    "excluded_topics": [
+      "Generic study tips / GPA advice — failed Stage 1 filter",
+      "Simple 'Top Universities' rankings — failed Stage 1 filter"
+    ],
+    "topics_needing_more_sources": [
+      "t_011 — needs individual school tuition announcements beyond GWU",
+      "t_010 — would benefit from student experience sources beyond aggregator data"
+    ],
+    "strongest_content_opportunities": [
+      "Student loan RAP plan (July 1 deadline — peak urgency)",
+      "Major salary gap ($3.4M lifetime — shock value + comparison)",
+      "Reading comprehension decline (relatable + federal data)"
+    ]
+  }
+}

@@ -1,0 +1,105 @@
+
+# Daily US & Canada Campus Trend Brief
+Date: 2026-06-25
+
+## Today's Overall Theme
+Today's strongest signal is genuinely novel rather than a repeat of recurring cost/policy themes: a widely-corroborated "Gen Z literacy crisis" story (professors saying students arrive unable to read a full sentence) tops the list, ahead of yesterday's strongest cost-of-living and campus-structure stories. A third novel angle was added on request: rather than a generic "Top 10 Best Universities" list, Princeton Review's 2026 "weird" superlative categories (Lots of Hard Liquor, Reefer Madness, Campus Food Not So Tasty, Most Beautiful Campus) give a comparison/tag-your-school format with real survey data behind it. Eight topics passed the selection filter; seven recently-covered themes (student loans, free tuition, major-regret/job market, international visas, AI cheating, side hustles, loneliness) remain in cooldown and were excluded rather than forced back into today's list.
+
+## Recommended Production Priority
+1. Gen Z students are arriving at college unable to read a full sentence, professors warn
+2. Off-campus housing has overtaken tuition as the bigger cost for many college students
+3. Your school might be #1 in the country for something hilarious: Princeton Review's 2026 "weird" college superlatives
+
+## Top Topics
+
+### 1. Gen Z students are arriving at college unable to read a full sentence, professors warn (Score: 87, produce_today)
+Professors report students arriving unable to read full sentences; reading habits have fallen roughly 40% over the past decade, and many students lean on AI summaries instead of doing assigned reading. Content angle: a shock-stat hook card paired with a myth-vs-reality breakdown of what's actually happening (testing culture, phone habits, AI shortcuts) versus the exaggerated headline. Avoid mocking tone or presenting this as proven fact about "all" Gen Z — frame it as a professor-reported pattern.
+- Source: Fortune — https://fortune.com/article/gen-z-college-students-struggling-to-read-books-professors-forced-to-rethink-standards-warn-of-anxiety-lack-of-workplace-prepardness/
+- Source: Essence — https://www.essence.com/education/gen-z-reading-literacy-crisis-college/
+- Source: Futurism — https://futurism.com/future-society/gen-z-literacy-reading
+
+### 2. Off-campus housing has overtaken tuition as the bigger cost for many college students (Score: 84, produce_today)
+Students at public four-year colleges now average $12,770/year in room and board versus $11,260 in tuition and fees, and off-campus housing alone runs about $10,781/year (~$1,080/month). Content angle: a before/after dollar-comparison card (dorm vs off-campus vs by region). Avoid framing as budgeting advice — present as a fact card.
+- Source: PBS News — https://www.pbs.org/newshour/show/why-many-college-students-are-forced-to-spend-more-on-housing-than-tuition
+- Source: The Hechinger Report — https://hechingerreport.org/the-fastest-growing-college-expense-may-not-be-what-people-think/
+- Source: Places4Students (X) — https://x.com/Places4Students/status/1956007254412394535
+- Source: Jay Martin (X) — https://x.com/jaymart222/status/2063774684060033379
+
+### 3. Your school might be #1 in the country for something hilarious: Princeton Review's 2026 "weird" college superlatives (Score: 83, produce_today)
+Princeton Review's 2026 guide ranks the top 25 schools in 50 categories built entirely from student surveys of 170,000+ students at 391 schools — not just "Best Career Services," but "Lots of Hard Liquor" (Tulane University), "Reefer Madness" (University of Vermont), "Campus Food Not So Tasty" (United States Merchant Marine Academy / Lawrence Technological University), and "Most Beautiful Campus" (University of the South). Niche's independently compiled 2026 rankings confirm this category-based format is an active, ongoing genre, not a one-off list. Content angle: a swipe-card series through the funniest/most surprising categories with a "tag your school" CTA on each slide. Avoid treating any single category as an overall judgment of school quality, and keep the tone playful rather than mocking toward any named school.
+- Source: The Princeton Review — https://www.princetonreview.com/college-rankings/best-colleges
+- Source: Poets&Quants for Undergrads — https://poetsandquantsforundergrads.com/news/princeton-reviews-2026-best-colleges-top-schools-for-professors-career-services-and-even-hard-liquor/
+- Source: Niche — https://www.niche.com/colleges/rankings/
+
+### 4. Most college students are commuters now, not the stereotypical dorm-living undergrad (Score: 74, produce_today)
+Roughly 85-86% of US college students commute rather than live in campus housing; rising community-college enrollment (+3% in fall 2025) is partly an affordability response. Content angle: a "you're not the exception" reality-check card paired with the financial-vs-wellbeing tradeoff. Present the percentage as "the large majority," not one fixed number, since sources differ slightly.
+- Source: U.S. News & World Report — https://www.usnews.com/education/best-colleges/the-short-list-college/articles/universities-where-most-freshmen-commute
+- Source: NPR — https://www.npr.org/2026/01/15/nx-s1-5676186/college-enrollment-increases-in-2025
+- Source: TikTok (@juiceditup) — https://www.tiktok.com/@juiceditup/video/7597535666578230559
+
+### 5. Roommate conflict goes mainstream: campus papers and Netflix's 'Roommates' both spotlight dorm tension (Score: 70, produce_today)
+Note: this theme previously appeared in the 2026-06-19 brief as "Common roommate red flags students report" — past its cooldown window, kept here with a fresh angle tied to the April 2026 Netflix release "Roommates." Content angle: myth-vs-reality format. Keep all examples structural/anonymized.
+- Source: The Spectrum (University at Buffalo) — https://www.ubspectrum.com/article/2026/05/living-together-falling-apart-the-reality-of-roommate-conflict
+- Source: Indiana Daily Student — https://www.idsnews.com/article/2026/04/netflixs-roommates-exacerbates-experience-of-roommate-collision
+
+### 6. Transfer students routinely lose academic credits (Score: 67, produce_today)
+About 3 in 10 transfer students lose significant academic credits nationally; in Texas alone, 19,000+ community college students lost course credit transferring to a university in one year, and 16% of those affected gave up on higher ed. Content angle: "what to check before you transfer" checklist. Label the Texas figure as state-specific, not national.
+- Source: UPCEA — https://upcea.edu/survey-3-in-10-students-lose-significant-academic-credits-transferring-between-colleges/
+- Source: Dallas Weekly — https://dallasweekly.com/2026/03/thousands-of-texas-students-lose-college-credits-costing-time-and-money/
+- Source: Inside Higher Ed — https://www.insidehighered.com/opinion/columns/beyond-transfer/2026/01/08/transfer-and-learning-mobility-2026-and-beyond
+
+### 7. Internship market gets more competitive while unpaid internships pay off far less (Score: 63, produce_if_needed, needs_verification)
+8.2 million students wanted to intern but 4.6 million couldn't get a spot; paid interns get offers at 66.4% vs 43.7% for unpaid. Core stat is dated Feb 2025 — label it as such, not as new 2026 data.
+- Source: Inside Higher Ed — https://www.insidehighered.com/news/student-success/life-after-college/2025/02/21/12-college-students-wont-participate-internship
+- Source: Standout-CV — https://standout-cv.com/usa/stats-usa/internship-statistics
+
+### 8. Greek life rush registration hits record highs (Score: 58, monitor, needs_verification)
+1,100 women and 825 men registered for spring 2026 rush at the University of Virginia — the IFC's largest sign-up since extending its deadline, and ISC's largest-ever sorority membership (3,082). Single-school data point; label clearly as UVA-specific until a second school's numbers are found.
+- Source: The Cavalier Daily — https://www.cavalierdaily.com/article/2026/02/fraternity-and-sorority-recruitment-sees-influx-in-registration
+- Source: TikTok (discover, RushTok) — https://www.tiktok.com/discover/rushtok?lang=en
+- Source: TikTok (@thesororitysister) — https://www.tiktok.com/@thesororitysister/video/7515826325190413614
+
+## Top 3 Card News Drafts
+
+### Draft 1 — The literacy-crisis shock stat
+- Title options: "Professors say Gen Z can't read a sentence", "The hidden cost of skipping reading", "Is this you? The literacy gap nobody admits"
+- Slides: (1) hook stat — reading habits down ~40% in a decade, (2) what professors are seeing in class, (3) why — testing culture, phones, AI summaries, (4) myth vs reality: it's not "everyone," but the pattern is real
+- Comment prompt: "Be honest — when did you last finish a full book for class?"
+
+### Draft 2 — Housing vs. tuition
+- Title options: "Your rent might cost more than your tuition", "The real #1 college expense in 2026", "Dorm vs. off-campus: the real price tag"
+- Slides: (1) hook stat — room/board $12,770 vs tuition $11,260, (2) off-campus breakdown ~$1,080/month, (3) why it's rising — supply shortage, (4) what to check before signing a lease
+- Comment prompt: "How much is your rent vs. your tuition?"
+
+### Draft 3 — Weird college superlatives
+- Title options: "Is your school #1 for this?", "The college ranking nobody warned you about", "Forget 'Best Universities' — here's the real ranking"
+- Slides: (1) hook — these are real, official 2026 categories from a 170,000-student survey, (2) the funniest results (Lots of Hard Liquor — Tulane, Reefer Madness — Vermont, Campus Food Not So Tasty — Merchant Marine Academy), (3) the ones that matter for fit (Best Career Services, Best Dorms, Best Student Life), (4) tag your school and see where it lands
+- Comment prompt: "What category would your school actually win?"
+
+### Draft 4 — Commuter majority
+- Title options: "You're not the only one commuting", "85% of college students don't live on campus", "The hidden majority: commuter students"
+- Slides: (1) hook stat — large majority of students commute, (2) why — affordability driving the shift, (3) the tradeoff — money saved vs. social/mental-health cost, (4) commuter survival tips
+- Comment prompt: "Are you a commuter or a dorm student?"
+
+## Topics to Monitor
+- Greek life rush registration surge — watch for a second school's data to confirm this is a broader trend, not a UVA-only story.
+- Internship squeeze — watch for fresher 2026 internship-market data to replace the Feb 2025 stat.
+
+## Topics to Avoid
+- None excluded for risk reasons today; all eight ranked topics are risk_level: low.
+
+## Source Notes
+All eight ranked topics are backed by at least one education-news, official, or campus-newspaper primary source, supplemented by social posts as color/student-reaction evidence only (never as the sole evidentiary basis for a ranked topic). The literacy-crisis topic (#1) is corroborated by three independent national outlets tracing back to the same original reporting and a cited YouGov statistic. The weird-superlatives topic (#3) is backed by Princeton Review's official methodology (170,000+ student survey across 391 schools), a secondary outlet's full category breakdown, and Niche's independently compiled rankings.
+
+## Risk Notes
+No high-risk or sensitive-personal-content topics were ranked today. The roommate-conflict topic (#5) is framed structurally around patterns and a pop-culture tie-in, with no identifiable individual's private conflict referenced. The literacy-crisis topic (#1) is framed as a reported pattern, not a definitive claim about all Gen Z students. The weird-superlatives topic (#3) presents each category as one specific survey data point, not an overall verdict on any named school, and avoids a mocking tone.
+
+## Excluded From Today's Ranking (Cooldown)
+Seven themes covered repeatedly in the past week were excluded rather than re-ranked, per the topic-overlap/cooldown rule:
+- Student loan repayment overhaul (in cooldown until 2026-06-27 — covered 4x: 06-19, 06-22, 06-23 x2)
+- Free tuition / financial aid wave (in cooldown until 2026-06-26 — covered 06-23)
+- Major regret / job market (in cooldown until 2026-06-26 — covered 5x: 06-19, 06-22, 06-23 x3)
+- International student visa crackdown (in cooldown until 2026-06-25 — covered 06-19, 06-22)
+- AI cheating arms race (in cooldown until 2026-06-28 — covered 3x: 06-19, 06-22, 06-23)
+- Creator-economy side hustle (in cooldown until 2026-06-26 — covered 06-19, 06-23)
+- Loneliness / social media (in cooldown until 2026-06-26 — covered 06-19, 06-22)

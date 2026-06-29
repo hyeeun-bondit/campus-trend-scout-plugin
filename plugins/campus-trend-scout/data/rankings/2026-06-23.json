@@ -1,0 +1,1443 @@
+{
+  "ranked_topic_batch_id": "rt_2026-06-23_02",
+  "run_date": "2026-06-23",
+  "topics": [
+    {
+      "rank": 1,
+      "topic_id": "tp_101",
+      "cluster_id": "cl_101",
+      "topic": "46% of Poli Sci Grads Regret Their Major — Here's the Full Regret Ranking",
+      "category": "major_choice",
+      "is_ai_related": false,
+      "selection_rubric": {
+        "self_relevance": {
+          "score": 5,
+          "rationale": "Major choice anxiety is universal among undergrads"
+        },
+        "comparison_potential": {
+          "score": 5,
+          "rationale": "Major-by-major ranking with % regret rates — natural comparison format"
+        },
+        "decision_usefulness": {
+          "score": 5,
+          "rationale": "Directly informs students considering or reconsidering their major"
+        },
+        "share_trigger": {
+          "score": 5,
+          "rationale": "Students tag friends in same major — 'are you in the 46%?'"
+        },
+        "comment_trigger": {
+          "score": 5,
+          "rationale": "'I'm poli sci and I'm fine' / 'Switched to CS, best decision' — personal stories"
+        },
+        "format_strength": {
+          "score": 5,
+          "rationale": "Ranked list with % is proven highest-performing card format"
+        },
+        "freshness": {
+          "score": 4,
+          "rationale": "June 2026 ZipRecruiter survey of Class of 2025/2026"
+        },
+        "evidence_availability": {
+          "score": 5,
+          "rationale": "CBS News + AcademicJobs reporting on ZipRecruiter survey of 3,000 graduates"
+        }
+      },
+      "total_score": 88,
+      "confidence": "high",
+      "needs_verification": false,
+      "editor_decision": "produce_today",
+      "score_summary": "39/40 rubric. Perfect engagement format — ranked list with % + salary data. Survey of 3,000 grads makes claims bulletproof. Never covered in previous days.",
+      "ranking_reason": "Ranks #1 because of highest combined engagement potential (39/40 rubric), proven ranked-list format, and zero overlap with previous days' topics.",
+      "sources": [
+        {
+          "id": "src_008",
+          "source_name": "CBS News / ZipRecruiter",
+          "source_type": "education_news",
+          "platform": "education_news",
+          "title": "Here are the college majors that new grads regret the most",
+          "url": "https://www.cbsnews.com/news/college-major-recent-grads-most-regret-ziprecruiter/",
+          "published_at": "2026-06-01",
+          "retrieved_at": "2026-06-23T01:40:00Z",
+          "summary": "Poli sci 46.3%, comms 39.2%, physical sciences 33.3%. 1 in 5 grads regret.",
+          "category": "major_choice",
+          "region": "US",
+          "relevance": "Primary survey data",
+          "reliability": "CBS News with ZipRecruiter survey of 3,000",
+          "usable_for_ranking": true
+        },
+        {
+          "id": "src_009",
+          "source_name": "AcademicJobs",
+          "source_type": "education_news",
+          "platform": "education_news",
+          "title": "Most Regretted College Majors 2026: Poli Sci Tops List",
+          "url": "https://www.academicjobs.com/higher-education-news/most-regretted-college-majors-2026-poli-sci-tops-list-or-academicjobs-14286",
+          "published_at": "2026-06-10",
+          "retrieved_at": "2026-06-23T01:40:00Z",
+          "summary": "Health admin grads face 43.8% salary gap",
+          "category": "major_choice",
+          "region": "US",
+          "relevance": "Salary gap data by major",
+          "reliability": "Education aggregator citing same survey",
+          "usable_for_ranking": true
+        }
+      ],
+      "score_breakdown": {
+        "buzz": {
+          "score": 20,
+          "max": 25,
+          "reason": "ZipRecruiter surveys always go viral; LinkedIn post got 30 comments",
+          "confidence": "medium",
+          "evidence_link_ids": [
+            "src_008"
+          ]
+        },
+        "velocity": {
+          "score": 10,
+          "max": 15,
+          "reason": "June survey, graduation season timing",
+          "confidence": "medium",
+          "evidence_link_ids": []
+        },
+        "target_fit": {
+          "score": 19,
+          "max": 20,
+          "reason": "Every student with a declared or undeclared major engages",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "content_potential": {
+          "score": 14,
+          "max": 15,
+          "reason": "Ranked list + % is highest-performing card format",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "source_diversity": {
+          "score": 7,
+          "max": 10,
+          "reason": "Two sources but both cite same ZipRecruiter survey",
+          "confidence": "medium",
+          "evidence_link_ids": []
+        },
+        "evidence_quality": {
+          "score": 14,
+          "max": 15,
+          "reason": "3,000-graduate survey — strong sample size",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "risk_penalty": {
+          "score": 0,
+          "reason": "Factual survey data",
+          "evidence_link_ids": []
+        }
+      },
+      "content_angle": "The Most vs Least Regretted College Majors — ranked list with regret %, salary reality, and what grads wish they'd done instead",
+      "expected_reaction": "",
+      "risk_level": "low",
+      "avoid": []
+    },
+    {
+      "rank": 2,
+      "topic_id": "tp_102",
+      "cluster_id": "cl_102",
+      "topic": "Pell Grants Now Cover 8-Week Certificates Starting July 1 — Here's What Qualifies",
+      "category": "financial_aid",
+      "is_ai_related": false,
+      "selection_rubric": {
+        "self_relevance": {
+          "score": 5,
+          "rationale": "Free money for education — Pell is the most-used federal grant"
+        },
+        "comparison_potential": {
+          "score": 4,
+          "rationale": "Old rules (600+ hours, 15+ weeks) vs new rules (150+ hours, 8+ weeks)"
+        },
+        "decision_usefulness": {
+          "score": 5,
+          "rationale": "Directly actionable: students can now use Pell for quick certificates"
+        },
+        "share_trigger": {
+          "score": 5,
+          "rationale": "'Free money for an 8-week program' — forwarded immediately"
+        },
+        "comment_trigger": {
+          "score": 4,
+          "rationale": "'Which programs qualify?' / 'Is this legit?' discussions"
+        },
+        "format_strength": {
+          "score": 4,
+          "rationale": "Checklist of eligible fields + old vs new comparison"
+        },
+        "freshness": {
+          "score": 5,
+          "rationale": "Final rule published May 19, program launches July 1 — 8 days away"
+        },
+        "evidence_availability": {
+          "score": 5,
+          "rationale": "Official ED press release + EdSource + industry coverage"
+        }
+      },
+      "total_score": 85,
+      "confidence": "high",
+      "needs_verification": false,
+      "editor_decision": "produce_today",
+      "score_summary": "37/40 rubric. Maximum urgency (July 1 launch), official government source, universally beneficial. Never covered before.",
+      "ranking_reason": "Ranks #2 because of July 1 urgency and high actionability. The 'free money for 8-week certificates' angle is inherently viral.",
+      "sources": [
+        {
+          "id": "src_023",
+          "source_name": "U.S. Department of Education",
+          "source_type": "official_university",
+          "platform": "education_news",
+          "title": "U.S. Department of Education Issues Final Rule to Create New Workforce Pell Grant Program",
+          "url": "https://www.ed.gov/about/news/press-release/us-department-of-education-issues-final-rule-create-new-workforce-pell-grant-program",
+          "published_at": "2026-05-19",
+          "retrieved_at": "2026-06-23T03:00:00Z",
+          "summary": "Starting July 1, Pell covers 8-15 week programs in high-demand fields",
+          "category": "financial_aid",
+          "region": "US",
+          "relevance": "Official primary source",
+          "reliability": "Government press release — highest reliability",
+          "usable_for_ranking": true
+        },
+        {
+          "id": "src_024",
+          "source_name": "EdSource",
+          "source_type": "education_news",
+          "platform": "education_news",
+          "title": "Pell Grants extended to include short-term workforce training programs",
+          "url": "https://edsource.org/updates/pell-grants-extended-to-include-short-term-workforce-training-programs",
+          "published_at": "2026-05-20",
+          "retrieved_at": "2026-06-23T03:00:00Z",
+          "summary": "Eligible fields: IT, healthcare, trades, early childhood ed",
+          "category": "financial_aid",
+          "region": "US",
+          "relevance": "Career field detail",
+          "reliability": "EdSource — reliable",
+          "usable_for_ranking": true
+        },
+        {
+          "id": "src_025",
+          "source_name": "Repairer Driven News",
+          "source_type": "education_news",
+          "platform": "education_news",
+          "title": "Workforce Pell Grant program begins July 1",
+          "url": "https://www.repairerdrivennews.com/2026/05/20/workforce-pell-grant-program-begins-july-1-for-eligible-high-quality-short-term-educational-programs/",
+          "published_at": "2026-05-20",
+          "retrieved_at": "2026-06-23T03:00:00Z",
+          "summary": "Old vs new threshold comparison",
+          "category": "financial_aid",
+          "region": "US",
+          "relevance": "Explains rule change clearly",
+          "reliability": "Industry publication",
+          "usable_for_ranking": true
+        }
+      ],
+      "score_breakdown": {
+        "buzz": {
+          "score": 17,
+          "max": 25,
+          "reason": "ED announcement covered widely but not yet viral among students",
+          "confidence": "medium",
+          "evidence_link_ids": [
+            "src_023"
+          ]
+        },
+        "velocity": {
+          "score": 13,
+          "max": 15,
+          "reason": "July 1 deadline creates urgency — 8 days away",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "target_fit": {
+          "score": 18,
+          "max": 20,
+          "reason": "Pell-eligible students benefit directly; others may reconsider certificate paths",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "content_potential": {
+          "score": 13,
+          "max": 15,
+          "reason": "Checklist + eligible fields + old vs new comparison",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "source_diversity": {
+          "score": 8,
+          "max": 10,
+          "reason": "Official ED + EdSource + industry = 3 types",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_023",
+            "src_024",
+            "src_025"
+          ]
+        },
+        "evidence_quality": {
+          "score": 14,
+          "max": 15,
+          "reason": "Official final rule + government press release",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "risk_penalty": {
+          "score": 0,
+          "reason": "Government policy — no risk",
+          "evidence_link_ids": []
+        }
+      },
+      "content_angle": "Pell Grants just expanded MASSIVELY: 8-week certificates now qualify. Which programs, how to apply, and the July 1 start date.",
+      "expected_reaction": "",
+      "risk_level": "low",
+      "avoid": []
+    },
+    {
+      "rank": 3,
+      "topic_id": "tp_103",
+      "cluster_id": "cl_103",
+      "topic": "Your Mandatory Meal Plan Costs 3x More Than Cooking — And You Can't Opt Out",
+      "category": "campus_costs",
+      "is_ai_related": false,
+      "selection_rubric": {
+        "self_relevance": {
+          "score": 5,
+          "rationale": "Every freshman is forced to buy one — no choice"
+        },
+        "comparison_potential": {
+          "score": 5,
+          "rationale": "Meal plan vs cooking vs USDA estimates, school-by-school comparison"
+        },
+        "decision_usefulness": {
+          "score": 4,
+          "rationale": "Limited — most freshmen can't opt out, but transfer/upperclassmen can plan"
+        },
+        "share_trigger": {
+          "score": 5,
+          "rationale": "'How much is YOUR meal plan?' — tagging friends at different schools"
+        },
+        "comment_trigger": {
+          "score": 5,
+          "rationale": "'Our dining hall is terrible AND expensive' / 'I cook and save $3K' debates"
+        },
+        "format_strength": {
+          "score": 5,
+          "rationale": "Price comparison table, myth vs reality, school-by-school"
+        },
+        "freshness": {
+          "score": 4,
+          "rationale": "Hechinger Report 2026, Money.com 2026, Texas Tech editorial June 2026"
+        },
+        "evidence_availability": {
+          "score": 5,
+          "rationale": "Hechinger Report + Money.com + USDA data + student newspaper = strong"
+        }
+      },
+      "total_score": 83,
+      "confidence": "high",
+      "needs_verification": false,
+      "editor_decision": "produce_today",
+      "score_summary": "38/40 rubric. Universal freshman experience, strong comparison format, backed by investigative journalism and government food cost data. Never covered before.",
+      "ranking_reason": "Ranks #3 — extremely high relatability for incoming freshmen. 47% price jump stat is inherently shareable. Summer timing (move-in prep season) is perfect.",
+      "sources": [
+        {
+          "id": "src_026",
+          "source_name": "Hechinger Report",
+          "source_type": "education_news",
+          "platform": "education_news",
+          "title": "A tough-to-swallow reason college keeps costing more: the price of meal plans",
+          "url": "https://hechingerreport.org/tough-swallow-reason-college-keeps-costing-price-meal-plans/",
+          "published_at": "2026-03-15",
+          "retrieved_at": "2026-06-23T03:05:00Z",
+          "summary": "47% jump in 10 years, 98% mandatory, 3x home cooking cost",
+          "category": "campus_costs",
+          "region": "US",
+          "relevance": "Primary investigative source",
+          "reliability": "Hechinger Report — respected nonprofit journalism",
+          "usable_for_ranking": true
+        },
+        {
+          "id": "src_027",
+          "source_name": "Money.com",
+          "source_type": "education_news",
+          "platform": "education_news",
+          "title": "College Students Are Paying More Than Ever to Eat in Campus Dining Halls",
+          "url": "https://money.com/college-meal-plan-costs-rising/",
+          "published_at": "2026-04-01",
+          "retrieved_at": "2026-06-23T03:05:00Z",
+          "summary": "Average $5,656, 40-50% above USDA estimates",
+          "category": "campus_costs",
+          "region": "US",
+          "relevance": "Specific cost data",
+          "reliability": "Financial publication",
+          "usable_for_ranking": true
+        },
+        {
+          "id": "src_028",
+          "source_name": "The Daily Toreador",
+          "source_type": "campus_news",
+          "platform": "college_newspaper",
+          "title": "Mandatory meal plans hurt college students more than they help",
+          "url": "https://www.dailytoreador.com/article/mandatory-meal-plans-hurt-college-students-more-than-they-help-20260605",
+          "published_at": "2026-06-05",
+          "retrieved_at": "2026-06-23T03:05:00Z",
+          "summary": "Student editorial on financial harm of mandatory plans",
+          "category": "campus_costs",
+          "region": "US",
+          "school_name": "Texas Tech University",
+          "relevance": "Student voice",
+          "reliability": "Student newspaper editorial",
+          "usable_for_ranking": true
+        }
+      ],
+      "score_breakdown": {
+        "buzz": {
+          "score": 17,
+          "max": 25,
+          "reason": "Hechinger Report article widely shared in education circles; meal plan complaints are perennial on Reddit",
+          "confidence": "medium",
+          "evidence_link_ids": []
+        },
+        "velocity": {
+          "score": 9,
+          "max": 15,
+          "reason": "Move-in season approaching — relevance increasing",
+          "confidence": "medium",
+          "evidence_link_ids": []
+        },
+        "target_fit": {
+          "score": 19,
+          "max": 20,
+          "reason": "Every freshman forced to buy; upperclassmen remember the frustration",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "content_potential": {
+          "score": 14,
+          "max": 15,
+          "reason": "Price comparison, myth vs reality, school-by-school — multiple formats",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "source_diversity": {
+          "score": 8,
+          "max": 10,
+          "reason": "Nonprofit journalism + financial outlet + student newspaper = diverse",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_026",
+            "src_027",
+            "src_028"
+          ]
+        },
+        "evidence_quality": {
+          "score": 13,
+          "max": 15,
+          "reason": "USDA comparison data + Hechinger investigative reporting",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "risk_penalty": {
+          "score": 0,
+          "reason": "Consumer reporting on pricing — no risk",
+          "evidence_link_ids": []
+        }
+      },
+      "content_angle": "The hidden fee: your mandatory meal plan costs 3x more than cooking, and here's the school-by-school breakdown",
+      "expected_reaction": "",
+      "risk_level": "low",
+      "avoid": []
+    },
+    {
+      "rank": 4,
+      "topic_id": "tp_104",
+      "cluster_id": "cl_104",
+      "topic": "80% of Community College Students Want a Bachelor's — Only 16% Actually Get One",
+      "category": "transfer_students",
+      "is_ai_related": false,
+      "selection_rubric": {
+        "self_relevance": {
+          "score": 5,
+          "rationale": "Directly relevant to the millions of CC students and those considering the CC path"
+        },
+        "comparison_potential": {
+          "score": 5,
+          "rationale": "By race, income, state — wildly different transfer rates"
+        },
+        "decision_usefulness": {
+          "score": 5,
+          "rationale": "Informs the CC-to-university decision with hard data"
+        },
+        "share_trigger": {
+          "score": 5,
+          "rationale": "'Did you know only 16%?' — shock stat that gets forwarded"
+        },
+        "comment_trigger": {
+          "score": 5,
+          "rationale": "'I'm part of the 16%' / 'The system failed me' — personal stories"
+        },
+        "format_strength": {
+          "score": 4,
+          "rationale": "Stat reveal + tips for beating the odds, but visual format less obvious"
+        },
+        "freshness": {
+          "score": 3,
+          "rationale": "CCRC data from 2026, Higher Ed Dive February 2026"
+        },
+        "evidence_availability": {
+          "score": 5,
+          "rationale": "Columbia CCRC research + Higher Ed Dive + Community College Daily"
+        }
+      },
+      "total_score": 82,
+      "confidence": "high",
+      "needs_verification": false,
+      "editor_decision": "produce_today",
+      "score_summary": "37/40 rubric. Devastating gap stat (80% vs 16%) is inherently viral. Backed by peer-reviewed Columbia research. Never covered before. Especially relevant for transfer and incoming students.",
+      "ranking_reason": "Ranks #4 — the 80% vs 16% gap is the most shocking stat in today's set after the meal plan data. Slightly lower freshness (February data) keeps it below #3.",
+      "sources": [
+        {
+          "id": "src_029",
+          "source_name": "Higher Ed Dive",
+          "source_type": "education_news",
+          "platform": "education_news",
+          "title": "Just 16% of community college students transfer and earn a bachelor's degree",
+          "url": "https://www.highereddive.com/news/community-college-students-transfer-bachelors-degree-completion/706773/",
+          "published_at": "2026-02-15",
+          "retrieved_at": "2026-06-23T03:10:00Z",
+          "summary": "16% earn bachelor's within 6 years, up from 14% in 2016",
+          "category": "transfer_students",
+          "region": "US",
+          "relevance": "Primary stat source",
+          "reliability": "Higher Ed Dive citing Columbia CCRC research",
+          "usable_for_ranking": true
+        },
+        {
+          "id": "src_030",
+          "source_name": "Community College Daily",
+          "source_type": "education_news",
+          "platform": "education_news",
+          "title": "The college transfer generation",
+          "url": "https://www.ccdaily.com/2026/04/the-college-transfer-generation/",
+          "published_at": "2026-04-10",
+          "retrieved_at": "2026-06-23T03:10:00Z",
+          "summary": "Transfer barriers: credit loss, articulation agreements, financial disruption",
+          "category": "transfer_students",
+          "region": "US",
+          "relevance": "Explains WHY transfers fail",
+          "reliability": "AACC publication",
+          "usable_for_ranking": true
+        }
+      ],
+      "score_breakdown": {
+        "buzz": {
+          "score": 16,
+          "max": 25,
+          "reason": "Higher Ed Dive widely read; CC transfer is evergreen concern",
+          "confidence": "medium",
+          "evidence_link_ids": []
+        },
+        "velocity": {
+          "score": 8,
+          "max": 15,
+          "reason": "February data, not accelerating",
+          "confidence": "medium",
+          "evidence_link_ids": []
+        },
+        "target_fit": {
+          "score": 18,
+          "max": 20,
+          "reason": "Millions of CC students directly affected; others considering CC route",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "content_potential": {
+          "score": 14,
+          "max": 15,
+          "reason": "Stat reveal + how-to-beat-the-odds tips — strong dual format",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "source_diversity": {
+          "score": 7,
+          "max": 10,
+          "reason": "Higher Ed Dive + CC Daily + CCRC data",
+          "confidence": "medium",
+          "evidence_link_ids": []
+        },
+        "evidence_quality": {
+          "score": 14,
+          "max": 15,
+          "reason": "Columbia CCRC is the gold standard for CC research",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "risk_penalty": {
+          "score": 0,
+          "reason": "Factual research data",
+          "evidence_link_ids": []
+        }
+      },
+      "content_angle": "The brutal math of the CC-to-university pipeline: 80% want a bachelor's, 16% get one. Here's why and how to beat the odds.",
+      "expected_reaction": "",
+      "risk_level": "low",
+      "avoid": []
+    },
+    {
+      "rank": 5,
+      "topic_id": "tp_105",
+      "cluster_id": "cl_107",
+      "topic": "Greek Life Is Booming at SEC Schools But Dying at Small Colleges — Here's the Split",
+      "category": "campus_culture",
+      "is_ai_related": false,
+      "selection_rubric": {
+        "self_relevance": {
+          "score": 4,
+          "rationale": "Relevant to students at schools with Greek life — not universal"
+        },
+        "comparison_potential": {
+          "score": 5,
+          "rationale": "SEC vs small school, South vs Northeast, growing vs declining — perfect comparison"
+        },
+        "decision_usefulness": {
+          "score": 3,
+          "rationale": "Informs rush decisions but most students already know if they want Greek life"
+        },
+        "share_trigger": {
+          "score": 5,
+          "rationale": "'Is YOUR school's Greek life growing or dying?' — school pride/identity"
+        },
+        "comment_trigger": {
+          "score": 5,
+          "rationale": "'Greek life saved my social life' vs 'Biggest waste of money' — polarizing"
+        },
+        "format_strength": {
+          "score": 5,
+          "rationale": "Split-screen comparison format is visually strong"
+        },
+        "freshness": {
+          "score": 4,
+          "rationale": "AFA 2026 report + Yahoo/Conversation May 2026 + Knox Student 2026"
+        },
+        "evidence_availability": {
+          "score": 4,
+          "rationale": "AFA industry data + Yahoo/Conversation + Knox Student newspaper"
+        }
+      },
+      "total_score": 79,
+      "confidence": "high",
+      "needs_verification": false,
+      "editor_decision": "produce_today",
+      "score_summary": "35/40 rubric. Perfect split comparison format. Highly polarizing topic that drives comments. Knox College 50% drop is a concrete case study. Never covered before.",
+      "ranking_reason": "Ranks #5 — strongest comparison format and comment trigger after the top 4. The split narrative (growing vs dying) is inherently engaging.",
+      "sources": [
+        {
+          "id": "src_031",
+          "source_name": "Yahoo / The Conversation",
+          "source_type": "education_news",
+          "platform": "education_news",
+          "title": "Is the (frat) party over? Why Gen Z could spell trouble for Greek life.",
+          "url": "https://www.yahoo.com/lifestyle/article/is-the-frat-party-over-why-gen-z-could-spell-trouble-for-greek-life-090043375.html",
+          "published_at": "2026-05-01",
+          "retrieved_at": "2026-06-23T03:15:00Z",
+          "summary": "Gen Z drinks less, values authenticity; Power 5 growing, small schools declining",
+          "category": "campus_culture",
+          "region": "US",
+          "relevance": "Main narrative source",
+          "reliability": "Yahoo redistributing The Conversation (academic)",
+          "usable_for_ranking": true
+        },
+        {
+          "id": "src_032",
+          "source_name": "AFA",
+          "source_type": "education_news",
+          "platform": "education_news",
+          "title": "FSL on Edge: How the Enrollment Cliff Threatens Fraternity and Sorority Homes",
+          "url": "https://afa1976.org/fsl-on-edge-how-the-enrollment-cliff-threatens-fraternity-and-sorority-homes-nationwide/",
+          "published_at": "2026-04-15",
+          "retrieved_at": "2026-06-23T03:15:00Z",
+          "summary": "Enrollment cliff threatens Greek housing; NPC 13% sorority recruitment increase",
+          "category": "campus_culture",
+          "region": "US",
+          "relevance": "Industry data",
+          "reliability": "AFA — primary professional association",
+          "usable_for_ranking": true
+        },
+        {
+          "id": "src_033",
+          "source_name": "The Knox Student",
+          "source_type": "campus_news",
+          "platform": "college_newspaper",
+          "title": "Fraternity, Sorority Life on Campus Drops by 50% over 3 year period",
+          "url": "https://theknoxstudent.org/1158/news/fraternity-sorority-life-on-campus-declining-by-50-over-3-year-period/",
+          "published_at": "2026-03-01",
+          "retrieved_at": "2026-06-23T03:15:00Z",
+          "summary": "Knox College: 50% Greek participation drop in 3 years",
+          "category": "campus_culture",
+          "region": "US",
+          "school_name": "Knox College",
+          "relevance": "Concrete case study",
+          "reliability": "Student newspaper with institutional data",
+          "usable_for_ranking": true
+        }
+      ],
+      "score_breakdown": {
+        "buzz": {
+          "score": 16,
+          "max": 25,
+          "reason": "Yahoo/Conversation article widely shared; Greek life always polarizing",
+          "confidence": "medium",
+          "evidence_link_ids": []
+        },
+        "velocity": {
+          "score": 9,
+          "max": 15,
+          "reason": "Rush season approaching (fall) adds relevance",
+          "confidence": "medium",
+          "evidence_link_ids": []
+        },
+        "target_fit": {
+          "score": 16,
+          "max": 20,
+          "reason": "Relevant to schools with Greek life — not all schools",
+          "confidence": "medium",
+          "evidence_link_ids": []
+        },
+        "content_potential": {
+          "score": 14,
+          "max": 15,
+          "reason": "Split-screen comparison is visually strong and engaging",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "source_diversity": {
+          "score": 8,
+          "max": 10,
+          "reason": "Academic article + industry association + student newspaper = diverse",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_031",
+            "src_032",
+            "src_033"
+          ]
+        },
+        "evidence_quality": {
+          "score": 12,
+          "max": 15,
+          "reason": "AFA data + NPC stats + Knox institutional data",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "risk_penalty": {
+          "score": 0,
+          "reason": "Discusses institutional trends, not individual incidents",
+          "evidence_link_ids": []
+        }
+      },
+      "content_angle": "Greek Life in 2026: SEC sorority rush is BOOMING while small colleges lost 50% in 3 years. Which side is your school on?",
+      "expected_reaction": "",
+      "risk_level": "low",
+      "avoid": []
+    },
+    {
+      "rank": 6,
+      "topic_id": "tp_106",
+      "cluster_id": "cl_109",
+      "topic": "57% of Students Say 'Credit Cards Are for Emergencies Only' — Average Debt: $3,280",
+      "category": "student_finance",
+      "is_ai_related": false,
+      "selection_rubric": {
+        "self_relevance": {
+          "score": 5,
+          "rationale": "Most students have credit cards — 96.3% have some form of debt"
+        },
+        "comparison_potential": {
+          "score": 3,
+          "rationale": "Intention vs reality comparison, but limited school/major comparison"
+        },
+        "decision_usefulness": {
+          "score": 5,
+          "rationale": "Actionable financial literacy — payment habits, minimum payment trap"
+        },
+        "share_trigger": {
+          "score": 4,
+          "rationale": "'This is literally me' relatability"
+        },
+        "comment_trigger": {
+          "score": 4,
+          "rationale": "'I maxed mine out freshman year' / 'Never get a credit card in college' debates"
+        },
+        "format_strength": {
+          "score": 4,
+          "rationale": "Myth vs reality, stat reveal format"
+        },
+        "freshness": {
+          "score": 4,
+          "rationale": "WalletHub June 2026, CardRates May 2026 data"
+        },
+        "evidence_availability": {
+          "score": 4,
+          "rationale": "WalletHub + CardRates — strong aggregated data"
+        }
+      },
+      "total_score": 76,
+      "confidence": "high",
+      "needs_verification": false,
+      "editor_decision": "produce_if_needed",
+      "score_summary": "33/40 rubric. The 'emergency only' paradox is relatable and surprising. Strong financial literacy angle. Never covered before.",
+      "ranking_reason": "Ranks #6 — strong relatability but lower comparison potential and format strength than top 5.",
+      "sources": [
+        {
+          "id": "src_034",
+          "source_name": "WalletHub",
+          "source_type": "education_news",
+          "platform": "education_news",
+          "title": "College Student Credit Card Statistics",
+          "url": "https://wallethub.com/edu/cc/credit-card-statistics-for-college-students/25535",
+          "published_at": "2026-06-01",
+          "retrieved_at": "2026-06-23T03:20:00Z",
+          "summary": "$3,280 average debt, 37.6% behind, 44.7% pay minimum only",
+          "category": "student_finance",
+          "region": "US",
+          "relevance": "Primary data source",
+          "reliability": "WalletHub — major data aggregator",
+          "usable_for_ranking": true
+        },
+        {
+          "id": "src_035",
+          "source_name": "CardRates",
+          "source_type": "education_news",
+          "platform": "education_news",
+          "title": "57 Educational Student Credit Card Debt Statistics (2026)",
+          "url": "https://www.cardrates.com/news/student-credit-card-debt-statistics/",
+          "published_at": "2026-05-15",
+          "retrieved_at": "2026-06-23T03:20:00Z",
+          "summary": "52.4% got cards to build credit, 57% claim emergency use only",
+          "category": "student_finance",
+          "region": "US",
+          "relevance": "Paradox data",
+          "reliability": "Financial data aggregator",
+          "usable_for_ranking": true
+        }
+      ],
+      "score_breakdown": {
+        "buzz": {
+          "score": 14,
+          "max": 25,
+          "reason": "Financial literacy content is steady but not viral",
+          "confidence": "medium",
+          "evidence_link_ids": []
+        },
+        "velocity": {
+          "score": 8,
+          "max": 15,
+          "reason": "June data, steady interest",
+          "confidence": "medium",
+          "evidence_link_ids": []
+        },
+        "target_fit": {
+          "score": 17,
+          "max": 20,
+          "reason": "96.3% of students have debt — nearly universal",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "content_potential": {
+          "score": 12,
+          "max": 15,
+          "reason": "Myth vs reality format works but less visually engaging",
+          "confidence": "medium",
+          "evidence_link_ids": []
+        },
+        "source_diversity": {
+          "score": 6,
+          "max": 10,
+          "reason": "Two financial data aggregators",
+          "confidence": "medium",
+          "evidence_link_ids": []
+        },
+        "evidence_quality": {
+          "score": 13,
+          "max": 15,
+          "reason": "Credit bureau data + large survey samples",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "risk_penalty": {
+          "score": 0,
+          "reason": "Financial literacy — no risk",
+          "evidence_link_ids": []
+        }
+      },
+      "content_angle": "The 'emergency only' lie: 57% of students say that's how they use credit cards, but the average debt is $3,280. A reality check on college spending.",
+      "expected_reaction": "",
+      "risk_level": "low",
+      "avoid": []
+    },
+    {
+      "rank": 7,
+      "topic_id": "tp_107",
+      "cluster_id": "cl_105",
+      "topic": "70% of Employers Dropped Degree Requirements — Is Your Diploma Worth Less Now?",
+      "category": "career_trends",
+      "is_ai_related": false,
+      "selection_rubric": {
+        "self_relevance": {
+          "score": 5,
+          "rationale": "Questions the value of every student's ongoing degree investment"
+        },
+        "comparison_potential": {
+          "score": 4,
+          "rationale": "Industry-by-industry, degree vs no-degree salary gap"
+        },
+        "decision_usefulness": {
+          "score": 5,
+          "rationale": "Informs skills/cert focus vs degree-only strategy"
+        },
+        "share_trigger": {
+          "score": 4,
+          "rationale": "Provocative headline drives shares"
+        },
+        "comment_trigger": {
+          "score": 5,
+          "rationale": "'My parents would kill me' / 'I'm doing both' — polarizing"
+        },
+        "format_strength": {
+          "score": 4,
+          "rationale": "Industry comparison, myth vs reality"
+        },
+        "freshness": {
+          "score": 4,
+          "rationale": "Federal hiring overhaul April 2026, ongoing trend"
+        },
+        "evidence_availability": {
+          "score": 3,
+          "rationale": "70% stat varies by survey methodology"
+        }
+      },
+      "total_score": 74,
+      "confidence": "medium",
+      "needs_verification": false,
+      "editor_decision": "produce_if_needed",
+      "score_summary": "34/40 rubric. Provocative debate topic. Weaker evidence availability keeps it mid-ranking. Never covered as standalone theme before.",
+      "ranking_reason": "Ranks #7 — strong debate potential but the 70% stat needs careful sourcing. Lower evidence quality than top 6.",
+      "sources": [
+        {
+          "id": "src_010",
+          "source_name": "Washington Times",
+          "source_type": "education_news",
+          "platform": "education_news",
+          "title": "Undergraduate enrollment likely peaked this spring",
+          "url": "https://www.washingtontimes.com/news/2026/jun/8/higher-education-insiders-say-undergraduate-enrollment-likely-peaked/",
+          "published_at": "2026-06-08",
+          "retrieved_at": "2026-06-23T01:35:00Z",
+          "summary": "Context: enrollment peak feeds degree-value debate",
+          "category": "enrollment_trends",
+          "region": "US",
+          "relevance": "Context",
+          "reliability": "Washington Times citing NSCRC data",
+          "usable_for_ranking": true
+        },
+        {
+          "id": "src_011",
+          "source_name": "Inside Higher Ed",
+          "source_type": "education_news",
+          "platform": "education_news",
+          "title": "3 Takeaways From Spring Enrollment Data",
+          "url": "https://www.insidehighered.com/news/admissions/2026/06/04/3-takeaways-spring-enrollment-data",
+          "published_at": "2026-06-04",
+          "retrieved_at": "2026-06-23T01:35:00Z",
+          "summary": "Certificates +10.2% shows alternatives growing",
+          "category": "enrollment_trends",
+          "region": "US",
+          "relevance": "Alternative pathway growth",
+          "reliability": "Top higher ed publication",
+          "usable_for_ranking": true
+        }
+      ],
+      "score_breakdown": {
+        "buzz": {
+          "score": 16,
+          "max": 25,
+          "reason": "YouTube 'degrees are useless' content trending; industry discussion active",
+          "confidence": "medium",
+          "evidence_link_ids": []
+        },
+        "velocity": {
+          "score": 9,
+          "max": 15,
+          "reason": "Ongoing trend",
+          "confidence": "medium",
+          "evidence_link_ids": []
+        },
+        "target_fit": {
+          "score": 17,
+          "max": 20,
+          "reason": "Existential for every student",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "content_potential": {
+          "score": 12,
+          "max": 15,
+          "reason": "Good debate format but needs balance",
+          "confidence": "medium",
+          "evidence_link_ids": []
+        },
+        "source_diversity": {
+          "score": 6,
+          "max": 10,
+          "reason": "Two education sources",
+          "confidence": "medium",
+          "evidence_link_ids": []
+        },
+        "evidence_quality": {
+          "score": 11,
+          "max": 15,
+          "reason": "Enrollment data solid but 70% stat varies",
+          "confidence": "medium",
+          "evidence_link_ids": []
+        },
+        "risk_penalty": {
+          "score": 0,
+          "reason": "Legitimate discussion",
+          "evidence_link_ids": []
+        }
+      },
+      "content_angle": "If 70% of employers don't need your degree, what ARE they looking for? Skills checklist + the $30K earnings gap that still exists",
+      "expected_reaction": "",
+      "risk_level": "low",
+      "avoid": []
+    },
+    {
+      "rank": 8,
+      "topic_id": "tp_108",
+      "cluster_id": "cl_106",
+      "topic": "Fall 2026 Is the Start of the Enrollment Cliff — What It Means for Your Campus",
+      "category": "enrollment_trends",
+      "is_ai_related": false,
+      "selection_rubric": {
+        "self_relevance": {
+          "score": 4,
+          "rationale": "Affects campus experience but abstract to individuals"
+        },
+        "comparison_potential": {
+          "score": 4,
+          "rationale": "School types, regions, program types"
+        },
+        "decision_usefulness": {
+          "score": 4,
+          "rationale": "Informs transfer decisions, program availability"
+        },
+        "share_trigger": {
+          "score": 3,
+          "rationale": "Less personal than other topics"
+        },
+        "comment_trigger": {
+          "score": 4,
+          "rationale": "'My school is already cutting' type reactions"
+        },
+        "format_strength": {
+          "score": 4,
+          "rationale": "Timeline/infographic potential"
+        },
+        "freshness": {
+          "score": 5,
+          "rationale": "June 2026 data — cliff starts NOW"
+        },
+        "evidence_availability": {
+          "score": 5,
+          "rationale": "NSCRC + WICHE — gold standard data"
+        }
+      },
+      "total_score": 73,
+      "confidence": "high",
+      "needs_verification": false,
+      "editor_decision": "monitor",
+      "score_summary": "33/40 rubric. Excellent data but lower personal engagement. Never covered before.",
+      "ranking_reason": "Ranks #8 — strong data quality but lower share/comment triggers because trends feel systemic.",
+      "sources": [
+        {
+          "id": "src_010",
+          "source_name": "Washington Times",
+          "source_type": "education_news",
+          "platform": "education_news",
+          "title": "Undergraduate enrollment likely peaked this spring",
+          "url": "https://www.washingtontimes.com/news/2026/jun/8/higher-education-insiders-say-undergraduate-enrollment-likely-peaked/",
+          "published_at": "2026-06-08",
+          "retrieved_at": "2026-06-23T01:35:00Z",
+          "summary": "15.5M undergrads — historic peak",
+          "category": "enrollment_trends",
+          "region": "US",
+          "relevance": "Primary data",
+          "reliability": "NSCRC data",
+          "usable_for_ranking": true
+        },
+        {
+          "id": "src_011",
+          "source_name": "Inside Higher Ed",
+          "source_type": "education_news",
+          "platform": "education_news",
+          "title": "3 Takeaways From Spring Enrollment Data",
+          "url": "https://www.insidehighered.com/news/admissions/2026/06/04/3-takeaways-spring-enrollment-data",
+          "published_at": "2026-06-04",
+          "retrieved_at": "2026-06-23T01:35:00Z",
+          "summary": "Divergent trends across education types",
+          "category": "enrollment_trends",
+          "region": "US",
+          "relevance": "Analysis",
+          "reliability": "Top publication",
+          "usable_for_ranking": true
+        }
+      ],
+      "score_breakdown": {
+        "buzz": {
+          "score": 14,
+          "max": 25,
+          "reason": "Education media heavy coverage, less student virality",
+          "confidence": "medium",
+          "evidence_link_ids": []
+        },
+        "velocity": {
+          "score": 10,
+          "max": 15,
+          "reason": "Fresh data, gradual trend",
+          "confidence": "medium",
+          "evidence_link_ids": []
+        },
+        "target_fit": {
+          "score": 15,
+          "max": 20,
+          "reason": "Systemic relevance",
+          "confidence": "medium",
+          "evidence_link_ids": []
+        },
+        "content_potential": {
+          "score": 12,
+          "max": 15,
+          "reason": "Infographic potential",
+          "confidence": "medium",
+          "evidence_link_ids": []
+        },
+        "source_diversity": {
+          "score": 7,
+          "max": 10,
+          "reason": "Multiple education sources",
+          "confidence": "medium",
+          "evidence_link_ids": []
+        },
+        "evidence_quality": {
+          "score": 14,
+          "max": 15,
+          "reason": "NSCRC/WICHE gold standard",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "risk_penalty": {
+          "score": 0,
+          "reason": "Factual data",
+          "evidence_link_ids": []
+        }
+      },
+      "content_angle": "What happens when your school loses 12% of students: program cuts, tuition hikes, and which schools are most at risk",
+      "expected_reaction": "",
+      "risk_level": "low",
+      "avoid": []
+    },
+    {
+      "rank": 9,
+      "topic_id": "tp_109",
+      "cluster_id": "cl_110",
+      "topic": "2 Out of 3 Students Skip Buying Textbooks — Here's How to Get Everything Free",
+      "category": "campus_costs",
+      "is_ai_related": false,
+      "selection_rubric": {
+        "self_relevance": {
+          "score": 5,
+          "rationale": "Every student deals with textbook costs"
+        },
+        "comparison_potential": {
+          "score": 3,
+          "rationale": "Some school comparison (OER adopters vs not) but limited"
+        },
+        "decision_usefulness": {
+          "score": 5,
+          "rationale": "Directly actionable — OER resources, free alternatives"
+        },
+        "share_trigger": {
+          "score": 4,
+          "rationale": "Practical tips get forwarded to classmates"
+        },
+        "comment_trigger": {
+          "score": 4,
+          "rationale": "'I haven't bought a textbook since freshman year' type comments"
+        },
+        "format_strength": {
+          "score": 4,
+          "rationale": "Checklist/how-to format"
+        },
+        "freshness": {
+          "score": 3,
+          "rationale": "Data from 2026 but textbooks are evergreen"
+        },
+        "evidence_availability": {
+          "score": 4,
+          "rationale": "Research.com citing College Board + MSU Denver"
+        }
+      },
+      "total_score": 69,
+      "confidence": "high",
+      "needs_verification": false,
+      "editor_decision": "produce_if_needed",
+      "score_summary": "32/40 rubric. Practical and universally relatable. More of a 'useful tips' topic than a 'breaking news' one. Never covered before.",
+      "ranking_reason": "Ranks #9 — actionable and relatable but lower freshness and buzz than top 8. Good as practical content.",
+      "sources": [
+        {
+          "id": "src_036",
+          "source_name": "Research.com",
+          "source_type": "education_news",
+          "platform": "education_news",
+          "title": "Average College Textbook Cost for 2026",
+          "url": "https://research.com/education/average-college-textbook-cost",
+          "published_at": "2026-04-01",
+          "retrieved_at": "2026-06-23T03:25:00Z",
+          "summary": "$1,298/year, 66.6% skip buying",
+          "category": "campus_costs",
+          "region": "US",
+          "relevance": "Primary stat",
+          "reliability": "Research aggregator citing College Board",
+          "usable_for_ranking": true
+        },
+        {
+          "id": "src_037",
+          "source_name": "MSU Denver RED",
+          "source_type": "campus_news",
+          "platform": "college_newspaper",
+          "title": "College textbook costs move from campus to the Capitol",
+          "url": "https://red.msudenver.edu/2026/college-textbook-costs-move-from-campus-to-the-capitol/",
+          "published_at": "2026-03-15",
+          "retrieved_at": "2026-06-23T03:25:00Z",
+          "summary": "Legislative push + OER success stories",
+          "category": "campus_costs",
+          "region": "US",
+          "relevance": "Policy angle",
+          "reliability": "University publication",
+          "usable_for_ranking": true
+        }
+      ],
+      "score_breakdown": {
+        "buzz": {
+          "score": 12,
+          "max": 25,
+          "reason": "Perennial concern but no single viral moment",
+          "confidence": "medium",
+          "evidence_link_ids": []
+        },
+        "velocity": {
+          "score": 7,
+          "max": 15,
+          "reason": "Evergreen, not accelerating",
+          "confidence": "low",
+          "evidence_link_ids": []
+        },
+        "target_fit": {
+          "score": 16,
+          "max": 20,
+          "reason": "Every student faces textbook costs",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "content_potential": {
+          "score": 12,
+          "max": 15,
+          "reason": "How-to/checklist format",
+          "confidence": "medium",
+          "evidence_link_ids": []
+        },
+        "source_diversity": {
+          "score": 6,
+          "max": 10,
+          "reason": "Research aggregator + campus news",
+          "confidence": "medium",
+          "evidence_link_ids": []
+        },
+        "evidence_quality": {
+          "score": 12,
+          "max": 15,
+          "reason": "College Board data is reliable",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "risk_penalty": {
+          "score": 0,
+          "reason": "Consumer tips — no risk",
+          "evidence_link_ids": []
+        }
+      },
+      "content_angle": "66.6% of students skip buying textbooks: here's how to get every textbook you need for free using OER, libraries, and legal alternatives",
+      "expected_reaction": "",
+      "risk_level": "low",
+      "avoid": []
+    },
+    {
+      "rank": 10,
+      "topic_id": "tp_110",
+      "cluster_id": "cl_108",
+      "topic": "Gen Z Is Searching for Scholarships on TikTok — Experts Say There's a Better Way",
+      "category": "student_finance",
+      "is_ai_related": false,
+      "selection_rubric": {
+        "self_relevance": {
+          "score": 5,
+          "rationale": "Every student wants scholarship money"
+        },
+        "comparison_potential": {
+          "score": 3,
+          "rationale": "TikTok vs official channels"
+        },
+        "decision_usefulness": {
+          "score": 5,
+          "rationale": "Redirects to better resources"
+        },
+        "share_trigger": {
+          "score": 4,
+          "rationale": "'Wait you can find scholarships on TikTok?' novelty"
+        },
+        "comment_trigger": {
+          "score": 3,
+          "rationale": "Less debate-worthy"
+        },
+        "format_strength": {
+          "score": 4,
+          "rationale": "Do's and Don'ts"
+        },
+        "freshness": {
+          "score": 4,
+          "rationale": "CNBC + IHE April 2026"
+        },
+        "evidence_availability": {
+          "score": 4,
+          "rationale": "Two strong outlets"
+        }
+      },
+      "total_score": 65,
+      "confidence": "medium",
+      "needs_verification": false,
+      "editor_decision": "monitor",
+      "score_summary": "32/40 rubric. Interesting behavioral trend. Never covered before.",
+      "ranking_reason": "Ranks #10 — interesting but lower engagement potential than others. Good supplementary content.",
+      "sources": [
+        {
+          "id": "src_021",
+          "source_name": "CNBC",
+          "source_type": "education_news",
+          "platform": "education_news",
+          "title": "Gen Z college students are looking for scholarships on TikTok",
+          "url": "https://www.cnbc.com/2026/04/22/gen-z-students-scholarships-tiktok.html",
+          "published_at": "2026-04-22",
+          "retrieved_at": "2026-06-23T02:00:00Z",
+          "summary": "Gen Z using TikTok for financial aid info",
+          "category": "student_finance",
+          "region": "US",
+          "relevance": "Behavioral trend",
+          "reliability": "CNBC",
+          "usable_for_ranking": true
+        },
+        {
+          "id": "src_022",
+          "source_name": "Inside Higher Ed",
+          "source_type": "education_news",
+          "platform": "education_news",
+          "title": "Students Turning to TikTok to Find Scholarships",
+          "url": "https://www.insidehighered.com/news/students/financial-aid/2026/04/14/students-turning-tiktok-find-scholarships",
+          "published_at": "2026-04-14",
+          "retrieved_at": "2026-06-23T02:00:00Z",
+          "summary": "Education analysis of the trend",
+          "category": "student_finance",
+          "region": "US",
+          "relevance": "Education coverage",
+          "reliability": "Top publication",
+          "usable_for_ranking": true
+        }
+      ],
+      "score_breakdown": {
+        "buzz": {
+          "score": 12,
+          "max": 25,
+          "reason": "Covered but not viral",
+          "confidence": "medium",
+          "evidence_link_ids": []
+        },
+        "velocity": {
+          "score": 7,
+          "max": 15,
+          "reason": "April reports",
+          "confidence": "low",
+          "evidence_link_ids": []
+        },
+        "target_fit": {
+          "score": 15,
+          "max": 20,
+          "reason": "Scholarship-seeking students",
+          "confidence": "medium",
+          "evidence_link_ids": []
+        },
+        "content_potential": {
+          "score": 10,
+          "max": 15,
+          "reason": "Informational",
+          "confidence": "medium",
+          "evidence_link_ids": []
+        },
+        "source_diversity": {
+          "score": 6,
+          "max": 10,
+          "reason": "CNBC + IHE",
+          "confidence": "medium",
+          "evidence_link_ids": []
+        },
+        "evidence_quality": {
+          "score": 11,
+          "max": 15,
+          "reason": "Two strong outlets",
+          "confidence": "medium",
+          "evidence_link_ids": []
+        },
+        "risk_penalty": {
+          "score": 0,
+          "reason": "No risk",
+          "evidence_link_ids": []
+        }
+      },
+      "content_angle": "TikTok vs FAFSA: where Gen Z looks for scholarships and what they're missing",
+      "expected_reaction": "",
+      "risk_level": "low",
+      "avoid": []
+    }
+  ],
+  "ranking_notes": {
+    "excluded_topics": [
+      "SAVE Plan July 1 — covered 6/19 #3 and 6/22 #5",
+      "Salary expectations gap — covered 6/19 #1",
+      "Tuition $95K — covered 6/19 #5",
+      "Internship ghosting — covered 6/22 #1",
+      "AI detection — covered 6/19 #2 and 6/22 #2 (3 days running)",
+      "Side hustles — covered 6/19 #7",
+      "Student loneliness — covered 6/19 #6 and 6/22 #8",
+      "Harvard deficit — covered 6/22 #7",
+      "Auto-pay rate cut — part of student loan theme, covered multiple days"
+    ],
+    "topics_needing_more_sources": [
+      "Skills-based hiring (#7) — 70% stat varies by methodology"
+    ],
+    "strongest_content_opportunities": [
+      "Major Regret Ranking (#1) — proven format, zero overlap",
+      "Workforce Pell Grants (#2) — July 1 urgency, totally new",
+      "Mandatory Meal Plans (#3) — universal freshman pain point"
+    ]
+  }
+}

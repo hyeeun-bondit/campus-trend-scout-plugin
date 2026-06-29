@@ -1,0 +1,82 @@
+# Daily US & Canada Campus Trend Brief
+Date: 2026-06-29 | Region: US, Canada | Signals: 44 | Clusters: 18 | Ranked topics: 17
+
+## Today's One-Line Call
+Make the "weird real college classes" carousel first: it's the only topic today with zero overlap, zero risk, and a built-in "is this seriously real" hook that travels on its own.
+
+## Make These 3 Today
+
+### 1. Unexpected real college classes
+Priority: Very high
+Angle: reversal + tag-a-friend
+Target: all college students, especially undecided/incoming freshmen browsing major options
+Hook: "Is this seriously a real college class?"
+Evidence: Cornell offers a tree-climbing course, Pepperdine gives credit for surfing, Penn State runs an ice cream science program — all verified, currently listed courses.
+Title candidates: "Wait, this is a real class?" / "Your tuition pays for tree-climbing somewhere" / "5 classes you didn't know existed"
+Slides: cover (is this seriously real?) → Cornell tree-climbing → Pepperdine surfing → Penn State ice cream science → one more wildcard → CTA (does your school have one?)
+Comment prompt: "Does your school have anything this weird?"
+Expected reaction: agree side floods with their own school's weird classes; skeptical side asks for proof — both drive comments.
+Caution: keep it celebratory, not mocking — no joke at any specific school's expense.
+
+### 2. Roommate/dorm anxiety, with an actual first-message script
+Priority: High
+Angle: comfort + checklist
+Target: incoming freshmen and sophomores about to room with someone new
+Hook: "People who couldn't sleep after their roommate match"
+Evidence: multiple College Confidential threads show the same panic from both freshmen and returning sophomores, with users specifically asking what to text first rather than asking for general advice.
+Title candidates: "You're not the only one panicking about your roommate" / "What do you even text a stranger you're about to live with?" / "Roommate anxiety, solved in 2 messages"
+Slides: cover → why everyone feels this → message template 1 → message template 2 → what actually helped past students → CTA (meet your future roommate on IGOTIN first)
+Comment prompt: "What did you actually text your roommate first?"
+Expected reaction: high comfort/relate comments, some sharing their own opening message as proof it worked.
+Caution: normalize the anxiety, don't frame it as a diagnosable condition — keep tone supportive, not clinical.
+
+### 3. City-by-city student cost comparison (NYC / Bay Area / Toronto)
+Priority: High
+Angle: comparison + save-for-later
+Target: students choosing where to live this fall, especially transfers and incoming students picking apartments
+Hook: "Same school year, totally different budgets"
+Evidence: a published 2026 cost-of-living guide puts NYC student budgets at roughly $2,500–$5,500/month; Bay Area and Toronto creator content shows comparable rent pressure with different specifics.
+Title candidates: "What a month in NYC actually costs a student" / "Bay Area rent will shock you" / "Pick your city, pick your budget"
+Slides: cover → NYC monthly breakdown → Bay Area rent reality → Toronto cost overview → one saving tip → CTA (what's your city?)
+Comment prompt: "How much does your city actually cost you a month?"
+Expected reaction: high save rate, comment thread turns into a crowd-sourced cost comparison.
+Caution: cite the guide's time frame in caption since living costs shift fast.
+
+## On Deck (next candidates, title only)
+- Princeton Review "Happiest Students" ranking, TCU #1 — strong comment-debate potential
+- US vs Canada international student cost comparison — decision-useful, differentiated from prior visa-policy coverage
+- LGBTQ+ friendly college rankings
+- Move-in day checklist
+- July 1 federal loan repayment changes (4th appearance this month — needs a clearly new angle, e.g. RAP plan + FAFSA phishing warning)
+- US News 2026 ranking methodology change
+- Major regret stats reframed around internship-as-prevention (reuses a stat already covered 2026-06-23 — needs the internship data to feel new)
+
+## Exclude or Monitor
+- AI use/cheating debate — covered 2026-06-19, 06-22, 06-23 already; topic_history notes call for a 5-day cooldown before reuse. Holding back today despite strong evidence.
+- International student visa anxiety + school support systems — medium risk, must stay structural/policy-framed, never about an individual case, no meme tone. Monitor only.
+- Free AI tool rollout for students — single source, thin angle, monitor for wider coverage.
+- Class of 2026 school-specific threads, dorm/campus tour clips, graduation content — too thin on evidence or off-season; revisit with more sources or in the right season.
+- Generic composite "Top 10 Best Universities" rankings — excluded per standing rule; only themed/methodology rankings were kept.
+
+## Source & Risk Notes
+Reddit returned zero accessible posts today (platform-level block on both WebSearch and Chrome MCP); College Confidential was used as the documented substitute for community-post coverage, per standing instruction. TikTok signals were collected via Chrome MCP; X/Twitter and Threads via WebSearch with domain restrictions. All URLs below were verified directly, none invented.
+
+Sources by topic: Unexpected classes — https://kdcollegeprep.com/20-spooky-weird-college-classes/ , https://www.foxnews.com/lifestyle/wild-wacky-college-classes-america
+Roommate anxiety — https://talk.collegeconfidential.com/t/scared-about-living-with-a-new-roommate-i-have-severe-anxiety/1925103 , https://talk.collegeconfidential.com/t/having-serious-anxiety-about-sharing-a-dorm-again-sophomore/2062089 , https://www.tiktok.com/@elin.rowe/video/7652375593027259662
+City cost comparison — https://fllat.com/blog/new-york-city/cost-of-living-for-students-in-new-york-city-2026-budget-breakdown , https://www.tiktok.com/@lillianzhang_/video/7119636746463169838 , https://www.tiktok.com/@cbctoronto/video/7542572481354272006
+Happiest students ranking — https://www.princetonreview.com/college-rankings/?rankings=happiest-students
+US vs Canada cost — https://www.mtfxgroup.com/post/cost-of-studying-in-the-us-for-canadian-students-a-complete-guide/ , https://www.tiktok.com/@canadatipss/video/7655015924306627861
+LGBTQ+ friendly colleges — https://www.bestcolleges.com/resources/best-colleges-for-lgbt-students/ , https://www.collegevaluesonline.com/lgbtq-college-progress/
+Move-in checklist — https://www.tiktok.com/@ava.talks.too.much/video/7656465560267394317 , https://talk.collegeconfidential.com/t/freshman-move-in-day-in-3-weeks-any-advice-or-questions/1729940
+July 1 loan changes — https://x.com/CNBC/status/2060371723841605865 , https://x.com/USATODAY/status/2061784935254393029 , https://x.com/Forbes/status/2031535622209548301 , https://thecollegeinvestor.com/82017/this-week-in-college-and-money-news-june-12-2026/
+US News methodology — https://www.usnews.com/best-colleges/rankings/national-universities
+Major regret + internship — https://www.academicjobs.com/higher-education-news/most-regretted-college-majors-2026-poli-sci-tops-list-or-academicjobs-14286 , https://www.cbsnews.com/news/college-major-recent-grads-most-regret-ziprecruiter/ , https://www.insidehighered.com/news/student-success/life-after-college/2025/02/21/12-college-students-wont-participate-internship
+School-specific threads — https://talk.collegeconfidential.com/t/uc-san-diego-freshman-class-of-2026-discussion/3553421 , https://talk.collegeconfidential.com/t/uc-irvine-freshman-class-of-2026-discussion/3553322
+AI tool free rollout — https://x.com/sundarpichai/status/1953124372480180550
+Visa anxiety — https://www.threads.net/@economictimes/post/DIOYmz0O-xX/-growing-concerns-arise-as-international-students-face-silent-deportations-and-v , https://www.threads.net/@utulsa/post/DHHSexhCIEq/the-university-of-tulsa-is-home-to-410-international-students-from-80-different-
+Dorm/campus clips — https://www.tiktok.com/@storagescholars/video/7636171145955249439 , https://www.tiktok.com/@unioncollege/video/7652048340925926687
+Graduation content — https://www.tiktok.com/@mianguyen.__/photo/7630678697560902943
+AI use/cheating debate (held back) — https://news.berkeley.edu/2026/05/21/the-largest-study-of-ai-use-by-undergrads-is-in-revealing-disparities-in-access-and-in-cheating/ , https://www.bestcolleges.com/research/college-students-ai-tools-survey/ , https://x.com/CollegeFix/status/2056063159178596796
+TikTok rent reality clips (merge candidate into city cost comparison) — https://www.tiktok.com/@thetab_/video/7654244591855553814 , https://www.tiktok.com/@cbcns/video/7574412014089538823
+
+Risk notes: visa anxiety topic stays at monitor, not produce, due to sensitivity; loan-changes topic is its 4th appearance this month and needs a visibly different slide design from prior briefs to avoid audience fatigue.

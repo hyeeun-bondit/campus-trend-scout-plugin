@@ -1,0 +1,1153 @@
+{
+  "ranked_topic_batch_id": "rtb_2026-06-19_01",
+  "run_date": "2026-06-19",
+  "topics": [
+    {
+      "rank": 1,
+      "topic_id": "c2",
+      "cluster_id": "c2",
+      "topic": "Class of 2026 entry-level job market: hiring barely up, AI cutting into the bottom rung",
+      "category": "jobs & career",
+      "is_ai_related": false,
+      "selection_rubric": {
+        "self_relevance": {
+          "score": 5,
+          "rationale": "Directly affects every student about to graduate or job-hunt."
+        },
+        "comparison_potential": {
+          "score": 4,
+          "rationale": "Varies by employer size and by whether AI is displacing junior roles at big tech vs. smaller employers."
+        },
+        "decision_usefulness": {
+          "score": 5,
+          "rationale": "Informs how students plan their job search and where to focus applications."
+        },
+        "share_trigger": {
+          "score": 4,
+          "rationale": "Students job-hunting will want to send this to friends in the same boat."
+        },
+        "comment_trigger": {
+          "score": 4,
+          "rationale": "Invites 'how many applications have you sent' comparisons."
+        },
+        "format_strength": {
+          "score": 5,
+          "rationale": "Strong stat list / reality-check checklist format."
+        },
+        "freshness": {
+          "score": 5,
+          "rationale": "Current hiring season, directly tied to this year's graduating class."
+        },
+        "evidence_availability": {
+          "score": 5,
+          "rationale": "NACE official labor-market data plus CNBC and Entrepreneur corroboration."
+        }
+      },
+      "total_score": 90,
+      "confidence": "high",
+      "needs_verification": false,
+      "editor_decision": "produce_today",
+      "score_summary": "Strongest topic of the day: high self-relevance, strong multi-source data, directly tied to a decision students are making right now.",
+      "ranking_reason": "Ranks #1 for combining the highest decision-usefulness and evidence quality with multi-outlet corroboration (NACE + CNBC + Entrepreneur).",
+      "sources": [
+        {
+          "id": "src_004",
+          "source_name": "NACE (National Association of Colleges and Employers)",
+          "source_type": "education_news",
+          "platform": "other",
+          "title": "Hiring Flat for the College Class of 2026",
+          "url": "https://www.naceweb.org/job-market/trends-and-predictions/hiring-flat-for-the-college-class-of-2026",
+          "published_at": "2026",
+          "retrieved_at": "2026-06-19",
+          "summary": "5.6% projected hiring growth; 45% of employers rate market 'fair', worst since 2020-21.",
+          "category": "jobs & career",
+          "region": "US",
+          "relevance": "Primary labor-market data.",
+          "reliability": "Industry-standard association data.",
+          "usable_for_ranking": true
+        },
+        {
+          "id": "src_005",
+          "source_name": "CNBC Select",
+          "source_type": "education_news",
+          "platform": "other",
+          "title": "By the Numbers: What the class of 2026 job market actually looks like, and where AI fits in",
+          "url": "https://www.cnbc.com/select/class-of-2026-hiring-stats-and-ai-trends/",
+          "published_at": "2026",
+          "retrieved_at": "2026-06-19",
+          "summary": "Entry-level postings down 6-7% YoY; AI linked to 25% drop in recent-grad hiring at major tech firms.",
+          "category": "jobs & career",
+          "region": "US",
+          "relevance": "Quantifies AI's role in the hiring slowdown.",
+          "reliability": "Major business outlet.",
+          "usable_for_ranking": true
+        },
+        {
+          "id": "src_006",
+          "source_name": "Entrepreneur",
+          "source_type": "education_news",
+          "platform": "other",
+          "title": "New College Graduates Face One of the Toughest Job Markets in Years",
+          "url": "https://www.entrepreneur.com/business-news/new-college-graduates-face-toughest-entry-level-job-market-in-years",
+          "published_at": "2026",
+          "retrieved_at": "2026-06-19",
+          "summary": "Grads describe 100+ applications without a single interview.",
+          "category": "jobs & career",
+          "region": "US",
+          "relevance": "Lived-experience color.",
+          "reliability": "Established outlet, named anecdotes.",
+          "usable_for_ranking": true
+        }
+      ],
+      "score_breakdown": {
+        "buzz": {
+          "score": 22,
+          "max": 25,
+          "reason": "Widely felt anxiety among graduating seniors right now.",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "velocity": {
+          "score": 12,
+          "max": 15,
+          "reason": "Ongoing hiring-season news cycle.",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "target_fit": {
+          "score": 19,
+          "max": 20,
+          "reason": "Nearly universal relevance to upperclassmen/grads.",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "content_potential": {
+          "score": 14,
+          "max": 15,
+          "reason": "Strong stat-driven checklist/reality-check format.",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "source_diversity": {
+          "score": 9,
+          "max": 10,
+          "reason": "Three independent outlets (NACE, CNBC, Entrepreneur).",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "evidence_quality": {
+          "score": 14,
+          "max": 15,
+          "reason": "Includes primary industry-association data.",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "risk_penalty": {
+          "score": 0,
+          "reason": "No sensitive content.",
+          "evidence_link_ids": []
+        }
+      },
+      "content_angle": "Reality check: what the Class of 2026 job hunt actually looks like, in numbers",
+      "expected_reaction": "Validation/relief from students already struggling, plus practical 'where do I even apply' discussion.",
+      "risk_level": "low",
+      "avoid": [
+        "Don't imply AI alone is to blame; growth is also concentrated at smaller employers."
+      ]
+    },
+    {
+      "rank": 2,
+      "topic_id": "c1",
+      "cluster_id": "c1",
+      "topic": "Students use AI everywhere but don't trust it, and worry it's killing their job prospects",
+      "category": "AI & academics",
+      "is_ai_related": true,
+      "selection_rubric": {
+        "self_relevance": {
+          "score": 5,
+          "rationale": "Nearly every student uses AI tools for coursework."
+        },
+        "comparison_potential": {
+          "score": 4,
+          "rationale": "Usage/cheating rates vary by school system and discipline."
+        },
+        "decision_usefulness": {
+          "score": 4,
+          "rationale": "Informs how students think about disclosing/limiting AI use academically."
+        },
+        "share_trigger": {
+          "score": 4,
+          "rationale": "Relatable 'we all do this' admission."
+        },
+        "comment_trigger": {
+          "score": 5,
+          "rationale": "Cheating-line debate is highly comment-baiting ('where's the line?')."
+        },
+        "format_strength": {
+          "score": 4,
+          "rationale": "Good Myth vs Reality format."
+        },
+        "freshness": {
+          "score": 5,
+          "rationale": "Multiple 2026 surveys just released."
+        },
+        "evidence_availability": {
+          "score": 5,
+          "rationale": "Three independent large-sample surveys."
+        }
+      },
+      "total_score": 91,
+      "confidence": "high",
+      "needs_verification": false,
+      "editor_decision": "produce_today",
+      "score_summary": "Near-universal AI use paired with high distrust and job-security fear, backed by three large surveys.",
+      "ranking_reason": "Edges out #1 on raw evidence/source count but ranks #2 because the job-market topic has a more concrete, immediate decision hook.",
+      "sources": [
+        {
+          "id": "src_001",
+          "source_name": "EdSource",
+          "source_type": "education_news",
+          "platform": "education_news",
+          "title": "Cal State students widely use AI tools, but mistrust results and fear job impact",
+          "url": "https://edsource.org/2026/csu-students-widely-use-ai-tools-but-mistrust-results-and-fear-job-impact/754924",
+          "published_at": "2026-06",
+          "retrieved_at": "2026-06-19",
+          "summary": "95% of CSU respondents use AI; 84% ChatGPT; 82% worry about job security.",
+          "category": "AI & academics",
+          "region": "US",
+          "relevance": "Largest single data point.",
+          "reliability": "Education-beat outlet, named CSU survey.",
+          "usable_for_ranking": true
+        },
+        {
+          "id": "src_002",
+          "source_name": "KPBS Public Media",
+          "source_type": "education_news",
+          "platform": "education_news",
+          "title": "Survey finds widespread use, mixed feelings about AI among San Diego college students",
+          "url": "https://www.kpbs.org/news/education/2026/04/10/survey-finds-widespread-use-mixed-feelings-about-ai-among-san-diego-college-students",
+          "published_at": "2026-04-10",
+          "retrieved_at": "2026-06-19",
+          "summary": "About 90% use ChatGPT; 80% express multiple AI-related concerns.",
+          "category": "AI & academics",
+          "region": "US",
+          "relevance": "Regional corroboration.",
+          "reliability": "Public broadcaster education desk.",
+          "usable_for_ranking": true
+        },
+        {
+          "id": "src_003",
+          "source_name": "University of California News",
+          "source_type": "official_university",
+          "platform": "official_university",
+          "title": "The largest study of AI use by undergrads is in",
+          "url": "https://www.universityofcalifornia.edu/news/largest-study-ai-use-undergrads-revealing-disparities-access-and-cheating",
+          "published_at": "2026",
+          "retrieved_at": "2026-06-19",
+          "summary": "About two-thirds use GenAI; 9%+ admit cheating; access disparities by income.",
+          "category": "AI & academics",
+          "region": "US",
+          "relevance": "Largest-scale study, cheating and access angle.",
+          "reliability": "University system's own news service.",
+          "usable_for_ranking": true
+        }
+      ],
+      "score_breakdown": {
+        "buzz": {
+          "score": 23,
+          "max": 25,
+          "reason": "AI-in-school is a constant hot topic among students.",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "velocity": {
+          "score": 13,
+          "max": 15,
+          "reason": "Multiple fresh 2026 surveys released within months of each other.",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "target_fit": {
+          "score": 19,
+          "max": 20,
+          "reason": "Applies to virtually all students using AI for coursework.",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "content_potential": {
+          "score": 13,
+          "max": 15,
+          "reason": "Strong myth-vs-reality framing potential.",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "source_diversity": {
+          "score": 9,
+          "max": 10,
+          "reason": "Three distinct institutions/outlets (CSU, San Diego regional, UC).",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "evidence_quality": {
+          "score": 14,
+          "max": 15,
+          "reason": "Large sample sizes, one directly from a university system.",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "risk_penalty": {
+          "score": 0,
+          "reason": "Must avoid implying all AI use is cheating, but base topic is not high-risk.",
+          "evidence_link_ids": []
+        }
+      },
+      "content_angle": "Myth vs Reality: 'AI helps me study' vs '82% of us are scared it's killing our job chances'",
+      "expected_reaction": "Recognition/relatability plus debate over where 'help' ends and 'cheating' begins.",
+      "risk_level": "low",
+      "avoid": [
+        "Don't frame all AI use as cheating.",
+        "Don't single out one discipline as the worst offender."
+      ]
+    },
+    {
+      "rank": 3,
+      "topic_id": "c3",
+      "cluster_id": "c3",
+      "topic": "Student loan system overhaul July 1, plus record default numbers",
+      "category": "student debt",
+      "is_ai_related": false,
+      "selection_rubric": {
+        "self_relevance": {
+          "score": 5,
+          "rationale": "Affects nearly every federal borrower's repayment plan choice."
+        },
+        "comparison_potential": {
+          "score": 3,
+          "rationale": "Impact varies by current repayment plan and loan type."
+        },
+        "decision_usefulness": {
+          "score": 5,
+          "rationale": "Students/borrowers must actively choose a new repayment plan very soon."
+        },
+        "share_trigger": {
+          "score": 3,
+          "rationale": "Practical enough to forward to anyone with federal loans."
+        },
+        "comment_trigger": {
+          "score": 3,
+          "rationale": "Could prompt frustration/venting in comments."
+        },
+        "format_strength": {
+          "score": 4,
+          "rationale": "Strong checklist format ('what changes July 1')."
+        },
+        "freshness": {
+          "score": 5,
+          "rationale": "Policy takes effect July 1, 2026 — imminent."
+        },
+        "evidence_availability": {
+          "score": 5,
+          "rationale": "Bloomberg, CBS News, and NPR all independently reporting the same policy change."
+        }
+      },
+      "total_score": 87,
+      "confidence": "high",
+      "needs_verification": false,
+      "editor_decision": "produce_today",
+      "score_summary": "Imminent, high-stakes policy change with strong multi-outlet sourcing.",
+      "ranking_reason": "Ranks #3: equally well-sourced as #1/#2 but slightly narrower share/comment-trigger potential since it's more utilitarian than relatable.",
+      "sources": [
+        {
+          "id": "src_007",
+          "source_name": "Bloomberg",
+          "source_type": "education_news",
+          "platform": "other",
+          "title": "US Student Loan Defaults Reach 9.2 Million as Collections Resume",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-18/student-loan-defaults-rise-to-9-2-million-amid-trumps-crackdown",
+          "published_at": "2026-06-18",
+          "retrieved_at": "2026-06-19",
+          "summary": "Record 9.16M in default; 20% of 43M federal borrowers 1+ year behind.",
+          "category": "student debt",
+          "region": "US",
+          "relevance": "Scale of the default crisis.",
+          "reliability": "Major financial-news wire.",
+          "usable_for_ranking": true
+        },
+        {
+          "id": "src_008",
+          "source_name": "CBS News",
+          "source_type": "education_news",
+          "platform": "other",
+          "title": "A major student loan overhaul takes effect July 1.",
+          "url": "https://www.cbsnews.com/news/student-loan-changes-july-2026/",
+          "published_at": "2026-06-15",
+          "retrieved_at": "2026-06-19",
+          "summary": "Several federal repayment plans eliminated; Grad PLUS ended; Parent PLUS capped for undergrads.",
+          "category": "student debt",
+          "region": "US",
+          "relevance": "Direct near-term policy change.",
+          "reliability": "National consumer-finance desk.",
+          "usable_for_ranking": true
+        },
+        {
+          "id": "src_009",
+          "source_name": "NPR",
+          "source_type": "education_news",
+          "platform": "other",
+          "title": "Guide: Student loan options change July 1.",
+          "url": "https://www.npr.org/2026/06/10/nx-s1-5835633/student-loans-guide-education-changes-repayment-plan",
+          "published_at": "2026-06-10",
+          "retrieved_at": "2026-06-19",
+          "summary": "Walks through new, more limited repayment-plan choices after July 1, 2026.",
+          "category": "student debt",
+          "region": "US",
+          "relevance": "Practical explainer.",
+          "reliability": "National public radio news desk.",
+          "usable_for_ranking": true
+        }
+      ],
+      "score_breakdown": {
+        "buzz": {
+          "score": 20,
+          "max": 25,
+          "reason": "High stakes but more niche than job-market/AI topics.",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "velocity": {
+          "score": 13,
+          "max": 15,
+          "reason": "Deadline-driven, imminent July 1 effective date.",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "target_fit": {
+          "score": 18,
+          "max": 20,
+          "reason": "Applies to the large share of students/grads with federal loans.",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "content_potential": {
+          "score": 13,
+          "max": 15,
+          "reason": "Strong checklist potential.",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "source_diversity": {
+          "score": 9,
+          "max": 10,
+          "reason": "Three major independent outlets.",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "evidence_quality": {
+          "score": 14,
+          "max": 15,
+          "reason": "Multiple corroborating reports on the same policy facts.",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "risk_penalty": {
+          "score": 0,
+          "reason": "Policy/finance topic, not personally sensitive.",
+          "evidence_link_ids": []
+        }
+      },
+      "content_angle": "Checklist: what changes for your student loan on July 1",
+      "expected_reaction": "Concern and practical questions about which repayment plan to pick.",
+      "risk_level": "low",
+      "avoid": [
+        "Don't give specific personalized loan advice; keep to general policy facts."
+      ]
+    },
+    {
+      "rank": 4,
+      "topic_id": "c4",
+      "cluster_id": "c4",
+      "topic": "Canada tightens the door on international students while easing work rules for those already in",
+      "category": "international students",
+      "is_ai_related": false,
+      "selection_rubric": {
+        "self_relevance": {
+          "score": 5,
+          "rationale": "Core issue for the international/Canadian-bound student audience."
+        },
+        "comparison_potential": {
+          "score": 4,
+          "rationale": "Before/after framing across 2024-2026 permit numbers."
+        },
+        "decision_usefulness": {
+          "score": 5,
+          "rationale": "Directly affects study-abroad and work-while-studying decisions."
+        },
+        "share_trigger": {
+          "score": 4,
+          "rationale": "International applicants will want to send this to peers."
+        },
+        "comment_trigger": {
+          "score": 4,
+          "rationale": "Likely to draw comparisons with US visa policy."
+        },
+        "format_strength": {
+          "score": 4,
+          "rationale": "Before/After format works well."
+        },
+        "freshness": {
+          "score": 4,
+          "rationale": "2026 cap figures and April 2026 rule change are recent."
+        },
+        "evidence_availability": {
+          "score": 5,
+          "rationale": "Official IRCC notice plus two independent news outlets."
+        }
+      },
+      "total_score": 82,
+      "confidence": "high",
+      "needs_verification": false,
+      "editor_decision": "produce_today",
+      "score_summary": "Well-sourced, high-stakes topic but narrower audience (international/Canada-bound students) than the top three.",
+      "ranking_reason": "Ranks #4: strong evidence and decision relevance, but audience size is smaller than the broad US-wide topics above it.",
+      "sources": [
+        {
+          "id": "src_010",
+          "source_name": "CIC News",
+          "source_type": "education_news",
+          "platform": "other",
+          "title": "Canada moves to expand work authorization for international students and graduates",
+          "url": "https://www.cicnews.com/2026/04/canada-moves-to-expand-work-authorization-for-international-students-and-graduates-0473917.html",
+          "published_at": "2026-04",
+          "retrieved_at": "2026-06-19",
+          "summary": "Co-op work permit no longer required as of April 1, 2026.",
+          "category": "international students",
+          "region": "Canada",
+          "relevance": "Practical work-rule change.",
+          "reliability": "Specialist Canadian immigration-news outlet.",
+          "usable_for_ranking": true
+        },
+        {
+          "id": "src_011",
+          "source_name": "Global News",
+          "source_type": "education_news",
+          "platform": "other",
+          "title": "Canada's international student enrolment down to pandemic levels: StatCan",
+          "url": "https://globalnews.ca/news/11831414/canada-international-student-enrolment/",
+          "published_at": "2026",
+          "retrieved_at": "2026-06-19",
+          "summary": "Enrolment fallen back to pandemic-era levels amid tightened caps.",
+          "category": "international students",
+          "region": "Canada",
+          "relevance": "Macro enrolment trend.",
+          "reliability": "Major Canadian outlet citing StatCan.",
+          "usable_for_ranking": true
+        },
+        {
+          "id": "src_012",
+          "source_name": "Government of Canada (IRCC)",
+          "source_type": "official_university",
+          "platform": "other",
+          "title": "2026 provincial and territorial allocations under the international student cap",
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/news/notices/2026-provincial-territorial-allocations-under-international-student-cap.html",
+          "published_at": "2025-11-25",
+          "retrieved_at": "2026-06-19",
+          "summary": "408,000 study permits in 2026 (155,000 new, 253,000 extensions).",
+          "category": "international students",
+          "region": "Canada",
+          "relevance": "Official cap numbers.",
+          "reliability": "Primary government source.",
+          "usable_for_ranking": true
+        }
+      ],
+      "score_breakdown": {
+        "buzz": {
+          "score": 18,
+          "max": 25,
+          "reason": "High relevance within its audience, smaller overall reach than US-wide topics.",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "velocity": {
+          "score": 11,
+          "max": 15,
+          "reason": "Rolling policy story rather than a single sharp news spike.",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "target_fit": {
+          "score": 17,
+          "max": 20,
+          "reason": "Very high fit for international/Canadian students, lower for general US audience.",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "content_potential": {
+          "score": 13,
+          "max": 15,
+          "reason": "Strong before/after numbers.",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "source_diversity": {
+          "score": 9,
+          "max": 10,
+          "reason": "Official government source plus two independent outlets.",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "evidence_quality": {
+          "score": 14,
+          "max": 15,
+          "reason": "Primary government data anchors the claims.",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "risk_penalty": {
+          "score": 0,
+          "reason": "Policy topic, no personal-risk framing.",
+          "evidence_link_ids": []
+        }
+      },
+      "content_angle": "Before/After: what changed for international students in Canada in 2026",
+      "expected_reaction": "Relief over the work-permit simplification, frustration over the tighter intake cap.",
+      "risk_level": "low",
+      "avoid": [
+        "Don't conflate Canada's cap policy with the separate US visa-screening story."
+      ]
+    },
+    {
+      "rank": 5,
+      "topic_id": "c6",
+      "cluster_id": "c6",
+      "topic": "Rising tuition meets a widening pay gap between majors",
+      "category": "student finances",
+      "is_ai_related": false,
+      "selection_rubric": {
+        "self_relevance": {
+          "score": 4,
+          "rationale": "Relevant to anyone choosing or reconsidering a major."
+        },
+        "comparison_potential": {
+          "score": 5,
+          "rationale": "Direct major-by-major salary comparison."
+        },
+        "decision_usefulness": {
+          "score": 4,
+          "rationale": "Feeds into major-choice and cost-benefit thinking."
+        },
+        "share_trigger": {
+          "score": 3,
+          "rationale": "Useful to send to someone debating a major change."
+        },
+        "comment_trigger": {
+          "score": 3,
+          "rationale": "Could draw 'my major isn't about money' pushback."
+        },
+        "format_strength": {
+          "score": 5,
+          "rationale": "Ranking/comparison-table format fits perfectly."
+        },
+        "freshness": {
+          "score": 3,
+          "rationale": "Annual-cadence data, not a single breaking event."
+        },
+        "evidence_availability": {
+          "score": 4,
+          "rationale": "Two reputable but estimate-based data sources."
+        }
+      },
+      "total_score": 67,
+      "confidence": "medium",
+      "needs_verification": false,
+      "editor_decision": "produce_if_needed",
+      "score_summary": "Solid comparison content but built on annual/estimate-style data rather than breaking news.",
+      "ranking_reason": "Ranks #5: strong format fit but lower freshness and narrower source base than the top four.",
+      "sources": [
+        {
+          "id": "src_017",
+          "source_name": "EducationData.org",
+          "source_type": "education_news",
+          "platform": "education_news",
+          "title": "College Tuition Inflation: Rate Increase Statistics",
+          "url": "https://educationdata.org/college-tuition-inflation-rate",
+          "published_at": "2026",
+          "retrieved_at": "2026-06-19",
+          "summary": "2026-27 tuition projected up ~3.25% overall, ~2.3% at 4-year schools.",
+          "category": "student finances",
+          "region": "US",
+          "relevance": "Baseline cost-of-college data.",
+          "reliability": "Aggregates IPEDS/federal sources.",
+          "usable_for_ranking": true
+        },
+        {
+          "id": "src_018",
+          "source_name": "Research.com",
+          "source_type": "education_news",
+          "platform": "education_news",
+          "title": "2026 Highest-Paying College Majors",
+          "url": "https://research.com/degrees/highest-paying-college-majors",
+          "published_at": "2026",
+          "retrieved_at": "2026-06-19",
+          "summary": "Chemical/computer/aerospace engineering top median salaries; ~$1.9M lifetime gap between highest/lowest paying majors.",
+          "category": "major & career planning",
+          "region": "US",
+          "relevance": "By-major salary comparison.",
+          "reliability": "Education ranking site; figures are estimates.",
+          "usable_for_ranking": true
+        }
+      ],
+      "score_breakdown": {
+        "buzz": {
+          "score": 15,
+          "max": 25,
+          "reason": "Steady-interest topic, not a breaking news spike.",
+          "confidence": "medium",
+          "evidence_link_ids": []
+        },
+        "velocity": {
+          "score": 8,
+          "max": 15,
+          "reason": "Annual-style data refresh, not fast-moving.",
+          "confidence": "medium",
+          "evidence_link_ids": []
+        },
+        "target_fit": {
+          "score": 16,
+          "max": 20,
+          "reason": "Relevant mainly to students still choosing/reconsidering majors.",
+          "confidence": "medium",
+          "evidence_link_ids": []
+        },
+        "content_potential": {
+          "score": 12,
+          "max": 15,
+          "reason": "Great fit for ranking/table format.",
+          "confidence": "medium",
+          "evidence_link_ids": []
+        },
+        "source_diversity": {
+          "score": 6,
+          "max": 10,
+          "reason": "Only two sources, both data-aggregator sites.",
+          "confidence": "medium",
+          "evidence_link_ids": []
+        },
+        "evidence_quality": {
+          "score": 10,
+          "max": 15,
+          "reason": "Figures are estimates/projections, not hard survey data.",
+          "confidence": "medium",
+          "evidence_link_ids": []
+        },
+        "risk_penalty": {
+          "score": 0,
+          "reason": "Not sensitive.",
+          "evidence_link_ids": []
+        }
+      },
+      "content_angle": "Comparison: what your major is actually projected to cost vs. pay back",
+      "expected_reaction": "Curiosity about where one's own major ranks; some defensiveness from lower-earning majors.",
+      "risk_level": "low",
+      "avoid": [
+        "Don't frame any major as 'worthless'; salary estimates are not guarantees."
+      ]
+    },
+    {
+      "rank": 6,
+      "topic_id": "c7",
+      "cluster_id": "c7",
+      "topic": "Loneliness and burnout statistics behind viral 'bed rotting' coping habits",
+      "category": "mental health",
+      "is_ai_related": false,
+      "selection_rubric": {
+        "self_relevance": {
+          "score": 4,
+          "rationale": "Loneliness/burnout are widely reported among this age group."
+        },
+        "comparison_potential": {
+          "score": 3,
+          "rationale": "Some variation by identity group (e.g., LGBTQ+ students report higher loneliness)."
+        },
+        "decision_usefulness": {
+          "score": 2,
+          "rationale": "Awareness-raising more than decision-driving."
+        },
+        "share_trigger": {
+          "score": 4,
+          "rationale": "Relatable 'bed rotting' framing is highly shareable."
+        },
+        "comment_trigger": {
+          "score": 4,
+          "rationale": "Invites 'I do this too' responses."
+        },
+        "format_strength": {
+          "score": 3,
+          "rationale": "Works as a data-check format but requires careful, non-meme tone."
+        },
+        "freshness": {
+          "score": 3,
+          "rationale": "Based on research published earlier in 2026, not breaking news."
+        },
+        "evidence_availability": {
+          "score": 3,
+          "rationale": "Two sources, one a culture outlet summarizing Gallup-sourced data rather than a primary study."
+        }
+      },
+      "total_score": 26,
+      "confidence": "low",
+      "needs_verification": true,
+      "editor_decision": "monitor",
+      "score_summary": "Relatable and shareable, but evidence is secondhand and the topic is sensitive enough to require careful, non-meme handling — held for monitoring rather than immediate production.",
+      "ranking_reason": "Ranks #6: below the 28-point clean-recommend threshold; flagged for verification and a more cautious tone given the mental-health sensitivity.",
+      "sources": [
+        {
+          "id": "src_015",
+          "source_name": "Inside Higher Ed",
+          "source_type": "education_news",
+          "platform": "education_news",
+          "title": "5 Takeaways From Recent Research on Student Loneliness",
+          "url": "https://www.insidehighered.com/news/student-success/health-wellness/2026/03/04/5-takeaways-recent-research-student-loneliness",
+          "published_at": "2026-03-04",
+          "retrieved_at": "2026-06-19",
+          "summary": "60%+ of under-25 students feel lonely sometimes/always; 70%+ among LGBTQ+ students.",
+          "category": "mental health",
+          "region": "US",
+          "relevance": "Specialist higher-ed research summary.",
+          "reliability": "Named research findings with stats.",
+          "usable_for_ranking": true
+        },
+        {
+          "id": "src_016",
+          "source_name": "The Source",
+          "source_type": "education_news",
+          "platform": "other",
+          "title": "The Real Reason Gen Z Is Burning Out Before They Even Graduate",
+          "url": "https://thesource.com/2026/03/19/the-real-reason-gen-z-is-burning-out-before-they-even-graduate/",
+          "published_at": "2026-03-19",
+          "retrieved_at": "2026-06-19",
+          "summary": "Gen Z sleeps least of any generation at the same age; 55% try social-media stress habits, 24% specifically 'bed rot'.",
+          "category": "mental health",
+          "region": "US",
+          "relevance": "Ties burnout data to a viral coping behavior.",
+          "reliability": "Culture outlet citing Gallup-sourced data; treat 'bed rotting' figures as the outlet's own framing.",
+          "usable_for_ranking": true
+        }
+      ],
+      "score_breakdown": {
+        "buzz": {
+          "score": 14,
+          "max": 25,
+          "reason": "Relatable but secondhand sourcing limits confidence.",
+          "confidence": "low",
+          "evidence_link_ids": []
+        },
+        "velocity": {
+          "score": 9,
+          "max": 15,
+          "reason": "Not tied to a single fresh event.",
+          "confidence": "low",
+          "evidence_link_ids": []
+        },
+        "target_fit": {
+          "score": 14,
+          "max": 20,
+          "reason": "Broadly relevant but not universally decision-relevant.",
+          "confidence": "low",
+          "evidence_link_ids": []
+        },
+        "content_potential": {
+          "score": 9,
+          "max": 15,
+          "reason": "Needs careful, non-meme treatment given sensitivity.",
+          "confidence": "low",
+          "evidence_link_ids": []
+        },
+        "source_diversity": {
+          "score": 6,
+          "max": 10,
+          "reason": "Two sources, one secondhand.",
+          "confidence": "low",
+          "evidence_link_ids": []
+        },
+        "evidence_quality": {
+          "score": 8,
+          "max": 15,
+          "reason": "No primary study cited directly.",
+          "confidence": "low",
+          "evidence_link_ids": []
+        },
+        "risk_penalty": {
+          "score": -5,
+          "reason": "Mental-health adjacent topic requires cautious, non-sensationalized framing.",
+          "evidence_link_ids": []
+        }
+      },
+      "content_angle": "Data check: how common is loneliness/burnout really, and what's the most common coping habit",
+      "expected_reaction": "Recognition and relief that 'it's not just me', but requires careful non-meme tone.",
+      "risk_level": "medium",
+      "avoid": [
+        "No meme-friendly tone.",
+        "Don't frame bed rotting as a recommended coping strategy.",
+        "Don't conflate normal tiredness with clinical burnout/depression without nuance."
+      ]
+    },
+    {
+      "rank": 7,
+      "topic_id": "c5",
+      "cluster_id": "c5",
+      "topic": "Side hustles have shifted from a trend to a financial necessity for many students",
+      "category": "student finances",
+      "is_ai_related": false,
+      "selection_rubric": {
+        "self_relevance": {
+          "score": 4,
+          "rationale": "Many students already work part-time alongside classes."
+        },
+        "comparison_potential": {
+          "score": 2,
+          "rationale": "Single source doesn't break this down by school/region."
+        },
+        "decision_usefulness": {
+          "score": 3,
+          "rationale": "Touches budgeting decisions but lacks hard data to act on."
+        },
+        "share_trigger": {
+          "score": 3,
+          "rationale": "Relatable to working students."
+        },
+        "comment_trigger": {
+          "score": 3,
+          "rationale": "Could prompt 'what's your side hustle' discussion."
+        },
+        "format_strength": {
+          "score": 3,
+          "rationale": "Works as a relatable-quote format but lacks ranking/data hooks."
+        },
+        "freshness": {
+          "score": 3,
+          "rationale": "Published a few months ago, not breaking news."
+        },
+        "evidence_availability": {
+          "score": 2,
+          "rationale": "Single campus-news source; needs a national survey or labor-data point to strengthen it."
+        }
+      },
+      "total_score": 23,
+      "confidence": "low",
+      "needs_verification": true,
+      "editor_decision": "monitor",
+      "score_summary": "Relatable framing but currently resting on one student-journalism source; hold for monitoring until a stronger data source is found.",
+      "ranking_reason": "Ranks #7, lowest among the clean-data topics: single weak source caps confidence and total score below the clean-recommend threshold.",
+      "sources": [
+        {
+          "id": "src_014",
+          "source_name": "CCC Pulse (Community College journalism)",
+          "source_type": "campus_news",
+          "platform": "college_newspaper",
+          "title": "For Many Students, Side Hustles Are a Necessity",
+          "url": "https://ccpulse.org/2026/02/23/for-many-college-students-side-hustles-arent-a-trend-theyre-a-necessity/",
+          "published_at": "2026-02-23",
+          "retrieved_at": "2026-06-19",
+          "summary": "Student journalism piece arguing side hustles are now a financial necessity, not a lifestyle trend.",
+          "category": "student finances",
+          "region": "US",
+          "relevance": "Student-press grounding for the side-hustle storyline.",
+          "reliability": "Single student-press source; first-person framing.",
+          "usable_for_ranking": true
+        }
+      ],
+      "score_breakdown": {
+        "buzz": {
+          "score": 12,
+          "max": 25,
+          "reason": "Plausible but unconfirmed by a wider data source.",
+          "confidence": "low",
+          "evidence_link_ids": []
+        },
+        "velocity": {
+          "score": 7,
+          "max": 15,
+          "reason": "No fresh news event driving this.",
+          "confidence": "low",
+          "evidence_link_ids": []
+        },
+        "target_fit": {
+          "score": 13,
+          "max": 20,
+          "reason": "Relevant mainly to students already working part-time.",
+          "confidence": "low",
+          "evidence_link_ids": []
+        },
+        "content_potential": {
+          "score": 8,
+          "max": 15,
+          "reason": "Needs a stronger data hook to be a full card-news piece.",
+          "confidence": "low",
+          "evidence_link_ids": []
+        },
+        "source_diversity": {
+          "score": 3,
+          "max": 10,
+          "reason": "Only one source.",
+          "confidence": "low",
+          "evidence_link_ids": []
+        },
+        "evidence_quality": {
+          "score": 6,
+          "max": 15,
+          "reason": "Single-source, anecdote-led evidence.",
+          "confidence": "low",
+          "evidence_link_ids": []
+        },
+        "risk_penalty": {
+          "score": 0,
+          "reason": "Not sensitive.",
+          "evidence_link_ids": []
+        }
+      },
+      "content_angle": "Reality check: how many of us are actually working a side hustle just to get by",
+      "expected_reaction": "Recognition from working students; possible requests for a follow-up with harder numbers.",
+      "risk_level": "low",
+      "avoid": [
+        "Don't present the single-source claim as a confirmed national statistic."
+      ]
+    },
+    {
+      "rank": 11,
+      "topic_id": "c8",
+      "cluster_id": "c8",
+      "topic": "Common roommate red flags students report, in checklist form (not a single incident)",
+      "category": "dorm & roommate culture",
+      "is_ai_related": false,
+      "selection_rubric": {
+        "self_relevance": {
+          "score": 4,
+          "rationale": "Relevant to any student living with roommates, especially new students assigning roommates."
+        },
+        "comparison_potential": {
+          "score": 3,
+          "rationale": "Patterns vary by housing type (dorm vs. off-campus) but not strongly by school."
+        },
+        "decision_usefulness": {
+          "score": 3,
+          "rationale": "Can inform what to discuss before move-in (cleanliness, guests, allergies, shared costs)."
+        },
+        "share_trigger": {
+          "score": 4,
+          "rationale": "Highly relatable to send to a future roommate as a 'let's talk about this first' prompt."
+        },
+        "comment_trigger": {
+          "score": 4,
+          "rationale": "Invites 'add your own red flag' comments."
+        },
+        "format_strength": {
+          "score": 4,
+          "rationale": "Natural fit for a Red Flag Checklist format."
+        },
+        "freshness": {
+          "score": 2,
+          "rationale": "Not tied to a specific recent event; evergreen-leaning topic."
+        },
+        "evidence_availability": {
+          "score": 2,
+          "rationale": "Single roundup source; needs a survey or housing-office data point to strengthen it."
+        }
+      },
+      "total_score": 26,
+      "confidence": "low",
+      "needs_verification": true,
+      "editor_decision": "monitor",
+      "score_summary": "Relatable evergreen topic added to satisfy non-AI diversity at rank 11+, but currently under-sourced and must stay strictly in generalized-checklist form.",
+      "ranking_reason": "Ranks #11: added specifically as the non-AI counterpart required by the AI-topic diversity rule (1 AI topic at rank 2). Held to a generalized, non-incident-led checklist format because the underlying source includes an individual health-incident anecdote that must not be used as the lead or be identifiable.",
+      "sources": [
+        {
+          "id": "src_013_structural",
+          "source_name": "AOL (roommate horror-story roundup, used only for generalized patterns)",
+          "source_type": "education_news",
+          "platform": "other",
+          "title": "Roommate horror story roundup (used structurally, not incident-led)",
+          "url": "https://www.aol.com/lifestyle/roommate-horror-stories-college-students-shared",
+          "published_at": "2026",
+          "retrieved_at": "2026-06-19",
+          "summary": "Roundup of student-submitted roommate conflict stories; used here only to extract generalized red-flag categories (cleanliness, guests without notice, shared-cost disputes, undisclosed allergies/health needs), not to retell any single identifiable incident.",
+          "category": "dorm & roommate culture",
+          "region": "US",
+          "relevance": "Source of generalized roommate-conflict categories.",
+          "reliability": "Single roundup source; anecdote-based, requires generalized treatment only.",
+          "usable_for_ranking": true
+        }
+      ],
+      "score_breakdown": {
+        "buzz": {
+          "score": 13,
+          "max": 25,
+          "reason": "Evergreen relatability but not a fresh news spike.",
+          "confidence": "low",
+          "evidence_link_ids": []
+        },
+        "velocity": {
+          "score": 6,
+          "max": 15,
+          "reason": "No recent news event driving it.",
+          "confidence": "low",
+          "evidence_link_ids": []
+        },
+        "target_fit": {
+          "score": 14,
+          "max": 20,
+          "reason": "Relevant to students living with roommates, less so to others.",
+          "confidence": "low",
+          "evidence_link_ids": []
+        },
+        "content_potential": {
+          "score": 10,
+          "max": 15,
+          "reason": "Strong checklist format potential once generalized.",
+          "confidence": "low",
+          "evidence_link_ids": []
+        },
+        "source_diversity": {
+          "score": 3,
+          "max": 10,
+          "reason": "Single source.",
+          "confidence": "low",
+          "evidence_link_ids": []
+        },
+        "evidence_quality": {
+          "score": 6,
+          "max": 15,
+          "reason": "Anecdote-based roundup, not survey data.",
+          "confidence": "low",
+          "evidence_link_ids": []
+        },
+        "risk_penalty": {
+          "score": -5,
+          "reason": "Underlying source contains an individual health-incident anecdote; must be generalized and never lead with or identify the specific incident.",
+          "evidence_link_ids": []
+        }
+      },
+      "content_angle": "Red flag checklist: roommate conflict patterns to talk about before move-in",
+      "expected_reaction": "Recognition and 'add yours' comments; some students sharing their own (generalized) experiences.",
+      "risk_level": "medium",
+      "avoid": [
+        "Never retell the specific health-incident anecdote from the source.",
+        "No naming or identifying details.",
+        "Keep strictly in checklist/structural format, not story format.",
+        "No meme tone given the health/safety angle."
+      ]
+    }
+  ],
+  "ranking_notes": {
+    "excluded_topics": [],
+    "topics_needing_more_sources": [
+      "Side hustles as financial necessity (c5) — single campus-news source, needs a national survey or BLS-style data point to back it up.",
+      "Loneliness/burnout 'bed rotting' (c7) — two sources but one is a culture-outlet summary of Gallup-sourced data rather than the primary study; would benefit from the primary research report.",
+      "Roommate red flags checklist (c8) — single roundup source; needs a survey or housing-office data point, and must stay in generalized checklist form rather than incident-led."
+    ],
+    "strongest_content_opportunities": [
+      "Class of 2026 job market reality check (c2)",
+      "AI use vs AI distrust paradox (c1)",
+      "July 1 student loan overhaul checklist (c3)"
+    ]
+  }
+}

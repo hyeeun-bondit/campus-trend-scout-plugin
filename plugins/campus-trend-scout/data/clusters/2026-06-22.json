@@ -1,0 +1,263 @@
+{
+  "cluster_batch_id": "cb_2026-06-22_01",
+  "input_signal_batch_id": "sb_2026-06-22_01",
+  "cluster_count": 9,
+  "clusters": [
+    {
+      "cluster_id": "cl_001",
+      "topic": "2026 Internship Crisis & Entry-Level Job Disappearance",
+      "category": "career_jobs",
+      "summary": "Internship postings fell below 2019 levels with 109 avg applications per posting (273 in tech). 9.7% grad unemployment matches HS diploma holders. 35% of 'entry-level' jobs require 3+ years experience. 43% of grads underemployed.",
+      "source_ids": [
+        "src_005",
+        "src_006",
+        "src_007",
+        "src_008"
+      ],
+      "representative_source_id": "src_007",
+      "student_reaction_summary": "Widespread anxiety about post-graduation employment prospects.",
+      "factual_basis_summary": "EPI data: 9.7% grad unemployment. Handshake: 109 apps/internship. CNN: tech postings -30%, professional services -42%. NACE: grads with internships 81.6% hired vs 40.7% without.",
+      "target_audience": [
+        "undergraduate_students",
+        "us_college_students"
+      ],
+      "possible_content_angle": "The 40-Point Gap: Why Your Internship Matters More Than Your GPA in 2026",
+      "region_relevance": "US",
+      "school_relevance_tags": [],
+      "confidence": "high",
+      "risk_level": "low",
+      "eligible_for_ranking": true,
+      "cluster_type": "same_trend",
+      "coherence_score": 5,
+      "why_grouped": "All sources cover the same phenomenon: shrinking internship availability, rising competition, and collapsing entry-level job market for 2026 graduates.",
+      "cluster_notes": ""
+    },
+    {
+      "cluster_id": "cl_002",
+      "topic": "Canvas Data Breach During Finals Week",
+      "category": "campus_policy",
+      "summary": "ShinyHunters breached Canvas LMS affecting 30M+ users at 8,000+ institutions. Names, emails, student IDs compromised. Finals postponed at multiple schools. Hackers returned data May 11.",
+      "source_ids": [
+        "src_001",
+        "src_002"
+      ],
+      "representative_source_id": "src_001",
+      "student_reaction_summary": "",
+      "factual_basis_summary": "CNN and NPR confirmed: ShinyHunters breached Canvas April 25, detected April 29. Names, emails, student IDs compromised. 8,000+ institutions, 30M+ users. Agreement May 11.",
+      "target_audience": [
+        "undergraduate_students",
+        "us_college_students"
+      ],
+      "possible_content_angle": "Your Finals Got Cancelled Because Hackers Broke Canvas — Here's What Actually Happened",
+      "region_relevance": "US",
+      "school_relevance_tags": [],
+      "confidence": "high",
+      "risk_level": "low",
+      "eligible_for_ranking": true,
+      "cluster_type": "same_event",
+      "coherence_score": 5,
+      "why_grouped": "Same event covered by two major outlets — the Canvas/Instructure data breach.",
+      "cluster_notes": ""
+    },
+    {
+      "cluster_id": "cl_003",
+      "topic": "Harvard $365M Deficit: Layoffs Despite $57B Endowment",
+      "category": "campus_policy",
+      "summary": "Harvard FAS laying off up to 25% of staff to close $365M structural deficit. McKinsey-developed restructuring plan. Grad admissions halved. Paradox of $57B endowment alongside austerity.",
+      "source_ids": [
+        "src_003",
+        "src_004"
+      ],
+      "representative_source_id": "src_003",
+      "student_reaction_summary": "",
+      "factual_basis_summary": "Harvard Crimson: up to 25% staff layoffs, 3 divisional admin deans eliminated. $365M deficit from endowment tax and deferred maintenance. Grad admissions halved.",
+      "target_audience": [
+        "undergraduate_students",
+        "us_college_students"
+      ],
+      "possible_content_angle": "$57 Billion Endowment, Still Cutting: What Harvard's Budget Crisis Means for Higher Ed",
+      "region_relevance": "US",
+      "school_relevance_tags": [],
+      "confidence": "high",
+      "risk_level": "low",
+      "eligible_for_ranking": true,
+      "cluster_type": "same_event",
+      "coherence_score": 5,
+      "why_grouped": "Same story from campus and metro perspectives — Harvard FAS budget crisis and layoffs.",
+      "cluster_notes": ""
+    },
+    {
+      "cluster_id": "cl_004",
+      "topic": "AI Cheating Detection Arms Race on Campus",
+      "category": "ai_academics",
+      "summary": "Students using AI 'humanizer' tools to bypass detectors. Turnitin claims 98% accuracy but studies show 39.5%. False positives hit non-native speakers hardest. Lawsuits filed over false accusations.",
+      "source_ids": [
+        "src_011",
+        "src_012"
+      ],
+      "representative_source_id": "src_011",
+      "student_reaction_summary": "Students fear false accusations and are turning to humanizer tools as defensive measures.",
+      "factual_basis_summary": "NBC: Turnitin 98% claimed vs 39.5% actual accuracy. Non-native English speakers disproportionately flagged. SF Standard: civil rights lawsuit filed over false AI cheating accusation.",
+      "target_audience": [
+        "undergraduate_students",
+        "international_students",
+        "us_college_students"
+      ],
+      "possible_content_angle": "The AI Cheating Paradox: Students Using AI to Prove They Didn't Use AI",
+      "region_relevance": "US",
+      "school_relevance_tags": [],
+      "confidence": "high",
+      "risk_level": "medium",
+      "eligible_for_ranking": true,
+      "cluster_type": "same_trend",
+      "coherence_score": 4,
+      "why_grouped": "Both cover the AI detection reliability crisis and student consequences — one systemic, one legal case.",
+      "cluster_notes": ""
+    },
+    {
+      "cluster_id": "cl_005",
+      "topic": "International Students Face New Visa Time Limits & OPT Uncertainty",
+      "category": "international_students",
+      "summary": "DHS ending Duration of Status for F/J visas — 4-year max, grace period cut 60→30 days. Effective Sep 2026. Court blocked USCIS pause for 39 countries but students still in limbo.",
+      "source_ids": [
+        "src_013",
+        "src_014"
+      ],
+      "representative_source_id": "src_013",
+      "student_reaction_summary": "",
+      "factual_basis_summary": "ICEF: DHS submitted final rule May 5 ending D/S. 4-year max admission, 30-day grace period. Inside Higher Ed: court blocked pause June 5 but ongoing uncertainty.",
+      "target_audience": [
+        "international_students",
+        "undergraduate_students"
+      ],
+      "possible_content_angle": "4-Year Countdown: What the New F-1 Visa Rules Mean for Your Study Plan",
+      "region_relevance": "US",
+      "school_relevance_tags": [],
+      "confidence": "high",
+      "risk_level": "low",
+      "eligible_for_ranking": true,
+      "cluster_type": "same_policy_area",
+      "coherence_score": 4,
+      "why_grouped": "Both address the evolving immigration policy landscape for international students — visa duration limits and OPT processing uncertainty.",
+      "cluster_notes": ""
+    },
+    {
+      "cluster_id": "cl_006",
+      "topic": "Student Loan Defaults Transferred to U.S. Treasury",
+      "category": "money_tuition",
+      "summary": "Treasury taking over $179B in defaulted student loans from 7.8M borrowers. Defaults jumped $60B+ in one quarter. Treasury's collection arm lost 40% of workforce. 2017 test showed lower resolution rate.",
+      "source_ids": [
+        "src_015",
+        "src_016"
+      ],
+      "representative_source_id": "src_016",
+      "student_reaction_summary": "",
+      "factual_basis_summary": "CRS report: $179B from 7.8M borrowers. Defaults jumped from $117.3B to $179B in Q4 2025. Bureau of Fiscal Service lost 40% of staff. 2017 pilot showed Treasury resolved at lower rate.",
+      "target_audience": [
+        "undergraduate_students",
+        "us_college_students"
+      ],
+      "possible_content_angle": "Your Student Loans Now Have a New (Tougher) Collector: The U.S. Treasury",
+      "region_relevance": "US",
+      "school_relevance_tags": [],
+      "confidence": "high",
+      "risk_level": "low",
+      "eligible_for_ranking": true,
+      "cluster_type": "same_event",
+      "coherence_score": 5,
+      "why_grouped": "Both cover the same policy: Education Dept transferring defaulted student loan servicing to Treasury.",
+      "cluster_notes": ""
+    },
+    {
+      "cluster_id": "cl_007",
+      "topic": "All 8 Ivies Now Require SAT/ACT Again",
+      "category": "admissions_enrollment",
+      "summary": "Columbia last Ivy to end test-optional, requiring SAT/ACT from fall 2027. Faculty review found test scores 'useful indicator.' Princeton reinstated Oct 2025. End of pandemic-era test-optional movement.",
+      "source_ids": [
+        "src_009",
+        "src_010"
+      ],
+      "representative_source_id": "src_009",
+      "student_reaction_summary": "",
+      "factual_basis_summary": "Columbia official: SAT/ACT required from fall 2027 applicants. Faculty review found scores useful. All 8 Ivies now require testing.",
+      "target_audience": [
+        "incoming_freshmen",
+        "undergraduate_students",
+        "us_college_students"
+      ],
+      "possible_content_angle": "Test-Optional Is Dead: All 8 Ivies Now Require SAT/ACT — What Changed?",
+      "region_relevance": "US",
+      "school_relevance_tags": [],
+      "confidence": "high",
+      "risk_level": "low",
+      "eligible_for_ranking": true,
+      "cluster_type": "same_event",
+      "coherence_score": 5,
+      "why_grouped": "Both cover Columbia's announcement ending test-optional policy, completing the Ivy League shift.",
+      "cluster_notes": ""
+    },
+    {
+      "cluster_id": "cl_008",
+      "topic": "College Loneliness Epidemic: 65% of Students Feel Lonely",
+      "category": "health_wellbeing",
+      "summary": "64.7% of college students report loneliness. Lonely students 4x more likely to have severe psychological distress. 40% considered withdrawing due to emotional stress. LGBQ+ students hit hardest at 70.3%.",
+      "source_ids": [
+        "src_018"
+      ],
+      "representative_source_id": "src_018",
+      "student_reaction_summary": "Resonates deeply with students experiencing isolation, especially post-COVID campus culture.",
+      "factual_basis_summary": "Inside Higher Ed citing research: 64.7% lonely, 4x distress risk, 40% considered withdrawal, 70.3% LGBQ+ lonely.",
+      "target_audience": [
+        "undergraduate_students",
+        "incoming_freshmen",
+        "us_college_students"
+      ],
+      "possible_content_angle": "2 Out of 3 College Students Feel Lonely — But Nobody Talks About It",
+      "region_relevance": "US",
+      "school_relevance_tags": [],
+      "confidence": "high",
+      "risk_level": "medium",
+      "eligible_for_ranking": true,
+      "cluster_type": "same_trend",
+      "coherence_score": 3,
+      "why_grouped": "Single strong source with multiple peer-reviewed data points on student loneliness.",
+      "cluster_notes": ""
+    },
+    {
+      "cluster_id": "cl_009",
+      "topic": "Student-Run Consulting Firms: The New Campus Side Hustle",
+      "category": "career_jobs",
+      "summary": "Student consulting firms growing across US campuses. Illinois Business Consulting: 250 students, 22 projects for 19 companies including Fortune 500. Alternative path to consulting experience without traditional recruiting.",
+      "source_ids": [
+        "src_017"
+      ],
+      "representative_source_id": "src_017",
+      "student_reaction_summary": "",
+      "factual_basis_summary": "U.S. News: IBC has 250 students across 22 projects for 19 companies in Spring 2026. Largest student-run firm in the country.",
+      "target_audience": [
+        "undergraduate_students",
+        "us_college_students"
+      ],
+      "possible_content_angle": "Skip the MBB Recruiting Grind: These Student-Run Firms Work With Fortune 500 Clients",
+      "region_relevance": "US",
+      "school_relevance_tags": [],
+      "confidence": "medium",
+      "risk_level": "low",
+      "eligible_for_ranking": true,
+      "cluster_type": "same_trend",
+      "coherence_score": 3,
+      "why_grouped": "Single authoritative source on emerging campus trend of student-run consulting firms.",
+      "cluster_notes": ""
+    }
+  ],
+  "excluded_items": [
+    {
+      "source_id": "src_019",
+      "reason": "Drexel donation is impressive but lacks comparison/comment trigger for general student audience — too school-specific for cardnews"
+    },
+    {
+      "source_id": "src_020",
+      "reason": "Dorm cost data is strong but better used as supporting evidence within housing/campus life topic rather than standalone cluster"
+    }
+  ]
+}

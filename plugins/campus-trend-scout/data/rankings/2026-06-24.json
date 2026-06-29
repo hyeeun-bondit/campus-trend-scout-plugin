@@ -1,0 +1,1406 @@
+{
+  "ranked_topic_batch_id": "rb_2026-06-24",
+  "run_date": "2026-06-24",
+  "topics": [
+    {
+      "rank": 1,
+      "topic_id": "t1_cs_exodus",
+      "cluster_id": "c9_cs_exodus",
+      "topic": "Computer science majors are disappearing as AI job-fear reshapes what students study",
+      "category": "major_choice",
+      "is_ai_related": true,
+      "selection_rubric": {
+        "self_relevance": {
+          "score": 5,
+          "rationale": "Directly about the single biggest decision many students face: what to major in, and whether their chosen field is still 'safe'."
+        },
+        "comparison_potential": {
+          "score": 5,
+          "rationale": "Strong major-vs-major comparison: CS losing students to AI/ML, cybersecurity, engineering, nursing."
+        },
+        "decision_usefulness": {
+          "score": 5,
+          "rationale": "Directly informs an active decision students are making right now (switch majors or not)."
+        },
+        "share_trigger": {
+          "score": 4,
+          "rationale": "CS majors and their friends/parents will want to send this to each other to validate or challenge the fear."
+        },
+        "comment_trigger": {
+          "score": 5,
+          "rationale": "Invites strong reactions: 'I switched out of CS' vs 'this is overblown.'"
+        },
+        "format_strength": {
+          "score": 5,
+          "rationale": "Clean Before/After or Where-Are-They-Going-Instead chart format."
+        },
+        "freshness": {
+          "score": 5,
+          "rationale": "Spring 2026 enrollment data and April-June 2026 reporting, as current as it gets."
+        },
+        "evidence_availability": {
+          "score": 5,
+          "rationale": "Four independent outlets corroborate using the same National Student Clearinghouse data, now reinforced by real-time X commentary including a counter-narrative."
+        }
+      },
+      "total_score": 91,
+      "confidence": "high",
+      "needs_verification": false,
+      "editor_decision": "produce_today",
+      "score_summary": "Strongest topic of the day: high freshness, strong cross-outlet corroboration, and a decision directly relevant to students choosing or reconsidering a major. SNS pass added real-time social corroboration plus a notable counter-narrative.",
+      "ranking_reason": "Ranks #1 because it has the deepest source corroboration (4 independent news outlets plus multiple real X posts, including a higher-ed trade outlet and a prominent AI researcher's pushback) and the clearest decision-relevance of any topic today.",
+      "sources": [
+        {
+          "id": "src_041",
+          "source_name": "The Washington Post",
+          "source_type": "education_news",
+          "platform": "education_news",
+          "title": "Computer science majors are disappearing. Is AI to blame?",
+          "url": "https://www.washingtonpost.com/technology/2026/04/13/computer-science-major-ai/",
+          "published_at": "2026-04-13",
+          "retrieved_at": "2026-06-24",
+          "summary": "National Student Clearinghouse data shows CS/info-science enrollment down sharply as AI job-displacement fears spread among students.",
+          "category": "major_choice",
+          "region": "US",
+          "relevance": "Primary trend piece with NSC enrollment data.",
+          "reliability": "Major national newspaper, cites Clearinghouse data directly.",
+          "usable_for_ranking": true
+        },
+        {
+          "id": "src_042",
+          "source_name": "TechCrunch",
+          "source_type": "education_news",
+          "platform": "education_news",
+          "title": "The great computer science exodus (and where students are going instead)",
+          "url": "https://techcrunch.com/2026/02/15/the-great-computer-science-exodus-and-where-students-are-going-instead/",
+          "published_at": "2026-02-15",
+          "retrieved_at": "2026-06-24",
+          "summary": "Reports CS enrollment fell harder than any other major this cycle; students migrating to AI/ML, cybersecurity, engineering, and nursing.",
+          "category": "major_choice",
+          "region": "US",
+          "relevance": "Names specific destination majors, strong comparison angle.",
+          "reliability": "Established tech-industry publication.",
+          "usable_for_ranking": true
+        },
+        {
+          "id": "src_043",
+          "source_name": "Yahoo Finance / Moneywise",
+          "source_type": "education_news",
+          "platform": "education_news",
+          "title": "Computer science was once a 'golden ticket' — now it's seeing the biggest enrollment drop of any major in 6 years",
+          "url": "https://finance.yahoo.com/sectors/technology/articles/computer-science-once-golden-ticket-140500823.html",
+          "published_at": "2026-06",
+          "retrieved_at": "2026-06-24",
+          "summary": "64% of pessimistic CS majors in a Handshake survey blame generative AI directly.",
+          "category": "major_choice",
+          "region": "US",
+          "relevance": "Third independent outlet with a specific student-sentiment statistic.",
+          "reliability": "Major financial news aggregator citing Handshake survey data.",
+          "usable_for_ranking": true
+        },
+        {
+          "id": "src_044",
+          "source_name": "Inside Higher Ed",
+          "source_type": "education_news",
+          "platform": "education_news",
+          "title": "3 Takeaways From Spring Enrollment Data",
+          "url": "https://www.insidehighered.com/news/admissions/2026/06/04/3-takeaways-spring-enrollment-data",
+          "published_at": "2026-06-04",
+          "retrieved_at": "2026-06-24",
+          "summary": "Confirms CS enrollment dipped 8.4% in spring 2026 while nursing enrollment surpassed 1 million students.",
+          "category": "major_choice",
+          "region": "US",
+          "relevance": "Primary Clearinghouse-sourced figures.",
+          "reliability": "Higher-ed trade publication reporting directly on Clearinghouse data.",
+          "usable_for_ranking": true
+        },
+        {
+          "id": "src_088",
+          "source_name": "The Chronicle of Higher Education (X)",
+          "source_type": "sns_twitter",
+          "platform": "x",
+          "title": "More and more college students are expressing deep concerns about the new tech",
+          "url": "https://x.com/chronicle/status/2061532234159378507",
+          "published_at": "date not shown in search result",
+          "retrieved_at": "2026-06-24",
+          "summary": "Higher-ed trade publication's social post confirming rising student-level AI anxiety.",
+          "category": "major_choice",
+          "region": "US",
+          "relevance": "Confirms the emotional core of c9 from a higher-ed trade outlet's social channel.",
+          "reliability": "Established higher-ed trade publication's social post.",
+          "usable_for_ranking": true
+        },
+        {
+          "id": "src_089",
+          "source_name": "Andrew Ng (X)",
+          "source_type": "sns_twitter",
+          "platform": "x",
+          "title": "Discouraging people from learning programming because AI will automate it will be seen as some of the worst career advice ever given",
+          "url": "https://x.com/AndrewYNg/status/1900219116822102116",
+          "published_at": "date not shown in search result",
+          "retrieved_at": "2026-06-24",
+          "summary": "Prominent AI researcher's counter-narrative pushing back on the CS-exodus fear.",
+          "category": "major_choice",
+          "region": "US",
+          "relevance": "Gives c9 a 'myth vs reality' counter-perspective from a notable AI figure.",
+          "reliability": "Well-known AI researcher's X post.",
+          "usable_for_ranking": true
+        }
+      ],
+      "score_breakdown": {
+        "buzz": {
+          "score": 23,
+          "max": 25,
+          "reason": "Wide multi-outlet coverage across mainstream and tech press, now amplified by real-time social commentary including a notable counter-narrative.",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_041",
+            "src_042",
+            "src_043",
+            "src_088",
+            "src_089"
+          ]
+        },
+        "velocity": {
+          "score": 13,
+          "max": 15,
+          "reason": "Continuous coverage Feb-June 2026, accelerating into commencement season.",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_042",
+            "src_044"
+          ]
+        },
+        "target_fit": {
+          "score": 18,
+          "max": 20,
+          "reason": "Hits undergraduates, incoming freshmen choosing majors, and transfer students directly.",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "content_potential": {
+          "score": 13,
+          "max": 15,
+          "reason": "Strong chart/comparison format potential.",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "source_diversity": {
+          "score": 10,
+          "max": 10,
+          "reason": "Four independent outlet types (newspaper, tech press, finance aggregator, trade publication) plus real social-media corroboration and a counter-narrative voice.",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_041",
+            "src_042",
+            "src_043",
+            "src_044",
+            "src_088",
+            "src_089"
+          ]
+        },
+        "evidence_quality": {
+          "score": 14,
+          "max": 15,
+          "reason": "All four primary sources point to the same Clearinghouse dataset; social posts add color, not new primary data.",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_041",
+            "src_044"
+          ]
+        },
+        "risk_penalty": {
+          "score": 0,
+          "reason": "No individual, defamation, or sensitive-content risk.",
+          "evidence_link_ids": []
+        }
+      },
+      "content_angle": "Before/after data card: CS enrollment drop %, the 64% AI-blame stat, and where students are migrating instead (AI/ML, cybersecurity, engineering, nursing) — optionally closing with Andrew Ng's counter-narrative for balance.",
+      "expected_reaction": "CS majors debating whether to switch; non-CS majors feeling validated; some pushback that AI fear is overblown.",
+      "risk_level": "low",
+      "avoid": [
+        "Don't frame this as 'CS is dead' — multiple sources show it's a relative shift, not a collapse.",
+        "Don't claim individual students' AI-related layoffs without a named, sourced case."
+      ]
+    },
+    {
+      "rank": 2,
+      "topic_id": "t2_test_score_comeback",
+      "cluster_id": "c10_test_score_comeback",
+      "topic": "The standardized-testing comeback: more colleges are requiring SAT/ACT scores again for 2026-27 applicants",
+      "category": "admissions_policy",
+      "is_ai_related": false,
+      "selection_rubric": {
+        "self_relevance": {
+          "score": 4,
+          "rationale": "Most relevant to incoming freshmen and transfer applicants; less relevant to students already enrolled."
+        },
+        "comparison_potential": {
+          "score": 5,
+          "rationale": "School-by-school comparison of who requires tests again."
+        },
+        "decision_usefulness": {
+          "score": 5,
+          "rationale": "Directly informs whether an applicant needs to take/submit test scores."
+        },
+        "share_trigger": {
+          "score": 3,
+          "rationale": "Relevant mainly to a subset (current high schoolers/incoming students) rather than all current students."
+        },
+        "comment_trigger": {
+          "score": 4,
+          "rationale": "Likely to spark debate over whether test-optional was ever a good idea."
+        },
+        "format_strength": {
+          "score": 4,
+          "rationale": "Works well as a checklist of schools."
+        },
+        "freshness": {
+          "score": 5,
+          "rationale": "UC faculty petition reported May 27, 2026, with a live, climbing signature count; directly tied to the upcoming 2026-27 cycle."
+        },
+        "evidence_availability": {
+          "score": 5,
+          "rationale": "Independent student newspaper, official university announcement, trade-press data, and a real-time petition signature count all corroborate."
+        }
+      },
+      "total_score": 83,
+      "confidence": "high",
+      "needs_verification": false,
+      "editor_decision": "produce_today",
+      "score_summary": "High-evidence, timely admissions-policy shift directly useful to applicants and transfer students, now reinforced by a live petition signature count.",
+      "ranking_reason": "Ranks #2 just behind CS exodus — equally strong evidence, but narrower relevance (applicants/incoming students vs. all current students).",
+      "sources": [
+        {
+          "id": "src_046",
+          "source_name": "Daily Bruin (UCLA)",
+          "source_type": "campus_news",
+          "platform": "college_newspaper",
+          "title": "Hundreds of UC faculty call to reinstate SAT, ACT requirements for STEM applicants",
+          "url": "https://dailybruin.com/2026/05/27/hundreds-of-uc-faculty-call-to-reinstate-sat-act-requirements-for-stem-applicants",
+          "published_at": "2026-05-27",
+          "retrieved_at": "2026-06-24",
+          "summary": "UC faculty petition to reinstate standardized testing for STEM applicants.",
+          "category": "admissions_policy",
+          "region": "US",
+          "relevance": "Independent confirmation the debate is active at a major public system.",
+          "reliability": "Independent UCLA student newspaper.",
+          "usable_for_ranking": true
+        },
+        {
+          "id": "src_047",
+          "source_name": "University of Miami News",
+          "source_type": "official_university",
+          "platform": "official_university",
+          "title": "Standardized test score policy reinstated for fall 2026 undergraduate admissions cycle",
+          "url": "https://news.miami.edu/stories/2025/01/standardized-test-score-policy-reinstated-for-fall-2026-undergraduate-admissions-cycle.html",
+          "published_at": "2025-01",
+          "retrieved_at": "2026-06-24",
+          "summary": "Official university announcement of reinstated testing policy for fall 2026 applicants.",
+          "category": "admissions_policy",
+          "region": "US",
+          "relevance": "Primary-source confirmation from a university.",
+          "reliability": "Official university newsroom.",
+          "usable_for_ranking": true
+        },
+        {
+          "id": "src_044",
+          "source_name": "Inside Higher Ed",
+          "source_type": "education_news",
+          "platform": "education_news",
+          "title": "3 Takeaways From Spring Enrollment Data",
+          "url": "https://www.insidehighered.com/news/admissions/2026/06/04/3-takeaways-spring-enrollment-data",
+          "published_at": "2026-06-04",
+          "retrieved_at": "2026-06-24",
+          "summary": "52% of Common App applicants submitted test scores even where optional.",
+          "category": "admissions_policy",
+          "region": "US",
+          "relevance": "Submission-rate statistic.",
+          "reliability": "Higher-ed trade publication.",
+          "usable_for_ranking": true
+        },
+        {
+          "id": "src_066",
+          "source_name": "David Meyer (X)",
+          "source_type": "sns_twitter",
+          "platform": "x",
+          "title": "Faculty letter to UC calling to reinstate SAT/ACT scores — 281 signatures and counting",
+          "url": "https://x.com/dajmeyer/status/2059339567128617219",
+          "published_at": "date not shown in search result",
+          "retrieved_at": "2026-06-24",
+          "summary": "Real-time signature count for the UC STEM faculty petition reported by Daily Bruin.",
+          "category": "admissions_policy",
+          "region": "US",
+          "relevance": "Direct corroboration of the petition from the faculty side, with a live signature count.",
+          "reliability": "X post citing the faculty letter directly.",
+          "usable_for_ranking": true
+        }
+      ],
+      "score_breakdown": {
+        "buzz": {
+          "score": 20,
+          "max": 25,
+          "reason": "Solid coverage in higher-ed trade press, now reinforced by a real-time, climbing petition signature count on X.",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_046",
+            "src_066"
+          ]
+        },
+        "velocity": {
+          "score": 13,
+          "max": 15,
+          "reason": "Active, recent policy debate, May-June 2026, with live momentum visible on social media.",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_046",
+            "src_066"
+          ]
+        },
+        "target_fit": {
+          "score": 16,
+          "max": 20,
+          "reason": "Strong fit for incoming freshmen/transfers, weaker for already-enrolled students.",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "content_potential": {
+          "score": 12,
+          "max": 15,
+          "reason": "Checklist format works well but less visually dynamic than a chart.",
+          "confidence": "medium",
+          "evidence_link_ids": []
+        },
+        "source_diversity": {
+          "score": 9,
+          "max": 10,
+          "reason": "Student newspaper, official university, trade press, and a real-time social corroboration of the petition — four source types.",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_046",
+            "src_047",
+            "src_044",
+            "src_066"
+          ]
+        },
+        "evidence_quality": {
+          "score": 13,
+          "max": 15,
+          "reason": "Mix of primary university announcement and independent reporting.",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_047"
+          ]
+        },
+        "risk_penalty": {
+          "score": 0,
+          "reason": "No risk concerns.",
+          "evidence_link_ids": []
+        }
+      },
+      "content_angle": "Checklist: which major schools now require SAT/ACT scores again for the 2026-27 cycle, with the live, climbing UC faculty-petition signature count as a hook.",
+      "expected_reaction": "Incoming freshmen and transfer applicants checking whether their target schools are on the list; debate over test-optional fairness.",
+      "risk_level": "low",
+      "avoid": [
+        "Don't imply every school is reversing test-optional policy — many still aren't."
+      ]
+    },
+    {
+      "rank": 3,
+      "topic_id": "t3_nil_stress",
+      "cluster_id": "c14_nil_stress",
+      "topic": "NIL deals are paying college athletes millions, but a new study links them to higher stress and rule confusion",
+      "category": "athletics",
+      "is_ai_related": false,
+      "selection_rubric": {
+        "self_relevance": {
+          "score": 3,
+          "rationale": "Directly relevant to student-athletes; broader student body engages as spectators/fans."
+        },
+        "comparison_potential": {
+          "score": 4,
+          "rationale": "Top-earner vs. average-athlete dollar comparison."
+        },
+        "decision_usefulness": {
+          "score": 2,
+          "rationale": "Mostly informational rather than decision-driving for most students."
+        },
+        "share_trigger": {
+          "score": 5,
+          "rationale": "Eye-popping dollar figures (top players $2M+) are highly shareable."
+        },
+        "comment_trigger": {
+          "score": 4,
+          "rationale": "Glamour-vs-reality contrast invites strong reactions."
+        },
+        "format_strength": {
+          "score": 5,
+          "rationale": "Strong contrast-card format: big numbers next to stress-study findings."
+        },
+        "freshness": {
+          "score": 5,
+          "rationale": "March-April 2026 data, House settlement context ongoing."
+        },
+        "evidence_availability": {
+          "score": 4,
+          "rationale": "Official university source plus sports outlet plus regional report, now reinforced by two industry-insider social posts explaining the underlying mechanisms."
+        }
+      },
+      "total_score": 79,
+      "confidence": "high",
+      "needs_verification": false,
+      "editor_decision": "produce_today",
+      "score_summary": "High shareability from contrasting dollar figures with a stress-study counter-narrative, now strengthened by industry-insider mechanism detail.",
+      "ranking_reason": "Moves up to #3 after the SNS pass added two industry-insider posts (a sports-business reporter and a practicing NIL attorney) that meaningfully deepened the evidence behind the rule-confusion finding.",
+      "sources": [
+        {
+          "id": "src_055",
+          "source_name": "Ohio University News",
+          "source_type": "official_university",
+          "platform": "official_university",
+          "title": "NIL creates opportunity for student-athletes, confusion and tough decisions for schools and NCAA",
+          "url": "https://www.ohio.edu/news/2026/04/nil-creates-opportunity-student-athletes-confusion-tough-decisions-schools-ncaa",
+          "published_at": "2026-04",
+          "retrieved_at": "2026-06-24",
+          "summary": "University-published overview of NIL's growth and associated confusion post House v. NCAA settlement.",
+          "category": "athletics",
+          "region": "US",
+          "relevance": "Official source explaining the policy backdrop.",
+          "reliability": "Official university newsroom.",
+          "usable_for_ranking": true
+        },
+        {
+          "id": "src_056",
+          "source_name": "Yahoo Sports",
+          "source_type": "education_news",
+          "platform": "education_news",
+          "title": "NIL money is accelerating — and the latest numbers are eye-popping",
+          "url": "https://sports.yahoo.com/articles/college-sports-commission-nears-approval-165930533.html",
+          "published_at": "2026-05",
+          "retrieved_at": "2026-06-24",
+          "summary": "Over 5,500 NIL deals worth $75.85 million approved March-April 2026; top 20 players each valued at $2M+.",
+          "category": "athletics",
+          "region": "US",
+          "relevance": "Concrete shareable dollar figures.",
+          "reliability": "Major sports news outlet.",
+          "usable_for_ranking": true
+        },
+        {
+          "id": "src_057",
+          "source_name": "National Today (Minneapolis Today)",
+          "source_type": "education_news",
+          "platform": "other",
+          "title": "Study Finds NIL Deals Spike Stress Among College Athletes",
+          "url": "https://nationaltoday.com/us/mn/minneapolis/news/2026/03/28/study-finds-nil-deals-spike-stress-among-college-athletes/",
+          "published_at": "2026-03-28",
+          "retrieved_at": "2026-06-24",
+          "summary": "University of Michigan/Minnesota survey of 350 Division I athletes finds NIL deals raised stress and rule confusion.",
+          "category": "athletics",
+          "region": "US",
+          "relevance": "Glamour-vs-reality contrast angle with a named academic study.",
+          "reliability": "Regional outlet reporting a named two-university survey; moderate reliability.",
+          "usable_for_ranking": true
+        },
+        {
+          "id": "src_084",
+          "source_name": "Amanda Christovich (X)",
+          "source_type": "sns_twitter",
+          "platform": "x",
+          "title": "Clearinghouse won't block players' NIL deals even if flagged as pay-for-play, but risks eligibility",
+          "url": "https://x.com/achristovichh/status/1923107519833997550",
+          "published_at": "date not shown in search result",
+          "retrieved_at": "2026-06-24",
+          "summary": "Sports-business journalist detailing a specific rule-confusion mechanism behind the NIL-stress findings.",
+          "category": "athletics",
+          "region": "US",
+          "relevance": "Strengthens the rule-confusion evidence behind c14.",
+          "reliability": "Sports-business reporter's X post; informed industry commentary.",
+          "usable_for_ranking": true
+        },
+        {
+          "id": "src_085",
+          "source_name": "Darren Heitner (X)",
+          "source_type": "sns_twitter",
+          "platform": "x",
+          "title": "Some NIL agencies charge ~20% commission vs. 3-5% standard for pro sports agents",
+          "url": "https://x.com/heitner/status/1878264314433327453",
+          "published_at": "date not shown in search result",
+          "retrieved_at": "2026-06-24",
+          "summary": "Concrete, shareable contrast strengthening the NIL glamour-vs-reality angle.",
+          "category": "athletics",
+          "region": "US",
+          "relevance": "Adds a sharp numeric contrast point to c14.",
+          "reliability": "Practicing NIL attorney's X post; informed industry source.",
+          "usable_for_ranking": true
+        }
+      ],
+      "score_breakdown": {
+        "buzz": {
+          "score": 20,
+          "max": 25,
+          "reason": "Big dollar figures generate strong organic interest, amplified by industry-insider commentary.",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_056"
+          ]
+        },
+        "velocity": {
+          "score": 13,
+          "max": 15,
+          "reason": "Active, ongoing story tied to House settlement implementation.",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_055"
+          ]
+        },
+        "target_fit": {
+          "score": 12,
+          "max": 20,
+          "reason": "Strong interest from a subset (athletes, sports fans) rather than the full student body.",
+          "confidence": "medium",
+          "evidence_link_ids": []
+        },
+        "content_potential": {
+          "score": 13,
+          "max": 15,
+          "reason": "Strong visual contrast-card format potential.",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "source_diversity": {
+          "score": 9,
+          "max": 10,
+          "reason": "Official university, sports outlet, regional report, plus two independent industry-insider social posts (journalist and attorney).",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_055",
+            "src_056",
+            "src_057",
+            "src_084",
+            "src_085"
+          ]
+        },
+        "evidence_quality": {
+          "score": 12,
+          "max": 15,
+          "reason": "Two independent industry insiders now corroborate the rule-confusion and cost mechanisms behind the original survey finding.",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_057",
+            "src_084",
+            "src_085"
+          ]
+        },
+        "risk_penalty": {
+          "score": 0,
+          "reason": "No individual-athlete risk; framed around the survey, not named players.",
+          "evidence_link_ids": []
+        }
+      },
+      "content_angle": "Glamour-vs-reality card: top NIL dollar figures next to the Michigan/Minnesota stress-study findings, plus the 20%-vs-3-5% agency commission contrast.",
+      "expected_reaction": "Fans sharing big NIL numbers; athletes and others debating whether NIL money is worth the added pressure.",
+      "risk_level": "low",
+      "avoid": [
+        "Don't name individual athletes' deal amounts unless independently confirmed by the source.",
+        "Don't sensationalize 'stress' into a clinical mental-health claim beyond what the survey found."
+      ]
+    },
+    {
+      "rank": 4,
+      "topic_id": "t5_greek_life_growth",
+      "cluster_id": "c13_greek_life_growth",
+      "topic": "RushTok effect: Greek life membership is surging at some schools even as it shrinks elsewhere",
+      "category": "campus_life",
+      "is_ai_related": false,
+      "selection_rubric": {
+        "self_relevance": {
+          "score": 3,
+          "rationale": "Directly relevant to students considering rush; broader cultural relevance to campus life generally."
+        },
+        "comparison_potential": {
+          "score": 5,
+          "rationale": "Strong school-by-school growth comparison."
+        },
+        "decision_usefulness": {
+          "score": 3,
+          "rationale": "Useful for incoming freshmen deciding whether to rush."
+        },
+        "share_trigger": {
+          "score": 4,
+          "rationale": "School-pride angle drives sharing ('look how big ours got'), now reinforced by genuine viral RushTok evidence."
+        },
+        "comment_trigger": {
+          "score": 5,
+          "rationale": "'My school is/isn't like this' is a classic comment driver."
+        },
+        "format_strength": {
+          "score": 5,
+          "rationale": "Ranked-list/growth-percentage format works very well."
+        },
+        "freshness": {
+          "score": 4,
+          "rationale": "2025-2026 reporting, ongoing trend."
+        },
+        "evidence_availability": {
+          "score": 4,
+          "rationale": "Independent student newspaper, national rankings, and now a major national newspaper's confirmation of RushTok's global reach plus an independent campus paper's social post."
+        }
+      },
+      "total_score": 77,
+      "confidence": "high",
+      "needs_verification": false,
+      "editor_decision": "produce_today",
+      "score_summary": "Highly shareable campus-culture comparison story, now backed by stronger evidence after the SNS pass confirmed RushTok's genuine viral reach.",
+      "ranking_reason": "Moves up to #4 after the SNS pass added a Wall Street Journal post confirming RushTok's global virality and an independent LSU student-paper account, closing the evidence gap left by the original vendor-blog figure.",
+      "sources": [
+        {
+          "id": "src_052",
+          "source_name": "Fresh Prints",
+          "source_type": "education_news",
+          "platform": "other",
+          "title": "The 4 Fastest-Growing Greek Life Schools to Know in 2026",
+          "url": "https://www.freshprints.com/blogs/fastest-growing-greek-life-schools",
+          "published_at": "2026",
+          "retrieved_at": "2026-06-24",
+          "summary": "Ohio University Greek enrollment grew from 954 (2022) to 1,823 (2024), roughly 91% in two years.",
+          "category": "campus_life",
+          "region": "US",
+          "relevance": "Specific school-by-school growth figures.",
+          "reliability": "Greek-life merchandise vendor blog; figures should be corroborated.",
+          "usable_for_ranking": true
+        },
+        {
+          "id": "src_053",
+          "source_name": "The Gleaner (Rutgers-Camden)",
+          "source_type": "campus_news",
+          "platform": "college_newspaper",
+          "title": "Greek Life Sees Resurgence at Rutgers-Camden as Organizations Rebuild and Expand",
+          "url": "https://gleaner.rutgers.edu/2026/04/17/greek-life-sees-resurgence-at-rutgers-camden-as-organizations-rebuild-and-expand/",
+          "published_at": "2026-04-17",
+          "retrieved_at": "2026-06-24",
+          "summary": "Independent student-newspaper account of a campus's Greek-life resurgence.",
+          "category": "campus_life",
+          "region": "US",
+          "relevance": "Independent campus-level confirmation.",
+          "reliability": "Independent student newspaper.",
+          "usable_for_ranking": true
+        },
+        {
+          "id": "src_054",
+          "source_name": "U.S. News & World Report",
+          "source_type": "education_news",
+          "platform": "education_news",
+          "title": "2026 Colleges with the Most Students in Fraternities",
+          "url": "https://www.usnews.com/best-colleges/rankings/most-frats",
+          "published_at": "2026",
+          "retrieved_at": "2026-06-24",
+          "summary": "Ranks colleges by share of male students in fraternities.",
+          "category": "campus_life",
+          "region": "US",
+          "relevance": "School-by-school comparison dataset.",
+          "reliability": "Major national outlet's data-driven rankings.",
+          "usable_for_ranking": true
+        },
+        {
+          "id": "src_077",
+          "source_name": "The Wall Street Journal (X)",
+          "source_type": "sns_twitter",
+          "platform": "x",
+          "title": "Why people all over the world can't stop watching sorority rush videos",
+          "url": "https://x.com/WSJ/status/1960468113499029882",
+          "published_at": "date not shown in search result",
+          "retrieved_at": "2026-06-24",
+          "summary": "Major outlet confirming RushTok's viral reach.",
+          "category": "campus_life",
+          "region": "US",
+          "relevance": "Reinforces the share-trigger/format strength of the Greek-life topic with national-outlet confirmation.",
+          "reliability": "Established national newspaper's social post.",
+          "usable_for_ranking": true
+        },
+        {
+          "id": "src_082",
+          "source_name": "The Reveille / LSU (X)",
+          "source_type": "sns_twitter",
+          "platform": "x",
+          "title": "Deep dive on how LSU/SEC sororities recruit during rush",
+          "url": "https://x.com/lsureveille/status/1960379209693683757",
+          "published_at": "date not shown in search result",
+          "retrieved_at": "2026-06-24",
+          "summary": "Independent student-newspaper account (via X) of school-specific Greek-life recruiting.",
+          "category": "campus_life",
+          "region": "US",
+          "relevance": "Campus-news-level reporting corroborating c13 via social distribution.",
+          "reliability": "Independent LSU student newspaper's social post.",
+          "usable_for_ranking": true
+        }
+      ],
+      "score_breakdown": {
+        "buzz": {
+          "score": 20,
+          "max": 25,
+          "reason": "Strong cultural relevance, now backed by WSJ's confirmation that RushTok is a genuine global viral phenomenon.",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_052",
+            "src_077"
+          ]
+        },
+        "velocity": {
+          "score": 11,
+          "max": 15,
+          "reason": "Ongoing trend without a single sharp news spike.",
+          "confidence": "medium",
+          "evidence_link_ids": []
+        },
+        "target_fit": {
+          "score": 13,
+          "max": 20,
+          "reason": "Relevant mainly to students considering or already in Greek life.",
+          "confidence": "medium",
+          "evidence_link_ids": []
+        },
+        "content_potential": {
+          "score": 14,
+          "max": 15,
+          "reason": "Ranked-list format is highly shareable, reinforced by confirmed viral RushTok hook.",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "source_diversity": {
+          "score": 9,
+          "max": 10,
+          "reason": "Independent newspaper, national rankings, a major national newspaper's social post, and an independent campus paper's social post — five source types total.",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_052",
+            "src_053",
+            "src_054",
+            "src_077",
+            "src_082"
+          ]
+        },
+        "evidence_quality": {
+          "score": 10,
+          "max": 15,
+          "reason": "Core growth statistic still comes from a vendor blog, but the viral-reach claim is now independently confirmed by a major newspaper.",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_053",
+            "src_077"
+          ]
+        },
+        "risk_penalty": {
+          "score": 0,
+          "reason": "No individual or safety-incident framing used.",
+          "evidence_link_ids": []
+        }
+      },
+      "content_angle": "School comparison: where Greek life is booming vs. shrinking, with specific growth percentages, anchored by the confirmed-viral RushTok hook.",
+      "expected_reaction": "Students from growing/shrinking Greek scenes comparing notes; incoming freshmen weighing whether to rush.",
+      "risk_level": "low",
+      "avoid": [
+        "Don't use the vendor blog's Ohio University figure as the sole data point — pair it with the independent Rutgers/US News/WSJ sources.",
+        "Avoid hazing-related framing; keep this about membership trends, not safety incidents."
+      ]
+    },
+    {
+      "rank": 5,
+      "topic_id": "t4_transfer_barriers",
+      "cluster_id": "c15_transfer_barriers",
+      "topic": "Most community college students who plan to transfer to a 4-year school never actually make it",
+      "category": "transfer",
+      "is_ai_related": false,
+      "selection_rubric": {
+        "self_relevance": {
+          "score": 4,
+          "rationale": "Directly relevant to transfer students and to anyone weighing community college as a starting point."
+        },
+        "comparison_potential": {
+          "score": 4,
+          "rationale": "State-policy and UCLA-pilot comparisons."
+        },
+        "decision_usefulness": {
+          "score": 5,
+          "rationale": "Informs a major life decision: starting at community college and planning a transfer path."
+        },
+        "share_trigger": {
+          "score": 3,
+          "rationale": "Most relevant to a specific subset of students."
+        },
+        "comment_trigger": {
+          "score": 4,
+          "rationale": "Likely to draw 'I tried to transfer and...' comments."
+        },
+        "format_strength": {
+          "score": 4,
+          "rationale": "Myth-vs-reality checklist format."
+        },
+        "freshness": {
+          "score": 4,
+          "rationale": "UCLA pilot launching fall 2026; April 2026 reporting."
+        },
+        "evidence_availability": {
+          "score": 4,
+          "rationale": "Brookings citing NSC Research Center data, plus Community College Daily and EdSource corroboration."
+        }
+      },
+      "total_score": 74,
+      "confidence": "high",
+      "needs_verification": false,
+      "editor_decision": "produce_today",
+      "score_summary": "Research-backed structural issue with a concrete current policy response (UCLA pilot) to anchor the content.",
+      "ranking_reason": "Drops one position to #5, not because evidence weakened, but because both NIL stress and Greek life growth gained additional independent SNS corroboration during today's pass. The SNS search for this topic only turned up color-level posts (an athletics association account and a personal account discussing the ADT pipeline) that didn't meet the bar for usable ranking sources, so this topic's score is unchanged.",
+      "sources": [
+        {
+          "id": "src_058",
+          "source_name": "Community College Daily",
+          "source_type": "education_news",
+          "platform": "education_news",
+          "title": "The college transfer generation",
+          "url": "https://www.ccdaily.com/2026/04/the-college-transfer-generation/",
+          "published_at": "2026-04",
+          "retrieved_at": "2026-06-24",
+          "summary": "Nearly 1.2 million students (about 13%) transferred institutions recently, up ~8% since 2020.",
+          "category": "transfer",
+          "region": "US",
+          "relevance": "Core scale statistics.",
+          "reliability": "Community-college trade publication.",
+          "usable_for_ranking": true
+        },
+        {
+          "id": "src_059",
+          "source_name": "Brookings Institution",
+          "source_type": "education_news",
+          "platform": "other",
+          "title": "Community college students don't always benefit from transferring to a 4-year college",
+          "url": "https://www.brookings.edu/articles/community-college-students-dont-always-benefit-from-transferring-to-a-4-year-college/",
+          "published_at": "2026",
+          "retrieved_at": "2026-06-24",
+          "summary": "Only about 31.6% of community college starters transfer to a 4-year school within six years.",
+          "category": "transfer",
+          "region": "US",
+          "relevance": "Primary research-based statistic.",
+          "reliability": "Established public-policy research institution.",
+          "usable_for_ranking": true
+        },
+        {
+          "id": "src_060",
+          "source_name": "EdSource",
+          "source_type": "education_news",
+          "platform": "education_news",
+          "title": "New UCLA program aims to help students struggling to transfer from community colleges",
+          "url": "https://edsource.org/2026/community-college-ucla-transfer-pilot/756908",
+          "published_at": "2026",
+          "retrieved_at": "2026-06-24",
+          "summary": "UCLA launched a fall 2026 pilot giving priority transfer consideration to ADT completers.",
+          "category": "transfer",
+          "region": "US",
+          "relevance": "Concrete current policy response.",
+          "reliability": "California-focused education-news nonprofit newsroom.",
+          "usable_for_ranking": true
+        }
+      ],
+      "score_breakdown": {
+        "buzz": {
+          "score": 15,
+          "max": 25,
+          "reason": "Niche but meaningful interest among transfer-focused students.",
+          "confidence": "medium",
+          "evidence_link_ids": [
+            "src_058"
+          ]
+        },
+        "velocity": {
+          "score": 10,
+          "max": 15,
+          "reason": "Steady ongoing story, anchored by a fall 2026 policy launch.",
+          "confidence": "medium",
+          "evidence_link_ids": [
+            "src_060"
+          ]
+        },
+        "target_fit": {
+          "score": 16,
+          "max": 20,
+          "reason": "Strong fit for transfer students and prospective community college students.",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "content_potential": {
+          "score": 12,
+          "max": 15,
+          "reason": "Checklist format works well, less visually dynamic than dollar-figure stories.",
+          "confidence": "medium",
+          "evidence_link_ids": []
+        },
+        "source_diversity": {
+          "score": 8,
+          "max": 10,
+          "reason": "Trade publication, research institution, and nonprofit newsroom.",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_058",
+            "src_059",
+            "src_060"
+          ]
+        },
+        "evidence_quality": {
+          "score": 13,
+          "max": 15,
+          "reason": "Brookings citation of NSC Research Center data is a strong primary statistic.",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_059"
+          ]
+        },
+        "risk_penalty": {
+          "score": 0,
+          "reason": "No risk concerns.",
+          "evidence_link_ids": []
+        }
+      },
+      "content_angle": "Myth vs. reality checklist: what actually helps community college students complete a transfer, anchored by the UCLA pilot.",
+      "expected_reaction": "Transfer students sharing their own experience; community college students reassessing their transfer plan.",
+      "risk_level": "low",
+      "avoid": [
+        "Don't frame this as community college being a 'bad choice' — the issue is structural transfer friction, not the institution itself."
+      ]
+    },
+    {
+      "rank": 6,
+      "topic_id": "t6_food_insecurity",
+      "cluster_id": "c11_food_insecurity",
+      "topic": "Campus food insecurity keeps climbing as grocery costs rise, hitting international and multicultural students hardest",
+      "category": "basic_needs",
+      "is_ai_related": false,
+      "selection_rubric": {
+        "self_relevance": {
+          "score": 5,
+          "rationale": "Basic-needs issue directly affecting a large share of students' daily lives."
+        },
+        "comparison_potential": {
+          "score": 3,
+          "rationale": "Demographic comparison (international/multicultural vs. white students) is the main angle."
+        },
+        "decision_usefulness": {
+          "score": 3,
+          "rationale": "Mostly awareness/resource-seeking value rather than a major decision."
+        },
+        "share_trigger": {
+          "score": 4,
+          "rationale": "Students likely to share campus pantry/resource information with peers."
+        },
+        "comment_trigger": {
+          "score": 4,
+          "rationale": "Likely to draw 'this is so true at my school' comments."
+        },
+        "format_strength": {
+          "score": 4,
+          "rationale": "Demographic-comparison data card works well."
+        },
+        "freshness": {
+          "score": 4,
+          "rationale": "April 2026 regional reporting."
+        },
+        "evidence_availability": {
+          "score": 3,
+          "rationale": "One regional news report plus one peer-reviewed study, now extended to Canada via an independent Canadian newspaper's post."
+        }
+      },
+      "total_score": 67,
+      "confidence": "medium",
+      "needs_verification": false,
+      "editor_decision": "produce_if_needed",
+      "score_summary": "Important basic-needs issue but handled cautiously given the sensitivity of hunger as a topic; produce only with careful, non-sensationalized framing. SNS pass extended this topic's regional scope to Canada.",
+      "ranking_reason": "Ranks #6: high self-relevance but kept below the top tier and out of produce_today due to topic sensitivity and a risk penalty for the basic-needs subject matter, even after the SNS pass added a Canadian outlet's corroboration.",
+      "sources": [
+        {
+          "id": "src_048",
+          "source_name": "MPR News",
+          "source_type": "education_news",
+          "platform": "education_news",
+          "title": "Food insecurity among college students continues to climb with rising grocery costs",
+          "url": "https://www.mprnews.org/story/2026/04/17/campus-food-insecurity-continues-to-rise",
+          "published_at": "2026-04-17",
+          "retrieved_at": "2026-06-24",
+          "summary": "Reports rising demand at campus food pantries (500-800 students/week at one Minnesota campus).",
+          "category": "basic_needs",
+          "region": "US",
+          "relevance": "Recent regional reporting with concrete pantry-demand figures.",
+          "reliability": "Regional public radio news desk.",
+          "usable_for_ranking": true
+        },
+        {
+          "id": "src_049",
+          "source_name": "PMC / NIH (peer-reviewed study)",
+          "source_type": "education_news",
+          "platform": "other",
+          "title": "Food Insecurity Predictors Differ for White, Multicultural, and International College Students in the United States",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11767435/",
+          "published_at": "2025",
+          "retrieved_at": "2026-06-24",
+          "summary": "Food insecurity affects international (26.8%) and multicultural (35.6%) students at notably higher rates than white students (19.9%).",
+          "category": "basic_needs",
+          "region": "US",
+          "relevance": "Demographic breakdown enabling a comparison angle.",
+          "reliability": "Peer-reviewed academic study.",
+          "usable_for_ranking": true
+        },
+        {
+          "id": "src_074",
+          "source_name": "Toronto Star (X)",
+          "source_type": "sns_twitter",
+          "platform": "x",
+          "title": "International students had to skip meals to survive in Canada. Food banks helped save them",
+          "url": "https://x.com/TorontoStar/status/1725862620345889139",
+          "published_at": "date not shown in search result",
+          "retrieved_at": "2026-06-24",
+          "summary": "Adds a Canada-specific, international-student angle to the food-insecurity cluster.",
+          "category": "basic_needs",
+          "region": "Canada",
+          "relevance": "Extends c11 beyond US-only sourcing to a Canadian outlet.",
+          "reliability": "Established Canadian newspaper's social post.",
+          "usable_for_ranking": true
+        }
+      ],
+      "score_breakdown": {
+        "buzz": {
+          "score": 15,
+          "max": 25,
+          "reason": "Important but quieter news cycle than dollar-figure or major-choice stories, now with cross-border confirmation.",
+          "confidence": "medium",
+          "evidence_link_ids": [
+            "src_048",
+            "src_074"
+          ]
+        },
+        "velocity": {
+          "score": 10,
+          "max": 15,
+          "reason": "Ongoing, gradually worsening trend rather than a sharp news spike.",
+          "confidence": "medium",
+          "evidence_link_ids": []
+        },
+        "target_fit": {
+          "score": 16,
+          "max": 20,
+          "reason": "Affects a broad swath of students, especially international/multicultural and first-gen students, now confirmed across both US and Canada.",
+          "confidence": "high",
+          "evidence_link_ids": [
+            "src_049",
+            "src_074"
+          ]
+        },
+        "content_potential": {
+          "score": 10,
+          "max": 15,
+          "reason": "Data-card format works but requires careful, non-sensational framing.",
+          "confidence": "medium",
+          "evidence_link_ids": []
+        },
+        "source_diversity": {
+          "score": 8,
+          "max": 10,
+          "reason": "Regional US news outlet, peer-reviewed study, and an established Canadian newspaper's social post — three source types across two countries.",
+          "confidence": "medium",
+          "evidence_link_ids": [
+            "src_048",
+            "src_049",
+            "src_074"
+          ]
+        },
+        "evidence_quality": {
+          "score": 10,
+          "max": 15,
+          "reason": "Peer-reviewed study is strong; regional reporting is solid but single-campus; Canadian source adds breadth, not new primary data.",
+          "confidence": "medium",
+          "evidence_link_ids": [
+            "src_049"
+          ]
+        },
+        "risk_penalty": {
+          "score": -2,
+          "reason": "Basic-needs/hunger sensitivity requires structural framing and limits how aggressively this can be produced.",
+          "evidence_link_ids": []
+        }
+      },
+      "content_angle": "Demographic comparison card: who is most affected by campus food insecurity and what resources exist, now framed as a US/Canada cross-border issue.",
+      "expected_reaction": "Students relating to the pantry-demand statistics; international/multicultural students recognizing the demographic gap; Canadian students recognizing the same pattern.",
+      "risk_level": "medium",
+      "avoid": [
+        "No individual student stories or named anecdotes.",
+        "No meme tone — this is a basic-needs/hunger topic and must stay structural and resource-focused.",
+        "Don't imply any single school's or country's pantry numbers represent the entire picture."
+      ]
+    },
+    {
+      "rank": 7,
+      "topic_id": "t7_phone_free_app",
+      "cluster_id": "c12_phone_free_app",
+      "topic": "A study found paying students to stay off their phones during class improved focus and attendance",
+      "category": "campus_tech",
+      "is_ai_related": false,
+      "selection_rubric": {
+        "self_relevance": {
+          "score": 4,
+          "rationale": "Relevant to nearly all students who use phones in class."
+        },
+        "comparison_potential": {
+          "score": 2,
+          "rationale": "Limited comparison angle beyond users vs. non-users of the app."
+        },
+        "decision_usefulness": {
+          "score": 3,
+          "rationale": "Could inform whether a student tries a similar app/strategy."
+        },
+        "share_trigger": {
+          "score": 3,
+          "rationale": "Moderate — relatable but not highly distinct content."
+        },
+        "comment_trigger": {
+          "score": 4,
+          "rationale": "'Would you use this app' is a solid debate prompt."
+        },
+        "format_strength": {
+          "score": 4,
+          "rationale": "Works as a would-you-try-it debate card."
+        },
+        "freshness": {
+          "score": 3,
+          "rationale": "Study reported December 2025, slightly older than other topics."
+        },
+        "evidence_availability": {
+          "score": 2,
+          "rationale": "Only one source (Inside Higher Ed) found so far reporting on this named study; a dedicated SNS search pass on 06-24 found no usable corroborating posts either."
+        }
+      },
+      "total_score": 25,
+      "confidence": "low",
+      "needs_verification": true,
+      "editor_decision": "monitor",
+      "score_summary": "Interesting and relevant, but currently backed by a single source — flagged for verification before being produced as a clean recommendation. SNS search confirmed no additional public discussion exists yet.",
+      "ranking_reason": "Ranks #7 (lowest, below the 28-point clean bar) because evidence_availability scored 2/5 with only one source found; needs_verification is required per the skill's scoring rule. The mandatory SNS pass on 06-24 specifically checked this topic and turned up nothing usable, confirming the single-source gap rather than closing it.",
+      "sources": [
+        {
+          "id": "src_051",
+          "source_name": "Inside Higher Ed",
+          "source_type": "education_news",
+          "platform": "education_news",
+          "title": "How Excessive Phone Use Can Hinder Student Success",
+          "url": "https://www.insidehighered.com/news/student-success/health-wellness/2025/12/18/how-excessive-phone-use-can-hinder-student-success",
+          "published_at": "2025-12-18",
+          "retrieved_at": "2026-06-24",
+          "summary": "Reports on an RPI/Pittsburgh/UT Austin study testing an app that pays students to stay off their phones during class, finding higher focus, attendance, and academic satisfaction.",
+          "category": "campus_tech",
+          "region": "US",
+          "relevance": "Only usable source found so far for this specific study.",
+          "reliability": "Higher-ed trade publication reporting on a named multi-university study; single source so far.",
+          "usable_for_ranking": true
+        }
+      ],
+      "score_breakdown": {
+        "buzz": {
+          "score": 12,
+          "max": 25,
+          "reason": "Limited coverage so far, only one outlet found, and no organic social discussion located either.",
+          "confidence": "low",
+          "evidence_link_ids": [
+            "src_051"
+          ]
+        },
+        "velocity": {
+          "score": 8,
+          "max": 15,
+          "reason": "Reported six months ago with no clear follow-up coverage yet.",
+          "confidence": "low",
+          "evidence_link_ids": []
+        },
+        "target_fit": {
+          "score": 12,
+          "max": 20,
+          "reason": "Broadly relevant but not as urgent a decision point as other topics.",
+          "confidence": "medium",
+          "evidence_link_ids": []
+        },
+        "content_potential": {
+          "score": 9,
+          "max": 15,
+          "reason": "Workable debate-card format, but thinner content than higher-ranked topics.",
+          "confidence": "medium",
+          "evidence_link_ids": []
+        },
+        "source_diversity": {
+          "score": 3,
+          "max": 10,
+          "reason": "Single source only; SNS pass found nothing additional.",
+          "confidence": "low",
+          "evidence_link_ids": [
+            "src_051"
+          ]
+        },
+        "evidence_quality": {
+          "score": 5,
+          "max": 15,
+          "reason": "Single-source reporting on a named study; no independent corroboration yet.",
+          "confidence": "low",
+          "evidence_link_ids": [
+            "src_051"
+          ]
+        },
+        "risk_penalty": {
+          "score": 0,
+          "reason": "No risk concerns.",
+          "evidence_link_ids": []
+        }
+      },
+      "content_angle": "Would-you-try-it debate format contrasting the study's findings (higher focus/attendance) with skepticism about paying students to behave.",
+      "expected_reaction": "Mixed: some students intrigued by the concept, others skeptical of being 'paid to focus.'",
+      "risk_level": "low",
+      "avoid": [
+        "Don't present this as a settled, widely-adopted practice — it's a single pilot study at three universities.",
+        "Find and cite the original study or a second outlet before treating any specific numeric finding as fully confirmed."
+      ]
+    },
+    {
+      "rank": 11,
+      "topic_id": "t11_highest_paying_majors",
+      "cluster_id": "c7_highest_paying_majors",
+      "topic": "The 16 highest-paying college majors 5 years after graduation — engineering, CS, and economics still dominate but the gap is narrowing",
+      "category": "salary_data",
+      "is_ai_related": false,
+      "selection_rubric": {
+        "self_relevance": {
+          "score": 4,
+          "rationale": "Directly relevant to anyone weighing major choice against expected earnings."
+        },
+        "comparison_potential": {
+          "score": 5,
+          "rationale": "Major-by-major salary ranking is inherently comparative."
+        },
+        "decision_usefulness": {
+          "score": 4,
+          "rationale": "Useful input into the major-choice decision, alongside the CS-exodus story."
+        },
+        "share_trigger": {
+          "score": 3,
+          "rationale": "Salary rankings get shared but are a familiar format."
+        },
+        "comment_trigger": {
+          "score": 3,
+          "rationale": "Some 'my major isn't on here and that's fine' pushback likely."
+        },
+        "format_strength": {
+          "score": 4,
+          "rationale": "Clean ranked-list format."
+        },
+        "freshness": {
+          "score": 3,
+          "rationale": "February 2026 data, not as fresh as top-ranked stories."
+        },
+        "evidence_availability": {
+          "score": 3,
+          "rationale": "Single strong outlet (CNBC) with named salary data; not yet cross-checked against a second source."
+        }
+      },
+      "total_score": 58,
+      "confidence": "medium",
+      "needs_verification": false,
+      "editor_decision": "produce_if_needed",
+      "score_summary": "Solid, evergreen-style salary-by-major content added at rank 11 to satisfy the AI-topic diversity rule, since rank 1 (CS exodus) is AI-related.",
+      "ranking_reason": "Added beyond the core ranked topics specifically as a non-AI topic, per the rule that any AI-related topic in ranks 1-10 requires an equal number of non-AI topics added at rank 11+. Unaffected by today's SNS pass, which was focused on the core 7 topics.",
+      "sources": [
+        {
+          "id": "src_062",
+          "source_name": "CNBC",
+          "source_type": "education_news",
+          "platform": "education_news",
+          "title": "The 16 highest-paying college majors 5 years after graduation",
+          "url": "https://www.cnbc.com/2026/02/21/highest-paying-college-majors.html",
+          "published_at": "2026-02-21",
+          "retrieved_at": "2026-06-24",
+          "summary": "Engineering, CS, and economics majors lead 5-years-out salary rankings for 2026.",
+          "category": "salary_data",
+          "region": "US",
+          "relevance": "Primary salary-ranking data by major.",
+          "reliability": "Major financial news outlet.",
+          "usable_for_ranking": true
+        }
+      ],
+      "score_breakdown": {
+        "buzz": {
+          "score": 14,
+          "max": 25,
+          "reason": "Familiar format, moderate organic interest.",
+          "confidence": "medium",
+          "evidence_link_ids": [
+            "src_062"
+          ]
+        },
+        "velocity": {
+          "score": 8,
+          "max": 15,
+          "reason": "Not tied to a sharp recent news spike.",
+          "confidence": "low",
+          "evidence_link_ids": []
+        },
+        "target_fit": {
+          "score": 15,
+          "max": 20,
+          "reason": "Relevant to major-choice decisions broadly.",
+          "confidence": "high",
+          "evidence_link_ids": []
+        },
+        "content_potential": {
+          "score": 11,
+          "max": 15,
+          "reason": "Clean ranked-list format.",
+          "confidence": "medium",
+          "evidence_link_ids": []
+        },
+        "source_diversity": {
+          "score": 5,
+          "max": 10,
+          "reason": "Single outlet so far.",
+          "confidence": "medium",
+          "evidence_link_ids": [
+            "src_062"
+          ]
+        },
+        "evidence_quality": {
+          "score": 5,
+          "max": 15,
+          "reason": "Single-source CNBC data, not yet cross-checked.",
+          "confidence": "medium",
+          "evidence_link_ids": [
+            "src_062"
+          ]
+        },
+        "risk_penalty": {
+          "score": 0,
+          "reason": "No risk concerns.",
+          "evidence_link_ids": []
+        }
+      },
+      "content_angle": "Ranked list of highest-paying majors 5 years out, framed as a companion piece to the CS-exodus story (where the money still is).",
+      "expected_reaction": "Students comparing their own major's expected earnings against the list.",
+      "risk_level": "low",
+      "avoid": [
+        "Don't imply these are the only 'good' majors — frame as one data point among many in a major decision."
+      ]
+    }
+  ],
+  "ranking_notes": {
+    "excluded_topics": [
+      "c8_ai_side_hustle_monitor (single weak listicle source, no hard primary data)"
+    ],
+    "topics_needing_more_sources": [
+      "c12_phone_free_app (single source so far; mandatory SNS pass on 06-24 found no additional posts)"
+    ],
+    "strongest_content_opportunities": [
+      "c9_cs_exodus",
+      "c10_test_score_comeback",
+      "c14_nil_stress",
+      "c13_greek_life_growth"
+    ]
+  }
+}
