@@ -17,8 +17,31 @@ Collects SNS signals from Reddit, TikTok, news sites, and college communities, c
 
 ## Setup
 
-1. Install the [Claude in Chrome](https://chromewebstore.google.com/detail/claude-in-chrome/) browser extension
-2. Install this plugin in Claude Code or Cowork
+### Option 1: `/plugin` 메뉴에서 설치 (권장)
+
+1. Claude Desktop 또는 Claude Code CLI 열기
+2. 채팅창에 `/plugin` 입력
+3. **"Add marketplace"** 선택
+4. GitHub URL 입력:
+   ```
+   https://github.com/hyeeun-bondit/campus-trend-scout-plugin
+   ```
+5. 마켓플레이스가 추가되면 목록에서 **campus-trend-scout** 선택하여 설치
+
+### Option 2: 수동 클론 후 설치
+
+```bash
+gh repo clone hyeeun-bondit/campus-trend-scout-plugin
+```
+
+Claude Code에서 `/plugin` → **Add local plugin** → 경로 지정:
+```
+campus-trend-scout-plugin/plugins/campus-trend-scout
+```
+
+### 필수 사전 설치
+
+- [Claude in Chrome](https://chromewebstore.google.com/detail/claude-in-chrome/) 확장 프로그램 (Reddit/TikTok/Instagram 접근용)
 
 ## Usage
 
