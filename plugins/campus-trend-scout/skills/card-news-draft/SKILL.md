@@ -18,7 +18,7 @@ Before starting, check for plugin updates:
 PLUGIN_DIR="$(cd "$(dirname "${BASH_SOURCE[0]:-$0}")/../.." 2>/dev/null && pwd || find . -path '*/campus-trend-scout/skills' -type d 2>/dev/null | head -1 | sed 's|/skills||')"
 if ! command -v git &>/dev/null; then
   echo "⚠️ git이 설치되어 있지 않아 자동 업데이트를 확인할 수 없습니다."
-  echo "최신 버전은 https://github.com/hyeeun-bondit/campus-trend-scout-plugin 에서 다운로드하세요."
+  echo "플러그인을 삭제 후 /plugin 마켓플레이스에서 다시 추가해주세요."
 elif [ ! -d "$PLUGIN_DIR/.git" ]; then
   echo "⚠️ 이 플러그인이 git clone으로 설치되지 않아 자동 업데이트가 불가합니다."
   echo "자동 업데이트를 받으려면 기존 폴더를 삭제하고 다시 설치하세요:"
