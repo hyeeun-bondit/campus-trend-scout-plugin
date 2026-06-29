@@ -16,14 +16,23 @@ Before starting, check for plugin updates:
 
 ```bash
 PLUGIN_DIR="$(cd "$(dirname "${BASH_SOURCE[0]:-$0}")/../.." 2>/dev/null && pwd || find . -path '*/campus-trend-scout/skills' -type d 2>/dev/null | head -1 | sed 's|/skills||')"
-git -C "$PLUGIN_DIR" fetch --quiet 2>/dev/null
-BEHIND=$(git -C "$PLUGIN_DIR" log HEAD..origin/main --oneline 2>/dev/null)
-if [ -n "$BEHIND" ]; then
-  echo "⚡ campus-trend-scout 업데이트가 있습니다:"
-  echo "$BEHIND"
-  git -C "$PLUGIN_DIR" pull --ff-only 2>/dev/null && echo "✅ 자동 업데이트 완료" || echo "⚠️ 자동 업데이트 실패 — 수동으로 git pull 해주세요: $PLUGIN_DIR"
+if ! command -v git &>/dev/null; then
+  echo "⚠️ git이 설치되어 있지 않아 자동 업데이트를 확인할 수 없습니다."
+  echo "최신 버전은 https://github.com/hyeeun-bondit/campus-trend-scout-plugin 에서 다운로드하세요."
+elif [ ! -d "$PLUGIN_DIR/.git" ]; then
+  echo "⚠️ 이 플러그인이 git clone으로 설치되지 않아 자동 업데이트가 불가합니다."
+  echo "자동 업데이트를 받으려면 기존 폴더를 삭제하고 다시 설치하세요:"
+  echo "  git clone https://github.com/hyeeun-bondit/campus-trend-scout-plugin.git"
 else
-  echo "✅ campus-trend-scout 최신 버전입니다."
+  git -C "$PLUGIN_DIR" fetch --quiet 2>/dev/null
+  BEHIND=$(git -C "$PLUGIN_DIR" log HEAD..origin/main --oneline 2>/dev/null)
+  if [ -n "$BEHIND" ]; then
+    echo "⚡ campus-trend-scout 업데이트가 있습니다:"
+    echo "$BEHIND"
+    git -C "$PLUGIN_DIR" pull --ff-only 2>/dev/null && echo "✅ 자동 업데이트 완료" || echo "⚠️ 자동 업데이트 실패 — 수동으로 git pull 해주세요: $PLUGIN_DIR"
+  else
+    echo "✅ campus-trend-scout 최신 버전입니다."
+  fi
 fi
 ```
 
