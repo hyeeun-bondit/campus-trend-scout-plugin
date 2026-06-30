@@ -10,6 +10,7 @@ Exclude without scoring:
 - Obvious "Top 10 Best Universities" style university rankings.
 - Press-release-level summaries of official announcements.
 - Policy or law news not connected to student life.
+- International student visa/immigration policy, SEVP/SEVIS status, deportation, ICE actions, or any topic primarily framed around a specific government/administration's politics (e.g., Trump-administration immigration policy). These skew political and sensitive — skip even if they generate engagement.
 - Incidents too heavy or sensitive for card-news treatment.
 - Topics based only on weak personal anecdotes.
 - Old events framed as current.
@@ -43,7 +44,7 @@ Score each ranked topic from 0-5 on every field, for 40 total points:
 
 | # | Field | Question |
 |---|---|---|
-| 1 | `self_relevance` | Does it connect to major, school, tuition, jobs, dorms, relationships, apps/AI use, side hustles, or international student life? |
+| 1 | `self_relevance` | Does it connect to major, school, tuition, jobs, dorms, relationships, apps/AI use, or side hustles? (Avoid framing around international student visa/immigration politics — see Immediate Exclusions.) |
 | 2 | `comparison_potential` | Can it become a school/major/region/year/domestic-vs-international comparison? |
 | 3 | `decision_usefulness` | Does it help with a real decision about majors, schools, apps, side hustles, jobs, housing, living costs, or loans? |
 | 4 | `share_trigger` | Is there a concrete reason to send it to a friend, roommate, classmate, or same-major/same-school peer? |

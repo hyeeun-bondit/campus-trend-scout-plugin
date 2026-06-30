@@ -8,7 +8,7 @@ description: >
   production-worthy topics, create card-news-ready briefs, and save everything
   directly to the data/ directory using file I/O.
 metadata:
-  version: "0.3.0"
+  version: "0.3.1"
 ---
 
 # Campus Trend Scout Daily
@@ -46,6 +46,8 @@ Run this check at the start of every skill invocation. If the pull succeeds, con
 Run the daily US/Canada campus trend pipeline for IGOTIN card-news planning. Keep this file focused on orchestration; load the reference files below only when the relevant stage begins.
 
 The goal is not generic education news. Find topics that US and Canadian college students, incoming freshmen, transfer students, international students, community college students, and graduating students would share, save, debate, or use as practical campus-life guidance.
+
+Avoid topics centered on international student visa/immigration policy or any government-administration politics (e.g., Trump-administration immigration actions). These are politically sensitive and excluded by default — see `references/topic-selection.md` Immediate Exclusions.
 
 ## Reference Routing
 
