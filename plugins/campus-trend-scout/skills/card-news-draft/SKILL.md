@@ -5,7 +5,7 @@ description: >
   영어 슬라이드 초안을 만든다. "이 기사로 카드뉴스 만들어줘", "슬라이드 구성해줘",
   "타이틀 후보 뽑아줘", "discussion question 만들어줘" 같은 요청에 사용한다.
 metadata:
-  version: "0.3.0"
+  version: "0.4.0"
 ---
 
 # Card News Draft
