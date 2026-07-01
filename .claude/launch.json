@@ -2,16 +2,10 @@
   "version": "0.0.1",
   "configurations": [
     {
-      "name": "cardnews-template-preview",
+      "name": "campus-trend-scout-preview",
       "runtimeExecutable": "python3",
-      "runtimeArgs": ["-m", "http.server", "8743", "--directory", "plugins/campus-trend-scout/skills/card-news-draft/assets"],
+      "runtimeArgs": ["-m", "http.server", "8743", "--directory", "plugins/campus-trend-scout"],
       "port": 8743
-    },
-    {
-      "name": "figma-plugin-ui-preview",
-      "runtimeExecutable": "python3",
-      "runtimeArgs": ["-m", "http.server", "8744", "--directory", "plugins/campus-trend-scout/figma-plugin"],
-      "port": 8744
     }
   ]
 }

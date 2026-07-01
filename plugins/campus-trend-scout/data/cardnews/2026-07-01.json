@@ -1,0 +1,117 @@
+{
+  "date": "2026-07-01",
+  "topics": [
+    {
+      "topic_id": "cn_20260701_01",
+      "source_url": "https://thecollegeinvestor.com/79342/8-colleges-closing-in-2026-full-list-of-closures/",
+      "source_type": "trend_scout_topic",
+      "trend_scout_rank": 1,
+      "article_summary": "At least 8 U.S. nonprofit colleges have announced closures in 2026 (Siena Heights, Trinity Christian, Sterling, Providence Christian, Lourdes, Labouré, Hampshire, Anna Maria), and 6 mergers are in active transition, including New Jersey City University's merger into Kean University, which became fully effective July 1, 2026 (rebranded 'Kean Jersey City,' $25M in state transition funding). Since March 2020, ~48 nonprofit institutions have closed or announced closing, affecting an estimated 52,600+ students (Higher Ed Dive / BestColleges tracking). Huron Consulting projects up to a quarter of the country's ~1,700 private nonprofit four-year colleges could close or merge within a decade. Sector-wide financial strain is broader than small colleges alone: Moody's projects 2026 revenue growth (3.5%) trailing cost growth (4.4%), and even Yale is cutting its budget over a new $300M annual tax bill.",
+      "marketing_points": {
+        "self_relevance": "High — directly relevant to students at (or applying to) small tuition-dependent private colleges, where closure/merger risk is concentrated.",
+        "comparison_potential": "High — school-specific: is your exact school on the closure or merger list, and how does that compare to peers.",
+        "decision_usefulness": "High — affects enrollment decisions for prospective/transfer students and loan-discharge decisions for currently enrolled students at closing schools (120-day federal discharge window).",
+        "share_trigger": "Medium-high — natural to send to a friend at, or applying to, a small private school.",
+        "comment_trigger": "High — 'is your school on this list' invites direct comparison comments.",
+        "strongest_points": ["self_relevance", "comment_trigger"]
+      },
+      "title_options": [
+        { "title": "8 Colleges Just Closed in 2026 — Is Yours Safe?", "one_line_summary": "Eight nonprofit colleges have shut down this year — here's the full list and what it means if you're at a small private school." },
+        { "title": "Today, an Entire University Just Stopped Existing on Its Own", "one_line_summary": "New Jersey City University's merger into Kean University became fully effective today — most students only found out after it was official." },
+        { "title": "The $25M Merger Nobody Explained to Students", "one_line_summary": "A year-old merger deal just went live with $25 million in state funding, and barely anyone at the schools involved knew the details." },
+        { "title": "14 Schools Are Disappearing in 2026 — Closures + Mergers, By the Numbers", "one_line_summary": "Between 8 closures and 6 mergers, 14 U.S. colleges are losing their independent identity this year." }
+      ],
+      "selected_title": "8 Colleges Just Closed in 2026 — Is Yours Safe?",
+      "slide_structure": [
+        {
+          "slide_number": 1,
+          "type": "cover",
+          "cover_eyebrow": "Campus Watch List",
+          "cover_title": "8 Colleges Just Closed in 2026 — Is Yours Safe?",
+          "cover_boxed_word": "Safe?",
+          "cover_subcopy": "One merger became official today. A dozen more schools are quietly shutting down or being absorbed — here's the full list.",
+          "cta": "Swipe → "
+        },
+        {
+          "slide_number": 2,
+          "type": "content",
+          "tag": "Breaking Today",
+          "headline": "As of today, New Jersey City University officially stopped existing as its own school.",
+          "headline_highlight": "stopped existing",
+          "headline_highlight_color": "yellow",
+          "body_bullets": [
+            "Its merger into Kean University became fully effective July 1, rebranding the campus as \"Kean Jersey City.\"",
+            "The state is funding the transition with $25 million — but the deal was signed over a year before most students knew the details."
+          ],
+          "visual": { "type": "none", "data": {} },
+          "source": "The College Investor, Apr 2026"
+        },
+        {
+          "slide_number": 3,
+          "type": "content",
+          "tag": "By the Numbers",
+          "headline": "8 colleges are closing this year, 6 more are merging, and 2025 saw 16 closures before that.",
+          "headline_highlight": "8 colleges",
+          "headline_highlight_color": "mint",
+          "body_bullets": [
+            "Three of the eight 2026 closures are small Massachusetts liberal arts colleges — Labouré, Hampshire, and Anna Maria.",
+            "Nearly every closing school saw enrollment drop 30–70% over the last decade."
+          ],
+          "visual": {
+            "type": "chips",
+            "data": {
+              "items": [
+                { "value": "8", "label": "Closing in 2026", "color": "mint" },
+                { "value": "6", "label": "Merging in 2026", "color": "yellow" },
+                { "value": "16", "label": "Closed in 2025", "color": "cyan" }
+              ]
+            }
+          },
+          "source": "The College Investor, Apr 2026"
+        },
+        {
+          "slide_number": 4,
+          "type": "content",
+          "tag": "The Bigger Picture",
+          "headline": "Huron Consulting projects up to 1 in 4 private nonprofit colleges could close or merge within a decade.",
+          "headline_highlight": "1 in 4",
+          "headline_highlight_color": "mint",
+          "body_bullets": [
+            "Since March 2020, about 48 nonprofit colleges have already closed or announced closing — affecting 52,600+ students.",
+            "Even Yale is cutting its budget over a new $300M annual tax bill. This isn't just a small-school problem."
+          ],
+          "visual": { "type": "donut", "data": { "percent": 25 } },
+          "source": "Huron Consulting, via The College Investor & Higher Ed Dive"
+        },
+        {
+          "slide_number": 5,
+          "type": "content",
+          "tag": "If Your School Closes",
+          "headline": "You have 120 days after an official closure date to qualify for federal loan discharge.",
+          "headline_highlight": "120 days",
+          "headline_highlight_color": "cyan",
+          "body_bullets": [
+            "If you accept a teach-out transfer to finish your degree elsewhere, you forfeit that discharge option.",
+            "Most 2026 closures already lined up teach-out partners — check your school's plan before you decide."
+          ],
+          "visual": { "type": "none", "data": {} },
+          "source": "U.S. Department of Education rules, via The College Investor"
+        },
+        {
+          "slide_number": 6,
+          "type": "discussion",
+          "emoji": "🏫",
+          "headline": "Is your school on any 'financial watch' list — or merging with another school? Drop what you've heard below."
+        }
+      ],
+      "discussion_questions": [
+        "Is your school on any financial watch list, or have you heard rumors of a merger?",
+        "If your school merged with a bigger university tomorrow, would you even find out before it hit the news?",
+        "Would you rather your struggling school merge into a bigger name, or shut down completely?",
+        "Does knowing about closures like this change which schools you'd apply to or recommend?"
+      ],
+      "html_output_path": "data/cardnews/2026-07-01_cn_20260701_01.html",
+      "created_at": "2026-07-01T15:40:00Z"
+    }
+  ]
+}

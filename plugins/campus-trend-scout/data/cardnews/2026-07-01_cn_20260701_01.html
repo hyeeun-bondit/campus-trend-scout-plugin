@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>IGOT N — 8 Colleges Just Closed in 2026 — Is Yours Safe?</title>
+<style>
+  @font-face{
+    font-family:"SF Pro Rounded Heavy";
+    src:url("../../skills/card-news-draft/assets/fonts/SF-Pro-Rounded-Heavy.otf") format("opentype");
+    font-weight:800;
+  }
+  @font-face{
+    font-family:"SF Pro Rounded Regular";
+    src:url("../../skills/card-news-draft/assets/fonts/SF-Pro-Rounded-Regular.otf") format("opentype");
+    font-weight:400;
+  }
+  @font-face{
+    font-family:"SF Pro Rounded Semibold";
+    src:url("../../skills/card-news-draft/assets/fonts/SF-Pro-Rounded-Semibold.otf") format("opentype");
+    font-weight:600;
+  }
+  :root{
+    --purple:#6B4EFF;
+    --purple-deep:#5433DE;
+    --magenta:#FF2D78;
+    --yellow:#FFD23F;
+    --mint:#2EFFC2;
+    --cyan:#3DD9FF;
+    --white:#FFFFFF;
+    --black:#111111;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    padding:48px;
+    background:#EDEDF2;
+    font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif;
+  }
+  .deck-note{
+    max-width:1080px; margin:0 auto 24px; font-size:14px; color:#666;
+  }
+  .deck{
+    display:flex;
+    gap:32px;
+    overflow-x:auto;
+    padding-bottom:24px;
+  }
+  /* ---- base card ---- */
+  .slide{
+    position:relative;
+    flex:0 0 auto;
+    width:1080px;
+    height:1350px;
+    background:var(--purple);
+    color:var(--white);
+    overflow:hidden;
+    padding:64px 72px;
+    display:flex;
+    flex-direction:column;
+  }
+  .accent-line{
+    position:absolute; left:0; top:0; bottom:0; width:8px;
+    background:var(--magenta);
+  }
+  .wordmark{
+    text-align:center;
+    font-size:22px;
+    font-weight:800;
+    letter-spacing:8px;
+    text-transform:uppercase;
+    margin-bottom:28px;
+  }
+  .tag-pill{
+    display:inline-block;
+    background:var(--white);
+    color:var(--black);
+    font-weight:700;
+    font-size:20px;
+    padding:10px 26px;
+    border-radius:999px;
+    align-self:flex-start;
+    margin-bottom:36px;
+  }
+  .headline{
+    font-size:56px;
+    font-weight:800;
+    line-height:1.25;
+    margin:0 0 28px;
+  }
+  .headline .hl-yellow{color:var(--yellow);}
+  .headline .hl-mint{color:var(--mint);}
+  .headline .hl-cyan{color:var(--cyan);}
+  .body-bullets{
+    list-style:none;
+    padding:0;
+    margin:0 0 24px;
+    font-size:28px;
+    line-height:1.5;
+  }
+  .body-bullets li{
+    position:relative;
+    padding-left:32px;
+    margin-bottom:14px;
+    color:rgba(255,255,255,.92);
+  }
+  .body-bullets li::before{
+    content:"—";
+    position:absolute; left:0;
+    color:rgba(255,255,255,.55);
+  }
+  .visual-area{
+    flex:1;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:16px 0;
+  }
+  .source-tag{
+    position:absolute;
+    bottom:28px; left:72px; right:72px;
+    font-size:16px;
+    color:rgba(255,255,255,.35);
+  }
+
+  /* ---- slide 1: cover ---- */
+  .slide.cover{
+    background:
+      linear-gradient(to top, var(--purple) 30%, rgba(107,78,255,.35) 64%, rgba(107,78,255,.05) 100%),
+      linear-gradient(135deg, #7C5CFF 0%, #4E2FE0 100%);
+  }
+  .cover-hero-spacer{ flex:1; }
+  .cover-eyebrow{
+    font-size:20px; font-weight:700; letter-spacing:2px; text-transform:uppercase;
+    color:rgba(255,255,255,.75); margin-bottom:20px;
+  }
+  .cover-title{
+    font-family:"SF Pro Rounded Heavy",-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif;
+    font-size:110px; font-weight:800; line-height:1.15; text-align:left; margin:0 0 30px;
+  }
+  .cover-subcopy{
+    font-family:"SF Pro Rounded Regular",-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif;
+    font-size:45px; font-weight:400; line-height:1.3; text-align:left;
+    color:rgba(255,255,255,.9); margin:0 0 30px;
+  }
+  .boxed-word{
+    display:inline-block;
+    border:4px solid var(--yellow);
+    color:var(--yellow);
+    padding:2px 18px;
+    margin:0 2px;
+  }
+  .swipe-cue{
+    font-family:"SF Pro Rounded Semibold",-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif;
+    align-self:flex-start;
+    text-align:left;
+    font-size:42px; font-weight:600;
+    color:rgba(255,255,255,.9);
+  }
+
+  /* ---- donut chart ---- */
+  .donut-wrap{ position:relative; width:380px; height:380px; }
+  .donut-wrap svg{ width:100%; height:100%; transform:rotate(-90deg); }
+  .donut-center{
+    position:absolute; inset:0; display:flex; align-items:center; justify-content:center;
+    font-size:72px; font-weight:800; color:var(--mint);
+  }
+
+  /* ---- comparison chips ---- */
+  .chip-row{ display:flex; gap:20px; width:100%; }
+  .chip{
+    flex:1; background:rgba(255,255,255,.12); border-radius:24px;
+    padding:36px 20px; text-align:center;
+  }
+  .chip .chip-value{ font-size:52px; font-weight:800; display:block; }
+  .chip .chip-label{ font-size:19px; opacity:.8; margin-top:10px; display:block; }
+
+  /* ---- last slide: discussion ---- */
+  .slide.discussion{
+    align-items:center; justify-content:center; text-align:center;
+    padding:120px 96px;
+  }
+  .discussion .emoji{ font-size:100px; margin-bottom:32px; }
+  .discussion .question{ font-size:44px; font-weight:800; line-height:1.35; }
+</style>
+</head>
+<body>
+
+<div class="deck-note">
+  campus-trend-scout / card-news-draft — cn_20260701_01 — "8 Colleges Just Closed in 2026 — Is Yours Safe?"
+  — source: The College Investor (thecollegeinvestor.com/79342), Higher Ed Dive.
+</div>
+
+<div class="deck">
+
+  <!-- SLIDE 1 — COVER -->
+  <div class="slide cover">
+    <div class="accent-line"></div>
+    <div class="wordmark">IGOT N</div>
+    <div class="cover-hero-spacer"></div>
+    <div class="cover-eyebrow">Campus Watch List</div>
+    <div class="cover-title">8 Colleges Just Closed in 2026 — Is Yours <span class="boxed-word">Safe?</span></div>
+    <div class="cover-subcopy">One merger became official today. A dozen more schools are quietly shutting down or being absorbed — here's the full list.</div>
+    <div class="swipe-cue">Swipe → </div>
+  </div>
+
+  <!-- SLIDE 2 — BREAKING TODAY (no visual) -->
+  <div class="slide">
+    <div class="accent-line"></div>
+    <div class="wordmark">IGOT N</div>
+    <div class="tag-pill">Breaking Today</div>
+    <div class="headline">As of today, New Jersey City University officially <span class="hl-yellow">stopped existing</span> as its own school.</div>
+    <ul class="body-bullets">
+      <li>Its merger into Kean University became fully effective July 1, rebranding the campus as "Kean Jersey City."</li>
+      <li>The state is funding the transition with $25 million — but the deal was signed over a year before most students knew the details.</li>
+    </ul>
+    <div class="visual-area"></div>
+    <div class="source-tag">Source: The College Investor, Apr 2026</div>
+  </div>
+
+  <!-- SLIDE 3 — CHIPS (parallel counts) -->
+  <div class="slide">
+    <div class="accent-line"></div>
+    <div class="wordmark">IGOT N</div>
+    <div class="tag-pill">By the Numbers</div>
+    <div class="headline"><span class="hl-mint">8 colleges</span> are closing this year, 6 more are merging, and 2025 saw 16 closures before that.</div>
+    <ul class="body-bullets">
+      <li>Three of the eight 2026 closures are small Massachusetts liberal arts colleges — Labouré, Hampshire, and Anna Maria.</li>
+      <li>Nearly every closing school saw enrollment drop 30–70% over the last decade.</li>
+    </ul>
+    <div class="visual-area">
+      <div class="chip-row">
+        <div class="chip"><span class="chip-value" style="color:var(--mint)">8</span><span class="chip-label">Closing in 2026</span></div>
+        <div class="chip"><span class="chip-value" style="color:var(--yellow)">6</span><span class="chip-label">Merging in 2026</span></div>
+        <div class="chip"><span class="chip-value" style="color:var(--cyan)">16</span><span class="chip-label">Closed in 2025</span></div>
+      </div>
+    </div>
+    <div class="source-tag">Source: The College Investor, Apr 2026</div>
+  </div>
+
+  <!-- SLIDE 4 — DONUT (single %) -->
+  <div class="slide">
+    <div class="accent-line"></div>
+    <div class="wordmark">IGOT N</div>
+    <div class="tag-pill">The Bigger Picture</div>
+    <div class="headline">Huron Consulting projects up to <span class="hl-mint">1 in 4</span> private nonprofit colleges could close or merge within a decade.</div>
+    <ul class="body-bullets">
+      <li>Since March 2020, about 48 nonprofit colleges have already closed or announced closing — affecting 52,600+ students.</li>
+      <li>Even Yale is cutting its budget over a new $300M annual tax bill. This isn't just a small-school problem.</li>
+    </ul>
+    <div class="visual-area">
+      <div class="donut-wrap">
+        <svg viewBox="0 0 200 200">
+          <circle cx="100" cy="100" r="80" fill="none" stroke="rgba(255,255,255,.15)" stroke-width="24"/>
+          <circle cx="100" cy="100" r="80" fill="none" stroke="var(--mint)" stroke-width="24"
+                  stroke-linecap="round" stroke-dasharray="125.66 376.99"/>
+        </svg>
+        <div class="donut-center">25%</div>
+      </div>
+    </div>
+    <div class="source-tag">Source: Huron Consulting, via The College Investor &amp; Higher Ed Dive</div>
+  </div>
+
+  <!-- SLIDE 5 — IF YOUR SCHOOL CLOSES (no visual) -->
+  <div class="slide">
+    <div class="accent-line"></div>
+    <div class="wordmark">IGOT N</div>
+    <div class="tag-pill">If Your School Closes</div>
+    <div class="headline">You have <span class="hl-cyan">120 days</span> after an official closure date to qualify for federal loan discharge.</div>
+    <ul class="body-bullets">
+      <li>If you accept a teach-out transfer to finish your degree elsewhere, you forfeit that discharge option.</li>
+      <li>Most 2026 closures already lined up teach-out partners — check your school's plan before you decide.</li>
+    </ul>
+    <div class="visual-area"></div>
+    <div class="source-tag">Source: U.S. Department of Education rules, via The College Investor</div>
+  </div>
+
+  <!-- SLIDE 6 — DISCUSSION (bare, minimal chrome) -->
+  <div class="slide discussion">
+    <div class="accent-line"></div>
+    <div class="emoji">🏫</div>
+    <div class="question">Is your school on any "financial watch" list — or merging with another school? Drop what you've heard below.</div>
+  </div>
+
+</div>
+</body>
+</html>

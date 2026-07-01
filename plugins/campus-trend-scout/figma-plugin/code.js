@@ -1,5 +1,10 @@
 figma.showUI(__html__, { width: 460, height: 640 });
 
+// === REUSABLE BUILDER LOGIC (everything until the PLUGIN UI BOOTSTRAP marker below) ===
+// This section has no dependency on figma.showUI/ui messaging — it only uses the
+// Figma Plugin API (`figma.*`). It is copy-pasted verbatim into use_figma MCP calls;
+// see figma-plugin/references/use-figma-integration.md. Keep it self-contained.
+
 const SLIDE_W = 1080;
 const SLIDE_H = 1350;
 const PAD_X = 72;
@@ -9,7 +14,6 @@ const CONTENT_W = SLIDE_W - PAD_X * 2;
 
 const COLORS = {
   purple: { r: 0x6b / 255, g: 0x4e / 255, b: 0xff / 255 },
-  purpleDeep: { r: 0x54 / 255, g: 0x33 / 255, b: 0xde / 255 },
   coverA: { r: 0x7c / 255, g: 0x5c / 255, b: 0xff / 255 },
   coverB: { r: 0x4e / 255, g: 0x2f / 255, b: 0xe0 / 255 },
   magenta: { r: 0xff / 255, g: 0x2d / 255, b: 0x78 / 255 },
@@ -775,7 +779,17 @@ async function importCardNews(data) {
 
   figma.viewport.scrollAndZoomIntoView(created);
   figma.notify(`✅ 카드뉴스 ${topics.length}개 토픽을 Figma 레이어로 가져왔습니다`);
+  return created.map((board) => ({
+    boardId: board.id,
+    name: board.name,
+    x: board.x,
+    y: board.y,
+    width: board.width,
+    height: board.height
+  }));
 }
+
+// === PLUGIN UI BOOTSTRAP (stop copying here for use_figma calls) ===
 
 figma.ui.onmessage = async (msg) => {
   if (msg.type === "import") {

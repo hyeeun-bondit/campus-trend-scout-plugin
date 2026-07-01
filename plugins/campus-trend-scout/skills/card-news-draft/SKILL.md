@@ -5,7 +5,7 @@ description: >
   영어 슬라이드 초안을 만든다. "이 기사로 카드뉴스 만들어줘", "슬라이드 구성해줘",
   "타이틀 후보 뽑아줘", "discussion question 만들어줘" 같은 요청에 사용한다.
 metadata:
-  version: "0.5.0"
+  version: "0.6.1"
 ---
 
 # Card News Draft
@@ -221,8 +221,15 @@ JSON을 사람이 바로 보고 넘길 수 있는 **완결된 HTML 파일 하나
 ### 8단계 — Figma로 열기 (선택)
 
 HTML 미리보기 대신 실제 편집 가능한 레이어로 확인/수정하고 싶으면, 6단계에서 저장한
-`data/cardnews/{DATE}.json`을 `../../figma-plugin/`의 Figma 플러그인("Campus Trend Scout —
-Card News Importer")으로 가져온다. 최초 1회 설치와 사용법은 `figma-plugin/README.md` 참고.
+`data/cardnews/{DATE}.json`을 Figma 레이어로 가져온다.
+
+- **세션에 실제 Figma MCP 커넥터가 연결돼 있으면**(`use_figma`, `whoami`, `create_new_file` 같은
+  도구가 보이면) 이걸 기본으로 쓴다 — 사용자가 아무것도 설치/실행할 필요 없이 이 세션에서 바로
+  실제 Figma 파일에 레이어를 만든다. 절차는
+  `../../figma-plugin/references/use-figma-integration.md` 참고.
+- **Figma MCP가 연결돼 있지 않으면** `../../figma-plugin/`의 수동 설치 플러그인("Campus Trend
+  Scout — Card News Importer")으로 폴백한다. 설치·사용법은 `figma-plugin/README.md` 참고.
+
 사용자에게 결과물을 넘길 때, HTML 파일 경로와 함께 이 옵션도 짧게 안내한다.
 
 ---
