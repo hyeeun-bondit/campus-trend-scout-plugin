@@ -1,0 +1,11 @@
+{
+  "name": "Campus Trend Scout — Card News Importer",
+  "id": "campus-trend-scout-cardnews-importer",
+  "api": "1.0.0",
+  "main": "code.js",
+  "ui": "ui.html",
+  "editorType": ["figma"],
+  "networkAccess": {
+    "allowedDomains": ["none"]
+  }
+}
