@@ -29,34 +29,34 @@ function highlightColor(name) {
   return COLORS[name] || COLORS.yellow;
 }
 
-const FONT_W400 = [{ family: "Inter", style: "Regular" }];
+// The system font is a single "SF Pro Rounded" family with weight as style
+// (confirmed via figma.listAvailableFontsAsync: Black/Bold/Heavy/Light/Medium/
+// Regular/Semibold/Thin/Ultralight — no separate "SF Pro Rounded Heavy" etc.
+// family, despite the repo's asset filenames suggesting otherwise). Every text
+// element in the deck maps onto Regular/Semibold/Heavy. Inter is the fallback
+// for renderers where SF Pro Rounded isn't installed.
+const FONT_W400 = [
+  { family: "SF Pro Rounded", style: "Regular" },
+  { family: "Inter", style: "Regular" }
+];
 const FONT_W600 = [
+  { family: "SF Pro Rounded", style: "Semibold" },
   { family: "Inter", style: "SemiBold" },
   { family: "Inter", style: "Medium" },
   { family: "Inter", style: "Regular" }
 ];
 const FONT_W700 = [
+  { family: "SF Pro Rounded", style: "Semibold" },
   { family: "Inter", style: "Bold" },
   { family: "Inter", style: "SemiBold" },
   { family: "Inter", style: "Regular" }
 ];
 const FONT_W800 = [
+  { family: "SF Pro Rounded", style: "Heavy" },
   { family: "Inter", style: "Extra Bold" },
   { family: "Inter", style: "Black" },
   { family: "Inter", style: "Bold" }
 ];
-const FONT_COVER_HEAVY = [
-  { family: "SF Pro Rounded Heavy", style: "Regular" },
-  { family: "SF Pro Rounded", style: "Heavy" }
-].concat(FONT_W800);
-const FONT_COVER_REGULAR = [
-  { family: "SF Pro Rounded Regular", style: "Regular" },
-  { family: "SF Pro Rounded", style: "Regular" }
-].concat(FONT_W400);
-const FONT_COVER_SEMIBOLD = [
-  { family: "SF Pro Rounded Semibold", style: "Regular" },
-  { family: "SF Pro Rounded", style: "SemiBold" }
-].concat(FONT_W600);
 
 const fontCache = new Map();
 
@@ -593,7 +593,7 @@ async function buildCoverSlide(slide) {
   const title = await createText({
     name: "cover-title",
     content: slide.cover_title || "",
-    fontCandidates: FONT_COVER_HEAVY,
+    fontCandidates: FONT_W800,
     size: 110,
     lineHeightPercent: 115,
     color: COLORS.white,
@@ -609,7 +609,7 @@ async function buildCoverSlide(slide) {
     ? await createText({
         name: "cover-subcopy",
         content: slide.cover_subcopy,
-        fontCandidates: FONT_COVER_REGULAR,
+        fontCandidates: FONT_W400,
         size: 45,
         lineHeightPercent: 130,
         color: COLORS.white,
@@ -621,7 +621,7 @@ async function buildCoverSlide(slide) {
   const cta = await createText({
     name: "swipe-cue",
     content: slide.cta || "Swipe → ",
-    fontCandidates: FONT_COVER_SEMIBOLD,
+    fontCandidates: FONT_W600,
     size: 42,
     color: COLORS.white,
     opacity: 0.9

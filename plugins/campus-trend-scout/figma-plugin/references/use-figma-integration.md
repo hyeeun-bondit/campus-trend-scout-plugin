@@ -81,15 +81,18 @@ use_figma({
 
 - `code`는 50,000자 제한이 있다. `code.js`의 재사용 섹션(~20KB) + 토픽 JSON(보통 몇 KB) 정도는
   여유롭다. 토픽이 아주 많으면(하루에 여러 개) 배치로 나눠서 여러 번 호출한다.
-- 커버 슬라이드 폰트(SF Pro Rounded)는 사용자 Figma 계정에 설치돼 있지 않으면 자동으로 Inter로
-  대체된다 — 실패로 취급하지 않는다.
+- 덱의 모든 텍스트(워드마크/태그/헤드라인/불릿/칩/도넛 라벨/디스커션 등)는 `SF Pro Rounded`
+  하나로 통일돼 있다(Heavy/Semibold/Regular, 굵기별 매핑은 `code.js`의 `FONT_W400/600/700/800`
+  참고). 이 폰트가 없는 환경에서는 자동으로 Inter로 대체된다 — 실패로 취급하지 않는다.
 
 ### 5. 확인 및 공유
 
 - 호출 결과로 받은 `boardId`로 `get_screenshot(fileKey, nodeId)`를 호출해 실제로 잘 만들어졌는지
   확인한다. 스크린샷 URL은 임시이므로 필요하면 `curl`로 받아서 Read로 사용자에게 보여준다.
+- 폰트가 의도대로 적용됐는지 의심되면 `board.findAll(n => n.type === "TEXT")`로 각 노드의
+  `fontName`을 직접 읽어 확인한다 — 스크린샷만으로는 Inter/SF Pro Rounded 구분이 애매할 수 있다.
 - 사용자에게는 `https://figma.com/design/{fileKey}/{fileName}?node-id={boardId 하이픈버전}`
-  형태의 직접 링크를 함께 준다(콜론을 하이픈으로 바꾼다, 예: `3098:2` → `node-id=3098-2`).
+  형태의 직접 링크를 함께 준다(콜론을 하이픈으로 바꾼다, 예: `3102:2` → `node-id=3102-2`).
 - 실제 팀 공유 파일에 작업할 때는 무엇을 어디에 만들었는지 명확히 알려준다 — 다른 사람이 보는
   파일이므로 조용히 추가하지 않는다.
 
@@ -100,6 +103,12 @@ use_figma({
   chips, 도넛, 디스커션 슬라이드 모두 의도대로 생성됨.
 - **페이지 id는 반드시 코드 맨 앞에서 명시적으로 지정할 것**(섹션 2) — 이 파일에 페이지가
   여러 개라 지정을 빼먹으면 엉뚱한 페이지에 만들어질 수 있다.
+- **폰트 패밀리명 주의**: repo의 폰트 에셋 파일명(`SF-Pro-Rounded-Heavy.otf` 등)만 보고
+  `"SF Pro Rounded Heavy"`처럼 굵기별로 별도 family가 있다고 가정하면 틀린다.
+  `figma.listAvailableFontsAsync()`로 확인한 실제 family는 **`"SF Pro Rounded"` 하나**이고,
+  굵기는 `style`(Black/Bold/Heavy/Light/Medium/Regular/Semibold/Thin/Ultralight)로 들어간다.
+  이 environment(이 Figma 계정/데스크톱 앱)에는 시스템 폰트로 실제 설치돼 있어 Inter 폴백 없이
+  전체 텍스트에 정상 적용됨을 확인했다(2026-07-01).
 - 같은 공유 파일에 "html.to.design" 플러그인으로 카드뉴스 HTML을 임포트한 선례가 있다
   (`3082:707`, "Student homelessness" 세트, 다른 페이지). 픽셀 완벽한 재현이 특히 중요하면
   `use_figma` 코드 재현 대신 HTML을 html.to.design에 직접 붙여넣는 것도 유효한 대안이다.
