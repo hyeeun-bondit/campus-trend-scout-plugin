@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>IGOT N — Card News Template (reference deck, do not ship as-is)</title>
+<style>
+  :root{
+    --purple:#6B4EFF;
+    --purple-deep:#5433DE;
+    --magenta:#FF2D78;
+    --yellow:#FFD23F;
+    --mint:#2EFFC2;
+    --cyan:#3DD9FF;
+    --white:#FFFFFF;
+    --black:#111111;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    padding:48px;
+    background:#EDEDF2;
+    font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif;
+  }
+  .deck-note{
+    max-width:1080px; margin:0 auto 24px; font-size:14px; color:#666;
+  }
+  .deck{
+    display:flex;
+    gap:32px;
+    overflow-x:auto;
+    padding-bottom:24px;
+  }
+  /* ---- base card ---- */
+  .slide{
+    position:relative;
+    flex:0 0 auto;
+    width:1080px;
+    height:1350px;
+    background:var(--purple);
+    color:var(--white);
+    overflow:hidden;
+    padding:64px 72px;
+    display:flex;
+    flex-direction:column;
+  }
+  .accent-line{
+    position:absolute; left:0; top:0; bottom:0; width:8px;
+    background:var(--magenta);
+  }
+  .wordmark{
+    text-align:center;
+    font-size:22px;
+    font-weight:800;
+    letter-spacing:8px;
+    text-transform:uppercase;
+    margin-bottom:28px;
+  }
+  .tag-pill{
+    display:inline-block;
+    background:var(--white);
+    color:var(--black);
+    font-weight:700;
+    font-size:20px;
+    padding:10px 26px;
+    border-radius:999px;
+    align-self:flex-start;
+    margin-bottom:36px;
+  }
+  .headline{
+    font-size:56px;
+    font-weight:800;
+    line-height:1.25;
+    margin:0 0 28px;
+  }
+  .headline .hl-yellow{color:var(--yellow);}
+  .headline .hl-mint{color:var(--mint);}
+  .headline .hl-cyan{color:var(--cyan);}
+  .body-bullets{
+    list-style:none;
+    padding:0;
+    margin:0 0 24px;
+    font-size:28px;
+    line-height:1.5;
+  }
+  .body-bullets li{
+    position:relative;
+    padding-left:32px;
+    margin-bottom:14px;
+    color:rgba(255,255,255,.92);
+  }
+  .body-bullets li::before{
+    content:"—";
+    position:absolute; left:0;
+    color:rgba(255,255,255,.55);
+  }
+  .visual-area{
+    flex:1;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:16px 0;
+  }
+  .source-tag{
+    position:absolute;
+    bottom:28px; left:72px; right:72px;
+    font-size:16px;
+    color:rgba(255,255,255,.35);
+  }
+
+  /* ---- slide 1: cover ---- */
+  .slide.cover{
+    background:
+      linear-gradient(to top, var(--purple) 30%, rgba(107,78,255,.35) 64%, rgba(107,78,255,.05) 100%),
+      linear-gradient(135deg, #7C5CFF 0%, #4E2FE0 100%);
+  }
+  .cover-hero-spacer{ flex:1; }
+  .cover-eyebrow{
+    font-size:20px; font-weight:700; letter-spacing:2px; text-transform:uppercase;
+    color:rgba(255,255,255,.75); margin-bottom:20px;
+  }
+  .cover-title{
+    font-size:64px; font-weight:800; line-height:1.2; margin:0 0 32px;
+  }
+  .boxed-word{
+    display:inline-block;
+    border:4px solid var(--yellow);
+    color:var(--yellow);
+    padding:2px 18px;
+    margin:0 2px;
+  }
+  .swipe-cue{
+    align-self:flex-end;
+    font-size:26px; font-weight:700;
+    color:rgba(255,255,255,.9);
+  }
+
+  /* ---- donut chart ---- */
+  .donut-wrap{ position:relative; width:380px; height:380px; }
+  .donut-wrap svg{ width:100%; height:100%; transform:rotate(-90deg); }
+  .donut-center{
+    position:absolute; inset:0; display:flex; align-items:center; justify-content:center;
+    font-size:72px; font-weight:800; color:var(--mint);
+  }
+
+  /* ---- comparison chips ---- */
+  .chip-row{ display:flex; gap:20px; width:100%; }
+  .chip{
+    flex:1; background:rgba(255,255,255,.12); border-radius:24px;
+    padding:36px 20px; text-align:center;
+  }
+  .chip .chip-value{ font-size:52px; font-weight:800; display:block; }
+  .chip .chip-label{ font-size:19px; opacity:.8; margin-top:10px; display:block; }
+
+  /* ---- trend chart ---- */
+  .trend-wrap{ width:100%; text-align:center; }
+  .trend-wrap svg{ width:100%; max-width:520px; }
+  .trend-labels{
+    display:flex; justify-content:space-between; max-width:520px; margin:8px auto 0;
+    font-size:18px; color:rgba(255,255,255,.6);
+  }
+  .trend-callout{ font-size:32px; font-weight:800; color:var(--cyan); margin-top:12px; }
+
+  /* ---- photo vs photo ---- */
+  .matchup{ display:flex; align-items:center; gap:16px; width:100%; position:relative; }
+  .matchup .photo{
+    flex:1; aspect-ratio:3/4; border-radius:20px;
+    background:rgba(255,255,255,.15);
+    display:flex; align-items:flex-end; justify-content:center;
+    padding-bottom:20px;
+  }
+  .matchup .photo .cap{ font-size:22px; font-weight:700; background:rgba(0,0,0,.35); padding:6px 16px; border-radius:999px; }
+  .vs-badge{
+    position:absolute; left:50%; top:50%; transform:translate(-50%,-50%);
+    width:72px; height:72px; border-radius:50%;
+    background:var(--magenta); color:var(--white);
+    display:flex; align-items:center; justify-content:center;
+    font-weight:800; font-size:24px;
+    border:6px solid var(--purple);
+  }
+
+  /* ---- last slide: discussion ---- */
+  .slide.discussion{
+    align-items:center; justify-content:center; text-align:center;
+    padding:120px 96px;
+  }
+  .discussion .emoji{ font-size:100px; margin-bottom:32px; }
+  .discussion .question{ font-size:44px; font-weight:800; line-height:1.35; }
+</style>
+</head>
+<body>
+
+<div class="deck-note">
+  Reference deck only — six slide types (cover / donut / chips / trend / photo-vs-photo / discussion) with placeholder
+  copy. When drafting a real card news set, copy the matching &lt;div class="slide"&gt; block per slide, replace text
+  and numbers with real sourced content, and delete this note + unused slide types.
+</div>
+
+<div class="deck">
+
+  <!-- SLIDE 1 — COVER -->
+  <div class="slide cover">
+    <div class="accent-line"></div>
+    <div class="wordmark">IGOT N</div>
+    <div class="cover-hero-spacer"></div>
+    <div class="cover-eyebrow">Campus Money Watch</div>
+    <div class="cover-title">The Hidden Cost Nobody<br>Warns You About: <span class="boxed-word">$1,200</span></div>
+    <div class="swipe-cue">Swipe → </div>
+  </div>
+
+  <!-- SLIDE 2 — DONUT (single %) -->
+  <div class="slide">
+    <div class="accent-line"></div>
+    <div class="wordmark">IGOT N</div>
+    <div class="tag-pill">By the Numbers</div>
+    <div class="headline">Only <span class="hl-mint">28%</span> of students knew this fee existed before enrolling.</div>
+    <ul class="body-bullets">
+      <li>Most schools disclose it in the housing contract, not the admissions packet.</li>
+      <li>Students who caught it early budgeted for it; the rest scrambled mid-semester.</li>
+    </ul>
+    <div class="visual-area">
+      <div class="donut-wrap">
+        <svg viewBox="0 0 200 200">
+          <circle cx="100" cy="100" r="80" fill="none" stroke="rgba(255,255,255,.15)" stroke-width="24"/>
+          <circle cx="100" cy="100" r="80" fill="none" stroke="var(--mint)" stroke-width="24"
+                  stroke-linecap="round" stroke-dasharray="140.7 361.9"/>
+        </svg>
+        <div class="donut-center">28%</div>
+      </div>
+    </div>
+    <div class="source-tag">Source: [placeholder citation] — replace with real source</div>
+  </div>
+
+  <!-- SLIDE 3 — COMPARISON CHIPS (parallel stats) -->
+  <div class="slide">
+    <div class="accent-line"></div>
+    <div class="wordmark">IGOT N</div>
+    <div class="tag-pill">State by State</div>
+    <div class="headline">The same fee ranges from <span class="hl-yellow">$300</span> to <span class="hl-cyan">$1,900</span> depending on where you go to school.</div>
+    <ul class="body-bullets">
+      <li>Public in-state schools cluster at the low end.</li>
+      <li>Private and out-of-state programs sit far above the average.</li>
+    </ul>
+    <div class="visual-area">
+      <div class="chip-row">
+        <div class="chip"><span class="chip-value" style="color:var(--yellow)">$300</span><span class="chip-label">In-state public</span></div>
+        <div class="chip"><span class="chip-value" style="color:var(--mint)">$820</span><span class="chip-label">Out-of-state public</span></div>
+        <div class="chip"><span class="chip-value" style="color:var(--cyan)">$1,900</span><span class="chip-label">Private</span></div>
+      </div>
+    </div>
+    <div class="source-tag">Source: [placeholder citation] — replace with real source</div>
+  </div>
+
+  <!-- SLIDE 4 — TREND CHART (rate of change) -->
+  <div class="slide">
+    <div class="accent-line"></div>
+    <div class="wordmark">IGOT N</div>
+    <div class="tag-pill">5-Year Trend</div>
+    <div class="headline">This fee has climbed <span class="hl-cyan">42%</span> since 2021 — faster than tuition itself.</div>
+    <ul class="body-bullets">
+      <li>Tuition rose 11% over the same period.</li>
+      <li>The gap is widening every renewal cycle, not narrowing.</li>
+    </ul>
+    <div class="visual-area">
+      <div class="trend-wrap">
+        <svg viewBox="0 0 400 200" preserveAspectRatio="none">
+          <polyline points="20,160 116,140 212,110 308,70 380,40" fill="none" stroke="var(--cyan)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="380" cy="40" r="9" fill="var(--cyan)"/>
+        </svg>
+        <div class="trend-labels"><span>2021</span><span>2022</span><span>2023</span><span>2024</span><span>2025</span></div>
+        <div class="trend-callout">+42% since 2021</div>
+      </div>
+    </div>
+    <div class="source-tag">Source: [placeholder citation] — replace with real source</div>
+  </div>
+
+  <!-- SLIDE 5 — PHOTO VS PHOTO (head-to-head) -->
+  <div class="slide">
+    <div class="accent-line"></div>
+    <div class="wordmark">IGOT N</div>
+    <div class="tag-pill">Head to Head</div>
+    <div class="headline">On-campus vs. off-campus: which one actually costs <span class="hl-yellow">less</span> this year?</div>
+    <ul class="body-bullets">
+      <li>On-campus locks in one flat fee, no surprises.</li>
+      <li>Off-campus can be cheaper — if you avoid the utility trap.</li>
+    </ul>
+    <div class="visual-area">
+      <div class="matchup">
+        <div class="photo"><span class="cap">On-campus</span></div>
+        <div class="vs-badge">VS</div>
+        <div class="photo"><span class="cap">Off-campus</span></div>
+      </div>
+    </div>
+    <div class="source-tag">Source: [placeholder citation] — replace with real source</div>
+  </div>
+
+  <!-- SLIDE 6 — DISCUSSION (bare, minimal chrome) -->
+  <div class="slide discussion">
+    <div class="accent-line"></div>
+    <div class="emoji">💬</div>
+    <div class="question">Did your school warn you about this fee before you signed the housing contract?</div>
+  </div>
+
+</div>
+</body>
+</html>
