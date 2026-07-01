@@ -95,8 +95,13 @@ IGOTIN 카드뉴스는 항상 아래 시각 스타일(모든 슬라이드 공통
 슬라이드 수는 보통 6장 구성을 기본으로 한다:
 
 1. **Cover (Hook)** — 다른 슬라이드와 톤이 다른 커버. 히어로 이미지/그라디언트 배경,
-   타이틀 안에 핵심 키워드를 박스로 감싸 강조, 우하단에 "Swipe →" 큐. 워드마크는 유지하되
-   Tag pill·body 불릿은 넣지 않는다.
+   타이틀 안에 핵심 키워드를 박스로 감싸 강조, "Swipe →" CTA 버튼. 워드마크는 유지하되
+   Tag pill·body 불릿은 넣지 않는다. 타이포그래피는 고정값이다:
+   - **메인 타이틀**(`cover_title`): 텍스트 사이즈 **110px**, font `SF Pro Rounded Heavy`, **왼쪽 정렬**.
+   - **서브 카피**(`cover_subcopy`): 텍스트 사이즈 **45px**, font `SF Pro Rounded Regular`, **왼쪽 정렬**.
+   - **CTA 버튼**(`swipe-cue`, "Swipe →"): 텍스트 사이즈 **42px**, font `SF Pro Rounded Semibold`,
+     왼쪽 정렬.
+   - 메인 타이틀 → 서브 카피 → CTA 버튼 순으로 쌓되, 세 요소 서로 간격은 **30px**로 고정한다.
 2~5. **Content 슬라이드** — Context → Key fact/data → Student angle → (선택) Comparison 순.
    슬라이드마다 Tag / Headline(색 강조 포함) / Body(불릿) / 아래 "데이터 시각화 매칭" 표를 따라
    시각 요소 하나를 배치한다.
@@ -183,8 +188,9 @@ IGOTIN 카드뉴스는 항상 아래 시각 스타일(모든 슬라이드 공통
   `chips` → `{ "items": [{ "value": "$300", "label": "In-state public", "color": "yellow" }, ...] }`,
   `trend` → `{ "points": [{ "label": "2021", "value": 10 }, ...], "callout": "+42% since 2021" }`,
   `photo_vs_photo` → `{ "left_label": "...", "right_label": "..." }`.
-- Slide 1(cover)은 `headline` 대신 `cover_title`(줄바꿈 포함 가능), `cover_boxed_word`(박스로 강조할
-  키워드), `cover_eyebrow`(작은 상단 라벨)를 쓴다. Body/visual 필드는 비운다.
+- Slide 1(cover)은 `headline` 대신 `cover_title`(줄바꿈 포함 가능, 110px/SF Pro Rounded Heavy/왼쪽
+  정렬), `cover_boxed_word`(박스로 강조할 키워드), `cover_eyebrow`(작은 상단 라벨), `cover_subcopy`
+  (서브 카피, 45px/SF Pro Rounded Regular/왼쪽 정렬)를 쓴다. Body/visual 필드는 비운다.
 - 마지막 슬라이드(discussion)는 `tag`/`body_bullets`/`visual`을 비우고 `headline`에 discussion
   question 문장, 별도로 `emoji` 필드를 추가한다.
 - campus-trend-scout 토픽인 경우 `source_type`을 `"trend_scout_topic"`으로, `trend_scout_rank`에

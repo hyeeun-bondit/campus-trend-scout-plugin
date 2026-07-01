@@ -4,6 +4,21 @@
 <meta charset="UTF-8">
 <title>IGOT N — Card News Template (reference deck, do not ship as-is)</title>
 <style>
+  @font-face{
+    font-family:"SF Pro Rounded Heavy";
+    src:url("fonts/SF-Pro-Rounded-Heavy.otf") format("opentype");
+    font-weight:800;
+  }
+  @font-face{
+    font-family:"SF Pro Rounded Regular";
+    src:url("fonts/SF-Pro-Rounded-Regular.otf") format("opentype");
+    font-weight:400;
+  }
+  @font-face{
+    font-family:"SF Pro Rounded Semibold";
+    src:url("fonts/SF-Pro-Rounded-Semibold.otf") format("opentype");
+    font-weight:600;
+  }
   :root{
     --purple:#6B4EFF;
     --purple-deep:#5433DE;
@@ -119,7 +134,13 @@
     color:rgba(255,255,255,.75); margin-bottom:20px;
   }
   .cover-title{
-    font-size:64px; font-weight:800; line-height:1.2; margin:0 0 32px;
+    font-family:"SF Pro Rounded Heavy",-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif;
+    font-size:110px; font-weight:800; line-height:1.15; text-align:left; margin:0 0 30px;
+  }
+  .cover-subcopy{
+    font-family:"SF Pro Rounded Regular",-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif;
+    font-size:45px; font-weight:400; line-height:1.3; text-align:left;
+    color:rgba(255,255,255,.9); margin:0 0 30px;
   }
   .boxed-word{
     display:inline-block;
@@ -129,8 +150,10 @@
     margin:0 2px;
   }
   .swipe-cue{
-    align-self:flex-end;
-    font-size:26px; font-weight:700;
+    font-family:"SF Pro Rounded Semibold",-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif;
+    align-self:flex-start;
+    text-align:left;
+    font-size:42px; font-weight:600;
     color:rgba(255,255,255,.9);
   }
 
@@ -204,6 +227,7 @@
     <div class="cover-hero-spacer"></div>
     <div class="cover-eyebrow">Campus Money Watch</div>
     <div class="cover-title">The Hidden Cost Nobody<br>Warns You About: <span class="boxed-word">$1,200</span></div>
+    <div class="cover-subcopy">The fee nobody mentions until move-in day — and it's only getting bigger.</div>
     <div class="swipe-cue">Swipe → </div>
   </div>
 
